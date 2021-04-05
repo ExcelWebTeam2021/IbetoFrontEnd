@@ -1,4 +1,4 @@
-# Ibeto 
+## Ibeto 
 
 
 ### Basic structure of the site
@@ -18,4 +18,9 @@
 
 *Additional* 
 1. FAQ
-2. 
+
+
+### Awesome sites for reference
+
+- https://maps.google.com/localguides/ (awesome animations)
+- https://www.pola.com/wecaremore/ (awesome animations)
