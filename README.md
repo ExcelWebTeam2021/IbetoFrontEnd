@@ -1,5 +1,7 @@
 ## Ibeto 
 
+### Docs:
+https://docs.google.com/document/d/14KREDlm4Vy7smCsk3idUgG7jmImcf3QwSdRlHEWuI_M/edit?usp=sharing
 
 ### Basic structure of the site
 
@@ -13,8 +15,9 @@
 8. Sponsers
 9. Contact info
 10. Navbar and preloader
-11. Work on responsivenss of the site
-12. Work on animations and transitions
+11. FAQ section
+12. Work on responsivenss of the site
+13. Work on animations and transitions
 
 ## Previous year sites
 
@@ -23,8 +26,3 @@
 3. 2018
 4. 2017 https://ibeto2017.netlify.app/
 
-
-### Awesome sites for reference
-
-- https://maps.google.com/localguides/ (awesome animations)
-- https://www.pola.com/wecaremore/ (awesome animations)
