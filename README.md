@@ -19,6 +19,17 @@ https://docs.google.com/document/d/14KREDlm4Vy7smCsk3idUgG7jmImcf3QwSdRlHEWuI_M/
 12. Work on responsivenss of the site
 13. Work on animations and transitions
 
+
+### Things that a logged-in user would see
+
+Team details and option to add a new member
+Contact info of the mentor
+Current phase 
+Place to submit their report 
+View previous reports
+Timeline 
+
+
 ## Previous year sites
 
 1. 2020 https://ibeto.excelmec.org/
