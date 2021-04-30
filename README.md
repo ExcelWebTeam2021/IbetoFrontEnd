@@ -1,7 +1,39 @@
 ## Ibeto 
 
 ### Docs:
-https://docs.google.com/document/d/14KREDlm4Vy7smCsk3idUgG7jmImcf3QwSdRlHEWuI_M/edit?usp=sharing
+https://docs.google.com/document/d/1AB4vvNporTPhDmoT9TRBddS2iu0QGJ57pD4oUeGPBiQ/edit?usp=sharing
+
+### Basic structure of the folder
+
+```
+1. components
+    a. dashboard
+        - Dashboard -> Entry point
+        - FAQ
+        - SubmissionForm
+        - Timeline
+
+    b. ibetoJnr
+        - IbetoJnr  -> Entry point
+        - About
+        - Timeline
+
+    c. ibetoMainSite
+        - ibetoMainSite -> Entry point
+        - LandingPage
+        - About
+        - Junior
+        - Contact
+        - Footer
+        
+    d. stylesheet
+        - CommonStyle       \  Both of these stylesheet should be included in all sections
+        - ResponsiveStyle   / 
+        
+        - MainSiteStyle
+        - IbetoJnr
+        - Dashboard
+```
 
 
 ### Basic structure of the site
@@ -23,20 +55,6 @@ https://docs.google.com/document/d/14KREDlm4Vy7smCsk3idUgG7jmImcf3QwSdRlHEWuI_M/
 12. Work on responsivenss of the site
 13. Work on animations and transitions
 14. Navbar and preloader
-
-
-### Things that a logged-in user would see
-
-![de376f4f-df77-4bbd-a22c-fc3a964642e2](https://user-images.githubusercontent.com/43414928/115503034-73b3fd80-a293-11eb-8ad6-b54279a38ff1.jpg)
-
-
-1. Team details and option to add a new member
-2. Contact info of the mentor
-3. Current phase 
-4. Place to submit their report 
-5. Clickable Button to send queries through gmail
-6. View previous reports
-7. Timeline 
 
 
 ## Previous year sites
