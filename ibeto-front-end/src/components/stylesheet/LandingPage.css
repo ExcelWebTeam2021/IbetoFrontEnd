@@ -1,0 +1,44 @@
+
+/* Landing page */
+.site-header {
+    position: relative;
+    padding: 24px 0;
+ }
+ .site-header-inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .hero {
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+ }
+ .hero::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 230px;
+    width: 80%;
+    background: #2294fb;
+    background: linear-gradient(to top right, #0081f6 0, #44a6ff 100%);
+ }
+ .hero-inner {
+    position: relative;
+ }
+ 
+ .hero-illustration {
+    margin-top: 40px;
+    padding-bottom: 40px;
+ }
+ .hero-illustration img,
+ .hero-illustration svg {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    overflow: visible;
+ }

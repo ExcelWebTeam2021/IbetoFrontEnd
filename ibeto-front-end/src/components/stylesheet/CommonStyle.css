@@ -1,0 +1,37 @@
+body {
+   color: #6f8394;
+   font-size: 1rem;
+   margin: 0;
+   font-family: "Hind Vadodara", sans-serif;
+}
+
+a {
+   background-color: transparent;
+   color: inherit;
+   text-decoration: underline;
+   -webkit-text-decoration-skip: objects;
+}
+
+a:hover,
+a:active {
+   outline: 0;
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #1f2b35;
+   font-family: "Mukta", sans-serif;
+}
+
+.button-shadow {
+   box-shadow: 0 8px 16px rgba(53, 39, 42, 0.25);
+}
+
+/* FOOTER */
+.footer {
+   background: #1f2b35;
+}

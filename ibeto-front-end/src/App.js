@@ -1,18 +1,17 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import LandingPage from "./components/LandingPage";
-import About from "./components/About";
-import Rewards from "./components/Rewards";
-import Contact from "./components/Contact";
+import { Route, Switch } from "react-router-dom";
+import Dashboard from "./components/dashboard/Dashboard";
+import IbetoJnr from "./components/ibetoJnr/IbetoJnr";
+import IbetoMainSite from "./components/ibetoMainSite/IbetoMainSite";
 
 function App() {
    return (
       <div className='App'>
-         <Navbar />
-         <LandingPage />
-         <About />
-         <Rewards />
-         <Contact />
+         <Switch>
+            
+            <Route path='/' component={IbetoMainSite} exact />
+            <Route path='/junior' component={IbetoJnr} />
+            <Route path='/dashboard' component={Dashboard} />
+         </Switch>
       </div>
    );
 }

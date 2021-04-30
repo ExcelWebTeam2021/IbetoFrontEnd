@@ -1,5 +1,5 @@
 import React from "react";
-import "./Style.css";
+import "../stylesheet/CommonStyle.css";
 
 const Navbar = () => {
    return <div className='navbar'></div>;
