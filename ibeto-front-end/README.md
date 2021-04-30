@@ -1,33 +1,60 @@
 ## Ibeto 
 
 ### Docs:
-https://docs.google.com/document/d/14KREDlm4Vy7smCsk3idUgG7jmImcf3QwSdRlHEWuI_M/edit?usp=sharing
+https://docs.google.com/document/d/1AB4vvNporTPhDmoT9TRBddS2iu0QGJ57pD4oUeGPBiQ/edit?usp=sharing
+
+### Basic structure of the folder
+
+```
+1. components
+    a. dashboard
+        - Dashboard -> Entry point
+        - FAQ
+        - SubmissionForm
+        - Timeline
+
+    b. ibetoJnr
+        - IbetoJnr  -> Entry point
+        - About
+        - Timeline
+
+    c. ibetoMainSite
+        - ibetoMainSite -> Entry point
+        - LandingPage
+        - About
+        - Junior
+        - Contact
+        - Footer
+        
+    d. stylesheet
+        - CommonStyle       \  Both of these stylesheet should be included in all sections
+        - ResponsiveStyle   / 
+        
+        - MainSiteStyle
+        - IbetoJnr
+        - Dashboard
+```
+
 
 ### Basic structure of the site
 
 1. Landing page
 2. About
-3. Event Format (PHASE I, PHASE II, PHASE III)
+3. Event Format
 4. Problem Statements
 5. Rewards
 6. Timeline
 7. Ibeto Jr.
-8. Sponsers
-9. Contact info
-10. Navbar and preloader
+8. Winner’s gallery (testimonials from previous year winners)
+9. Sponsors
+10. Contact info
 11. FAQ section
+
+#### Other things that we need to work on 
+
 12. Work on responsivenss of the site
 13. Work on animations and transitions
-
-
-### Things that a logged-in user would see
-
-Team details and option to add a new member
-Contact info of the mentor
-Current phase 
-Place to submit their report 
-View previous reports
-Timeline 
+14. Navbar and preloader
 
 
 ## Previous year sites
