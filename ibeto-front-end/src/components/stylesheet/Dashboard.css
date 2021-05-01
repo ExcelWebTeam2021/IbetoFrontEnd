@@ -1,0 +1,307 @@
+/* Dashboard homepage */
+.dashboard {
+   background: #f8f9fa;
+}
+.white-bk {
+   background: #fff;
+   margin: 2%;
+   margin-top: 10%;
+   padding: 5%;
+   border-radius: 25px;
+   box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.dashboard-row {
+   margin-left: 10px;
+}
+
+.dashboard-heading {
+   font-size: 23px;
+   display: inline-block;
+}
+
+/*--------------------------- LEFT SECTION: Timeline --------------------------- */
+.timeline-row {
+   width: 75%;
+}
+.timeline {
+   line-height: 1.4em;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   color: #768390;
+   font-size: 13px;
+   width: 110%;
+}
+.timeline-title {
+   color: #3d4351;
+   margin-top: 0;
+   line-height: inherit;
+   font-size: 13px;
+}
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+   position: relative;
+   padding: 0px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 10px;
+}
+.timeline-item:last-child {
+   padding-bottom: 0;
+}
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 3px;
+   margin: 0 0 0.5em 0;
+   text-transform: uppercase;
+   white-space: nowrap;
+}
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   width: 15px;
+}
+.timeline-marker:before {
+   background: #e91e63;
+   border: 3px solid transparent;
+   border-radius: 100%;
+   content: "";
+   display: block;
+   height: 15px;
+   position: absolute;
+   top: 4px;
+   left: 0;
+   width: 15px;
+   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+   content: "";
+   width: 3px;
+   background: #ccd5db;
+   display: block;
+   position: absolute;
+   top: 24px;
+   bottom: 0;
+   left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+   content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+   background: transparent;
+   border: 3px solid #ff6b6b;
+}
+
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+   padding-bottom: 20px;
+}
+.timeline-content p:last-child {
+   margin-bottom: 0;
+}
+
+/*--------------------------- CENTRAL SECTION: Timeline --------------------------- */
+.central-section {
+   transform: translateX(-15%);
+}
+
+/* Current phase */
+.submissionForm-row,
+.currentphase-row {
+   padding: 5%;
+   width: 120%;
+}
+
+.currentphase-row {
+   font-size: 16px;
+}
+
+/* progress bar */
+.progress {
+   width: 100px;
+   height: 100px;
+   line-height: 150px;
+   background: none;
+   margin: 0 auto;
+   box-shadow: none;
+   position: relative;
+}
+.progress:after {
+   content: "";
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   border: 7px solid #eee;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.progress > span {
+   width: 50%;
+   height: 100%;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   z-index: 1;
+}
+.progress .progress-left {
+   left: 0;
+}
+.progress .progress-bar {
+   width: 100%;
+   height: 100%;
+   background: none;
+   border-width: 7px;
+   border-style: solid;
+   position: absolute;
+   top: 0;
+   border-color: #e91e63;
+}
+.progress .progress-left .progress-bar {
+   left: 100%;
+}
+.progress .progress-right {
+   right: 0;
+}
+.progress .progress-right .progress-bar {
+   left: -100%;
+   border-top-left-radius: 75px;
+   border-bottom-left-radius: 75px;
+   border-right: 0;
+   -webkit-transform-origin: center right;
+   transform-origin: center right;
+}
+.progress .progress-value {
+   display: flex;
+   border-radius: 50%;
+   font-size: 15px;
+   padding-left: 15%;
+   text-align: center;
+   line-height: 20px;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   font-weight: 450;
+}
+
+.progress[data-percentage="20"] .progress-right .progress-bar {
+   animation: loading 1.5s linear forwards;
+}
+.progress[data-percentage="20"] .progress-left .progress-bar {
+   animation: 0;
+}
+
+@keyframes loading {
+   0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+   }
+   100% {
+      -webkit-transform: rotate(72);
+      transform: rotate(72deg);
+   }
+}
+
+.progress {
+   margin-bottom: 1em;
+}
+
+/*--------------------------- Right SECTION:  --------------------------- */
+/* Contact us */
+.contactUs-row {
+   width: 75%;
+   height: 8%;
+   margin-left: 15%;
+   padding-left: 10%;
+   padding-right: 10%;
+   background: #e91e63;
+}
+.sendmailbtn,
+.sendmailbtn :hover {
+   text-decoration: none;
+   color: inherit !important;
+}
+
+.contactUs-text {
+   font-size: 18px;
+   line-height: 0.4;
+   font-weight: 200px;
+}
+
+/* FAQ */
+.faq-row {
+   width: 75%;
+   margin-left: 15%;
+}
+
+.faq .card {
+   border: none;
+   background: none;
+   border-bottom: 1px dashed #cee1f8;
+}
+
+.faq .card .card-header {
+   padding: 0px;
+   border: none;
+   background: none;
+   transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+   background: rgba(233, 30, 99, 0.1);
+   padding-left: 10px;
+}
+.faq .card .card-header .faq-title {
+   width: 100%;
+   text-align: left;
+   padding: 0px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-weight: 400;
+   font-size: 15px;
+   letter-spacing: 1px;
+   color: #3b566e;
+   text-decoration: none !important;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   border-radius: 100px;
+   text-align: center;
+   background: #e91e63;
+   color: #fff;
+   font-size: 12px;
+   margin-right: 20px;
+}
+
+.faq .card .card-body p {
+   margin-bottom: 14px;
+   color: #3d4351;
+   font-size: 10px;
+}
+
+@media (max-width: 991px) {
+   .faq {
+      margin-bottom: 30px;
+   }
+   .faq .card .card-header .faq-title {
+      line-height: 26px;
+      margin-top: 10px;
+   }
+}
