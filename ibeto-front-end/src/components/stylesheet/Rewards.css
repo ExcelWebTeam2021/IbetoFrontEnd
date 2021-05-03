@@ -1,0 +1,30 @@
+.rewards{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    float: left; 
+    align-content: center;
+
+}
+
+.text{
+    margin-left: 60px;
+    float: right;
+}
+  
+
+li{
+    padding-bottom:7px;
+
+}
+
+
+
+
+
+ 
