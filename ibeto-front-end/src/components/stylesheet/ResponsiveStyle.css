@@ -1,47 +1,20 @@
-@media (min-width: 641px) {
-   html {
-      font-size: 20px;
-      line-height: 30px;
-      letter-spacing: -0.1px;
+/* ---------------------------- Dashboard ----------------------------*/
+@media only screen and (max-width: 500px) {
+   .dashboard-row {
+      margin-right: 5%;
+      margin-left: 5%;
+      width: 80%;
+      margin-left: 10%;
    }
-}
-
-/* Landing page */
-@media (min-width: 641px) {
-   .hero {
-      text-align: left;
-      padding-top: 92px;
-      padding-bottom: 80px;
+   .timeline-row,
+   .contactUs-row {
+      display: none;
    }
-   .hero::before {
-      left: 620px;
-      height: 800px;
+   iframe {
       width: 100%;
    }
-   .hero-inner {
-      display: flex;
-   }
-   .hero-copy {
-      padding-right: 48px;
-      min-width: 512px;
-   }
-   .hero-illustration {
-      margin-top: -68px;
-      padding-bottom: 0;
-   }
-   .hero-illustration img,
-   .hero-illustration svg {
-      max-width: none;
-      width: 528px;
-   }
-}
-@media (min-width: 1025px) {
-   .hero::before {
-      left: auto;
-      width: 43%;
-   }
-   .hero-copy {
-      padding-right: 88px;
-      min-width: 552px;
+   .faq-row {
+      width: 110%;
+      margin-left: 0px;
    }
 }

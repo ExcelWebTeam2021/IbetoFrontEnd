@@ -1,13 +1,15 @@
 import React from "react";
 import "../stylesheet/Dashboard.css";
+import "../stylesheet/ResponsiveStyle.css";
+
 const CurrentPhase = () => {
    return (
       <div className='white-bk currentphase-row'>
          <div className='row'>
             <div className='col-1'></div>
             <div className='col-5 '>
-               <h5>Some Heading</h5>
-               <p>Lorem ipsum dolor sit amet consectetur.</p>
+               <h5>Ibeto</h5>
+               <p>Report submission phase</p>
             </div>
             <div className='col-5 progressbar-row'>
                {" "}
