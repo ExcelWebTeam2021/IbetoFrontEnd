@@ -6,6 +6,8 @@ import Rewards from "./Rewards";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Junior from "./Junior";
+import Timeline from "./Timeline";
+
 
 const IbetoMainSite = () => {
    return (
@@ -14,6 +16,7 @@ const IbetoMainSite = () => {
          <LandingPage />
          <About />
          <Rewards />
+         <Timeline/>
          <Junior />
          <Contact />
          <Footer />
