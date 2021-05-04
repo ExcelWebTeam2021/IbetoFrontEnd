@@ -1,5 +1,7 @@
 import React from "react";
 import "../stylesheet/Dashboard.css";
+import "../stylesheet/ResponsiveStyle.css";
+
 const Timeline = () => {
    return (
       <div className='white-bk timeline-row'>

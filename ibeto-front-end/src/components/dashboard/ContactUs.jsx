@@ -1,5 +1,6 @@
 import React from "react";
 import ContactUsIcon from "../images/ContactUsIcon.svg";
+import "../stylesheet/ResponsiveStyle.css";
 
 const ContactUs = () => {
    return (
