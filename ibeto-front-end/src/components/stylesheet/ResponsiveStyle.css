@@ -21,19 +21,4 @@
 
 /*--------------------------------- Ibeto main page ---------------------------------*/
 @media only screen and (max-width: 500px) {
-   .card-container {
-      height: 50%;
-      width: 50%;
-   }
-   .card {
-      position: absolute;
-      height: 70%;
-      width: 40%;
-      transition: all 1s;
-      backface-visibility: hidden;
-   }
-   .card-img-top {
-      height: 100%;
-      width: 100%;
-   }
 }

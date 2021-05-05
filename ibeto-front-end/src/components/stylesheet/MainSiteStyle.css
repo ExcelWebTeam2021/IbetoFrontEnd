@@ -7,21 +7,28 @@
 }
 
 /*--------------------------------- Problem Statement ---------------------------------*/
-
+.problem-stmt-row {
+   margin-top: 5%;
+}
 .card-container {
    position: relative;
    perspective: 200rem;
    height: 300px;
-   margin: 3%;
 }
 .card {
+   margin-left: 2%;
+   margin-right: 2%;
    position: absolute;
-   height: 95%;
-   width: 100%;
-   transition: all 1s;
+   height: 90%;
+   width: 75%;
+   transition: all 1.5s;
    backface-visibility: hidden;
 }
-
+.card-img-top {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
 .card-container:hover .card-front {
    transform: rotateY(180deg);
 }

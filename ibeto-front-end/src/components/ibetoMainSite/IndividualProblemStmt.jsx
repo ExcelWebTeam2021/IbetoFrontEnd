@@ -5,9 +5,9 @@ import "../stylesheet/ResponsiveStyle.css";
 
 const IndividualProblemStmt = ({ img, content }) => {
    return (
-      <div className='card-container col-md-3 col-sm-6 col-xs-12 '>
+      <div className='card-container col-md-4  col-sm-6 col-xs-12 '>
          <div class='card card-front button-shadow'>
-            <img class='card-img-top ' src={img} alt='SGD' />
+            <img class='card-img-top img-fluid ' src={img} alt='SGD' />
          </div>
          <div class='card card-back'> {content}</div>
       </div>
