@@ -1,7 +1,6 @@
 import React from 'react';
 import "../stylesheet/Timeline.css";
 
-
 const Timeline = () => {
     return (
             <div className="container mb-5">
