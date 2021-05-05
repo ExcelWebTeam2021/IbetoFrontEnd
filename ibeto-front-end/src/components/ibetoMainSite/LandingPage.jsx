@@ -1,30 +1,30 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useRef } from "react";
+import lottie from "lottie-web";
+
 import "../stylesheet/LandingPage.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 const LandingPage = () => {
+   const LandingPage = useRef(null);
+
+   useEffect(() => {
+      const anime1 = lottie.loadAnimation({
+         container: LandingPage.current,
+         renderer: "svg",
+         loop: true,
+         autoplay: true,
+         animationData: require("./animations/LandingPageAnimation.json"),
+      });
+
+      return () => {
+         anime1.destroy();
+      }; // optional clean up for unmounting
+   }, []);
+
    return (
       <main>
-         <br />
-         <br />
-         <br />
-         <section class='hero'>
-            <div class='container'>
-               <div class='hero-inner'>
-                  <div>
-                     <h1 class='hero-title h2-mobile mt-0 heading'>Landing template for startups</h1>
-                     <p class='hero-paragraph content'>Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever.</p>
-                     <p>
-                        <button class='btn btn-primary button-shadow'>
-                           <Link to='/dashboard'>Register now </Link>
-                        </button>
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </section>
+         <div className='animation-container' ref={LandingPage} />
       </main>
    );
 };
