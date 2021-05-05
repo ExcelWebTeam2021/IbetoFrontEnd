@@ -6,15 +6,15 @@
     align-items: center;
 }
 
-.image{
+.Rimage{
     float: left; 
     align-content: center;
     width: 300px;
 
 }
 
-.text{
-    margin-left: 60px;
+.Rtext{
+    margin-left: 20px;
     float: right;
 }
   

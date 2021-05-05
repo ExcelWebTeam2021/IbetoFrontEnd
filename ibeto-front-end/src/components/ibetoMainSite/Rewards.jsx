@@ -7,11 +7,11 @@ import "../stylesheet/Rewards.css"
 const Rewards = () => {
    return (
       <div className='rewards content'>
-         <div className="image"> 
+         <div className="Rimage"> 
             <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200327230544/g4gicon.png"/>
          </div>        
-         <div className="text">
-            <h2 style={{fontSize:"50px"}} className="heading">Rewards</h2><br/>
+         <div className="Rtext">
+            <h2 style={{fontSize:"45px"}} className="heading">Rewards</h2><br/>
             <ul>
                <li> Prize pool of Rs 1 Lakh for top three performing teams </li>
                <li>Opportunity to present top 3 projects in the IEEE HAC Conference and get further funding for its large scale development.</li>
