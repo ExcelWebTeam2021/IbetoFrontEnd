@@ -6,5 +6,35 @@
    padding: 5%;
 }
 
+/*--------------------------------- Problem Statement ---------------------------------*/
 
+.card-container {
+   position: relative;
+   perspective: 200rem;
+   height: 300px;
+   margin: 3%;
+}
+.card {
+   position: absolute;
+   height: 95%;
+   width: 100%;
+   transition: all 1s;
+   backface-visibility: hidden;
+}
 
+.card-container:hover .card-front {
+   transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back {
+   transform: rotateY(0deg);
+}
+
+.card-back {
+   padding: 10%;
+   transform: rotateY(180deg);
+}
+
+.card-back .card-body {
+   position: relative;
+}

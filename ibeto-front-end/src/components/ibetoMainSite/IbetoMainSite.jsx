@@ -7,7 +7,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Junior from "./Junior";
 import Timeline from "./Timeline";
-
+import ProblemStmts from "./ProblemStmts";
 
 const IbetoMainSite = () => {
    return (
@@ -15,8 +15,9 @@ const IbetoMainSite = () => {
          <Navbar />
          <LandingPage />
          <About />
+         <ProblemStmts />
          <Rewards />
-         <Timeline/>
+         <Timeline />
          <Junior />
          <Contact />
          <Footer />
