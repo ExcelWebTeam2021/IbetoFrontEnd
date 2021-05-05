@@ -59,10 +59,9 @@ const Junior = () => {
                <li></li>
             </ul>
             
-            <button className="Jbutton">
-            <Link to='/junior'></Link>
-
-            </button>
+            <Link to="/junior">
+               <button className="Jbutton"/>
+            </Link>
          </div>
       </div>
    </div>
