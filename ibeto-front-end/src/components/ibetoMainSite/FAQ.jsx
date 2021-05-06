@@ -50,7 +50,7 @@ const FAQ = () => {
                   <span class='accordion-title'>How do airplanes stay up?</span>
                   <span class='icon' aria-hidden='true'></span>
                </button>
-               <div class='collapse' id='collapseExample5git p'>
+               <div class='collapse' id='collapseExample5'>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
                </div>
             </div>
