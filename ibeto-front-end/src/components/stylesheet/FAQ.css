@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
-* {
+/** {
   box-sizing: border-box;
 }
 *::before, *::after {
@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
-}
+}*/
 
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
