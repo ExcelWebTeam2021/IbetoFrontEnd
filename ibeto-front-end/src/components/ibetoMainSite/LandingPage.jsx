@@ -35,7 +35,7 @@ const LandingPage = () => {
    return (
       <main>
          <div className='animation-container' ref={LandingPage} />
-         <audio ref={audioRef} src={audio} muted={!toggle} />
+         <audio ref={audioRef} src={audio} muted={!toggle} autoplay='' />
          <button onClick={handlePause}> {toggle ? <img src='https://image.flaticon.com/icons/png/128/727/727269.png' alt='unmute' width='20' /> : <img src='https://image.flaticon.com/icons/png/128/56/56882.png' alt='mute' width='20' />}</button>
       </main>
    );
