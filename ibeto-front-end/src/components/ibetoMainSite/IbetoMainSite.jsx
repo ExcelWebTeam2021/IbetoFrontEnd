@@ -7,7 +7,8 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Junior from "./Junior";
 import Timeline from "./Timeline";
-import Testimonials from "./Testimonials"
+import Testimonials from "./Testimonials";
+import FAQ from "./FAQ";
 import ProblemStmts from "./ProblemStmts";
 
 const IbetoMainSite = () => {
@@ -22,6 +23,7 @@ const IbetoMainSite = () => {
          <Junior />
          <Testimonials />
          <Contact />
+         <FAQ />
          <Footer />
       </div>
    );
