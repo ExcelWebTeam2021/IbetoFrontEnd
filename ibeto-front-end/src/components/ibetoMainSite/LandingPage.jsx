@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import lottie from "lottie-web";
+import ReactPlayer from "react-player";
 
 import "../stylesheet/LandingPage.css";
 import "../stylesheet/MainSiteStyle.css";
@@ -9,11 +10,10 @@ import audio from "./audio.mp3";
 
 const LandingPage = () => {
    const LandingPage = useRef(null);
-   const audioRef = useRef(new Audio(audio));
+
    var [toggle, setToggle] = useState(true);
 
    useEffect(() => {
-      audioRef.current.play();
       const anime1 = lottie.loadAnimation({
          container: LandingPage.current,
          renderer: "svg",
@@ -35,7 +35,8 @@ const LandingPage = () => {
    return (
       <main>
          <div className='animation-container' ref={LandingPage} />
-         <audio ref={audioRef} src={audio} muted={!toggle} autoplay='' />
+         <ReactPlayer url={audio} width='400px' height='50px' playing muted={!toggle} controls={false} />
+
          <button onClick={handlePause}> {toggle ? <img src='https://image.flaticon.com/icons/png/128/727/727269.png' alt='unmute' width='20' /> : <img src='https://image.flaticon.com/icons/png/128/56/56882.png' alt='mute' width='20' />}</button>
       </main>
    );
