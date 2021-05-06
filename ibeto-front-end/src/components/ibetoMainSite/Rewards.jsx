@@ -5,7 +5,7 @@ import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Rewards.css";
 const Rewards = () => {
    return (
-      <div className='rewards content lighter-bk'>
+      <div className='rewards contentjustify-content-center mt-5 lighter-bk'>
          <div className='Rimage'>
             <img src='https://media.geeksforgeeks.org/wp-content/uploads/20200327230544/g4gicon.png' />
          </div>

@@ -1,11 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Junior.css";
-import { Link } from "react-router-dom";
 var FA = require('react-fontawesome')
-
 
 const Junior = () => {
    return (
@@ -13,7 +12,9 @@ const Junior = () => {
          <div className='Jcontainer'>
             <div className='Jcard'>
                <h2 className='Jheading'>IBeTo Junior</h2>
-               <FA  className="Jarrow" name="angle-right" />
+               <Link to='/junior'>
+                  <FA  className="Jarrow" name="angle-right" />
+               </Link>
                <div className='Jpic'></div>
                <ul className='Jlist'>
                   <li></li>
