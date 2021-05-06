@@ -2,11 +2,6 @@
   width: 100%;
   height: 100vh;
 }
-
-h2{
-  pointer-events:none;
-}
-
 .Jarrow{
   opacity: 0;
   font-size: 18px;
@@ -15,14 +10,13 @@ h2{
   transform: scale(0.1);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-
   z-index: 100;
   position: absolute;
-  right: 75px;
-  bottom: 25px;
-  font-size: 40px;
+  right: 70px;
+  bottom: 4px;
+  font-size: 70px;
+  font-weight: 900;
   cursor: pointer;
-  
 }
 .Jcontainer{
   width: 100%;
@@ -32,7 +26,6 @@ h2{
   align-items: center;
   flex-direction: column;
 }
-
 .Jcard{
   position: relative;
   width: 700px;
@@ -40,9 +33,7 @@ h2{
   background-color: #fff;
   overflow: hidden;
   margin-bottom: 4px;
-   
 }
-
 .Jcard::before{
   content: "";
   z-index: 99;
@@ -53,9 +44,8 @@ h2{
   width: 16px;
   height: 16px;
   border-radius: 16px;
-  background-color: #E6E5E1;
+  background-color: #f1f3f5;
 }
-
 .Jcard::after{
   content: "";
   z-index: 99;
@@ -66,9 +56,8 @@ h2{
   width: 16px;
   height: 16px;
   border-radius: 16px;
-  background-color: #E6E5E1;
+  background-color: #f1f3f5 ;
 }
-
 .Jheading{
   z-index: 99;
   font-family: 'Poppins', sans-serif;
@@ -78,7 +67,6 @@ h2{
   font-size: 60px;
   font-weight: 900;
   color: black;
-
 }
 
 .Jpic {
@@ -89,8 +77,6 @@ h2{
   background-size: 100% 100%;
   filter: grayscale(50%);
 }
-
-
 .Jlist {
   z-index: 99;
   position: absolute;
@@ -100,7 +86,6 @@ h2{
   margin: 0;
   padding:0;
 }
-
 .Jlist li {
   width: 2px;
   height: 2px;
@@ -108,14 +93,12 @@ h2{
   margin: 6px 0;
   background-color: #E6E5E1 ;
 }
-
- 
 .Jbutton {
   position: absolute;
-  right: 14px;
-  bottom: 14px;
-  width: 36px;
-  height: 36px;
+  right: 30px;
+  bottom: 16px;
+  width: 37px;
+  height: 37px;
   background-color:  #DA4D1D;
   border: none;
   border-radius: 30px;
@@ -124,23 +107,18 @@ h2{
   transition: all 0.3s ease;
   mix-blend-mode: hard-light;
 }
-
 .Jcard:hover .Jarrow {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-
-
 .Jcard:hover button {
   transform: scale(16.5);
 }
-
 .Jcard button:focus {
   border: none;
   outline: none;
 }
-
 .Jcard:hover .Jpic {
   filter: grayscale(0);
 }

@@ -4,8 +4,8 @@ import "../stylesheet/CommonStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Junior.css";
 import { Link } from "react-router-dom";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+var FA = require('react-fontawesome')
+
 
 const Junior = () => {
    return (
@@ -13,9 +13,28 @@ const Junior = () => {
          <div className='Jcontainer'>
             <div className='Jcard'>
                <h2 className='Jheading'>IBeTo Junior</h2>
-               {/* <FontAwesomeIcon  className="Jarrow" icon={faArrowRight} /> */}
+               <FA  className="Jarrow" name="angle-right" />
                <div className='Jpic'></div>
                <ul className='Jlist'>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
