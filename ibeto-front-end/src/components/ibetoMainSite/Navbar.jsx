@@ -3,10 +3,8 @@ import "../stylesheet/MainSiteStyle.css";
 
 import useJquery from 'react-use-jquery';
 
-
-
 const Navbar = () => {
-   const $=useJquery();
+   const $ = useJquery();
    useEffect(()=>{
       $(document).ready(function() {
       $('#menu-toggle, #menu > ul > li > a').click(function(e) { 

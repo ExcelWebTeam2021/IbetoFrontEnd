@@ -140,7 +140,7 @@ header.banner {
 .about-img {
    min-height: 200px;
    width: 100%;
-   background: url("../images/event-img1.jpg");
+   /* background: url("../images/evnpment-img1.jpg"); */
    background-size: cover;
 }
 
