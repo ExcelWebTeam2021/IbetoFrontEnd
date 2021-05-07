@@ -44,45 +44,19 @@
 
 /* About Section */
 
-/* Event Format */
+.about {
+   padding: 15%;
+}
+
+/* Event format */
 .event-format {
-   padding: 5% 5% 3% 5%;
-   text-align: center;
-}
-
-.event-header {
-   padding: 2rem;
-}
-
-.event {
-   display: -webkit-inline-box;
-   margin: -17vh 0vw;
-}
-
-.event-body {
-   margin: 5% 10%;
-}
-
-.event-box {
-   padding: 4.5%;
-}
-
-.event-title {
-   font-size: 1.5rem;
-   margin: 5%;
-}
-
-.event-text {
-   font-size: 18px;
+   padding: 5%;
 }
 
 .phase {
-   font-size: 16px;
-   margin: 5%;
-   color: grey;
-   font-weight: 300;
+   padding: 7%;
 }
-
+/* Footer */
 .footerDiv {
    width: 100%;
    max-width: 100vw;
