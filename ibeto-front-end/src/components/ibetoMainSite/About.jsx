@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
@@ -14,7 +15,9 @@ const About = () => {
                <h1 class='heading'>About</h1>
                <p className='content'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae provident commodi et vero voluptates reprehenderit repellat similique in maxime quibusdam.</p>
                <div className=''>
-                  <button class='btn btn-dark'>Register Now</button>
+                  <button class='btn btn-dark button-shadow'>
+                     <Link to='/dashboard'>Register now </Link>
+                  </button>
                </div>
             </div>
          </div>

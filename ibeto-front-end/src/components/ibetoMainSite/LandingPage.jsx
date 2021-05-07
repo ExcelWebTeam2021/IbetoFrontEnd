@@ -45,7 +45,7 @@ const LandingPage = () => {
    return (
       <main>
          <div className='animation-container' ref={LandingPage} />
-         <audio src={audio} muted={false} autoPlay controls={Control} />
+         {/* <audio src={audio} muted={false} autoPlay controls={Control} /> */}
       </main>
    );
 };
