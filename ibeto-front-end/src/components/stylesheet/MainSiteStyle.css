@@ -1,6 +1,299 @@
-.about {
-   padding: 10%;
+/* Navbar Section */
+
+header.banner {
+   position: fixed;
+   top: 0;
+   z-index: 100;
+
+   width: 100%;
+   padding: 30px;
+   box-sizing: border-box;
 }
+
+#menu-toggle {
+   position: relative;
+
+   width: 51px;
+   height: 51px;
+
+   cursor: pointer;
+
+   border: 1px solid #0000;
+   -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+           border-radius: 50px;
+   background: transparent;
+}
+#menu-toggle:before,
+#menu-toggle:after {
+   position: absolute;
+
+   content: "";
+   content: "";
+   -webkit-transition: all .350s ease;
+      -moz-transition: all .350s ease;
+        -o-transition: all .350s ease;
+           transition: all .350s ease;
+
+   background-color: #000;
+}
+
+#menu-toggle:before {
+   top: 12px;
+   left: 25px;
+
+   width: 1px;
+   height: 27px;
+}
+#menu-toggle:after {
+   top: 25px;
+   left: 12px;
+
+   width: 27px;
+   height: 1px;
+}
+#menu-toggle:hover:before,
+#menu-toggle:hover:after {
+   -webkit-transform: rotate(5deg);
+       -ms-transform: rotate(5deg);
+           transform: rotate(5deg);
+}
+.open #menu-toggle:before,
+.open #menu-toggle:after {
+   -webkit-transform: rotate(45deg);
+       -ms-transform: rotate(45deg);
+           transform: rotate(45deg);
+}
+
+#menu {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+
+   display: table;
+   visibility: hidden;
+   width: 100%;
+   height: 100%;
+
+   font-family: "Lora", serif;
+
+   transition: opacity .5s, visibility .5s;
+   text-align: left;
+
+   opacity: 0;
+   background-color: rgba(0, 0, 0, .66);
+}
+.open #menu {
+   visibility: visible;
+
+   opacity: 1;
+}
+#menu ul {
+   display: table-cell;
+   padding: 0;
+   margin-top: 30px;
+
+   list-style: none;
+
+   vertical-align: middle;
+}
+
+#menu ul li a {
+   display: block;
+
+   font-size: 28px;
+   font-weight: 100;
+   line-height: 80px;
+
+   -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+           transition: all .3s ease;
+   text-decoration: none;
+
+   color: #000;
+}
+#menu ul li a:hover {
+   font-size: 30px;
+}
+
+
+/* About Section */
+
+.about {
+   padding: 8%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.about-button {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   display: flex;
+}
+
+.about-img-container {
+   display: flex;
+}
+
+.about-img {
+   min-height: 200px;
+   width: 100%;
+   background: url("../images/event-img1.jpg");
+   background-size: cover;
+}
+
+.about-text-container {
+   padding: 2rem;
+}
+
+.about-header {
+   padding-bottom: 1rem;
+}
+
+/* Event Format */
+.event-format {
+   padding: 5% 5% 3% 5%;
+   text-align: center;
+}
+
+.event-header {
+   padding: 2rem;
+}
+
+.event {
+   display: -webkit-inline-box;
+   margin: -17vh 0vw;
+}
+
+.event-body {
+   margin: 5% 10%;
+}
+
+.event-box {
+   padding: 4.5%;
+ }
+
+ .event-title {
+   font-size: 1.5rem;
+   margin: 5%;
+ }
+
+ .event-text {
+   font-size: 18px;
+}
+
+.phase {
+   font-size: 16px;
+   margin: 5%;
+   color: grey;
+   font-weight: 300;
+}
+
+.footerDiv {
+   width: 100%;
+   max-width: 100vw;
+   height:20vh;
+   /*padding: 10px;*/
+   padding-top: 1em;
+   background-color: #333;
+   display: grid;
+   grid-template-areas: "ibeto icon1 icon2 icon3 excel" ". brand brand brand .";
+ }
+ 
+ .footerDiv a {
+   color: white;
+ }
+
+ .footerDiv .logo img {
+   justify-self: center;
+   align-self: center;
+   height: 100px;
+   margin-left: -50px;
+   margin-bottom: 10px;
+ }
+ 
+ .footerDiv .logo div {
+   justify-self: center;
+   margin: -2em;
+ }
+ 
+ .footerDiv .logo div a {
+   color: white;
+   font-size: 18px;
+   padding: 0 1em;
+ }
+ 
+ .footerDiv .logo div a:hover {
+   cursor: pointer;
+ }
+ 
+ .footerIbeto {
+   grid-area: ibeto;
+   /* background-color: teal; */
+   display: grid;
+   margin: auto;
+ }
+ 
+ .footerIbeto img {
+   justify-self: center;
+   align-self: center;
+   height: 5em;
+ }
+ 
+ .footerIbeto div {
+   justify-self: center;
+   color: white;
+   margin-top: -1em;
+ }
+ 
+ .footerExcel {
+   grid-area: excel;
+   /* background-color: #333; */
+   display: grid;
+   margin: auto;
+ }
+ 
+ .footerExcel img {
+   justify-self: center;
+   align-self: center;
+   height: 5em;
+ }
+ 
+ .footerExcel div {
+   justify-self: center;
+   color: white;
+   margin-top: -1em;
+ }
+ 
+ .Excelbrand {
+   /* margin-top: 4em; */
+   grid-area: brand;
+   /* background-color: brown; */
+   display: grid;
+   text-align: center;
+ }
+ 
+ .Excelbrand span {
+   align-self: center;
+   justify-self: center;
+   color: white;
+ }
+ 
+ .icon1{
+   grid-area: icon1;
+   margin: auto;
+ }
+ .icon2{
+   grid-area: icon2;
+   margin: auto;
+ }
+ .icon3{
+   grid-area: icon3;
+   margin: auto;
+ }
+ 
 
 .rewards {
    padding: 5%;

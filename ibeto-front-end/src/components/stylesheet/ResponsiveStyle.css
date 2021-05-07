@@ -22,3 +22,44 @@
 /*--------------------------------- Ibeto main page ---------------------------------*/
 @media only screen and (max-width: 500px) {
 }
+ /* About */
+@media (max-width: 990px) {
+   .about-text-container {
+      text-align: center;
+   }
+
+   .about-button {
+      justify-content: center;
+   }
+}
+
+/* Footer */
+@media only screen and (max-width: 500px) {
+ 
+   .footerDiv {
+     grid-template-areas: "ibeto . . . excel" ". icon1 icon2 icon3 ." ". brand brand brand .";
+     height: 175px;
+     padding-top: 15px;
+     font-size: 12px;
+   }
+   .footerDiv img{
+     height: 42px;
+   }
+ 
+   .footerDiv .logo div a {
+       font-size: 17px;
+       padding: 0 4px;
+   }
+ 
+   .icon3 img{
+     height: 32px;
+   }
+ 
+ }
+ 
+ @media only screen and (max-width: 500px) {
+   .footerDiv .logo div a {
+     font-size: 12px;
+     padding: 0 4px;
+   }
+ }
