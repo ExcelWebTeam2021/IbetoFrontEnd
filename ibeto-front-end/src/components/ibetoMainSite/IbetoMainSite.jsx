@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import LandingPage from "./LandingPage";
 import About from "./About";
-import EventFormat from "./EventFormat"
+import EventFormat from "./EventFormat";
 import Rewards from "./Rewards";
 import Contact from "./Contact";
 import Footer from "./Footer";

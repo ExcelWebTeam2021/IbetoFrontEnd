@@ -7,16 +7,16 @@ const About = () => {
    return (
       <div class='container-fluid lighter-bk'>
          <div className='row about'>
-            <div className="col-lg-6 col-md-12 about-img-container">
+            <div className='col-md-6 col-md-12 '>
                {/* <img src="../images/event-img1.jpg" class="about-img" /> */}
-               <div className="about-img"></div>
+               <div className='about-img'>IMG</div>
             </div>
-            <div className="col-lg-6 col-md-12 about-text-container">
-               <h1 class="about-header">About</h1>
+            <div className='col-md-6 col-md-12 '>
+               <h1 class='about-header'>About</h1>
                <p className='content'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae provident commodi et vero voluptates reprehenderit repellat similique in maxime quibusdam.</p>
-               <div className="about-button">
+               <div className='about-button'>
                   <button class='btn btn-dark'>Register Now</button>
-               </div>     
+               </div>
             </div>
          </div>
       </div>

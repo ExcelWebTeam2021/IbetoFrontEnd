@@ -12,7 +12,6 @@
     "react-fontawesome": "^1.7.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
-    "react-use-jquery": "^1.0.0",
     "sass": "^1.32.12",
     "web-vitals": "^1.1.1"
   },

@@ -14,21 +14,21 @@ const LandingPage = () => {
    const [Autoplay, setAutoplay] = useState(true);
 
    useEffect(() => {
-      var promise = audioRef.current.play();
-      if (promise !== undefined) {
-         promise
-            .then((_) => {
-               // !
-               console.log("Autoplay started ");
-            })
-            .catch((error) => {
-               console.log("error in audio ");
-               setControl(true);
-               setAutoplay(false);
-               // Autoplay was prevented.
-               // Show a "Play" button so that user can start playback.
-            });
-      }
+      // var promise = audioRef.current.play();
+      // if (promise !== undefined) {
+      //    promise
+      //       .then((_) => {
+      //          // !
+      //          console.log("Autoplay started ");
+      //       })
+      //       .catch((error) => {
+      //          console.log("error in audio ");
+      //          setControl(true);
+
+      //          // Autoplay was prevented.
+      //          // Show a "Play" button so that user can start playback.
+      //       });
+      // }
       const anime1 = lottie.loadAnimation({
          container: LandingPage.current,
          renderer: "svg",
