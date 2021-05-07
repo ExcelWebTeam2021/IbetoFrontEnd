@@ -1,124 +1,75 @@
 .junior {
-  width: 100%;
-  height: 100vh;
+   padding: 10%;
 }
-.Jarrow{
-  opacity: 0;
-  font-size: 18px;
-  color: #fff;
-  -webkit-transform: scale(0.1);
-  transform: scale(0.1);
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  z-index: 100;
-  position: absolute;
-  right: 70px;
-  bottom: 4px;
-  font-size: 70px;
-  font-weight: 900;
-  cursor: pointer;
+.Jarrow {
+   opacity: 0;
+   color: #fff;
+   -webkit-transform: scale(0.1);
+   transform: scale(0.1);
+   -webkit-transition: all 0.2s ease;
+   transition: all 0.2s ease;
+   z-index: 100;
+   position: absolute;
+   right: 70px;
+   bottom: 4px;
+   font-size: 90px;
+   font-weight: 900;
+   cursor: pointer;
 }
-.Jcontainer{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+.Jcard {
+   position: relative;
+   width: 700px;
+   height: 400px;
+   background-color: #fff;
+   overflow: hidden;
+   margin-bottom: 4px;
 }
-.Jcard{
-  position: relative;
-  width: 700px;
-  height: 400px;
-  background-color: #fff;
-  overflow: hidden;
-  margin-bottom: 4px;
-}
-.Jcard::before{
-  content: "";
-  z-index: 99;
-  position: absolute;
-  top: -10px;
-  left: 32px;
-  display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 16px;
-  background-color: #f1f3f5;
-}
-.Jcard::after{
-  content: "";
-  z-index: 99;
-  position: absolute;
-  bottom: -10px;
-  left: 32px;
-  display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 16px;
-  background-color: #f1f3f5 ;
-}
-.Jheading{
-  z-index: 99;
-  font-family: 'Poppins', sans-serif;
-  position: absolute;
-  bottom: 0;
-  right: 130px;
-  font-size: 60px;
-  font-weight: 900;
-  color: black;
+.Jheading {
+   z-index: 99;
+   font-family: "Poppins", sans-serif;
+   position: absolute;
+   bottom: 0;
+   right: 130px;
+   font-size: 60px;
+   font-weight: 900;
+   color: black;
 }
 
 .Jpic {
-  z-index: 100;
-  width: 700px;
-  height: 400px;
-  background-image: url("https://image.freepik.com/free-vector/diverse-group-children-kindergarten_74855-5811.jpg");
-  background-size: 100% 100%;
-  filter: grayscale(50%);
-}
-.Jlist {
-  z-index: 99;
-  position: absolute;
-  left: 39px;
-  top: 5px;
-  list-style-type: none;
-  margin: 0;
-  padding:0;
-}
-.Jlist li {
-  width: 2px;
-  height: 2px;
-  border-radius: 2px;
-  margin: 6px 0;
-  background-color: #E6E5E1 ;
+   z-index: 100;
+   width: 700px;
+   height: 400px;
+   background-image: url("https://image.freepik.com/free-vector/diverse-group-children-kindergarten_74855-5811.jpg");
+   background-size: 100% 100%;
+   filter: grayscale(50%);
 }
 .Jbutton {
-  position: absolute;
-  right: 30px;
-  bottom: 16px;
-  width: 37px;
-  height: 37px;
-  background-color:  #DA4D1D;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  outline:none;
-  transition: all 0.3s ease;
-  mix-blend-mode: hard-light;
+   position: absolute;
+   right: 30px;
+   bottom: 16px;
+   width: 37px;
+   height: 37px;
+   background-color: #da4d1d;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   outline: none;
+   transition: all 0.3s ease;
+   mix-blend-mode: hard-light;
 }
 .Jcard:hover .Jarrow {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
+   opacity: 1;
+   -webkit-transform: scale(1);
+   transform: scale(1);
 }
 .Jcard:hover button {
-  transform: scale(16.5);
+   transform: scale(16.5);
 }
 .Jcard button:focus {
-  border: none;
-  outline: none;
+   border: none;
+   outline: none;
 }
 .Jcard:hover .Jpic {
-  filter: grayscale(0);
+   filter: grayscale(0);
 }
