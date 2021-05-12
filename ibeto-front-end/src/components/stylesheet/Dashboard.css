@@ -248,24 +248,24 @@ iframe {
    margin-left: 15%;
 }
 
-.faq .card {
+.faq .faq-card {
    border: none;
    background: none;
    border-bottom: 1px dashed #cee1f8;
 }
 
-.faq .card .card-header {
+.faq .faq-card .faq-card-header {
    padding: 0px;
    border: none;
    background: none;
    transition: all 0.3s ease 0s;
 }
 
-.faq .card .card-header:hover {
+.faq .faq-card .faq-card-header:hover {
    background: rgba(233, 30, 99, 0.1);
    padding-left: 10px;
 }
-.faq .card .card-header .faq-title {
+.faq .faq-card .faq-card-header .faq-title {
    width: 100%;
    text-align: left;
    padding: 0px;
@@ -282,7 +282,7 @@ iframe {
    padding-bottom: 20px;
 }
 
-.faq .card .card-header .faq-title .badge {
+.faq .faq-card .faq-card-header .faq-title .badge {
    display: inline-block;
    width: 20px;
    height: 20px;
@@ -294,7 +294,7 @@ iframe {
    margin-right: 20px;
 }
 
-.faq .card .card-body p {
+.faq .faq-card .faq-card-body p {
    color: #3d4351;
    font-size: 13px;
    margin-bottom: 14px;
@@ -304,7 +304,7 @@ iframe {
    .faq {
       margin-bottom: 30px;
    }
-   .faq .card .card-header .faq-title {
+   .faq .faq-card .faq-card-header .faq-title {
       line-height: 26px;
       margin-top: 10px;
    }
