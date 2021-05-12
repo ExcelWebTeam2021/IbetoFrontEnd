@@ -5,7 +5,7 @@ import "../stylesheet/ResponsiveStyle.css";
 
 const FAQ = () => {
    return (
-      <div class='container'>
+      <div class='container' id='FAQ'>
          <h2>Frequently Asked Questions</h2>
          <div class='accordion'>
             <div class='accordion-item'>

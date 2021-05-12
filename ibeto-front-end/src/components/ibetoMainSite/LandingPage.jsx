@@ -44,7 +44,7 @@ const LandingPage = () => {
 
    return (
       <main>
-         <div className='animation-container' ref={LandingPage} />
+         <div className='animation-container' id='Home' ref={LandingPage} />
          {/* <audio src={audio} muted={false} autoPlay controls={Control} /> */}
       </main>
    );

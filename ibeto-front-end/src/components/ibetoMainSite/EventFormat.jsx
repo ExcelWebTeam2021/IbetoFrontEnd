@@ -5,7 +5,7 @@ import "../stylesheet/ResponsiveStyle.css";
 
 export default function EventFormat() {
    return (
-      <div className='container  event-format'>
+      <div className='container  event-format' id='EventFormat'>
          <div className='heading'>
             <h1>Event Format</h1>
          </div>

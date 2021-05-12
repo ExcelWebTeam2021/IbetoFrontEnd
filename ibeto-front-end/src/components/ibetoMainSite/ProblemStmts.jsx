@@ -11,7 +11,7 @@ import sdg3 from "../images/SGD/sdg3.png";
 
 const ProblemStmts = () => {
    return (
-      <div className='container problem-stmt-row'>
+      <div className='container problem-stmt-row' id='ProblemStatement'>
          <h2 style={{ fontSize: "45px" }} className='heading'>
             Problem Statement
          </h2>

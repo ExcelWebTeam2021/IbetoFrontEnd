@@ -19,14 +19,14 @@
 
 .Jcard {
    position: relative;
-   width: 700px;
+   width: 70vw;
    height: 400px;
    background-color: #fff;
    overflow: hidden;
    margin-bottom: 4px;
 }
 .Jheading {
-   z-index: 99;
+   z-index: 5;
    font-family: "Poppins", sans-serif;
    position: absolute;
    bottom: 0;
@@ -38,7 +38,7 @@
 
 .Jpic {
    z-index: 100;
-   width: 700px;
+   width: 70vw;
    height: 400px;
    background-image: url("https://image.freepik.com/free-vector/diverse-group-children-kindergarten_74855-5811.jpg");
    background-size: 100% 100%;

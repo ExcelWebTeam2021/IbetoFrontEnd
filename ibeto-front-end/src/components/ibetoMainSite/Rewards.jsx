@@ -6,7 +6,7 @@ import "../stylesheet/Rewards.css";
 const Rewards = () => {
    return (
       <div className='rewards-row    mt-5 lighter-bk'>
-         <div className='justify-content-center row'>
+         <div className='justify-content-center row' id='Rewards'>
             <div className='col-4'>
                <img src='https://media.geeksforgeeks.org/wp-content/uploads/20200327230544/g4gicon.png' />
             </div>

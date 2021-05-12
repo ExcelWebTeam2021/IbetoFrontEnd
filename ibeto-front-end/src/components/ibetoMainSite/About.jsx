@@ -6,10 +6,10 @@ import "../stylesheet/ResponsiveStyle.css";
 
 const About = () => {
    return (
-      <div class='container-fluid lighter-bk'>
+      <div class='container-fluid lighter-bk' id='About'>
          <div className='row about'>
             <div className='col-md-4 col-xs-12 '>
-               <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' class='img-fluid' />
+               <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' class='img-fluid' />
             </div>
             <div className='col-md-6 col-xs-12 '>
                <h1 class='heading'>About</h1>

@@ -3,8 +3,10 @@ import "../stylesheet/Timeline.css";
 
 const Timeline = () => {
    return (
-      <div className='container mb-4'>
-         <h3  style={{ fontSize: "45px" }} align="center" className='heading pb-2 mt-4'>Timeline</h3>
+      <div className='container mb-4' id='Timeline'>
+         <h3 style={{ fontSize: "45px" }} align='center' className='heading pb-2 mt-4'>
+            Timeline
+         </h3>
          <div className='row'>
             <div className='col-md-12'>
                <div className='main-timeline3'>
