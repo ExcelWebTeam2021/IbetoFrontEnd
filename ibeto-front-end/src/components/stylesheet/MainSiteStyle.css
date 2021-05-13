@@ -163,111 +163,7 @@
 .phase {
    padding: 7%;
 }
-/* Footer */
-.footerDiv {
-   width: 100%;
-   max-width: 100vw;
-   height: 20vh;
-   /*padding: 10px;*/
-   padding-top: 1em;
-   background-color: #333;
-   display: grid;
-   grid-template-areas: "ibeto icon1 icon2 icon3 excel" ". brand brand brand .";
-}
-
-.footerDiv a {
-   color: white;
-}
-
-.footerDiv .logo img {
-   justify-self: center;
-   align-self: center;
-   height: 100px;
-   margin-left: -50px;
-   margin-bottom: 10px;
-}
-
-.footerDiv .logo div {
-   justify-self: center;
-   margin: -2em;
-}
-
-.footerDiv .logo div a {
-   color: white;
-   font-size: 18px;
-   padding: 0 1em;
-}
-
-.footerDiv .logo div a:hover {
-   cursor: pointer;
-}
-
-.footerIbeto {
-   grid-area: ibeto;
-   /* background-color: teal; */
-   display: grid;
-   margin: auto;
-}
-
-.footerIbeto img {
-   justify-self: center;
-   align-self: center;
-   height: 5em;
-}
-
-.footerIbeto div {
-   justify-self: center;
-   color: white;
-   margin-top: -1em;
-}
-
-.footerExcel {
-   grid-area: excel;
-   /* background-color: #333; */
-   display: grid;
-   margin: auto;
-}
-
-.footerExcel img {
-   justify-self: center;
-   align-self: center;
-   height: 5em;
-}
-
-.footerExcel div {
-   justify-self: center;
-   color: white;
-   margin-top: -1em;
-}
-
-.Excelbrand {
-   /* margin-top: 4em; */
-   grid-area: brand;
-   /* background-color: brown; */
-   display: grid;
-   text-align: center;
-}
-
-.Excelbrand span {
-   align-self: center;
-   justify-self: center;
-   color: white;
-}
-
-.icon1 {
-   grid-area: icon1;
-   margin: auto;
-}
-.icon2 {
-   grid-area: icon2;
-   margin: auto;
-}
-.icon3 {
-   grid-area: icon3;
-   margin: auto;
-}
-
-.rewards {
+rewards {
    padding: 5%;
 }
 
@@ -306,4 +202,46 @@
 
 .card-back .card-body {
    position: relative;
+}
+
+/* ------------------------------------ Footer ------------------------------------ */
+
+.footer-row {
+   padding: 2%;
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.social-icons li {
+   color: #fff;
+   vertical-align: top;
+   display: inline;
+}
+.social-icons a {
+   color: #fff;
+   text-decoration: none;
+}
+.fa-facebook {
+   font-size: 25px;
+   padding: 10px 14px;
+   transition: 0.5s;
+}
+.fa-facebook:hover {
+   background-color: #3d5b99;
+}
+
+.fa-linkedin {
+   font-size: 25px;
+   padding: 10px 14px;
+   transition: 0.5s;
+}
+.fa-linkedin:hover {
+   background-color: #0073a4;
+}
+.fa-instagram {
+   font-size: 25px;
+   padding: 10px 14px;
+   transition: 0.5s;
+}
+.fa-instagram:hover {
+   background-color: #e64a41;
 }
