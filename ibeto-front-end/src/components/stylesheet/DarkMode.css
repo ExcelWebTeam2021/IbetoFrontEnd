@@ -1,0 +1,42 @@
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background: #0d1117;
+}
+a {
+   background-color: transparent;
+   color: inherit;
+   text-decoration: underline;
+   -webkit-text-decoration-skip: objects;
+}
+
+a:hover,
+a:active {
+   outline: 0;
+   text-decoration: none;
+}
+.heading {
+   color: #f6f7f8;
+   font-family: "Mukta", sans-serif;
+}
+
+.content {
+   font-family: "Hind Vadodara", sans-serif;
+   color: #898d94;
+}
+
+.button-shadow {
+   box-shadow: 0 8px 16px rgba(53, 39, 42, 0.25);
+}
+
+.lighter-bk {
+   background-color: #161b22;
+   color: rgb(214, 213, 213);
+}
+
+/* FOOTER */
+.footer {
+   background: #1f2b35;
+}
