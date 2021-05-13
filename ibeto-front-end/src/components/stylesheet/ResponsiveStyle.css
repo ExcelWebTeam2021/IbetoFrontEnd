@@ -31,38 +31,10 @@
    .about-button {
       justify-content: center;
    }
-
-   .card-front {
-      width: inherit;
-      background: blue;
-   }
-}
-
-/* Footer */
-@media only screen and (max-width: 500px) {
-   .footerDiv {
-      grid-template-areas: "ibeto . . . excel" ". icon1 icon2 icon3 ." ". brand brand brand .";
-      height: 175px;
-      padding-top: 15px;
-      font-size: 12px;
-   }
-   .footerDiv img {
-      height: 42px;
-   }
-
-   .footerDiv .logo div a {
-      font-size: 17px;
-      padding: 0 4px;
-   }
-
-   .icon3 img {
-      height: 32px;
-   }
-}
-
-@media only screen and (max-width: 500px) {
-   .footerDiv .logo div a {
-      font-size: 12px;
-      padding: 0 4px;
+   /* Cards */
+   .card-container {
+      left: 20%;
+      right: 20%;
+      font-size: 13px;
    }
 }
