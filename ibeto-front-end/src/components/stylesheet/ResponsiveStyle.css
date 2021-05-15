@@ -31,10 +31,15 @@
    .about-button {
       justify-content: center;
    }
-   /* Cards */
+
+   /* Event format */
+   .phase {
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+   /* Problem statment */
    .card-container {
-      left: 20%;
-      right: 20%;
-      font-size: 13px;
+      margin-left: 5%;
+      margin-right: 5%;
    }
 }

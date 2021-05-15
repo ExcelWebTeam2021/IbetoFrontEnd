@@ -7,10 +7,10 @@ const Rewards = () => {
    return (
       <div className='rewards-row    mt-5 lighter-bk'>
          <div className='justify-content-center row' id='Rewards'>
-            <div className='col-4'>
+            <div className='col-md-4 col-sm-10'>
                <img src='https://media.geeksforgeeks.org/wp-content/uploads/20200327230544/g4gicon.png' />
             </div>
-            <div className='col-8'>
+            <div className='col-md-8 col-sm-10'>
                <h2 style={{ fontSize: "45px" }} className='heading'>
                   Rewards
                </h2>

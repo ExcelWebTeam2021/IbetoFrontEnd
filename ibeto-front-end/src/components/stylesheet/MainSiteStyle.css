@@ -163,7 +163,7 @@
 .phase {
    padding: 7%;
 }
-rewards {
+.rewards {
    padding: 5%;
 }
 
@@ -174,16 +174,15 @@ rewards {
 .card-container {
    position: relative;
    perspective: 200rem;
-   height: 50vh;
-   width: 50vw;
+   height: 300px;
 }
 
 .card {
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 2%;
+   margin-right: 2%;
    position: absolute;
-   height: 80%;
-   width: 65%;
+   height: 90%;
+   width: 70%;
    transition: all 1.5s;
    backface-visibility: hidden;
 }

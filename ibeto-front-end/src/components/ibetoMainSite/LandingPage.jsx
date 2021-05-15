@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import lottie from "lottie-web";
+import useSound from "use-sound";
 
 import "../stylesheet/LandingPage.css";
 import "../stylesheet/MainSiteStyle.css";
@@ -12,7 +13,16 @@ const LandingPage = () => {
    const audioRef = useRef(new Audio(audio));
    const [Control, setControl] = useState(false);
    const [Autoplay, setAutoplay] = useState(true);
-
+   const [play, { stop }] = useSound(audio);
+   // const handleClick = () => {
+   //    const anime1 = lottie.loadAnimation({
+   //       container: LandingPage.current,
+   //       renderer: "svg",
+   //       loop: true,
+   //       autoplay: { Autoplay },
+   //       animationData: require("./animations/LandingPageAnimation.json"),
+   //    });
+   // };
    useEffect(() => {
       // var promise = audioRef.current.play();
       // if (promise !== undefined) {
@@ -29,6 +39,7 @@ const LandingPage = () => {
       //          // Show a "Play" button so that user can start playback.
       //       });
       // }
+
       const anime1 = lottie.loadAnimation({
          container: LandingPage.current,
          renderer: "svg",
@@ -45,6 +56,12 @@ const LandingPage = () => {
    return (
       <main>
          <div className='animation-container' id='Home' ref={LandingPage} />
+         {/* 
+         Play animation after clicking on Start btn
+         <div onClick={handleClick}>
+            <button onClick={play}>Start</button>
+         </div> */}
+
          {/* <audio src={audio} muted={false} autoPlay controls={Control} /> */}
       </main>
    );
