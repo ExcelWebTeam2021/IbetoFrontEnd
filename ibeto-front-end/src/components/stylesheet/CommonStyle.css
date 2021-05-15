@@ -28,11 +28,11 @@ a:active {
    box-shadow: 0 8px 16px rgba(53, 39, 42, 0.25);
 }
 
-.lighter-bk {
-   background-color: #f1f3f5;
+.darker-bk {
+   background-color: #070707;
 }
 
-/* FOOTER */
-.footer {
-   background: #1f2b35;
+.lighter-bk {
+   /* background-color: #f1f3f5; */
+   background-color: #f1f3f5;
 }

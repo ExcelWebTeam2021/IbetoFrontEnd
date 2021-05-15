@@ -65,7 +65,7 @@ const ProblemStmts = () => {
       };
    }, []);
    return (
-      <div className='container problem-stmt-row' id='ProblemStatement'>
+      <div className='container problem-stmt-row ' id='ProblemStatement'>
          <h2 style={{ fontSize: "45px" }} className='heading'>
             Problem Statement
          </h2>

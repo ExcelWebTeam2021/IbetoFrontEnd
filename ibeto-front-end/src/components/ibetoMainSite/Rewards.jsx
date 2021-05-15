@@ -3,12 +3,13 @@ import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Rewards.css";
+import two from "../images/two.jpg";
 const Rewards = () => {
    return (
       <div className='rewards-row    mt-5 lighter-bk'>
          <div className='justify-content-center row' id='Rewards'>
             <div className='col-md-4 col-sm-10'>
-               <img src='https://media.geeksforgeeks.org/wp-content/uploads/20200327230544/g4gicon.png' />
+               <img src={two} width='600' />
             </div>
             <div className='col-md-8 col-sm-10'>
                <h2 style={{ fontSize: "45px" }} className='heading'>

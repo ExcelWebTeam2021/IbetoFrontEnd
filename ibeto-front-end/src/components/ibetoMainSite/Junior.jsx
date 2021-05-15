@@ -8,7 +8,7 @@ var FA = require("react-fontawesome");
 
 const Junior = () => {
    return (
-      <div className=' junior lighter-bk' id='IbetoJunior'>
+      <div className=' junior darker-bk' id='IbetoJunior'>
          <div className='container'>
             <Link to='/junior'>
                <div className='Jcard'>
