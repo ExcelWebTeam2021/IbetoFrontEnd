@@ -14,7 +14,7 @@ const Navbar = () => {
          <div class='menu'>
             <div>
                <div>
-                  <ul class='overlay-content'>
+                  <ul class='overlay-content pt-2'>
                      <li onClick={handleClick}>
                         <a href='#Home'>Home</a>
                      </li>

@@ -36,7 +36,7 @@
 
 
 }
-@media (max-width: 990px) {
+@media only screen and (max-width: 990px) {
    /* About */
    .about-text-container {
       text-align: center;
@@ -66,6 +66,8 @@
       padding-left: 0%;
       font-size: small;
    }
+
+   
    
 }
 

@@ -21,6 +21,10 @@
    transition: all 0.4s ease-in;
 }
 
+.carousel-indicators {
+   z-index: 0;
+}
+
 #quote-carousel .carousel-indicators .active {
    width: 100px;
    height: 100px;

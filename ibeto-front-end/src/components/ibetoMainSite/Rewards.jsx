@@ -9,7 +9,7 @@ const Rewards = () => {
       <div className='rewards-row    mt-5 lighter-bk'>
          <div className='justify-content-center row' id='Rewards'>
             <div className='col-md-4 col-sm-10'>
-               <img src={two} width='600' />
+               {/* <img src={two} width='600' /> */}
             </div>
             <div className='col-md-8 col-sm-10'>
                <h2 style={{ fontSize: "45px" }} className='heading'>
