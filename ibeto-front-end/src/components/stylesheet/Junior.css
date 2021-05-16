@@ -75,7 +75,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-
    /* Junior */
    .Jheading {
       left:45px;
@@ -88,9 +87,7 @@
       bottom: 8px;
       right: 25px;
    }
- 
 }
-
 
 @media only screen and (max-width: 500px)  {
 
@@ -105,12 +102,8 @@
    font-size: 65px ;
    right: 34px ;
   }
-  
   .Jbutton{
      right:20px;
   }
-  
-
-
 }
 
