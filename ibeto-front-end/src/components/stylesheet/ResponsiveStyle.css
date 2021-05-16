@@ -21,13 +21,26 @@
 
 /*--------------------------------- Ibeto main page ---------------------------------*/
 @media only screen and (max-width: 500px) {
+
+    /* Testimonials */
+    .testimonial-row {
+      padding: 0%;
+   }
+
+   .item-test p{
+      padding-right: 0%;
+      padding-left: 0%;
+      font-size:smaller;
+   }
+
+
+
 }
-/* About */
 @media (max-width: 990px) {
+   /* About */
    .about-text-container {
       text-align: center;
    }
-
    .about-button {
       justify-content: center;
    }
@@ -42,4 +55,17 @@
       margin-left: 5%;
       margin-right: 5%;
    }
+
+   /* Testimonials */
+   .testimonial-row {
+      padding: 0%;
+   }
+
+   .item-test p{
+      padding-right: 0%;
+      padding-left: 0%;
+      font-size: small;
+   }
+   
 }
+

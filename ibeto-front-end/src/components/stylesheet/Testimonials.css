@@ -1,5 +1,6 @@
 .testimonial-row {
-   padding: 10%;
+   padding: 7%;
+   text-align: center;
 }
 
 #quote-carousel .carousel-indicators {
@@ -19,19 +20,20 @@
    overflow: hidden;
    transition: all 0.4s ease-in;
 }
+
 #quote-carousel .carousel-indicators .active {
-   width: 90px;
-   height: 90px;
+   width: 100px;
+   height: 100px;
    opacity: 1;
    transition: all 0.2s;
 }
-.item blockquote {
-   border-left: none;
-   margin: 0;
-}
-.item blockquote p:before {
+.item-test blockquote p:before {
    content: "\f10d";
    font-family: "Fontawesome";
    float: left;
    margin-right: 10px;
+}
+.item-test p{
+   padding-right: 20%;
+   padding-left: 20%;
 }
