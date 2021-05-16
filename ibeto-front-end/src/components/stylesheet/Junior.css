@@ -10,8 +10,8 @@
    transition: all 0.2s ease;
    z-index: 100;
    position: absolute;
-   right: 70px;
-   bottom: 4px;
+   right: 30px;
+   bottom: 0px;
    font-size: 90px;
    font-weight: 900;
    cursor: pointer;
@@ -30,8 +30,8 @@
    font-family: "Poppins", sans-serif;
    position: absolute;
    bottom: 0;
-   right: 130px;
-   font-size: 60px;
+   right: 95px;
+   font-size: 65px;
    font-weight: 900;
    color: black;
 }
@@ -47,7 +47,7 @@
 .Jbutton {
    position: absolute;
    right: 30px;
-   bottom: 16px;
+   bottom: 23px;
    width: 37px;
    height: 37px;
    background-color: #da4d1d;
@@ -73,3 +73,44 @@
 .Jcard:hover .Jpic {
    filter: grayscale(0);
 }
+
+@media only screen and (max-width: 900px) {
+
+   /* Junior */
+   .Jheading {
+      left:45px;
+      font-size: 55px;
+      right: 70px;
+      bottom: 7px; 
+   }
+   .Jarrow{
+      font-size: 70px;
+      bottom: 8px;
+      right: 25px;
+   }
+ 
+}
+
+
+@media only screen and (max-width: 500px)  {
+
+  /* Junior */
+  .Jheading {
+     left:20px;
+     font-size: 40px;
+     right: 60px ;
+     bottom: 10px ; 
+  }
+  .Jarrow{
+   font-size: 65px ;
+   right: 34px ;
+  }
+  
+  .Jbutton{
+     right:20px;
+  }
+  
+
+
+}
+

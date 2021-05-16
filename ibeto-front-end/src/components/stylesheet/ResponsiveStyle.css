@@ -33,6 +33,16 @@
       font-size:smaller;
    }
 
+   /* Junior */
+   .junior {
+      padding: 90%;
+   }
+
+   .Jheading {
+      right: 130px;
+      font-size: 50px;
+      
+   }
 
 
 }
