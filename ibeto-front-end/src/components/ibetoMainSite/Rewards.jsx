@@ -2,19 +2,14 @@ import React from "react";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/CommonStyle.css";
 
-
 import two from "../images/two.jpg";
 const Rewards = () => {
    return (
-      <div className='rewards-row    mt-5 lighter-bk'>
+      <div className='rewards-row    mt-5 '>
          <div className='justify-content-center row' id='Rewards'>
-            <div className='col-md-4 col-sm-10'>
-               {/* <img src={two} width='600' /> */}
-            </div>
+            <div className='col-md-4 col-sm-10'>{/* <img src={two} width='600' /> */}</div>
             <div className='col-md-8 col-sm-10'>
-               <h2 className='heading'>
-                  Rewards
-               </h2>
+               <h2 className='heading'>Rewards</h2>
                <br />
                <ul>
                   <li> Prize pool of Rs 1 Lakh for top three performing teams </li>
