@@ -6,7 +6,8 @@ import "../stylesheet/ResponsiveStyle.css";
 const Contact = () => {
    return (
       <div className='container ' id='Contact'>
-         <h1 class='heading'>Contact Us</h1>
+         <h2 class='heading'>Contact Us</h2>
+         
          <div class='profile-container row '>
             <div class='profile-card col-md-4 col-sm-12'>
                <img src='https://i.imgur.com/bZBG9PE.jpg' alt='image1' class='profile-icon' />

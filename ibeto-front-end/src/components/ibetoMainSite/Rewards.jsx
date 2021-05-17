@@ -12,7 +12,7 @@ const Rewards = () => {
                {/* <img src={two} width='600' /> */}
             </div>
             <div className='col-md-8 col-sm-10'>
-               <h2 style={{ fontSize: "45px" }} className='heading'>
+               <h2 className='heading'>
                   Rewards
                </h2>
                <br />
