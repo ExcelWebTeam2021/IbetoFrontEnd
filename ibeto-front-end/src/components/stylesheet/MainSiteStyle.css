@@ -2,8 +2,8 @@
 
 .menu-wrap {
    position: fixed;
-   top: 0;
-   left: 0;
+   top: 2%;
+   left: 2%;
    z-index: 10;
 }
 
@@ -20,16 +20,15 @@
 
 .menu-wrap .hamburger {
    position: absolute;
-   top: 0;
-   left: 0;
    z-index: 10;
    width: 60px;
    height: 60px;
    padding: 1rem;
-   background: rgb(25, 25, 25);
+   background: #070707;
    display: flex;
    align-items: center;
    justify-content: center;
+   border-radius: 50%;
 }
 
 /* Hamburger Line */
