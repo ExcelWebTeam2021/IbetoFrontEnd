@@ -182,7 +182,7 @@
 
 /*--------------------------------- Problem Statement ---------------------------------*/
 .problem-stmt-row {
-   margin-top: 5%;
+   padding: 5%;
 }
 .card-container {
    position: relative;
@@ -191,10 +191,7 @@
 }
 
 .card {
-   margin-left: 2%;
-   margin-right: 2%;
    position: absolute;
-   height: 90%;
    width: 70%;
    transition: all 1.5s;
    backface-visibility: hidden;
@@ -209,7 +206,7 @@
 }
 
 .card-back {
-   padding: 10%;
+   padding: 15%;
    transform: rotateY(180deg);
 }
 
