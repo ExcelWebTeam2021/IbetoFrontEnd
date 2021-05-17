@@ -6,7 +6,7 @@ import "../stylesheet/ResponsiveStyle.css";
 const Contact = () => {
    return (
       <div className='container ' id='Contact'>
-         <h2 class='heading'>Contact Us</h2>
+         <h2 align="center" class='heading'>Contact Us</h2>
          
          <div class='profile-container row '>
             <div class='profile-card col-md-4 col-sm-12'>

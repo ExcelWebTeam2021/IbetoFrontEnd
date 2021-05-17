@@ -16,8 +16,10 @@ a:active {
 
 .heading {
    color: #1f2b35;
-   font-size: 35px;
-   font-family: "Mukta", sans-serif;
+   font-size: 50px;
+   font-weight:800;
+   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+   font-family: 'Montserrat', sans-serif;
 }
 
 .content {
@@ -30,7 +32,7 @@ a:active {
 }
 
 .darker-bk {
-   background-color: #070707;
+   background-color: #1A1423;
 }
 
 .lighter-bk {

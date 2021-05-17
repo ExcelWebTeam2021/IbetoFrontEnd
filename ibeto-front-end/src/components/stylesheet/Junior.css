@@ -27,13 +27,15 @@
 }
 .Jheading {
    z-index: 5;
-   font-family: "Poppins", sans-serif;
+   font-family: 'Montserrat', sans-serif;
+
    position: absolute;
    bottom: 0;
    right: 95px;
    font-size: 65px;
-   font-weight: 900;
-   color: black;
+   font-weight: 800;
+   color: #1f2b35;
+
 }
 
 .Jpic {
@@ -50,7 +52,7 @@
    bottom: 23px;
    width: 37px;
    height: 37px;
-   background-color: #da4d1d;
+   background-color: #136077;
    border: none;
    border-radius: 30px;
    cursor: pointer;
