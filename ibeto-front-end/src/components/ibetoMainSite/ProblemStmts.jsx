@@ -65,34 +65,34 @@ const ProblemStmts = () => {
       };
    }, []);
    return (
-      <div className='container problem-stmt-row ' id='ProblemStatement'>
-         <h2 style={{ fontSize: "45px" }} className='heading'>
+      <div className='container' id='ProblemStatement'>
+         <h2 className='heading mb-5'>
             Problem Statement
          </h2>
 
-         <div className='row'>
+         <div className='row  problem-stmt-row  '>
             {/* SGD1 */}
-            <div className='card-container col-md-4  col-sm-6 col-xs-12 '>
-               <div class='card card-front button-shadow' ref={sdg1}></div>
+            <div  className='card-container  col-md-4  col-sm-6 col-xs-12 '>
+               <div  class='card card-front button-shadow' ref={sdg1}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD2 */}
             <div className='card-container col-md-4  col-sm-6 col-xs-12 '>
-               <div class='card card-front button-shadow' ref={sdg2}></div>
-               <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
+               <div className='card card-front button-shadow' ref={sdg2}></div>
+               <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD3 */}
             <div className='card-container col-md-4  col-sm-6 col-xs-12 '>
-               <div class='card card-front button-shadow' ref={sdg3}></div>
-               <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
+               <div className='card card-front button-shadow' ref={sdg3}></div>
+               <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD4 */}
             <div className='card-container col-md-4  col-sm-6 col-xs-12 '>
-               <div class='card card-front button-shadow' ref={sdg4}></div>
-               <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
+               <div className='card card-front button-shadow' ref={sdg4}></div>
+               <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD5 */}
@@ -103,8 +103,8 @@ const ProblemStmts = () => {
 
             {/* SGD6 */}
             <div className='card-container col-md-4  col-sm-6 col-xs-12 '>
-               <div class='card card-front button-shadow' ref={sdg6}></div>
-               <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
+               <div className='card card-front button-shadow' ref={sdg6}></div>
+               <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
          </div>
       </div>

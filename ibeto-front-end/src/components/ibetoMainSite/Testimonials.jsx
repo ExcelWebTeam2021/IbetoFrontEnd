@@ -6,7 +6,7 @@ import "../stylesheet/Testimonials.css";
 
 const Testimonials = () => {
    return (
-      <div className='container testimonial-row'>
+      <div  id="Testimonials" className='container testimonial-row'>
          <h1 class='heading pb-4'>Testimonials</h1>
 
          <div className='row'>

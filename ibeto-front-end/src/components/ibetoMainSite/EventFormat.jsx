@@ -9,12 +9,10 @@ import three from "../images/three.jpg";
 
 export default function EventFormat() {
    return (
-      <div className='container  event-format' id='EventFormat'>
-         <div className='heading'>
-            <h1>Event Format</h1>
-         </div>
-         <div className='event-body'>
-            <div className='row'>
+      <div className='container ' id='EventFormat'>
+         <h2 className='heading mt-5'>Event Format</h2>
+      
+            <div className='row event-format'>
                <div class='col-md-4 col-sm-10 phase'>
                   {/* <img src={one} width='400' alt='' /> */}
                   <div class=''>Phase 1</div>
@@ -36,7 +34,6 @@ export default function EventFormat() {
                   <p class='event-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                </div>
             </div>
-         </div>
       </div>
    );
 }
