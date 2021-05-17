@@ -1,3 +1,4 @@
+
 .main-timeline3 .timeline3 {
    position: relative;
    margin-top: -79px;
@@ -29,8 +30,8 @@
    height: 210px;
    border-radius: 50%;
    border: 25px solid transparent;
-   border-top-color: #f44556;
-   border-right-color: #f44556;
+   border-top-color: #3f1f38;   /* Colour 1 */
+   border-right-color: #3f1f38;
    z-index: 1;
    transform: rotate(45deg);
 }
@@ -44,14 +45,14 @@
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
    font-size: 22px;
    font-weight: 700;
-   color: #f44556;
+   color: #3f1f38;
    text-align: center;
    transform: rotate(-45deg);
 }
 .main-timeline3 .timeline-content3 {
    width: 35%;
    float: right;
-   background: #f44556;
+   background: #3f1f38;
    padding: 30px 20px;
    border-radius: 6px;
    margin: 50px 0;
@@ -63,7 +64,7 @@
    content: "";
    width: 20%;
    height: 15px;
-   background: #f44556;
+   background: #3f1f38;
    position: absolute;
    top: 50%;
    left: -20%;
@@ -84,12 +85,12 @@
 }
 .main-timeline3 .timeline3:nth-child(2n) .timeline-icon3 {
    transform: rotate(-135deg);
-   border-top-color: #e97e2e;
-   border-right-color: #e97e2e;
+   border-top-color: #000000;          /* Colour 2 */
+   border-right-color: #000000;
 }
 .main-timeline3 .timeline3:nth-child(2n) .year3 {
    transform: rotate(135deg);
-   color: #e97e2e;
+   color: #000000;
 }
 .main-timeline3 .timeline3:nth-child(2n) .timeline-content3 {
    float: left;
@@ -100,30 +101,30 @@
 }
 .main-timeline3 .timeline3:nth-child(2n) .timeline-content3,
 .main-timeline3 .timeline3:nth-child(2n) .timeline-content3:before {
-   background: #e97e2e;
+   background: #000000;
 }
 
 .main-timeline3 .timeline3:nth-child(3n) .timeline-icon3 {
-   border-top-color: #13afae;
-   border-right-color: #13afae;
+   border-top-color: #161316;   /* Colour 3 */
+   border-right-color: #161316;
 }
 .main-timeline3 .timeline3:nth-child(3n) .year3 {
-   color: #13afae;
+   color: #161316;
 }
 .main-timeline3 .timeline3:nth-child(3n) .timeline-content3,
 .main-timeline3 .timeline3:nth-child(3n) .timeline-content3:before {
-   background: #13afae;
+   background: #161316;
 }
 .main-timeline3 .timeline3:nth-child(4n) .timeline-icon3 {
-   border-top-color: #105572;
-   border-right-color: #105572;
+   border-top-color: #49244b;
+   border-right-color: #49244b;
 }
 .main-timeline3 .timeline3:nth-child(4n) .year3 {
-   color: #105572;
+   color: #49244b;
 }
 .main-timeline3 .timeline3:nth-child(4n) .timeline-content3,
 .main-timeline3 .timeline3:nth-child(4n) .timeline-content3:before {
-   background: #105572;
+   background:#49244b;
 }
 @media only screen and (max-width: 1199px) {
    .main-timeline3 .timeline3 {
