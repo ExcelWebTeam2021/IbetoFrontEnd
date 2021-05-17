@@ -65,15 +65,8 @@ const ProblemStmts = () => {
       };
    }, []);
    return (
-<<<<<<< HEAD
       <div className='container' id='ProblemStatement'>
-         <h2 className='heading  mt-5 mb-5'>
-            Problem Statement
-         </h2>
-=======
-      <div className='container  ' id='ProblemStatement'>
          <h2 className='heading'>Problem Statement</h2>
->>>>>>> 9110dbc45835cac8ea45795102e8a9cfe065daa3
 
          <div className='row problem-stmt-row'>
             {/* SGD1 */}

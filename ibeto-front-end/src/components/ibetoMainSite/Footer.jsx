@@ -1,6 +1,5 @@
 import React from "react";
-import "../stylesheet/MainSiteStyle.css";
-import "../stylesheet/ResponsiveStyle.css";
+import "../stylesheet/Footer.css";
 
 const Footer = () => {
    return (
@@ -41,7 +40,29 @@ const Footer = () => {
                   <img  src='https://ibeto.excelmec.org/assets/logo.png' alt='excel logo'  />
                </a>
             </div>
+         </div>
 
+         <div className='footerIcon2' >
+            <ul className='social-icons'>
+               <li>
+                  <a href='https://www.facebook.com/excelmec/' class='social-icon'>
+                     {" "}
+                     <i class='fa fa-facebook'></i>
+                  </a>
+               </li>
+               <li>
+               <a href='https://www.instagram.com/excelmec' class='social-icon'>
+                     {" "}
+                     <i class='fa fa-instagram'></i>
+                  </a>
+               </li>
+               <li>
+                  <a href='https://www.linkedin.com/company/excelmec' class='social-icon'>
+                  {" "}
+                  <i class='fa fa-linkedin'></i>
+                  </a>
+               </li>
+            </ul>
          </div>
       </div>
    );

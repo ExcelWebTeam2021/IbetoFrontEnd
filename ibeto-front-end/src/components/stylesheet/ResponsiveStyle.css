@@ -1,4 +1,5 @@
 /* ---------------------------- Dashboard ----------------------------*/
+
 @media only screen and (max-width: 500px) {
    .dashboard-row {
       margin-right: 5%;
@@ -32,10 +33,7 @@
       font-size: smaller;
    }
 
-  
 }
-
-
 
 @media only screen and (max-width: 990px) {
    /* About */
@@ -44,6 +42,7 @@
    }
    .about-button {
       justify-content: center;
+      
    }
 
    /* Event format */

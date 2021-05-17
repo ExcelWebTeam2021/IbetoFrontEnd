@@ -1,0 +1,80 @@
+/* ------------------------------------ Footer ------------------------------------ */
+
+.footer-row {    /* Footer Container */
+   padding: 20px 2% 55px 2%;
+   text-align:center; 
+}
+.footerMec{    /* MEC icon */
+   float:left;   
+}
+.footerMec img{
+   width: 150px;
+}
+.footerExcel{  /* Excel icon*/
+   float:right;
+}
+.footerExcel img{
+   width: 150px;
+}
+
+.footerIcon{  /* Social icons */
+   display: inline-block;
+   margin:0 auto;
+}
+
+.footerIcon2{  
+    display: none;
+}
+
+.social-icons{
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+.social-icons li {
+   color: #fff;
+   vertical-align: top;
+   display: inline;
+}
+.social-icons a {
+   color: #fff;
+   text-decoration: none;
+}
+.fa-facebook, .fa-instagram, .fa-linkedin {
+   font-size: 25px;
+   padding: 10px 14px;
+   transition: 0.5s;
+}
+.fa-facebook:hover {
+   background-color: #3d5b99;
+}
+.fa-linkedin:hover {
+   background-color: #0073a4;
+}
+.fa-instagram:hover {
+   background-color: #e64a41;
+}
+
+@media only screen and (max-width: 550px) {
+    /* Footer */
+    .footerMec img{
+       width: 100px;
+    }
+    
+    .footerExcel img{
+       width: 100px;
+    }
+    .footerIcon{ 
+        display:none;
+    }
+    .footerIcon2{
+        margin-top: 50x;
+        display: block;
+        padding-bottom: 20px;
+    }
+    
+    
+}
+ 
+
+
