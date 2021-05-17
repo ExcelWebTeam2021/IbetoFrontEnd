@@ -2,8 +2,7 @@
      padding: 60px 0
     }
 #Sponsors .clients-wrap { 
-    border-top: 1px solid #d6eaff; 
-    border-left: 1px solid #d6eaff; 
+    
     margin-bottom: 30px; 
     visibility: visible; 
     animation-name: fadeInUp
@@ -22,10 +21,7 @@
      -webkit-align-items: center; 
      -ms-flex-align: center; 
      align-items: center; 
-     border-right: 1px solid #d6eaff; 
-     border-bottom: 1px solid #d6eaff; 
      overflow: hidden; 
-     background: #fff; 
      height: 160px
     }
 #Sponsors img { 
