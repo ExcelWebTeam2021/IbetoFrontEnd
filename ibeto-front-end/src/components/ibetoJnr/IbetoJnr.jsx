@@ -1,21 +1,20 @@
 import React from "react";
 import About from "./About";
-import Timeline from "./Timeline";
-import EventFormat from "./EventFormat"
-import Testimonials from "./Testimonials"
-import Navbar from "./Navbar"
-import LandingPage from "./LandingPage"
+import EventFormat from "./EventFormat";
+import Testimonials from "./Testimonials";
+import Navbar from "./Navbar";
+import LandingPage from "./LandingPage";
+import Footer from "../ibetoMainSite/Footer";
 
 const IbetoJnr = () => {
    return (
       <div>
-         <Navbar/>
-         <LandingPage/>
+         <Navbar />
+         <LandingPage />
          <About />
-         <EventFormat/>
-         <Testimonials/>
-
-         {/* <Timeline /> */}
+         <EventFormat />
+         <Testimonials />
+         <Footer />
       </div>
    );
 };
