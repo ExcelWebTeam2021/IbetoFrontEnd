@@ -308,4 +308,12 @@ iframe {
       line-height: 26px;
       margin-top: 10px;
    }
+   .progress {
+      width: 80px;
+      height: 80px;
+      line-height: 100px;
+   }
+   .progress .progress-value {
+      font-size: 12px;
+   }
 }

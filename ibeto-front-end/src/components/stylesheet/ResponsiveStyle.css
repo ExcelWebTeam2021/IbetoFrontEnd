@@ -21,19 +21,16 @@
 
 /*--------------------------------- Ibeto main page ---------------------------------*/
 @media only screen and (max-width: 500px) {
-
-    /* Testimonials */
-    .testimonial-row {
+   /* Testimonials */
+   .testimonial-row {
       padding: 0%;
    }
 
-   .item-test p{
+   .ibeto-testimonial p {
       padding-right: 0%;
       padding-left: 0%;
-      font-size:smaller;
+      font-size: smaller;
    }
-
-
 }
 @media only screen and (max-width: 990px) {
    /* About */
@@ -60,13 +57,9 @@
       padding: 0%;
    }
 
-   .item-test p{
+   .ibeto-testimonial p {
       padding-right: 0%;
       padding-left: 0%;
       font-size: small;
    }
-
-   
-   
 }
-

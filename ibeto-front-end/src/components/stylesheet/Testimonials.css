@@ -31,13 +31,13 @@
    opacity: 1;
    transition: all 0.2s;
 }
-.item-test blockquote p:before {
+.ibeto-testimonial blockquote p:before {
    content: "\f10d";
    font-family: "Fontawesome";
    float: left;
    margin-right: 10px;
 }
-.item-test p{
+.ibeto-testimonial p {
    padding-right: 20%;
    padding-left: 20%;
 }

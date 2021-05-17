@@ -1,8 +1,8 @@
 import React from "react";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/CommonStyle.css";
-import "../stylesheet/ResponsiveStyle.css";
-import "../stylesheet/Rewards.css";
+
+
 import two from "../images/two.jpg";
 const Rewards = () => {
    return (

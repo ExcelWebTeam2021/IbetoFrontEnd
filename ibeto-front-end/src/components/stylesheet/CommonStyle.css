@@ -6,7 +6,6 @@ a {
    background-color: transparent;
    color: inherit;
    text-decoration: underline;
-   -webkit-text-decoration-skip: objects;
 }
 
 a:hover,
@@ -14,6 +13,7 @@ a:active {
    outline: 0;
    text-decoration: none;
 }
+
 .heading {
    color: #1f2b35;
    font-family: "Mukta", sans-serif;

@@ -149,13 +149,25 @@
    margin: 0 auto;
 }
 
-/* About Section */
+/*-------------------------------------- Landing Page  -------------------------------------- */
+.animation-container {
+   height: 95vh;
+}
 
+/*-------------------------------------- About Section --------------------------------------*/
 .about {
    padding: 15%;
 }
+.dashboard-btn {
+   outline: 0;
+   text-decoration: none;
+}
 
-/* Event format */
+.dashboard-btn:hover {
+   color: #9c36b5;
+}
+
+/*-------------------------------------- Event format --------------------------------------*/
 .event-format {
    padding: 5%;
 }
@@ -163,8 +175,10 @@
 .phase {
    padding: 7%;
 }
-.rewards {
-   padding: 5%;
+
+/* -------------------------------------- Rewards -------------------------------------- */
+.rewards-row {
+   padding: 10%;
 }
 
 /*--------------------------------- Problem Statement ---------------------------------*/

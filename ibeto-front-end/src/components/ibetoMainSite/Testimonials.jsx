@@ -13,7 +13,7 @@ const Testimonials = () => {
             <div className='col'>
                <div className='carousel slide' data-ride='carousel' id='quote-carousel'>
                   <div className='carousel-inner'>
-                     <div className='item-test active carousel-item'>
+                     <div className='ibeto-testimonial active carousel-item'>
                         <blockquote>
                            <div className='row'>
                               <div className='col'>
@@ -27,7 +27,7 @@ const Testimonials = () => {
                         </blockquote>
                      </div>
 
-                     <div className='item-test carousel-item'>
+                     <div className='ibeto-testimonial carousel-item'>
                         <blockquote>
                            <div className='row'>
                               <div className='col'>
@@ -41,7 +41,7 @@ const Testimonials = () => {
                         </blockquote>
                      </div>
 
-                     <div className='item-test carousel-item'>
+                     <div className='ibeto-testimonial carousel-item'>
                         <blockquote>
                            <div className='row'>
                               <div className='col'>

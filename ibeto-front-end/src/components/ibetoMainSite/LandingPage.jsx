@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import lottie from "lottie-web";
 import useSound from "use-sound";
 
-import "../stylesheet/LandingPage.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
