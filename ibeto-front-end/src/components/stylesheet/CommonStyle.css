@@ -13,28 +13,29 @@ a:active {
    outline: 0;
    text-decoration: none;
 }
+body {
+   background: #1a1423;
+   overflow-x: hidden;
+}
 
 .heading {
-   color: #1f2b35;
-   font-size: 50px;
-   font-weight:800;
-   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-   font-family: 'Montserrat', sans-serif;
+   color: #1a1423;
+   font-size: 60px;
+   font-weight: 800;
+   font-family: "Montserrat", sans-serif;
+   background: -webkit-linear-gradient(right bottom, #8400ff, #db01ff);
+   -webkit-background-clip: text;
+   -webkit-text-stroke: 4px transparent;
 }
 
 .content {
-   font-family: "Hind Vadodara", sans-serif;
-   color: #898d94;
+   color: #f2f1f2;
+   font-family: "Montserrat", sans-serif;
+   font-size: 15px;
+
+   line-height: 1.6;
 }
 
 .button-shadow {
    box-shadow: 0 8px 16px rgba(53, 39, 42, 0.25);
-}
-
-.darker-bk {
-   background-color: #1A1423;
-}
-
-.lighter-bk {
-   background-color: #f1f3f5;
 }
