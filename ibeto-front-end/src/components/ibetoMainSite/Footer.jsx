@@ -4,15 +4,17 @@ import "../stylesheet/ResponsiveStyle.css";
 
 const Footer = () => {
    return (
-      <div className='footer container-fluid darker-bk {'>
-         <div className='row footer-row'>
-            <div className='col-4 '>
+      <div className='container-fluid darker-bk'>
+         <div className='footer-row'>
+
+            <div className='footerMec'>
                <a href='http://www.mec.ac.in/'>
-                  <img src='https://ibeto.excelmec.org/assets/Copy%20of%20mec_logo.png' alt='mec logo' width='140' />
+                  <img src='https://ibeto.excelmec.org/assets/Copy%20of%20mec_logo.png' alt='mec logo' />
                </a>
             </div>
-            <div className='col-4'>
-               <ul class='social-icons'>
+
+            <div className='footerIcon' >
+               <ul className='social-icons'>
                   <li>
                      <a href='https://www.facebook.com/excelmec/' class='social-icon'>
                         {" "}
@@ -33,11 +35,13 @@ const Footer = () => {
                   </li>
                </ul>
             </div>
-            <div className='col-4'>
+
+            <div className='footerExcel'>
                <a href='http://www.mec.ac.in/'>
-                  <img src='https://ibeto.excelmec.org/assets/logo.png' alt='excel logo' width='140' />
+                  <img  src='https://ibeto.excelmec.org/assets/logo.png' alt='excel logo'  />
                </a>
             </div>
+
          </div>
       </div>
    );

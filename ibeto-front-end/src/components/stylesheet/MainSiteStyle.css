@@ -177,9 +177,7 @@
 }
 
 /*--------------------------------- Problem Statement ---------------------------------*/
-.problem-stmt-row {
-   margin-top: 5%;
-}
+
 .card-container {
    position: relative;
    perspective: 200rem;
@@ -215,10 +213,31 @@
 
 /* ------------------------------------ Footer ------------------------------------ */
 
-.footer-row {
-   padding: 2%;
-   margin-left: 3%;
-   margin-right: 3%;
+.footer-row {    /* Footer Container */
+   padding: 20px 2% 55px 2%;
+   text-align:center; 
+}
+.footerMec{    /* MEC icon */
+   float:left;   
+}
+.footerMec img{
+   width: 150px;
+}
+.footerExcel{  /* Excel icon*/
+   float:right;
+}
+.footerExcel img{
+   width: 150px;
+}
+
+.footerIcon{  /* Social icons */
+   display: inline-block;
+   margin:0 auto;
+}
+.social-icons{
+   padding: 0;
+   margin: 0;
+   text-align: center;
 }
 .social-icons li {
    color: #fff;
@@ -229,7 +248,7 @@
    color: #fff;
    text-decoration: none;
 }
-.fa-facebook {
+.fa-facebook, .fa-instagram, .fa-linkedin {
    font-size: 25px;
    padding: 10px 14px;
    transition: 0.5s;
@@ -237,20 +256,13 @@
 .fa-facebook:hover {
    background-color: #3d5b99;
 }
-
-.fa-linkedin {
-   font-size: 25px;
-   padding: 10px 14px;
-   transition: 0.5s;
-}
 .fa-linkedin:hover {
    background-color: #0073a4;
-}
-.fa-instagram {
-   font-size: 25px;
-   padding: 10px 14px;
-   transition: 0.5s;
 }
 .fa-instagram:hover {
    background-color: #e64a41;
 }
+
+
+
+

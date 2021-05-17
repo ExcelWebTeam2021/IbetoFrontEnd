@@ -31,7 +31,12 @@
       padding-left: 0%;
       font-size: smaller;
    }
+
+  
 }
+
+
+
 @media only screen and (max-width: 990px) {
    /* About */
    .about-text-container {

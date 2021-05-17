@@ -66,7 +66,7 @@ const ProblemStmts = () => {
    }, []);
    return (
       <div className='container' id='ProblemStatement'>
-         <h2 className='heading mb-5'>
+         <h2 className='heading  mt-5 mb-5'>
             Problem Statement
          </h2>
 
