@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Junior from "./Junior";
 import Timeline from "./Timeline";
 import Testimonials from "./Testimonials";
+import Sponsors from "./Sponsors"
 import FAQ from "./FAQ";
 import ProblemStmts from "./ProblemStmts";
 
@@ -24,6 +25,7 @@ const IbetoMainSite = () => {
          <Timeline />
          <Junior />
          <Testimonials />
+         <Sponsors />
          <Contact />
          <FAQ />
          <Footer />
