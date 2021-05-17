@@ -54,7 +54,7 @@ const LandingPage = () => {
 
    return (
       <main>
-         <div className='animation-container darker-bk' id='Home' ref={LandingPage} />
+         <div className='animation-container ' id='Home' ref={LandingPage} />
          {/* 
          Play animation after clicking on Start btn
          <div onClick={handleClick}>
