@@ -14,25 +14,21 @@ a:active {
    text-decoration: none;
 }
 body {
-   background: #1a1423;
+   background: #f8f8f8;
    overflow-x: hidden;
 }
 
 .heading {
-   color: #1a1423;
-   font-size: 60px;
-   font-weight: 800;
+   color: #0a0a0a;
+   font-size: 40px;
+   font-weight: 600;
    font-family: "Montserrat", sans-serif;
-   background: -webkit-linear-gradient(right bottom, #8400ff, #db01ff);
-   -webkit-background-clip: text;
-   -webkit-text-stroke: 4px transparent;
 }
 
 .content {
-   color: #f2f1f2;
+   color: #0f0f0f;
    font-family: "Montserrat", sans-serif;
    font-size: 15px;
-
    line-height: 1.6;
 }
 

@@ -1,9 +1,8 @@
 /* Dashboard homepage */
-.dashboard {
-   background: #f8f9fa;
-}
+
 .white-bk {
-   background: #fff;
+   background-color: #180427;
+   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
    margin: 2%;
    margin-top: 10%;
    padding: 5%;

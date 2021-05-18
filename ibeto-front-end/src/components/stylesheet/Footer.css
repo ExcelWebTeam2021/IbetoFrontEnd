@@ -1,32 +1,38 @@
 /* ------------------------------------ Footer ------------------------------------ */
-
-.footer-row {    /* Footer Container */
+.footer {
+   background: #0d1117;
+}
+.footer-row {
+   /* Footer Container */
    padding: 20px 2% 55px 2%;
-   text-align:center; 
+   text-align: center;
 }
-.footerMec{    /* MEC icon */
-   float:left;   
+.footerMec {
+   /* MEC icon */
+   float: left;
 }
-.footerMec img{
+.footerMec img {
    width: 150px;
 }
-.footerExcel{  /* Excel icon*/
-   float:right;
+.footerExcel {
+   /* Excel icon*/
+   float: right;
 }
-.footerExcel img{
+.footerExcel img {
    width: 150px;
 }
 
-.footerIcon{  /* Social icons */
+.footerIcon {
+   /* Social icons */
    display: inline-block;
-   margin:0 auto;
+   margin: 0 auto;
 }
 
-.footerIcon2{  
-    display: none;
+.footerIcon2 {
+   display: none;
 }
 
-.social-icons{
+.social-icons {
    padding: 0;
    margin: 0;
    text-align: center;
@@ -40,7 +46,9 @@
    color: #fff;
    text-decoration: none;
 }
-.fa-facebook, .fa-instagram, .fa-linkedin {
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin {
    font-size: 25px;
    padding: 10px 14px;
    transition: 0.5s;
@@ -56,25 +64,20 @@
 }
 
 @media only screen and (max-width: 550px) {
-    /* Footer */
-    .footerMec img{
-       width: 100px;
-    }
-    
-    .footerExcel img{
-       width: 100px;
-    }
-    .footerIcon{ 
-        display:none;
-    }
-    .footerIcon2{
-        margin-top: 50x;
-        display: block;
-        padding-bottom: 20px;
-    }
-    
-    
+   /* Footer */
+   .footerMec img {
+      width: 100px;
+   }
+
+   .footerExcel img {
+      width: 100px;
+   }
+   .footerIcon {
+      display: none;
+   }
+   .footerIcon2 {
+      margin-top: 50x;
+      display: block;
+      padding-bottom: 20px;
+   }
 }
- 
-
-
