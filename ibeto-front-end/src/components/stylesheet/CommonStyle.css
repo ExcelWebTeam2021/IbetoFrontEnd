@@ -14,14 +14,14 @@ a:active {
    text-decoration: none;
 }
 body {
-   background: #f8f8f8;
+   background: #ffffff;
    overflow-x: hidden;
 }
 
 .heading {
    color: #0a0a0a;
-   font-size: 40px;
-   font-weight: 600;
+   font-size: 45px;
+   font-weight: 700;
    font-family: "Montserrat", sans-serif;
 }
 

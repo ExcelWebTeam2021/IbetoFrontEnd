@@ -34,15 +34,15 @@
    right: 95px;
    font-size: 65px;
    font-weight: 800;
-   color: #1f2b35;
+   color: #0a0a0a;
 
 }
 
 .Jpic {
    z-index: 100;
    width: 70vw;
-   height: 400px;
-   background-image: url("https://image.freepik.com/free-vector/diverse-group-children-kindergarten_74855-5811.jpg");
+   height: 500px;
+   background-image: url("https://image.freepik.com/free-vector/happy-children-jumping-summer-meadow_74855-5852.jpg");
    background-size: 100% 100%;
    filter: grayscale(50%);
 }
