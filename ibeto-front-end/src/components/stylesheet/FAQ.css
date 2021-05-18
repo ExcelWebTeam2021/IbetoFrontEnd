@@ -1,5 +1,5 @@
 .accordion .accordion-item {
-   border-bottom: 1px solid #0f0f0f;
+   border-bottom: 1px solid #dddbdb;
 }
 .accordion .accordion-item button[aria-expanded="true"] {
    border-bottom: 1px solid #03b5d2;
@@ -10,7 +10,7 @@
    text-align: left;
    width: 100%;
    padding: 1em 0;
-   color: #0f0f0f;
+   color: #0c0b0b;
    font-size: 1.15rem;
    font-weight: 400;
    border: none;

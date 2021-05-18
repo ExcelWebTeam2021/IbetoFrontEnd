@@ -15,13 +15,18 @@ const About = () => {
                <h1 class='heading mb-4 '>About</h1>
                <div className='content'>
                   <p>
-                     Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2020. It is a national level pursuit for socially relevant and technologically
-                     innovative ideas with the potential to trigger the next big social change.
+                     Innovations for a Better Tomorrow (IBeTo) is a technical 
+                     innovations competition hosted by Govt. Model Engineering College,
+                      Kochi as part of their annual national-level technical symposium, Excel 2020. 
+                      
                   </p>{" "}
                   <p>
                      {" "}
-                     IBeTo 2020, in collaboration with HAC, IEEE MEC SB and GirlScript Kochi will not only bring better ideas for developing a project but will also help in understanding the need for innovation in the real world. The vision of IBeTo 2020 is to make groundbreaking developments and
+                     The vision of IBeTo 2020 is to make groundbreaking developments and
                      implement it on a large scale in an area where technology is yet to make strides.
+                     IBeTo 2020, in collaboration with HAC, IEEE MEC SB and GirlScript Kochi will 
+                     not only bring better ideas for developing a project but will also help in understanding
+                      the need for innovation in the real world. 
                   </p>
                </div>
                <div className=''>

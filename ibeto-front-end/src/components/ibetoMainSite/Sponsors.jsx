@@ -7,7 +7,7 @@ const Sponsors = () => {
    return (
       <div className='container' id='Sponsors'>
           
-          <h2 align="center" className='heading mt-5 '>Sponsors</h2>
+          <h2 align="center" className='heading '>Sponsors</h2>
           <div className="row no-gutters clients-wrap clearfix wow fadeInUp" >
             <div className="col-lg-3 col-md-4 col-xs-6">
                 <div className="client-logo"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460149/abof.png" className="img-fluid" alt="" /> </div>

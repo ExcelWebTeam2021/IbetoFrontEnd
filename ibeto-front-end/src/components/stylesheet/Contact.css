@@ -9,11 +9,14 @@
    border-radius: 4px;
    box-shadow: 0 0 2px 0 #ccc;
    transition: 0.3s;
+   background-color: white;
+
 }
 .profile-card:hover {
    transform: scale(1.05);
    box-shadow: 0 0 25px -5px #ccc;
    z-index: 5;
+   background-color: white;
 }
 
 .profile-icon {
@@ -42,7 +45,7 @@
 
 @media screen and (max-width: 800px) {
    .profile-card {
-      padding: 20px 15px;
+      padding: 25px 15px;
    }
 
    .profile-name {
