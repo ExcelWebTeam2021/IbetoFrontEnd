@@ -6,8 +6,8 @@ import "../stylesheet/ResponsiveStyle.css";
 const FAQ = () => {
    return (
       <div className='container mt-4 mb-5' id='FAQ'>
-         <h2 className="heading FAQ-heading">Frequently Asked Questions</h2>
-         <div className='accordion'>
+         <h2 className='heading '>Frequently Asked Questions</h2>
+         <div className='accordion content'>
             <div className='accordion-item'>
                <button id='accordion-button-1' data-toggle='collapse' href='#collapseExample1' aria-expanded='false' aria-controls='collapseExample1'>
                   <span className='accordion-title'>Why is the moon sometimes out during the day?</span>

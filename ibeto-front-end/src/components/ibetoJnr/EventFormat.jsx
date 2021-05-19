@@ -3,9 +3,9 @@ import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
-import one from "../images/one.jpg";
-import two from "../images/two.jpg";
-import three from "../images/three.jpg";
+import PhaseOne from "../images/PhaseOne.svg";
+import PhaseTwo from "../images/PhaseTwo.svg";
+import PhaseThree from "../images/PhaseThree.svg";
 
 export default function EventFormat() {
    return (

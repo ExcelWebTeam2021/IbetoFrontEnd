@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/CommonStyle.css";
 
-import two from "../images/two.jpg";
+
 const Rewards = () => {
    return (
       <div className='rewards-row   pt-5 mt-5 '>
@@ -11,7 +11,7 @@ const Rewards = () => {
             <div className='col-md-8 col-sm-10'>
                <h2 className='heading'>Rewards</h2>
                <br />
-               <ul>
+               <ul className='content'>
                   <li> Prize pool of Rs 1 Lakh for top three performing teams </li>
                   <li>Opportunity to present top 3 projects in the IEEE HAC Conference and get further funding for its large scale development.</li>
                   <li>Top 10 teams can avail mentorships and seed funding to support projects into the development stage.</li>

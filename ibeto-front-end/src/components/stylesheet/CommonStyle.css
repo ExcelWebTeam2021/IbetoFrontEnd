@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap");
+
 html {
    scroll-behavior: smooth;
 }
@@ -14,24 +16,24 @@ a:active {
    text-decoration: none;
 }
 body {
-   background: #ffffff;
+   background-image: linear-gradient(#fff, #f8f9fa);
    overflow-x: hidden;
 }
 
 .heading {
-   color: #0a0a0a;
-   font-size: 45px;
-   font-weight: 700;
-   font-family: "Montserrat", sans-serif;
+   color: #2d2a31;
+   font-size: 40px;
+   font-weight: 500;
+   font-family: "Raleway", sans-serif;
 }
 
 .content {
-   color: #0f0f0f;
-   font-family: "Montserrat", sans-serif;
-   font-size: 15px;
+   color: #39343d;
+   font-family: "Open Sans", sans-serif;
+   font-size: 17px;
    line-height: 1.6;
 }
 
 .button-shadow {
-   box-shadow: 0 8px 16px rgba(53, 39, 42, 0.25);
+   box-shadow: 0 3px 16px rgba(53, 39, 42, 0.25);
 }

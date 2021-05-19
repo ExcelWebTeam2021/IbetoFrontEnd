@@ -1,9 +1,11 @@
 /* ------------------------------------ Footer ------------------------------------ */
 .footer {
    background: #0d1117;
+   width: 100.5vw;
 }
 .footer-row {
    /* Footer Container */
+
    padding: 20px 2% 55px 2%;
    text-align: center;
 }

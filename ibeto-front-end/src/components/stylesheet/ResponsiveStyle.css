@@ -32,21 +32,21 @@
       padding-left: 0%;
       font-size: smaller;
    }
-
 }
 
 @media only screen and (max-width: 990px) {
-   /* About */
-   .about-text-container {
+   .heading {
+      font-size: 30px;
       text-align: center;
    }
+   /* About */
+
    .about-button {
       justify-content: center;
-      
    }
 
    /* Event format */
-   .phase {
+   .event-format {
       margin-left: 5%;
       margin-right: 5%;
    }
@@ -67,5 +67,10 @@
       padding-right: 0%;
       padding-left: 0%;
       font-size: small;
+   }
+
+   /* FAQ */
+   .accordion-item {
+      margin-left: 5%;
    }
 }

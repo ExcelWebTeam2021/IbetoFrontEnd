@@ -6,7 +6,7 @@ import "../stylesheet/Testimonials.css";
 
 const Testimonials = () => {
    return (
-      <div  id="Testimonials" className='container testimonial-row'>
+      <div id='Testimonials' className='container testimonial-row'>
          <h1 class='heading pb-4'>Testimonials</h1>
 
          <div className='row'>
@@ -16,7 +16,7 @@ const Testimonials = () => {
                      <div className='ibeto-testimonial active carousel-item'>
                         <blockquote>
                            <div className='row'>
-                              <div className='col'>
+                              <div className='col content'>
                                  <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !
@@ -30,7 +30,7 @@ const Testimonials = () => {
                      <div className='ibeto-testimonial carousel-item'>
                         <blockquote>
                            <div className='row'>
-                              <div className='col'>
+                              <div className='col content'>
                                  <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.{" "}
@@ -44,7 +44,7 @@ const Testimonials = () => {
                      <div className='ibeto-testimonial carousel-item'>
                         <blockquote>
                            <div className='row'>
-                              <div className='col'>
+                              <div className='col content'>
                                  <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .
