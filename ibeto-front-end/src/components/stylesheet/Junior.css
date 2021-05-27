@@ -1,5 +1,6 @@
 .junior {
    padding: 10%;
+   background-color: #1a1a1a;
 }
 .Jarrow {
    opacity: 0;
@@ -27,7 +28,7 @@
 }
 .Jheading {
    z-index: 5;
-   font-family: 'Montserrat', sans-serif;
+   font-family: "Montserrat", sans-serif;
 
    position: absolute;
    bottom: 0;
@@ -35,7 +36,6 @@
    font-size: 65px;
    font-weight: 800;
    color: #0a0a0a;
-
 }
 
 .Jpic {
@@ -79,33 +79,31 @@
 @media only screen and (max-width: 900px) {
    /* Junior */
    .Jheading {
-      left:45px;
+      left: 45px;
       font-size: 55px;
       right: 70px;
-      bottom: 7px; 
+      bottom: 7px;
    }
-   .Jarrow{
+   .Jarrow {
       font-size: 70px;
       bottom: 8px;
       right: 25px;
    }
 }
 
-@media only screen and (max-width: 500px)  {
-
-  /* Junior */
-  .Jheading {
-     left:20px;
-     font-size: 40px;
-     right: 60px ;
-     bottom: 10px ; 
-  }
-  .Jarrow{
-   font-size: 65px ;
-   right: 34px ;
-  }
-  .Jbutton{
-     right:20px;
-  }
+@media only screen and (max-width: 500px) {
+   /* Junior */
+   .Jheading {
+      left: 20px;
+      font-size: 40px;
+      right: 60px;
+      bottom: 10px;
+   }
+   .Jarrow {
+      font-size: 65px;
+      right: 34px;
+   }
+   .Jbutton {
+      right: 20px;
+   }
 }
-

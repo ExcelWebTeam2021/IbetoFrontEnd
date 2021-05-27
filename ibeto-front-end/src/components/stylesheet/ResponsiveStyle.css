@@ -43,19 +43,18 @@
 /*Landing page wave*/
 /** For mobile devices **/
 @media (max-width: 767px) {
-   .custom-shape-divider-bottom-1622099896 svg {
-       width: calc(147% + 1.3px);
-       height: 110px;
+   .wave-shape-divider svg {
+      width: calc(147% + 1.3px);
+      height: 110px;
    }
 }
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-   .custom-shape-divider-bottom-1622099896 svg {
-       width: calc(140% + 1.3px);
-       height: 191px;
+   .wave-shape-divider svg {
+      width: calc(140% + 1.3px);
+      height: 191px;
    }
 }
-
 
 @media only screen and (max-width: 990px) {
    .heading {
