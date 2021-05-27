@@ -152,7 +152,29 @@
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
 .animation-container {
-   height: 95vh;
+   height: 99vh;
+   background-color: #1a1a1a;
+   position: relative;
+}
+.wave-shape-divider {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.wave-shape-divider svg {
+   position: relative;
+   display: block;
+   width: calc(144% + 1.3px);
+   height: 140px;
+}
+
+.wave-shape-divider .shape-fill {
+   fill: #ffffff;
 }
 
 /*-------------------------------------- About Section --------------------------------------*/
@@ -163,17 +185,34 @@
 .about::after {
    content: "";
    position: absolute;
-   top: 100%;
-   left: 60%;
-   width: 750px;
-   height: 100%;
+   top: 70%;
+   left: 50%;
+   width: 1050px;
+   height: 200%;
    min-width: 560px;
-   background-image: url("https://annujolly-portfolio.netlify.app/static/media/bk-pattern-right.0c130b3f.svg");
+   background-image: url("../images/RightBlob1.svg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
    z-index: -1;
-   opacity: 0.5;
+   opacity: 0.8;
+
+   animation: blob-animation 8s infinite ease-in-out;
+   animation-direction: alternate;
+}
+
+@keyframes blob-animation {
+   0% {
+      transform: scale(0.9);
+   }
+   50% {
+      transform: scale(1);
+      transform: rotate(80deg);
+   }
+   100% {
+      transform: rotate(40deg);
+      transform: scale(1.07);
+   }
 }
 
 .about-btn {
@@ -203,14 +242,42 @@
 /*-------------------------------------- Event format --------------------------------------*/
 
 .event-format {
-   padding-left: 3%;
+   margin: 5%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   /* justify-content: space-between; */
 }
 .phase {
-   padding: 5%;
+   margin: 1%;
+   background: #1a1a1a;
+   border-radius: 13px;
+   padding: 3%;
+   color: white;
+   transition: background 0.5s, border 0.7s, border-radius 0.7s, box-shadow 0.5s;
+}
+
+.phase:hover {
+   border-radius: 1px;
+   background-color: rgb(90, 48, 99);
+   box-shadow: 0px 5px 15px 5px rgb(0 0 0 / 20%);
+}
+
+.event-format-img {
+   margin-bottom: 5%;
+}
+
+.event-format-content {
+   color: #d2d5d8;
+   font-size: 15px;
+   padding-top: 5%;
 }
 /*--------------------------------- Problem Statement ---------------------------------*/
 .problem-stmt-row {
-   padding: 5%;
+   margin: 5%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
 }
 .card-container {
    position: relative;
@@ -240,6 +307,22 @@
 
 .card-back .card-body {
    position: relative;
+}
+
+/* LEFT BLOB */
+
+.LeftBlob1 {
+   position: absolute;
+   width: 100%;
+}
+
+.LeftBlob1 svg {
+   position: relative;
+   top: 1px;
+   display: block;
+   transform: translateX(-50%);
+   width: calc(70% + 1.3px);
+   opacity: 0.8;
 }
 
 /* -------------------------------------- Rewards -------------------------------------- */
