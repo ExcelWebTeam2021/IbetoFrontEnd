@@ -5,7 +5,7 @@ import "../stylesheet/Timeline.css";
 
 const Timeline = () => {
    return (
-      <div className='container mb-4' id='Timeline'>
+      <div className='container mb-4' id='Timeline'> 
          <h2 align='center' className='heading '>
             Timeline
          </h2>

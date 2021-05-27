@@ -153,7 +153,35 @@
 /*-------------------------------------- Landing Page  -------------------------------------- */
 .animation-container {
    height: 95vh;
+   background-color: #c04571;
+   position: relative;
 }
+.custom-shape-divider-bottom-1622099896 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1622099896 svg {
+   position: relative;
+   display: block;
+   width: calc(144% + 1.3px);
+   height: 191px;
+}
+
+.custom-shape-divider-bottom-1622099896 .shape-fill {
+   fill: #FFFFFF;
+}
+
+
+
+
+
+
 
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
