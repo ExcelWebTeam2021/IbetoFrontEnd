@@ -1,4 +1,6 @@
 import React from "react";
+import "../stylesheet/MainSiteStyle.css";
+import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Timeline.css";
 
 const Timeline = () => {
@@ -7,48 +9,53 @@ const Timeline = () => {
          <h2 align='center' className='heading '>
             Timeline
          </h2>
-         <div className='row'>
-            <div className='col-md-12'>
-               <div className='main-timeline3'>
-                  <div className='timeline3'>
-                     <div className='timeline-icon3'>
-                        <span className='year3'>June</span>
-                     </div>
-                     <div className='timeline-content3'>
-                        <h3 className='title3'>Web Desginer</h3>
-                        <p className='description3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-                     </div>
-                  </div>
-                  <div className='timeline3'>
-                     <div className='timeline-icon3'>
-                        <span className='year3'>July</span>
-                     </div>
-                     <div className='timeline-content3'>
-                        <h3 className='title3'>Web Developer</h3>
-                        <p className='description3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-                     </div>
-                  </div>
-                  <div className='timeline3'>
-                     <div className='timeline-icon3'>
-                        <span className='year3'>August</span>
-                     </div>
-                     <div className='timeline-content3'>
-                        <h3 className='title3'>Web Desginer</h3>
-                        <p className='description3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-                     </div>
-                  </div>
-                  <div className='timeline3'>
-                     <div className='timeline-icon3'>
-                        <span className='year3'>Sept</span>
-                     </div>
-                     <div className='timeline-content3'>
-                        <h3 className='title3'>Web Developer</h3>
-                        <p className='description3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-                     </div>
-                  </div>
+         
+         <hr />
+         <ul class='timeline'>
+            <li class='timeline-item'>
+               <div class='timeline-info'>
+                  <span>March 12, 2016</span>
                </div>
-            </div>
-         </div>
+               <div class='timeline-marker'></div>
+               <div class='timeline-content'>
+                  <h3 class='timeline-title'>Event Title</h3>
+                  Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere .
+               </div>
+            </li>
+            <li class='timeline-item'>
+               <div class='timeline-info'>
+                  <span>March 23, 2016</span>
+               </div>
+               <div class='timeline-marker'></div>
+               <div class='timeline-content'>
+                  <h3 class='timeline-title'>Event Title</h3>
+                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
+               </div>
+            </li>
+
+            <li class='timeline-item'>
+               <div class='timeline-info'>
+                  <span>April 02, 2016</span>
+               </div>
+               <div class='timeline-marker'></div>
+               <div class='timeline-content'>
+                  <h3 class='timeline-title'>Event Title</h3>
+                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
+               </div>
+            </li>
+            <li class='timeline-item'>
+               <div class='timeline-info'>
+                  <span>April 28, 2016</span>
+               </div>
+               <div class='timeline-marker'></div>
+               <div class='timeline-content'>
+                  <h3 class='timeline-title'>Event Title</h3>
+                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
+               </div>
+            </li>
+         </ul>
+     
+         
       </div>
    );
 };
