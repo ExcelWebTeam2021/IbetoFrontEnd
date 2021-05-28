@@ -1,6 +1,7 @@
 .junior {
    padding: 10%;
    background-color: #1a1a1a;
+   position: relative;
 }
 .Jarrow {
    opacity: 0;
@@ -105,5 +106,63 @@
    }
    .Jbutton {
       right: 20px;
+   }
+}
+
+
+/*.custom-shape-divider-top-1622203390 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+}
+
+.custom-shape-divider-top-1622203390 svg {
+   position: relative;
+   display: block;
+   width: calc(109% + 1.3px);
+   height: 154px;
+}
+
+.custom-shape-divider-top-1622203390 .shape-fill {
+   fill: #FFFFFF;
+}
+
+
+@media (max-width: 767px) {
+   .custom-shape-divider-top-1622203390 svg {
+       width: calc(123% + 1.3px);
+       height: 118px;
+   }
+}*/
+
+.custom-shape-divider-bottom-1622204843 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1622204843 svg {
+   position: relative;
+   display: block;
+   width: calc(108% + 1.3px);
+   height: 150px;
+}
+
+.custom-shape-divider-bottom-1622204843 .shape-fill {
+   fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+   .custom-shape-divider-bottom-1622204843 svg {
+       width: calc(124% + 1.3px);
+       height: 150px;
    }
 }
