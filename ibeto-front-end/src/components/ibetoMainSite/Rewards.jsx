@@ -9,7 +9,7 @@ const Rewards = () => {
          <div className='justify-content-center row' id='Rewards'>
             <div className='col-md-4 col-sm-10'>{/* <img src={two} width='600' /> */}</div>
             <div className='col-md-8 col-sm-10'>
-               <h2 className='heading'>Rewards</h2>
+               <h2 className='heading'>Rewar<span>ds</span></h2>
                <br />
                <ul className='content'>
                   <li> Prize pool of Rs 1 Lakh for top three performing teams </li>

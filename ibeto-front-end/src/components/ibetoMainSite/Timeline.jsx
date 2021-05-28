@@ -7,7 +7,7 @@ const Timeline = () => {
    return (
       <div className='container mb-4' id='Timeline'> 
          <h2 align='center' className='heading '>
-            Timeline
+            Timel<span>ine</span>
          </h2>
          
          <hr />

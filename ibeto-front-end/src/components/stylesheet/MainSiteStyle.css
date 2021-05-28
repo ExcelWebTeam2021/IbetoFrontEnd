@@ -152,7 +152,7 @@
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
 .animation-container {
-   height: 99vh;
+   height: 110vh;
    background-color: #1a1a1a;
    position: relative;
 }
@@ -195,7 +195,7 @@
    background-repeat: no-repeat;
    background-size: contain;
    z-index: -1;
-   opacity: 0.8;
+   opacity: 0.3;
 
    animation: blob-animation 8s infinite ease-in-out;
    animation-direction: alternate;
@@ -261,6 +261,8 @@
    border-radius: 1px;
    background-color: rgb(90, 48, 99);
    box-shadow: 0px 5px 15px 5px rgb(0 0 0 / 20%);
+   border-radius: 13px;
+
 }
 
 .event-format-img {
@@ -313,7 +315,7 @@
 
 .LeftBlob1 {
    position: absolute;
-   width: 100%;
+   width: 90%;
 }
 
 .LeftBlob1 svg {
@@ -322,7 +324,7 @@
    display: block;
    transform: translateX(-50%);
    width: calc(70% + 1.3px);
-   opacity: 0.8;
+   opacity: 0.3;
 }
 
 /* -------------------------------------- Rewards -------------------------------------- */
