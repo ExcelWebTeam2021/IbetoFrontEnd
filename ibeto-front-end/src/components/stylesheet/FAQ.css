@@ -10,7 +10,6 @@
    text-align: left;
    width: 100%;
    padding: 1em 0;
-   color: #1d1b1f;
    font-size: 1.15rem;
    font-weight: 400;
    border: none;
@@ -40,6 +39,7 @@
    height: 22px;
    border: 1px solid;
    border-radius: 22px;
+   color: #2d2d2d;
 }
 .accordion button .icon::before {
    display: block;
