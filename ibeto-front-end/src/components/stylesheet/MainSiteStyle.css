@@ -118,7 +118,6 @@
    text-align: center;
    max-width: 90vw;
    max-height: 100vh;
-
    opacity: 0;
    transition: opacity 0.4s ease;
 }
@@ -126,33 +125,33 @@
 .menu-wrap .menu > div > div > ul > li {
    list-style: none;
    font-size: 1.7rem;
-   padding: 4.2%;
-   font-weight: 600;
+   padding: 3.2%;
+   font-weight: 400;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
-   color: #d2d5d8;
+   color: #babdc0;
    text-decoration: none;
    transition: color 0.4s ease;
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover,
 .menu-wrap .menu > div > div > ul > li > a:focus {
-   color: #fff;
+   color: #ffffff;
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover:after {
    content: "";
    display: block;
    width: 50px;
-   border-bottom: 4px solid #fff;
+   border-bottom: 2px solid #f3aee7;
    margin: -2px auto;
    border-radius: 100px;
 }
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
 .animation-container {
-   height: 110vh;
+   height: 115vh;
    background-color: #1a1a1a;
    position: relative;
 }
@@ -182,39 +181,6 @@
    padding: 8%;
 }
 
-.about::after {
-   content: "";
-   position: absolute;
-   top: 70%;
-   left: 50%;
-   width: 1050px;
-   height: 200%;
-   min-width: 560px;
-   background-image: url("../images/RightBlob1.svg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: contain;
-   z-index: -1;
-   opacity: 0.3;
-
-   animation: blob-animation 8s infinite ease-in-out;
-   animation-direction: alternate;
-}
-
-@keyframes blob-animation {
-   0% {
-      transform: scale(0.9);
-   }
-   50% {
-      transform: scale(1);
-      transform: rotate(80deg);
-   }
-   100% {
-      transform: rotate(40deg);
-      transform: scale(1.07);
-   }
-}
-
 .about-btn {
    background: #58305f;
    overflow: hidden;
@@ -239,6 +205,19 @@
    color: white;
 }
 
+/* Right BLOB */
+.RightBlob1 {
+   position: absolute;
+   width: 90%;
+}
+
+.RightBlob1 svg {
+   position: relative;
+   display: block;
+   transform: translateX(50%);
+   width: calc(100% + 1.3px);
+   opacity: 0.3;
+}
 /*-------------------------------------- Event format --------------------------------------*/
 
 .event-format {
@@ -254,15 +233,14 @@
    border-radius: 13px;
    padding: 3%;
    color: white;
-   transition: background 0.5s, border 0.7s, border-radius 0.7s, box-shadow 0.5s;
+   transition: all 0.5s ease-in;
 }
 
 .phase:hover {
    border-radius: 1px;
    background-color: rgb(90, 48, 99);
    box-shadow: 0px 5px 15px 5px rgb(0 0 0 / 20%);
-   border-radius: 13px;
-
+   border-radius: 5px;
 }
 
 .event-format-img {
@@ -331,4 +309,3 @@
 .rewards-row {
    padding: 10%;
 }
-

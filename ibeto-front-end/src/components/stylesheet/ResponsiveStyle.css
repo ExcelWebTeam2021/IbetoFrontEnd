@@ -1,6 +1,9 @@
-/* ---------------------------- Dashboard ----------------------------*/
-
+/** --------------------------------------------------- For mobile devices ---------------------------------------------------**/
 @media only screen and (max-width: 500px) {
+   body {
+      overflow-x: hidden;
+   }
+   /* ------------ Dashboard ------------ */
    .dashboard-row {
       margin-right: 5%;
       margin-left: 5%;
@@ -18,10 +21,7 @@
       width: 110%;
       margin-left: 0px;
    }
-}
-
-/*--------------------------------- Ibeto main page ---------------------------------*/
-@media only screen and (max-width: 500px) {
+   /*------------ Ibeto main page ------------*/
    /* Event Format */
    .phase {
       margin: 5%;
@@ -40,23 +40,32 @@
       font-size: smaller;
    }
 }
-/*Landing page wave*/
-/** For mobile devices **/
+
+/** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
 @media (max-width: 767px) {
+   /*Landing page wave*/
    .wave-shape-divider svg {
       width: calc(147% + 1.3px);
       height: 110px;
    }
 }
-/** For tablet devices **/
+/**--------------------------------------------------- For tablet devices ----------------------------------------------------- **/
 @media (min-width: 768px) and (max-width: 1023px) {
+   body {
+      overflow-x: hidden;
+   }
    .wave-shape-divider svg {
       width: calc(140% + 1.3px);
       height: 191px;
    }
 }
 
+/**--------------------------------------------------- For desktop devices ----------------------------------------------------- **/
+
 @media only screen and (max-width: 990px) {
+   body {
+      overflow-x: hidden;
+   }
    .heading {
       font-size: 30px;
       text-align: center;

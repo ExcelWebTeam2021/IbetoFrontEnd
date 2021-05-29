@@ -6,7 +6,9 @@ import "../stylesheet/ResponsiveStyle.css";
 const FAQ = () => {
    return (
       <div className='container mt-4 mb-5' id='FAQ'>
-         <h2 className='heading '>Frequently Ask<span>ed Questions</span></h2>
+         <h2 className='heading '>
+            Frequently Ask<span>ed Questions</span>
+         </h2>
          <div className='accordion content'>
             <div className='accordion-item'>
                <button id='accordion-button-1' data-toggle='collapse' href='#collapseExample1' aria-expanded='false' aria-controls='collapseExample1'>
