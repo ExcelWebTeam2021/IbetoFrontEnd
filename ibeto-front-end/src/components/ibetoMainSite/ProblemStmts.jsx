@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import lottie from "lottie-web";
 
 import "../stylesheet/CommonStyle.css";
@@ -55,6 +57,7 @@ const ProblemStmts = () => {
          autoplay: true,
          animationData: require("./animations/SGD/sdg6.json"),
       });
+      AOS.init({ duration: 1000 })
       return () => {
          sdg1_animation.destroy();
          sdg2_animation.destroy();
@@ -65,7 +68,7 @@ const ProblemStmts = () => {
       };
    }, []);
    return (
-      <div className='container' id='ProblemStatement'>
+      <div data-aos="fade-in" className='container' id='ProblemStatement'>
          <h2 className='heading'>Problem <span>Statement</span></h2>
 
          <div className='row problem-stmt-row'>
