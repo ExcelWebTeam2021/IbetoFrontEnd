@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Link } from "react-router-dom";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 const About = () => {
+   useEffect(() => {
+      AOS.init({ duration: 1100 })
+   }, [])
+
    return (
       <div class='container-fluid about-bk' id='About'>
          <div className='row about'>
-            <div className='col-md-4 col-xs-12'>
+            <div data-aos="fade-right" className='col-md-4 col-xs-12'>
                <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' class='img-fluid' />
             </div>
-            <div className='col-md-7 col-xs-12 '>
+            <div data-aos="fade-left" className='col-md-7 col-xs-12 '>
                <h2 class='heading mb-4 '>
                   Abo<span>ut</span>
                </h2>

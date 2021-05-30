@@ -1,9 +1,15 @@
-import React from "react";
+import React,{ useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Timeline.css";
 
 const Timeline = () => {
+   useEffect(()=>{
+      AOS.init({ duration:1000})
+   }, [])
+
    return (
       <div className='container mb-4' id='timeline'>
          <h2 align='center' className='heading '>
@@ -16,7 +22,7 @@ const Timeline = () => {
                      <span>March 12, 2016</span>
                   </div>
                   <div class='mainsite-timeline-marker'></div>
-                  <div class='mainsite-timeline-content'>
+                  <div data-aos="fade-left" class='mainsite-timeline-content'>
                      <h3 class='mainsite-timeline-title'>Event Title</h3>
                      Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere
                   </div>
@@ -26,7 +32,7 @@ const Timeline = () => {
                      <span>March 23, 2016</span>
                   </div>
                   <div class='mainsite-timeline-marker'></div>
-                  <div class='mainsite-timeline-content'>
+                  <div data-aos="fade-left" data-aos-delay="200" class='mainsite-timeline-content'>
                      <h3 class='mainsite-timeline-title'>Event Title</h3>
                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere </p>
                   </div>
@@ -37,7 +43,7 @@ const Timeline = () => {
                      <span>April 02, 2016</span>
                   </div>
                   <div class='mainsite-timeline-marker'></div>
-                  <div class='mainsite-timeline-content'>
+                  <div data-aos="fade-left" data-aos-delay="200" class='mainsite-timeline-content'>
                      <h3 class='mainsite-timeline-title'>Event Title</h3>
                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere</p>
                   </div>
@@ -47,7 +53,7 @@ const Timeline = () => {
                      <span>April 28, 2016</span>
                   </div>
                   <div class='mainsite-timeline-marker'></div>
-                  <div class='mainsite-timeline-content'>
+                  <div data-aos="fade-left" data-aos-delay="200" class='mainsite-timeline-content'>
                      <h3 class='mainsite-timeline-title'>Event Title</h3>
                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere</p>
                   </div>
