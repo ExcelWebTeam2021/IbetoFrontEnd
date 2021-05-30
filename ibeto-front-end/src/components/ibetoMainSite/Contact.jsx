@@ -15,7 +15,7 @@ const Contact = () => {
          <h2 align="center" class='heading'>Contact <span>us</span></h2>
          
          <div class='profile-container row '>
-            <div data-aos="fade-in"class='profile-card only-start col-md-4 col-sm-12'>
+            <div data-aos="fade-in" class='profile-card only-start col-md-4 col-sm-12'>
                <img src='https://i.imgur.com/bZBG9PE.jpg' alt='image1' class='profile-icon' />
                <div class='profile-name'>Kelly Seikma</div>
                <div class='profile-position'>Web Designer</div>

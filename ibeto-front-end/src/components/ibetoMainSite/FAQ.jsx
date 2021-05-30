@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/FAQ.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 const FAQ = () => {
    useEffect(() => {
-      AOS.init({ duration: 1100 })
-   }, [])
+      AOS.init({ duration: 1100 });
+   }, []);
 
    return (
-      <div data-aos="fade-in" className='container mt-4 mb-5' id='FAQ'>
+      <div data-aos='fade-in' className='container mt-4 mb-5' id='FAQ' data-aos-delay='250'>
          <h2 className='heading '>
             Frequently Ask<span>ed Questions</span>
          </h2>

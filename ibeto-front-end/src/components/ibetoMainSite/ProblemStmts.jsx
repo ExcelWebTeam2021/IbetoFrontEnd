@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import lottie from "lottie-web";
 
 import "../stylesheet/CommonStyle.css";
@@ -57,7 +57,7 @@ const ProblemStmts = () => {
          autoplay: true,
          animationData: require("./animations/SGD/sdg6.json"),
       });
-      AOS.init({ duration: 1000 })
+      AOS.init({ duration: 1000 });
       return () => {
          sdg1_animation.destroy();
          sdg2_animation.destroy();
@@ -68,42 +68,44 @@ const ProblemStmts = () => {
       };
    }, []);
    return (
-      <div data-aos="fade-in" className='container' id='ProblemStatement'>
-         <h2 className='heading'>Problem <span>Statement</span></h2>
+      <div className='container' id='ProblemStatement'>
+         <h2 className='heading'>
+            Problem <span>Statement</span>
+         </h2>
 
          <div className='row problem-stmt-row'>
             {/* SGD1 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 '>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down'>
                <div class='card card-front button-shadow' ref={sdg1}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD2 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 '>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='150'>
                <div class='card card-front button-shadow' ref={sdg2}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD3 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 '>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='250'>
                <div class='card card-front button-shadow' ref={sdg3}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD4 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 '>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='350'>
                <div class='card card-front button-shadow' ref={sdg4}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD5 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 '>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='450'>
                <div class='card card-front button-shadow' ref={sdg5}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD6 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 '>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='550'>
                <div class='card card-front button-shadow' ref={sdg6}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
