@@ -68,6 +68,13 @@ const LandingPage = () => {
          </div> */}
 
          {/* <audio src={audio} muted={false} autoPlay controls={Control} /> */}
+
+         {/* Blob */}
+         <div className='RightBlob1'>
+            <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
+               <path fill='#E9ECEF' d='M54.3,-23.2C60.6,1.8,49.2,26.9,27.7,43.9C6.2,60.9,-25.5,69.7,-47.3,56C-69.2,42.3,-81.3,5.9,-71.8,-23.5C-62.3,-52.9,-31.2,-75.4,-3.6,-74.3C24,-73.1,48,-48.2,54.3,-23.2Z' transform='translate(100 100)' />
+            </svg>
+         </div>
       </main>
    );
 };

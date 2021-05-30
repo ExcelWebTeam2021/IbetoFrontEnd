@@ -1,20 +1,25 @@
 .profile-container {
    padding: 5%;
+   
 }
 .profile-card {
-   padding: 20px 60px;
+   padding: 40px 60px;
    display: flex;
    flex-direction: column;
    align-items: center;
    border-radius: 4px;
-   box-shadow: 0 0 2px 0 #ccc;
-   transition: 0.3s;
+   border: rgb(250, 250, 250) solid 3px;
+   transition: 0.2s;
+   
 }
 .profile-card:hover {
-   transform: scale(1.05);
-   box-shadow: 0 0 25px -5px #ccc;
-   z-index: 5;
-   background-color: rgb(250, 250, 250);
+   transform: scale(1.06);
+   box-shadow: rgba(41, 41, 43, 0.2) 0px 7px 29px 0px;
+
+   z-index: 10;
+   border: none;
+
+   
 }
 
 .profile-icon {
@@ -23,6 +28,16 @@
    object-fit: cover;
    border-radius: 50%;
 }
+
+.only-start{
+   background: linear-gradient(
+     to bottom,
+     rgb(34, 33, 33),
+     rgb(34, 33, 33) 100px,
+     white 1rem,
+     white 100%
+   );
+ }
 
 .profile-name {
    font-size: 24px;

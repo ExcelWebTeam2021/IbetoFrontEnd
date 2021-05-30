@@ -6,18 +6,18 @@ import "../stylesheet/Testimonials.css";
 
 const Testimonials = () => {
    return (
-      <div className='container testimonial-row'>
-         <h1 class='heading pb-4'>Testimonials</h1>
+      <div id='Junior-Testimonials' className='container testimonial-row'>
+         <h1 class='heading pb-4'>Testim<span>onials</span></h1>
 
          <div className='row'>
             <div className='col'>
                <div className='carousel slide' data-ride='carousel' id='quote-carousel'>
                   <div className='carousel-inner'>
-                     <div className='item-test active carousel-item'>
+                     <div className='ibeto-testimonial active carousel-item'>
                         <blockquote>
                            <div className='row'>
-                              <div className='col'>
-                                 <p>
+                              <div className='col content'>
+                                 <p >
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !
                                  </p>
@@ -27,10 +27,10 @@ const Testimonials = () => {
                         </blockquote>
                      </div>
 
-                     <div className='item-test carousel-item'>
+                     <div className='ibeto-testimonial carousel-item'>
                         <blockquote>
                            <div className='row'>
-                              <div className='col'>
+                              <div className='col content'>
                                  <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.{" "}
@@ -41,10 +41,10 @@ const Testimonials = () => {
                         </blockquote>
                      </div>
 
-                     <div className='item-test carousel-item'>
+                     <div className='ibeto-testimonial carousel-item'>
                         <blockquote>
                            <div className='row'>
-                              <div className='col'>
+                              <div className='col content'>
                                  <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .
@@ -71,7 +71,7 @@ const Testimonials = () => {
             </div>
          </div>
       </div>
-   );
+    );
 };
 
 export default Testimonials;

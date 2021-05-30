@@ -14,7 +14,7 @@ const Faq = () => {
             </div>
 
             <div class='col-md-12 '>
-               <div class='faq' id='accordion'>
+               <div class='faq content' id='accordion'>
                   <div class='faq-card'>
                      <div class='faq-card-header' id='faqHeading-1'>
                         <div class='mb-0'>

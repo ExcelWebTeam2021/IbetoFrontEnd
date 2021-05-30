@@ -9,7 +9,7 @@ import PhaseTwo from "../images/PhaseTwo.svg";
 const EventFormat = () => {
    return (
       <div className='container-fluid ' id='EventFormat'>
-         <h2 className='container heading mt-5'>Event Format</h2>
+         <h2 className='container heading mt-5'>Event<span> Format</span></h2>
 
          <div className='row event-format'>
             <div class='col-md-3 col-sm-10 phase'>

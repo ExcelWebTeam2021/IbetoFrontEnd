@@ -66,7 +66,7 @@ const ProblemStmts = () => {
    }, []);
    return (
       <div className='container' id='ProblemStatement'>
-         <h2 className='heading'>Problem Statement</h2>
+         <h2 className='heading'>Problem <span>Statement</span></h2>
 
          <div className='row problem-stmt-row'>
             {/* SGD1 */}

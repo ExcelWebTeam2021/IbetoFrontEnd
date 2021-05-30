@@ -37,6 +37,8 @@
    font-family: "Fontawesome";
    float: left;
    margin-right: 10px;
+   color: rgb(146, 23, 99);
+   font-size: larger;
 }
 .ibeto-testimonial p {
    padding-right: 20%;

@@ -1,6 +1,7 @@
 .junior {
    padding: 10%;
    background-color: #1a1a1a;
+   position: relative;
 }
 .Jarrow {
    opacity: 0;
@@ -105,5 +106,62 @@
    }
    .Jbutton {
       right: 20px;
+   }
+}
+
+.wave-shape-divider-top-ibetoJnr {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+}
+
+.wave-shape-divider-top-ibetoJnr svg {
+   position: relative;
+   display: block;
+   width: calc(130% + 1.3px);
+   height: 178px;
+}
+
+.wave-shape-divider-top-ibetoJnr .shape-fill {
+   fill: #ffffff;
+}
+
+@media (max-width: 767px) {
+   .wave-shape-divider-top-ibetoJnr svg {
+      width: calc(123% + 1.3px);
+      height: 118px;
+   }
+}
+
+/* 
+.custom-shape-divider-bottom-1622204843 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1622204843 svg {
+   position: relative;
+   display: block;
+   width: calc(108% + 1.3px);
+   height: 150px;
+}
+
+.custom-shape-divider-bottom-1622204843 .shape-fill {
+   fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+   .custom-shape-divider-bottom-1622204843 svg {
+      width: calc(124% + 1.3px);
+      height: 150px;
    }
 }

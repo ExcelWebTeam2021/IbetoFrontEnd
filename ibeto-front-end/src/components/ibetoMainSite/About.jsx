@@ -12,7 +12,9 @@ const About = () => {
                <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' class='img-fluid' />
             </div>
             <div className='col-md-7 col-xs-12 '>
-               <h1 class='heading mb-4 '>About</h1>
+               <h2 class='heading mb-4 '>
+                  Abo<span>ut</span>
+               </h2>
                <div className='content'>
                   <p>Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2020.</p>{" "}
                   <p>

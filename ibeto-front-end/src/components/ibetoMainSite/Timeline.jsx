@@ -5,57 +5,55 @@ import "../stylesheet/Timeline.css";
 
 const Timeline = () => {
    return (
-      <div className='container mb-4' id='Timeline'> 
+      <div className='container mb-4' id='timeline'>
          <h2 align='center' className='heading '>
-            Timeline
+            Timel<span>ine</span>
          </h2>
-         
-         <hr />
-         <ul class='timeline'>
-            <li class='timeline-item'>
-               <div class='timeline-info'>
-                  <span>March 12, 2016</span>
-               </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
-                  Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere .
-               </div>
-            </li>
-            <li class='timeline-item'>
-               <div class='timeline-info'>
-                  <span>March 23, 2016</span>
-               </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
-                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
-               </div>
-            </li>
+         <div className='row mainsite-timeline-row '>
+            <ul class='mainsite-timeline'>
+               <li class='mainsite-timeline-item'>
+                  <div class='mainsite-timeline-info'>
+                     <span>March 12, 2016</span>
+                  </div>
+                  <div class='mainsite-timeline-marker'></div>
+                  <div class='mainsite-timeline-content'>
+                     <h3 class='mainsite-timeline-title'>Event Title</h3>
+                     Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere
+                  </div>
+               </li>
+               <li class='mainsite-timeline-item'>
+                  <div class='mainsite-timeline-info'>
+                     <span>March 23, 2016</span>
+                  </div>
+                  <div class='mainsite-timeline-marker'></div>
+                  <div class='mainsite-timeline-content'>
+                     <h3 class='mainsite-timeline-title'>Event Title</h3>
+                     <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere </p>
+                  </div>
+               </li>
 
-            <li class='timeline-item'>
-               <div class='timeline-info'>
-                  <span>April 02, 2016</span>
-               </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
-                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
-               </div>
-            </li>
-            <li class='timeline-item'>
-               <div class='timeline-info'>
-                  <span>April 28, 2016</span>
-               </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
-                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
-               </div>
-            </li>
-         </ul>
-     
-         
+               <li class='mainsite-timeline-item'>
+                  <div class='mainsite-timeline-info'>
+                     <span>April 02, 2016</span>
+                  </div>
+                  <div class='mainsite-timeline-marker'></div>
+                  <div class='mainsite-timeline-content'>
+                     <h3 class='mainsite-timeline-title'>Event Title</h3>
+                     <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere</p>
+                  </div>
+               </li>
+               <li class='mainsite-timeline-item'>
+                  <div class='mainsite-timeline-info'>
+                     <span>April 28, 2016</span>
+                  </div>
+                  <div class='mainsite-timeline-marker'></div>
+                  <div class='mainsite-timeline-content'>
+                     <h3 class='mainsite-timeline-title'>Event Title</h3>
+                     <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
       </div>
    );
 };
