@@ -20,7 +20,7 @@ const EventFormat = () => {
          </h2>
 
          <div className='row event-format'>
-            <div data-aos='fade-in' class='col-md-3 col-sm-10 phase'>
+            <div data-aos='fade-in' class='col-md-3 col-sm-10 phase '>
                <img className='event-format-img img-fluid' src={PhaseTwo} width='100' alt='' />
                <div class=''>Phase 1</div>
                <h3 class='event-title'>Ideate</h3>

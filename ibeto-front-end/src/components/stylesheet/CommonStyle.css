@@ -37,7 +37,3 @@ body {
    font-size: 17px;
    line-height: 1.6;
 }
-
-.button-shadow {
-   box-shadow: rgba(149, 157, 165, 0.2) 5px 10px 20px;
-}

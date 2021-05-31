@@ -232,16 +232,14 @@
    background: #fff;
    border-radius: 13px;
    padding: 3%;
-   box-shadow: rgba(149, 157, 165, 0.2) 5px 10px 20px;
    color: #1a1a1a;
-   transition: all 0.5s ease-in;
+   box-shadow: rgba(143, 119, 142, 0.2) 5px 10px 20px;
+   /* box-shadow: 6px 6px 10px 1px #f11f1f; */
+   transition: background-color 10s ease-in;
 }
 
 .phase:hover {
-   border-radius: 1px;
-   background-color: rgb(252, 247, 253);
-
-   border-radius: 5px;
+   background-color: #1a1a1a;
 }
 
 .event-format-img {
@@ -294,7 +292,7 @@
 
 .LeftBlob1 {
    position: absolute;
-   width: 90%;
+   width: 100%;
 }
 
 .LeftBlob1 svg {
