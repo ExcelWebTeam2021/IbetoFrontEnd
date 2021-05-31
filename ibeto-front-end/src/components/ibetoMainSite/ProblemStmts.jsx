@@ -20,42 +20,42 @@ const ProblemStmts = () => {
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/sdg1.json"),
+         animationData: require("./animations/SGD/GoodHealth.json"),
       });
       const sdg2_animation = lottie.loadAnimation({
          container: sdg2.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/sdg2.json"),
+         animationData: require("./animations/SGD/GoodHealth.json"),
       });
       const sdg3_animation = lottie.loadAnimation({
          container: sdg3.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/sdg3.json"),
+         animationData: require("./animations/SGD/GoodHealth.json"),
       });
       const sdg4_animation = lottie.loadAnimation({
          container: sdg4.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/sdg4.json"),
+         animationData: require("./animations/SGD/QualityEducation.json"),
       });
       const sdg5_animation = lottie.loadAnimation({
          container: sdg5.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/sdg5.json"),
+         animationData: require("./animations/SGD/GoodHealth.json"),
       });
       const sdg6_animation = lottie.loadAnimation({
          container: sdg6.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/sdg6.json"),
+         animationData: require("./animations/SGD/GoodHealth.json"),
       });
       AOS.init({ duration: 1000 });
       return () => {
@@ -75,37 +75,37 @@ const ProblemStmts = () => {
 
          <div className='row problem-stmt-row'>
             {/* SGD1 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in'>
                <div class='card card-front button-shadow' ref={sdg1}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD2 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='150'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='150'>
                <div class='card card-front button-shadow' ref={sdg2}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD3 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='250'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='250'>
                <div class='card card-front button-shadow' ref={sdg3}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD4 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='350'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='350'>
                <div class='card card-front button-shadow' ref={sdg4}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD5 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='450'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='450'>
                <div class='card card-front button-shadow' ref={sdg5}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD6 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-down' data-aos-delay='550'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='550'>
                <div class='card card-front button-shadow' ref={sdg6}></div>
                <div class='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>

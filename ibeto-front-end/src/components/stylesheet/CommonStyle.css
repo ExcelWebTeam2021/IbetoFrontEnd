@@ -27,7 +27,7 @@ body {
    font-family: "Raleway", sans-serif;
 }
 
-.heading span{
+.heading span {
    color: rgb(146, 23, 99);
 }
 
@@ -39,5 +39,5 @@ body {
 }
 
 .button-shadow {
-   box-shadow: 0 3px 16px rgba(53, 39, 42, 0.25);
+   box-shadow: rgba(149, 157, 165, 0.2) 5px 10px 20px;
 }
