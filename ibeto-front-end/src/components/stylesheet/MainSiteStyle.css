@@ -152,7 +152,7 @@
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
 .animation-container {
-   height: 115vh;
+   height: 111vh;
    background-color: #1a1a1a;
    position: relative;
 }
@@ -224,6 +224,7 @@
 
 .event-format {
    margin: 5%;
+   margin-top: 40px;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
