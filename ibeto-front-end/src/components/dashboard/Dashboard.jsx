@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Faq from "./Faq";
 import SubmissionForm from "./SubmissionForm";
 import Timeline from "./Timeline";
@@ -8,6 +8,9 @@ import "../stylesheet/Dashboard.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 const Dashboard = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+   }, []);
    return (
       <div className='container-fluid  dashboard'>
          <div className='row dashboard-row'>

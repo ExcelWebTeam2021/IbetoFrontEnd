@@ -67,7 +67,7 @@ const LandingPage = () => {
             <button onClick={play}>Start</button>
          </div> */}
 
-         {/* <audio src={audio} muted={false} autoPlay controls={Control} /> */}
+         {/* <audio src={audio} muted={false} autoPlay controls='True' /> */}
 
          {/* Blob */}
          <div className='RightBlob1'>

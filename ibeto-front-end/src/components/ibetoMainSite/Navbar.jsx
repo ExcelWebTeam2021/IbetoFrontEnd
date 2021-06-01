@@ -11,10 +11,10 @@ const Navbar = () => {
          <div class='hamburger'>
             <div></div>
          </div>
-         <div  class='menu'>
+         <div class='menu'>
             <div>
                <div>
-                  <ul   style={{padding:"0"}} class='overlay-content pt-2'>
+                  <ul style={{ padding: "0" }} class='overlay-content pt-2'>
                      <li onClick={handleClick}>
                         <a href='#Home'>Home</a>
                      </li>
@@ -33,7 +33,7 @@ const Navbar = () => {
                      <li onClick={handleClick}>
                         <a href='#Timeline'>Timeline</a>
                      </li>
-                     <li onClick={handleClick}>
+                     {/* <li onClick={handleClick}>
                         <a href='#Testimonials'>Testimonials</a>
                      </li>
                      <li onClick={handleClick}>
@@ -45,7 +45,7 @@ const Navbar = () => {
                      </li>
                      <li onClick={handleClick}>
                         <a href='#FAQ'>FAQ</a>
-                     </li>
+                     </li> */}
                   </ul>
                </div>
             </div>

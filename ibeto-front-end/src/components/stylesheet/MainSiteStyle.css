@@ -24,7 +24,7 @@
    width: 60px;
    height: 60px;
    padding: 1rem;
-   background: #070707;
+   background: #1a1a1a;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -126,12 +126,13 @@
    list-style: none;
    font-size: 1.7rem;
    padding: 3.2%;
-   font-weight: 400;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
    color: #babdc0;
+   font-family: "Raleway", sans-serif;
    text-decoration: none;
+   /* font-weight: 500; */
    transition: color 0.4s ease;
 }
 
@@ -162,6 +163,7 @@
    width: 100%;
    overflow: hidden;
    line-height: 0;
+   margin-top: 50%;
    transform: rotate(180deg);
 }
 
@@ -233,7 +235,7 @@
    border-radius: 13px;
    padding: 3%;
    color: #1a1a1a;
-   box-shadow: rgba(143, 119, 142, 0.2) 5px 10px 20px;
+   box-shadow: rgba(143, 129, 119, 0.2) 5px 10px 20px;
    /* box-shadow: 6px 6px 10px 1px #f11f1f; */
    transition: background-color 10s ease-in;
 }
@@ -262,6 +264,7 @@
    position: relative;
    perspective: 200rem;
    height: 300px;
+   border-radius: 100%;
 }
 
 .card {
@@ -269,6 +272,7 @@
    width: 70%;
    transition: all 1.5s;
    backface-visibility: hidden;
+   border-radius: 100%;
 }
 
 .card-container:hover .card-front {
@@ -307,4 +311,18 @@
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {
    padding: 10%;
+}
+
+/* CHANGE */
+.RightBlob2 {
+   position: absolute;
+   width: 90%;
+}
+
+.RightBlob2 svg {
+   position: relative;
+   display: block;
+   transform: translateX(50%);
+   width: calc(100% + 1.3px);
+   opacity: 0.3;
 }

@@ -39,6 +39,12 @@
       padding-left: 0%;
       font-size: smaller;
    }
+
+   /* Sponsers */
+
+   #Sponsors .client-logo {
+      padding: 30px;
+   }
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/

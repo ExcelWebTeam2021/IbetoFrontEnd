@@ -15,7 +15,7 @@ const LandingPage = () => {
          autoplay: true,
          animationData: require("./animations/LandingPageAnimation.json"),
       });
-
+      window.scrollTo(0, 0);
       return () => {
          anime1.destroy();
       }; // clean up for unmounting
