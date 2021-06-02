@@ -265,7 +265,6 @@
    position: relative;
    perspective: 200rem;
    height: 300px;
-   border-radius: 100%;
 }
 
 .card {
@@ -273,7 +272,7 @@
    width: 70%;
    transition: all 1.5s;
    backface-visibility: hidden;
-   border-radius: 100%;
+   border-radius: 5px;
 }
 
 .card-container:hover .card-front {

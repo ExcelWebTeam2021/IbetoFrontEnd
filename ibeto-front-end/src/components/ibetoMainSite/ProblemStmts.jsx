@@ -27,14 +27,14 @@ const ProblemStmts = () => {
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/GoodHealth.json"),
+         animationData: require("./animations/SGD/Affordable.json"),
       });
       const sdg3_animation = lottie.loadAnimation({
          container: sdg3.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/GoodHealth.json"),
+         animationData: require("./animations/SGD/GenderEquality.json"),
       });
       const sdg4_animation = lottie.loadAnimation({
          container: sdg4.current,
@@ -48,14 +48,14 @@ const ProblemStmts = () => {
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/GoodHealth.json"),
+         animationData: require("./animations/SGD/climateActionsdg.json"),
       });
       const sdg6_animation = lottie.loadAnimation({
          container: sdg6.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/GoodHealth.json"),
+         animationData: require("./animations/SGD/innovation.json"),
       });
       AOS.init({ duration: 1000 });
       return () => {
