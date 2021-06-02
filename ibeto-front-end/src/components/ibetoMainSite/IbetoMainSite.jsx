@@ -16,6 +16,7 @@ import ProblemStmts from "./ProblemStmts";
 const IbetoMainSite = () => {
    return (
       <div>
+         
          <Navbar />
          <LandingPage />
          <About />
