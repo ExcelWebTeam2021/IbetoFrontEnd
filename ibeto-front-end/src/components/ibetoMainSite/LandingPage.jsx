@@ -54,7 +54,7 @@ const LandingPage = () => {
 
    return (
       <main>
-         <div className='hidden-div' >
+         <div className='hidden-div'>
             {" "}
             <embed src='https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' loop={false} hidden={false} autostart='true' />
          </div>
