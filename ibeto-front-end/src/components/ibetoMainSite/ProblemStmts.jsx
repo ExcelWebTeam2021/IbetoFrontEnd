@@ -110,7 +110,7 @@ const ProblemStmts = () => {
                <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
          </div>
-         <div className='LeftBlob1'>
+         {/* <div className='LeftBlob1'>
             <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
                <path
                   fill='#E9ECEF'
@@ -118,7 +118,7 @@ const ProblemStmts = () => {
                   transform='translate(100 100)'
                />
             </svg>
-         </div>
+         </div> */}
       </div>
    );
 };
