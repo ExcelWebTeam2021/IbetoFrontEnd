@@ -12,12 +12,12 @@ const Testimonials = () => {
    }, []);
    return (
       <div data-aos='fade-in' id='Testimonials' className='container testimonial-row'>
-         <h1 class='heading pb-4'>
+         <h1 className='heading pb-4'>
             Testim<span>onials</span>
          </h1>
 
          <div className='row'>
-            <a data-slide='prev' href='#quote-carousel' class='carousel-control left'>
+            <a data-slide='prev' href='#quote-carousel' className='carousel-control left'>
                ‹
             </a>
             <div className='col'>
@@ -79,7 +79,7 @@ const Testimonials = () => {
                   </ol>
                </div>
             </div>
-            <a data-slide='next' href='#quote-carousel' class='carousel-control right'>
+            <a data-slide='next' href='#quote-carousel' className='carousel-control right'>
                ›
             </a>
          </div>
