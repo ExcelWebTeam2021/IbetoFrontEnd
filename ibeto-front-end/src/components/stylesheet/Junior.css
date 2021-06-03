@@ -129,11 +129,12 @@
    fill: #ffffff;
 }
 
+/** For mobile devices **/
 @media (max-width: 767px) {
-   .wave-shape-divider-top-ibetoJnr svg {
-      width: calc(123% + 1.3px);
-      height: 118px;
-   }
+   .custom-shape-divider-top-1622690427 svg {
+      width: calc(165% + 1.3px);
+      height: 86px;
+  }
 }
 
 /* 
