@@ -21,7 +21,7 @@ const LandingPage = () => {
    //       autoplay: { Autoplay },
    //       animationData: require("./animations/LandingPageAnimation.json"),
    //    });
-   // };
+   // };z
    useEffect(() => {
       // var promise = audioRef.current.play();
       // if (promise !== undefined) {
