@@ -13,7 +13,7 @@ const Rewards = () => {
       <div className='rewards-row   pt-5 mt-5 '>
          <div className='justify-content-center row' id='Rewards'>
             <div data-aos='fade-right' className='col-md-4 col-sm-10'>
-               <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' class='img-fluid' />
+               <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' className='img-fluid' />
             </div>
 
             <div className='col-md-8 col-sm-10' data-aos='fade-left'>

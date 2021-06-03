@@ -67,7 +67,7 @@ const Sponsors = () => {
             </div>
          </div>
 
-         <div className='LeftBlob2'>
+         {/* <div className='LeftBlob2'>
             <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
                <path
                   fill='#E9ECEF'
@@ -75,7 +75,7 @@ const Sponsors = () => {
                   transform='translate(100 100)'
                />
             </svg>
-         </div>
+         </div> */}
       </div>
    );
 };

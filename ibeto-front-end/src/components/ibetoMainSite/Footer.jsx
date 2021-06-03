@@ -14,21 +14,21 @@ const Footer = () => {
             <div className='footerIcon'>
                <ul className='social-icons'>
                   <li>
-                     <a href='https://www.facebook.com/excelmec/' class='social-icon'>
+                     <a href='https://www.facebook.com/excelmec/' className='social-icon'>
                         {" "}
-                        <i class='fa fa-facebook'></i>
+                        <i className='fa fa-facebook'></i>
                      </a>
                   </li>
                   <li>
-                     <a href='https://www.instagram.com/excelmec' class='social-icon'>
+                     <a href='https://www.instagram.com/excelmec' className='social-icon'>
                         {" "}
-                        <i class='fa fa-instagram'></i>
+                        <i className='fa fa-instagram'></i>
                      </a>
                   </li>
                   <li>
-                     <a href='https://www.linkedin.com/company/excelmec' class='social-icon'>
+                     <a href='https://www.linkedin.com/company/excelmec' className='social-icon'>
                         {" "}
-                        <i class='fa fa-linkedin'></i>
+                        <i className='fa fa-linkedin'></i>
                      </a>
                   </li>
                </ul>
@@ -44,21 +44,21 @@ const Footer = () => {
          <div className='footerIcon2'>
             <ul className='social-icons'>
                <li>
-                  <a href='https://www.facebook.com/excelmec/' class='social-icon'>
+                  <a href='https://www.facebook.com/excelmec/' className='social-icon'>
                      {" "}
-                     <i class='fa fa-facebook'></i>
+                     <i className='fa fa-facebook'></i>
                   </a>
                </li>
                <li>
-                  <a href='https://www.instagram.com/excelmec' class='social-icon'>
+                  <a href='https://www.instagram.com/excelmec' className='social-icon'>
                      {" "}
-                     <i class='fa fa-instagram'></i>
+                     <i className='fa fa-instagram'></i>
                   </a>
                </li>
                <li>
-                  <a href='https://www.linkedin.com/company/excelmec' class='social-icon'>
+                  <a href='https://www.linkedin.com/company/excelmec' className='social-icon'>
                      {" "}
-                     <i class='fa fa-linkedin'></i>
+                     <i className='fa fa-linkedin'></i>
                   </a>
                </li>
             </ul>
