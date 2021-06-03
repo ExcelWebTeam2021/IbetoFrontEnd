@@ -1,328 +1,331 @@
 /*------------------ Navbar Section ------------------------------*/
 
 .menu-wrap {
-   position: fixed;
-   top: 2%;
-   left: 2%;
-   z-index: 10;
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  z-index: 10;
 }
 
 .menu-wrap .toggler {
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: 20;
-   cursor: pointer;
-   width: 50px;
-   height: 50px;
-   opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
 }
 
 .menu-wrap .hamburger {
-   position: absolute;
-   z-index: 10;
-   width: 60px;
-   height: 60px;
-   padding: 1rem;
-   background: #1a1a1a;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 /* Hamburger Line */
 .menu-wrap .hamburger > div {
-   position: relative;
-   flex: none;
-   width: 100%;
-   height: 2px;
-   background: #fff;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   transition: all 0.4s ease;
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
 }
 
 /* Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
-   content: "";
-   position: absolute;
-   z-index: 20;
-   top: -10px;
-   width: 100%;
-   height: 2px;
-   background: inherit;
+  content: "";
+  position: absolute;
+  z-index: 20;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
 }
 
 /* Moves Line Down */
 .menu-wrap .hamburger > div::after {
-   top: 10px;
+  top: 10px;
 }
 
 /* Toggler Animation */
 .menu-wrap .toggler:checked + .hamburger > div {
-   transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 /* Turns Lines Into X */
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after {
-   top: 0;
-   transform: rotate(90deg);
+  top: 0;
+  transform: rotate(90deg);
 }
 
 /* Show Menu */
 .menu-wrap .toggler:checked ~ .menu {
-   visibility: visible;
+  visibility: visible;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div {
-   transform: scale(1);
-   transition-duration: 1s;
+  transform: scale(1);
+  transition-duration: 1s;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
-   opacity: 1;
-   transition: opacity 0.4s ease 0.4s;
+  opacity: 1;
+  transition: opacity 0.4s ease 0.4s;
 }
 
 .menu-wrap .menu {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   visibility: hidden;
-   overflow: hidden;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-wrap .menu > div {
-   background: rgba(0, 0, 0, 0.96);
-   border-radius: 50%;
-   width: 200vw;
-   height: 200vw;
-   display: flex;
-   flex: none;
-   align-items: center;
-   justify-content: center;
-   transform: scale(0);
-   transition: all 0.4s ease;
+  background: rgba(0, 0, 0, 0.96);
+  border-radius: 50%;
+  width: 200vw;
+  height: 200vw;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: all 0.4s ease;
 }
 
 .menu-wrap .menu > div > div {
-   text-align: center;
-   max-width: 90vw;
-   max-height: 100vh;
-   opacity: 0;
-   transition: opacity 0.4s ease;
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 .menu-wrap .menu > div > div > ul > li {
-   list-style: none;
-   font-size: 1.7rem;
-   padding: 3.2%;
+  list-style: none;
+  font-size: 1.7rem;
+  padding: 3.2%;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
-   color: #babdc0;
-   font-family: "Raleway", sans-serif;
-   text-decoration: none;
-   /* font-weight: 500; */
-   transition: color 0.4s ease;
+  color: #babdc0;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  /* font-weight: 500; */
+  transition: color 0.4s ease;
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover,
 .menu-wrap .menu > div > div > ul > li > a:focus {
-   color: #ffffff;
+  color: #ffffff;
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover:after {
-   content: "";
-   display: block;
-   width: 50px;
-   border-bottom: 2px solid #ffffff;
-   margin: -2px auto;
-   border-radius: 100px;
+  content: "";
+  display: block;
+  width: 50px;
+  border-bottom: 2px solid #ffffff;
+  margin: -2px auto;
+  border-radius: 100px;
 }
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
 .animation-container {
-   height: 111vh;
-   background-color: #1a1a1a;
-   position: relative;
+  height: 111vh;
+  background-color: #1a1a1a;
+  position: relative;
 }
 .wave-shape-divider {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   overflow: hidden;
-   line-height: 0;
-   margin-top: 50%;
-   transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 50%;
+  transform: rotate(180deg);
 }
 
 .wave-shape-divider svg {
-   position: relative;
-   display: block;
-   width: calc(144% + 1.3px);
-   height: 140px;
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 140px;
 }
 
 .wave-shape-divider .shape-fill {
-   fill: #ffffff;
+  fill: #ffffff;
 }
 
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
-   padding: 8%;
+  padding: 8%;
 }
 
 .about-btn {
-   background: #58305f;
-   overflow: hidden;
-   width: 150px;
-   height: 50px;
-   min-height: 50px;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50px;
-   transition: all 0.5s ease-in-out;
+  background: #58305f;
+  overflow: hidden;
+  width: 150px;
+  height: 50px;
+  min-height: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.5s ease-in-out;
 }
 .about-btn:hover {
-   background-color: #9c36b5;
+  background-color: #9c36b5;
 }
 .about-btn-text {
-   outline: 0;
-   color: white;
-   text-decoration: none;
+  outline: 0;
+  color: white;
+  text-decoration: none;
 }
 .about-btn-text:hover {
-   color: white;
+  color: white;
 }
 
 /* Right BLOB */
 .RightBlob1 {
-   position: absolute;
-   width: 90%;
+  position: absolute;
+  width: 90%;
 }
 
 .RightBlob1 svg {
-   position: relative;
-   display: block;
-   transform: translateX(50%);
-   width: calc(100% + 1.3px);
-   opacity: 0.3;
+  position: relative;
+  display: block;
+  transform: translateX(50%);
+  width: calc(100% + 1.3px);
+  opacity: 0.3;
 }
 /*-------------------------------------- Event format --------------------------------------*/
 
 .event-format {
-   margin: 5%;
-   margin-top: 40px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   /* justify-content: space-between; */
+  margin: 5%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* justify-content: space-between; */
 }
 .phase {
-   margin: 1%;
-   background: #fff;
-   border-radius: 13px;
-   padding: 3%;
-   color: #1a1a1a;
-   box-shadow: rgba(143, 129, 119, 0.2) 5px 10px 20px;
-   /* box-shadow: 6px 6px 10px 1px #f11f1f; */
-   transition: background-color 10s ease-in;
+  margin: 1%;
+  background: #fff;
+  border-radius: 13px;
+  padding: 3%;
+  color: #1a1a1a;
+  box-shadow: rgba(143, 129, 119, 0.2) 5px 10px 20px;
+  /* box-shadow: 6px 6px 10px 1px #f11f1f; */
+  transition: background-color 10s ease-in;
 }
 
 .phase:hover {
-   background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
 
 .event-format-img {
-   margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .event-format-content {
-   color: #2c2c2c;
-   font-size: 15px;
-   padding-top: 5%;
+  color: #2c2c2c;
+  font-size: 15px;
+  padding-top: 5%;
 }
 /*--------------------------------- Problem Statement ---------------------------------*/
 .problem-stmt-row {
-   margin: 5%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .card-container {
-   position: relative;
-   perspective: 200rem;
-   height: 300px;
+  position: relative;
+  perspective: 200rem;
+  height: 300px;
+  border-radius: 30px;
 }
 
 .card {
-   position: absolute;
-   width: 70%;
-   transition: all 1.5s;
-   backface-visibility: hidden;
-   border-radius: 5px;
+  position: absolute;
+  width: 70%;
+  transition: all 1.5s;
+  backface-visibility: hidden;
+  border-radius: 30px;
 }
 
 .card-container:hover .card-front {
-   transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  border-radius: 100%;
 }
 
 .card-container:hover .card-back {
-   transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  border-radius: 100%;
 }
 
 .card-back {
-   padding: 15%;
-   transform: rotateY(180deg);
+  padding: 15%;
+  transform: rotateY(180deg);
 }
 
 .card-back .card-body {
-   position: relative;
+  position: relative;
 }
 
 /* LEFT BLOB */
 
 .LeftBlob1 {
-   position: absolute;
-   width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .LeftBlob1 svg {
-   position: relative;
-   top: 1px;
-   display: block;
-   transform: translateX(-50%);
-   width: calc(70% + 1.3px);
-   opacity: 0.3;
+  position: relative;
+  top: 1px;
+  display: block;
+  transform: translateX(-50%);
+  width: calc(70% + 1.3px);
+  opacity: 0.3;
 }
 
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {
-   padding: 10%;
+  padding: 10%;
 }
 
 /* CHANGE */
 .RightBlob2 {
-   position: absolute;
-   width: 90%;
+  position: absolute;
+  width: 90%;
 }
 
 .RightBlob2 svg {
-   position: relative;
-   display: block;
-   transform: translateX(50%);
-   width: calc(100% + 1.3px);
-   opacity: 0.3;
+  position: relative;
+  display: block;
+  transform: translateX(50%);
+  width: calc(100% + 1.3px);
+  opacity: 0.3;
 }
