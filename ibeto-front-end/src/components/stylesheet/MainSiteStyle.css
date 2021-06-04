@@ -293,12 +293,12 @@
 
 .card-container:hover .card-front {
   transform: rotateY(180deg);
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
 .card-container:hover .card-back {
   transform: rotateY(0deg);
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
 .card-back {
