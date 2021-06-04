@@ -13,6 +13,8 @@ const LandingPage = () => {
    const [Control, setControl] = useState(false);
    const [Autoplay, setAutoplay] = useState(true);
    const [play, { stop }] = useSound(audio);
+
+
    // const handleClick = () => {
    //    const anime1 = lottie.loadAnimation({
    //       container: LandingPage.current,
@@ -23,22 +25,6 @@ const LandingPage = () => {
    //    });
    // };
    useEffect(() => {
-      // var promise = audioRef.current.play();
-      // if (promise !== undefined) {
-      //    promise
-      //       .then((_) => {
-      //          // !
-      //          console.log("Autoplay started ");
-      //       })
-      //       .catch((error) => {
-      //          console.log("error in audio ");
-      //          setControl(true);
-
-      //          // Autoplay was prevented.
-      //          // Show a "Play" button so that user can start playback.
-      //       });
-      // }
-
       const anime1 = lottie.loadAnimation({
          container: LandingPage.current,
          renderer: "svg",
@@ -46,6 +32,8 @@ const LandingPage = () => {
          autoplay: { Autoplay },
          animationData: require("./animations/LandingPageAnimation.json"),
       });
+      
+      
       // Check for incognito
       // let isIncognito = new Promise((resolve, reject) => {
       //    var fs = window.RequestFileSystem || window.webkitRequestFileSystem;
@@ -58,9 +46,12 @@ const LandingPage = () => {
       //          () => resolve(true)
       //       );
       // });
-
       // if (isIncognito) alert("in incognito");
       // else alert("not in incognito");
+
+
+
+
       // //   Checking browsers
       // if (navigator.userAgent.indexOf("Chrome") != -1) {
       //    console.log("chromeAgent");
@@ -81,9 +72,9 @@ const LandingPage = () => {
          </div> */}
 
          <div className='animation-container darker-bk' id='Home' ref={LandingPage}>
-            <div className='wave-shape-divider'>
+            <div class='custom-shape-divider-bottom-1622696646'>
                <svg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'>
-                  <path d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z' className='shape-fill'></path>
+                  <path d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z' class='shape-fill'></path>
                </svg>
             </div>
          </div>
@@ -93,7 +84,16 @@ const LandingPage = () => {
          <div onClick={handleClick}>
             <button onClick={play}>Start</button>
          </div> */}
+         
+         
+         
          {/* <audio src={audio} muted={false} autoPlay controls='True' /> */}
+         
+         
+         
+         
+         
+         
          {/* Blob */}
          {/* <div className='RightBlob1'>
             <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>

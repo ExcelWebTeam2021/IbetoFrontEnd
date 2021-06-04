@@ -87,25 +87,25 @@ const ProblemStmts = () => {
             </div>
 
             {/* SGD3 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='250'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='300'>
                <div className='card card-front button-shadow' ref={sdg3}></div>
                <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD4 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='350'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay=''>
                <div className='card card-front button-shadow' ref={sdg4}></div>
                <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD5 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='450'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='150'>
                <div className='card card-front button-shadow' ref={sdg5}></div>
                <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>
 
             {/* SGD6 */}
-            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='550'>
+            <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in' data-aos-delay='300'>
                <div className='card card-front button-shadow' ref={sdg6}></div>
                <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>
             </div>

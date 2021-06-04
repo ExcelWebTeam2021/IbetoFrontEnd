@@ -22,17 +22,17 @@ const Contact = () => {
                <div className='profile-name'>Kelly Seikma</div>
                <div className='profile-position'>Web Designer</div>
             </div>
-            <div data-aos='fade-in' data-aos-delay='300' className='profile-card mb-4 only-start col-lg-3 col-md-6 col-sm-12'>
+            <div data-aos='fade-in' data-aos-delay='250' className='profile-card mb-4 only-start col-lg-3 col-md-6 col-sm-12'>
                <img src='https://i.imgur.com/S4GNFIW.jpg' alt='image2' className='profile-icon' />
                <div className='profile-name'>Mabel Max</div>
                <div className='profile-position'>Web Developer</div>
             </div>
-            <div data-aos='fade-in' data-aos-delay='600' className='profile-card only-start mb-4 col-lg-3 col-md-6 col-sm-12'>
+            <div data-aos='fade-in' data-aos-delay='500' className='profile-card only-start mb-4 col-lg-3 col-md-6 col-sm-12'>
                <img src='https://i.imgur.com/cMSVQZC.jpg' alt='image3' className='profile-icon' />
                <div className='profile-name'>Danny Liswell</div>
                <div className='profile-position'>DevOps</div>
             </div>
-            <div data-aos='fade-in' data-aos-delay='600' className='profile-card only-start mb-4 col-lg-3 col-md-6 col-sm-12'>
+            <div data-aos='fade-in' data-aos-delay='750' className='profile-card only-start mb-4 col-lg-3 col-md-6 col-sm-12'>
                <img src='https://i.imgur.com/cMSVQZC.jpg' alt='image3' className='profile-icon' />
                <div className='profile-name'>Danny Liswell</div>
                <div className='profile-position'>DevOps</div>
