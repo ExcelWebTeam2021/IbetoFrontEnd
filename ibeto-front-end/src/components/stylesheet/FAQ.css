@@ -1,3 +1,6 @@
+#FAQ{
+   padding: 2%;
+}
 .accordion .accordion-item {
    border-bottom: 1px solid #dddbdb;
 }
@@ -85,3 +88,4 @@
    font-weight: 300;
    margin: 2em 0;
 }
+
