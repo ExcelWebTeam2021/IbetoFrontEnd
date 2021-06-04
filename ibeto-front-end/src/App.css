@@ -31,13 +31,15 @@
 
 .cssload-preloader {
   position: absolute;
-  left: 50%;
+  /* left: 50%; */
   font-size: 19px;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
   display: block;
   width: 3.75em;
   height: 4.25em;
-  margin-left: -1.875em;
-  margin-top: -2.125em;
+  /* margin-left: -1.875em; */
+  /* margin-top: -2.125em; */
   transform-origin: center center;
   -o-transform-origin: center center;
   -ms-transform-origin: center center;
