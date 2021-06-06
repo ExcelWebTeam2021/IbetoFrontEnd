@@ -7,70 +7,29 @@ import "../stylesheet/ResponsiveStyle.css";
 
 import audio from "./audio.mp3";
 
+// UNINSTALL USE SOUND
 const LandingPage = () => {
    const LandingPage = useRef(null);
    const audioRef = useRef(new Audio(audio));
-   const [Control, setControl] = useState(false);
-   const [Autoplay, setAutoplay] = useState(true);
-   const [play, { stop }] = useSound(audio);
 
-
-   // const handleClick = () => {
-   //    const anime1 = lottie.loadAnimation({
-   //       container: LandingPage.current,
-   //       renderer: "svg",
-   //       loop: true,
-   //       autoplay: { Autoplay },
-   //       animationData: require("./animations/LandingPageAnimation.json"),
-   //    });
-   // };
-   useEffect(() => {
+   let [toggle, setToggle] = useState(false);
+   const [hidePlayBtn, sethidePlayBtn] = useState(false);
+   const handleClick = () => {
+      audioRef.current.play();
+      sethidePlayBtn(true);
       const anime1 = lottie.loadAnimation({
          container: LandingPage.current,
          renderer: "svg",
          loop: true,
-         autoplay: { Autoplay },
          animationData: require("./animations/LandingPageAnimation.json"),
       });
-      
-      
-      // Check for incognito
-      // let isIncognito = new Promise((resolve, reject) => {
-      //    var fs = window.RequestFileSystem || window.webkitRequestFileSystem;
-      //    if (!fs) reject("Check incognito failed");
-      //    else
-      //       fs(
-      //          window.TEMPORARY,
-      //          100,
-      //          () => resolve(false),
-      //          () => resolve(true)
-      //       );
-      // });
-      // if (isIncognito) alert("in incognito");
-      // else alert("not in incognito");
-
-
-
-
-      // //   Checking browsers
-      // if (navigator.userAgent.indexOf("Chrome") != -1) {
-      //    console.log("chromeAgent");
-      // }
-      // if (navigator.userAgent.indexOf("Firefox") != -1) {
-      //    console.log("Firefox");
-      // }
-      return () => {
-         anime1.destroy();
-      }; // clean up for unmounting
-   }, []);
-
+   };
+   const handleMute = () => {
+      setToggle(!toggle);
+      console.log("Button is toggled", toggle);
+   };
    return (
       <main>
-         {/* <div className='hidden-div'>
-            {" "}
-            <embed src='https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' loop={false} hidden={false} autostart='true' />
-         </div> */}
-
          <div className='animation-container darker-bk' id='Home' ref={LandingPage}>
             <div className='custom-shape-divider-bottom-1622696646'>
                <svg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'>
@@ -78,22 +37,19 @@ const LandingPage = () => {
                </svg>
             </div>
          </div>
+         {!hidePlayBtn && (
+            <button className='btn btn-primary btn-lg' onClick={handleClick}>
+               Play
+            </button>
+         )}
+         {hidePlayBtn && (
+            <button className='btn btn-danger btn-lg' onClick={handleMute}>
+               {" "}
+               {toggle ? <img src='https://image.flaticon.com/icons/png/128/727/727269.png' alt='unmute' width='20' /> : <img src='https://image.flaticon.com/icons/png/128/56/56882.png' alt='mute' width='20' />}
+            </button>
+         )}
 
-         {/* 
-         Play animation after clicking on Start btn
-         <div onClick={handleClick}>
-            <button onClick={play}>Start</button>
-         </div> */}
-         
-         
-         
-         {/* <audio src={audio} muted={false} autoPlay controls='True' /> */}
-         
-         
-         
-         
-         
-         
+         <audio ref={audioRef} src={audio} autoplay={false} muted={toggle} controls={false} />
          {/* Blob */}
          {/* <div className='RightBlob1'>
             <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
