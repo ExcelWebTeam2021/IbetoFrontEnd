@@ -1,5 +1,6 @@
 /** --------------------------------------------------- For mobile devices ---------------------------------------------------**/
 @media only screen and (max-width: 500px) {
+   html,
    body {
       overflow-x: hidden;
    }
@@ -22,6 +23,10 @@
       margin-left: 0px;
    }
    /*------------ Ibeto main page ------------*/
+   /* landing page */
+   .animation-container {
+      width: 100vw;
+   }
    /* Event Format */
    .phase {
       margin: 5%;
@@ -53,16 +58,6 @@
    .wave-shape-divider svg {
       width: calc(147% + 1.3px);
       height: 110px;
-   }
-}
-/**--------------------------------------------------- For tablet devices ----------------------------------------------------- **/
-@media (min-width: 768px) and (max-width: 1023px) {
-   body {
-      overflow-x: hidden;
-   }
-   .wave-shape-divider svg {
-      width: calc(140% + 1.3px);
-      height: 191px;
    }
 }
 
@@ -108,5 +103,16 @@
    /* FAQ */
    .accordion-item {
       margin-left: 5%;
+   }
+}
+
+/**--------------------------------------------------- For Larger screen devices ----------------------------------------------------- **/
+@media (min-width: 768px) and (max-width: 1023px) {
+   body {
+      overflow-x: hidden;
+   }
+   .wave-shape-divider svg {
+      width: calc(140% + 1.3px);
+      height: 191px;
    }
 }

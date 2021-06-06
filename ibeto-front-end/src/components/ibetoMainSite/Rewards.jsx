@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/CommonStyle.css";
+import "../stylesheet/ResponsiveStyle.css";
 
 const Rewards = () => {
    useEffect(() => {
