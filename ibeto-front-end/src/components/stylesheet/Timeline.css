@@ -84,9 +84,8 @@
 /*----- mainsite-timeline CONTENT -----*/
 .mainsite-timeline-content {
    padding-bottom: 3%;
-   font-size: 14px;
+   font-size: 12px;
    width: 100%;
-   font-family: "Open Sans", sans-serif;
 }
 .mainsite-timeline-content p:last-child {
    margin-bottom: 0;

@@ -11,24 +11,7 @@
    .content {
       font-size: 15px;
    }
-   /* ------------ Dashboard ------------ */
-   .dashboard-row {
-      margin-right: 5%;
-      margin-left: 5%;
-      width: 80%;
-      margin-left: 10%;
-   }
-   .timeline-row,
-   .contactUs-row {
-      display: none;
-   }
-   iframe {
-      width: 100%;
-   }
-   .faq-row {
-      width: 110%;
-      margin-left: 0px;
-   }
+
    /*------------ Ibeto main page ------------*/
    /* landing page */
    .animation-container {
@@ -45,7 +28,7 @@
       margin-right: 10%;
    }
    .mainsite-timeline-row {
-      padding-top: 10%;
+      padding-top: 15%;
    }
 
    /* Junior */
@@ -108,6 +91,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
+   }
+   /* timeline */
+   .mainsite-timeline-row {
+      padding-top: 15%;
+   }
+   .mainsite-timeline-title {
+      font-size: 16px;
    }
 }
 

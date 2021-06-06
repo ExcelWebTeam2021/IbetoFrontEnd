@@ -107,14 +107,21 @@
 }
 
 /** For mobile devices **/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
    .custom-shape-divider-top-1622696408 svg {
       width: calc(174% + 1.3px);
-      height: 70px;
+      height: 90px;
       background: #1a1a1a;
    }
 }
 
+@media (max-width: 500px) {
+   .custom-shape-divider-top-1622696408 svg {
+      width: calc(164% + 1.3px);
+      height: 50px;
+      background: #1a1a1a;
+   }
+}
 /* 
 .custom-shape-divider-bottom-1622204843 {
    position: absolute;
