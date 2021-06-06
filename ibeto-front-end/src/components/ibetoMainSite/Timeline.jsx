@@ -11,12 +11,12 @@ const Timeline = () => {
    }, []);
 
    return (
-      <div className='container' id='timeline'>
-         <h2 align='center' className='heading'>
-            Timel<span>ine</span>
-         </h2>
-
+      <div className='container ' id='timeline'>
          <div className='mb-4 mainsite-timeline-row '>
+            <h2 align='center' className='heading'>
+               Timel<span>ine</span>
+            </h2>
+
             <ul className='mainsite-timeline'>
                <li className='mainsite-timeline-item'>
                   <div className='mainsite-timeline-info'>

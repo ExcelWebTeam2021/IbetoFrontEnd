@@ -78,24 +78,6 @@
       right: 35px;
    }
 }
-
-@media only screen and (max-width: 500px) {
-   /* Junior */
-   .Jheading {
-      left: 20px;
-      font-size: 40px;
-      right: 60px;
-      bottom: 10px;
-   }
-   .Jarrow {
-      font-size: 65px;
-      right: 25px;
-   }
-   .Jbutton {
-      right: 20px;
-   }
-}
-
 .custom-shape-divider-top-1622696408 {
    position: absolute;
    top: 0;
@@ -117,7 +99,7 @@
 }
 
 /** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 601px) and (max-width: 1023px) {
    .custom-shape-divider-top-1622696408 svg {
       width: calc(160% + 1.3px);
       height: 150px;
@@ -125,10 +107,11 @@
 }
 
 /** For mobile devices **/
-@media (max-width: 767px) {
+@media (max-width: 500px) {
    .custom-shape-divider-top-1622696408 svg {
       width: calc(174% + 1.3px);
-      height: 87px;
+      height: 70px;
+      background: #1a1a1a;
    }
 }
 
@@ -155,9 +138,9 @@
 }
 
 /** For mobile devices **/
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
    .custom-shape-divider-bottom-1622204843 svg {
       width: calc(124% + 1.3px);
       height: 150px;
    }
-}
+} */
