@@ -11,7 +11,7 @@ const Rewards = () => {
    }, []);
 
    return (
-      <div className='rewards-row   pt-5 mt-5 '>
+      <div className='container-fluid rewards-row  '>
          <div className='justify-content-center row' id='Rewards'>
             <div data-aos='fade-right' className='col-md-4 col-sm-10'>
                <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' className='img-fluid' />
@@ -22,7 +22,7 @@ const Rewards = () => {
                   Rewar<span>ds</span>
                </h2>
                <br />
-               <ul className='content'>
+               <ul className='content rewards-list'>
                   <li> Prize pool of Rs 1 Lakh for top three performing teams </li>
                   <li>Opportunity to present top 3 projects in the IEEE HAC Conference and get further funding for its large scale development.</li>
                   <li>Top 10 teams can avail mentorships and seed funding to support projects into the development stage.</li>

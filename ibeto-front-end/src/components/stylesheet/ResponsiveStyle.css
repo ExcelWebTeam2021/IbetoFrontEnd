@@ -1,5 +1,5 @@
 /** --------------------------------------------------- For mobile devices ---------------------------------------------------**/
-@media only screen and (max-width: 500px) {
+@media only screen and (min-device-width: 20px) and (max-device-width: 480px) {
    html,
    body {
       overflow-x: hidden;
@@ -53,66 +53,54 @@
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
-@media (max-width: 767px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 800px) {
    /*Landing page wave*/
    .wave-shape-divider svg {
       width: calc(147% + 1.3px);
       height: 110px;
    }
+   .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
 }
 
 /**--------------------------------------------------- For desktop devices ----------------------------------------------------- **/
 
-@media only screen and (max-width: 990px) {
+@media only screen and (min-device-width: 800px) and (max-device-width: 1800px) {
    body {
       overflow-x: hidden;
    }
-   .heading {
-      font-size: 30px;
-      text-align: center;
-   }
-   /* About */
-   .about-button {
-      justify-content: center;
-   }
-
    /* Event format */
    .event-format {
       margin-left: 5%;
       margin-right: 5%;
    }
-   /* Problem statment */
-   .card-container {
-      margin: 5%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-
-   /* Testimonials */
-   .testimonial-row {
-      padding: 0%;
-   }
-
-   .ibeto-testimonial p {
-      padding-right: 0%;
-      padding-left: 0%;
-      font-size: small;
-   }
-
-   /* FAQ */
-   .accordion-item {
-      margin-left: 5%;
-   }
 }
 
 /**--------------------------------------------------- For Larger screen devices ----------------------------------------------------- **/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 1900px) and (max-width: 3000px) {
    body {
       overflow-x: hidden;
    }
+   .heading {
+      background: blue;
+      font-size: 60px;
+   }
+
+   .content {
+      font-size: 25px;
+   }
+   /* IBETO MAIN SITE */
    .wave-shape-divider svg {
       width: calc(140% + 1.3px);
       height: 191px;
+   }
+
+   /* event format */
+   .event-format-content {
+      background: blue;
+      font-size: 25px;
    }
 }

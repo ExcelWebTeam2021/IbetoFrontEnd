@@ -1,7 +1,8 @@
 /*--------------------------- LEFT SECTION: mainsite-timeline --------------------------- */
 .mainsite-timeline-row {
    margin: auto;
-   width: 50%;
+   padding-left: 15%;
+   padding-right: 10%;
 }
 .mainsite-timeline {
    line-height: 1.4em;
@@ -12,10 +13,11 @@
    color: #768390;
 }
 .mainsite-timeline-title {
-   color: #3d4351;
+   color: #6e526e;
    margin-top: 0;
    line-height: inherit;
-   font-size: 15px;
+   font-size: 18px;
+   font-family: "Raleway", sans-serif;
 }
 
 /*----- mainsite-timeline ITEM -----*/
@@ -32,7 +34,6 @@
 
 /*----- mainsite-timeline INFO -----*/
 .mainsite-timeline-info {
-   font-size: 12px;
    font-weight: 700;
    letter-spacing: 3px;
    margin: 0 0 0.5em 0;
@@ -49,7 +50,7 @@
    width: 15px;
 }
 .mainsite-timeline-marker:before {
-   background: #e91e63;
+   background: #bb4787;
    border: 3px solid transparent;
    border-radius: 100%;
    content: "";
@@ -77,12 +78,15 @@
 
 .mainsite-timeline-item:not(.period):hover .mainsite-timeline-marker:before {
    background: transparent;
-   border: 3px solid #ff6b6b;
+   border: 3px solid #bb4787;
 }
 
 /*----- mainsite-timeline CONTENT -----*/
 .mainsite-timeline-content {
-   padding-bottom: 20px;
+   padding-bottom: 3%;
+   font-size: 14px;
+   width: 100%;
+   font-family: "Open Sans", sans-serif;
 }
 .mainsite-timeline-content p:last-child {
    margin-bottom: 0;

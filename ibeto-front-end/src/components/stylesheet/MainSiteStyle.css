@@ -195,14 +195,16 @@
 
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
-   padding: 8%;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 5%;
 }
 
 .about-btn {
    background: #58305f;
    overflow: hidden;
-   width: 150px;
-   height: 50px;
+   width: 7rem;
+   height: 1rem;
    min-height: 50px;
    flex-direction: row;
    justify-content: center;
@@ -236,10 +238,11 @@
    opacity: 0.3;
 }
 /*-------------------------------------- Event format --------------------------------------*/
-
+.event-format-row {
+   padding-top: 5%;
+}
 .event-format {
-   margin: 5%;
-   margin-top: 40px;
+   margin-top: 1%;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -251,13 +254,15 @@
    border-radius: 13px;
    padding: 3%;
    color: #1a1a1a;
-   box-shadow: rgba(143, 129, 119, 0.2) 5px 10px 20px;
-   /* box-shadow: 6px 6px 10px 1px #f11f1f; */
-   transition: background-color 10s ease-in;
+   box-shadow: rgba(143, 129, 119, 0.2) 3px 3px 10px;
+   /* */
+
+   transition: 2s;
 }
 
 .phase:hover {
-   background-color: #1a1a1a;
+   transform: scale(1.5);
+   box-shadow: rgba(102, 16, 102, 0.2) 0px 7px 19px 0px;
 }
 
 .event-format-img {
@@ -332,9 +337,15 @@
 
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {
-   padding: 10%;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 2%;
 }
 
+.rewards-list {
+   padding-left: 7%;
+   padding-right: 7%;
+}
 /* CHANGE */
 .RightBlob2 {
    position: absolute;

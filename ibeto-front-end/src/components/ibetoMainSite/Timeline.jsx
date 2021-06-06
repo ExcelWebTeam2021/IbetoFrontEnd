@@ -11,11 +11,12 @@ const Timeline = () => {
    }, []);
 
    return (
-      <div className='container mb-4' id='timeline'>
-         <h2 align='center' className='heading pb-4'>
+      <div className='container' id='timeline'>
+         <h2 align='center' className='heading'>
             Timel<span>ine</span>
          </h2>
-         <div className='row mainsite-timeline-row '>
+
+         <div className='mb-4 mainsite-timeline-row '>
             <ul className='mainsite-timeline'>
                <li className='mainsite-timeline-item'>
                   <div className='mainsite-timeline-info'>
@@ -24,7 +25,7 @@ const Timeline = () => {
                   <div className='mainsite-timeline-marker'></div>
                   <div data-aos='fade-left' className='mainsite-timeline-content'>
                      <h3 className='mainsite-timeline-title'>Event Title</h3>
-                     Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere
+                     <p className='content'>Nullam vel sem. vel sem. Isem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere </p>
                   </div>
                </li>
                <li className='mainsite-timeline-item'>
@@ -32,9 +33,9 @@ const Timeline = () => {
                      <span>March 23, 2016</span>
                   </div>
                   <div className='mainsite-timeline-marker'></div>
-                  <div data-aos='fade-left' data-aos-delay='200' className='mainsite-timeline-content'>
+                  <div data-aos='fade-left' data-aos-delay='100' className='mainsite-timeline-content'>
                      <h3 className='mainsite-timeline-title'>Event Title</h3>
-                     <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere </p>
+                     <p className='content'>am vel sem.Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere </p>
                   </div>
                </li>
 
@@ -43,9 +44,9 @@ const Timeline = () => {
                      <span>April 02, 2016</span>
                   </div>
                   <div className='mainsite-timeline-marker'></div>
-                  <div data-aos='fade-left' data-aos-delay='200' className='mainsite-timeline-content'>
+                  <div data-aos='fade-left' data-aos-delay='150' className='mainsite-timeline-content'>
                      <h3 className='mainsite-timeline-title'>Event Title</h3>
-                     <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere</p>
+                     <p className='content'>Nullam vel sem. Nullam vel sem. Integam vel sem.er ante arcu, accumsan a, consectetuer eget, posuere </p>
                   </div>
                </li>
                <li className='mainsite-timeline-item'>
@@ -55,7 +56,7 @@ const Timeline = () => {
                   <div className='mainsite-timeline-marker'></div>
                   <div data-aos='fade-left' data-aos-delay='200' className='mainsite-timeline-content'>
                      <h3 className='mainsite-timeline-title'>Event Title</h3>
-                     <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere</p>
+                     <p className='content'>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsanam vel sem. a, consectetuer eget, posuere </p>
                   </div>
                </li>
             </ul>

@@ -11,8 +11,8 @@ const Testimonials = () => {
       AOS.init({ duration: 1000 });
    }, []);
    return (
-      <div data-aos='fade-in' id='Testimonials' className='container testimonial-row'>
-         <h1 className='heading pb-4'>
+      <div data-aos='fade-in' id='Testimonials' className='container-fluid testimonial-row'>
+         <h1 className='container heading pb-4'>
             Testim<span>onials</span>
          </h1>
 
