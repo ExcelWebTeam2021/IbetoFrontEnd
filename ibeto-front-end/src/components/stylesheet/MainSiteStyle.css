@@ -185,15 +185,6 @@
    }
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-   .custom-shape-divider-bottom-1622696646 svg {
-       width: calc(174% + 1.3px);
-       height: 87px;
-   }
-}
-
-
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
    padding: 8%;
@@ -212,7 +203,7 @@
    transition: all 0.5s ease-in-out;
 }
 .about-btn:hover {
-   background-color: #9c36b5;
+   background-color: #862d9c;
 }
 .about-btn-text {
    outline: 0;
