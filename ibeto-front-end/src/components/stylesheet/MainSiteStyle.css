@@ -151,6 +151,85 @@
 }
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
+
+/*play button */
+.btn-container{
+position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  top:45%;
+  width: 100px; /* Need a specific value to work */
+}
+.bg, .buttons {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.bg {
+  animation: pulse 1.2s ease infinite;
+  background: rgb(71, 22, 30);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  border: none;
+  background: rgb(141, 20, 20);
+  background-size: 18px;
+  cursor: pointer;
+
+}
+
+.buttons i {
+  position: absolute;
+  color: #FFF;
+  font-size: 30px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* mute button */
+
+.btn-mute {
+   position: absolute;
+   top: 4%;
+   cursor: pointer;
+   right: 3%;
+   background-color: #1a1a1a ;
+   border: none;
+   outline: none;
+}
+.btn-mute:focus{
+   outline:none;
+}
+.mutess i {
+   cursor: pointer;
+   font-size: 40px;
+   color: white;
+}
+
+
+
+
+/* main div */
+
 .animation-container {
    height: 112vh;
    background-color: #1a1a1a;
@@ -185,8 +264,6 @@
    }
 }
 
-<<<<<<< HEAD
-=======
 /** For mobile devices **/
 @media (max-width: 767px) {
    .custom-shape-divider-bottom-1622696646 svg {
@@ -195,7 +272,6 @@
    }
 }
 
->>>>>>> 896fe35fc3b81799417d1bcd4a5b8ca8b35e2438
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
    padding-left: 5%;
@@ -264,12 +340,8 @@
 }
 
 .phase:hover {
-<<<<<<< HEAD
-   background-color: #ffffff;
-=======
    transform: scale(1.5);
    box-shadow: rgba(102, 16, 102, 0.2) 0px 7px 19px 0px;
->>>>>>> 896fe35fc3b81799417d1bcd4a5b8ca8b35e2438
 }
 
 .event-format-img {

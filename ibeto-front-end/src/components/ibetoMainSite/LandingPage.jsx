@@ -38,14 +38,18 @@ const LandingPage = () => {
             </div>
          </div>
          {!hidePlayBtn && (
-            <button className='btn btn-primary btn-lg' onClick={handleClick}>
-               Play
-            </button>
+
+               <div className="btn-container">
+                  <div className="bg"></div>
+                  <div className="buttons" onClick={handleClick} ><i className="fa fa-play"></i></div>
+               </div>
+               
          )}
+
          {hidePlayBtn && (
-            <button className='btn btn-danger btn-lg' onClick={handleMute}>
+            <button className='btn-mute' onClick={handleMute} >
                {" "}
-               {toggle ? <img src='https://image.flaticon.com/icons/png/128/727/727269.png' alt='unmute' width='20' /> : <img src='https://image.flaticon.com/icons/png/128/56/56882.png' alt='mute' width='20' />}
+               {toggle ? <div className="mutess" ><i className="fa fa-volume-up "></i></div> : <div className="mutess" ><i className="fa fa-volume-off"></i></div> }
             </button>
          )}
 
