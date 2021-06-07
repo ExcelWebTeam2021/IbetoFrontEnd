@@ -16,6 +16,7 @@
 }
 
 .dashboard-heading {
+   font-family: "Raleway", sans-serif;
    font-size: 23px;
    display: inline-block;
 }
@@ -125,6 +126,10 @@
 
 .currentphase-row {
    font-size: 16px;
+}
+
+.currentphase-text p {
+   font-size: 17px;
 }
 
 iframe {
@@ -299,22 +304,4 @@ iframe {
    color: #3d4351;
    font-size: 13px;
    margin-bottom: 14px;
-}
-
-@media (max-width: 991px) {
-   .faq {
-      margin-bottom: 30px;
-   }
-   .faq .faq-card .faq-card-header .faq-title {
-      line-height: 26px;
-      margin-top: 10px;
-   }
-   .progress {
-      width: 80px;
-      height: 80px;
-      line-height: 100px;
-   }
-   .progress .progress-value {
-      font-size: 12px;
-   }
 }

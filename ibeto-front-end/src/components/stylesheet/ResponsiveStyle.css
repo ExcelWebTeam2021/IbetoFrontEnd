@@ -1,43 +1,60 @@
 /** --------------------------------------------------- For mobile devices ---------------------------------------------------**/
-@media only screen and (max-width: 500px) {
+@media (min-device-width: 20px) and (max-device-width: 500px) {
+   html,
    body {
       overflow-x: hidden;
    }
-   /* ------------ Dashboard ------------ */
-   .dashboard-row {
-      margin-right: 5%;
-      margin-left: 5%;
-      width: 80%;
-      margin-left: 10%;
+   .heading {
+      font-size: 35px;
    }
-   .timeline-row,
-   .contactUs-row {
-      display: none;
+
+   .content {
+      font-size: 15px;
    }
-   iframe {
-      width: 100%;
-   }
-   .faq-row {
-      width: 110%;
-      margin-left: 0px;
-   }
+
    /*------------ Ibeto main page ------------*/
+   /* landing page */
+   .animation-container {
+      width: 100vw;
+   }
    /* Event Format */
    .phase {
       margin: 5%;
       border-radius: 0px;
       text-align: center;
    }
+   .rewards-row {
+      margin-left: 10%;
+      margin-right: 10%;
+   }
+   .mainsite-timeline-row {
+      padding-top: 15%;
+   }
 
+   /* Junior */
+   .Jheading {
+      left: 20px;
+      font-size: 40px;
+      right: 60px;
+      bottom: 10px;
+   }
+   .Jarrow {
+      font-size: 65px;
+      right: 10px;
+   }
+   .Jbutton {
+      right: 20px;
+   }
    /* Testimonials */
    .testimonial-row {
       padding: 0%;
+      font-size: 10px;
    }
 
-   .ibeto-testimonial p {
+   .testimonial-content {
       padding-right: 0%;
       padding-left: 0%;
-      font-size: smaller;
+      font-size: 10px;
    }
 
    /* Sponsers */
@@ -45,65 +62,82 @@
    #Sponsors .client-logo {
       padding: 30px;
    }
+   /* FAQ */
+   .accordion {
+      padding-left: 10%;
+      padding-right: 10%;
+   }
+   .accordion button .icon {
+      width: 3px;
+      height: 3px;
+   }
+   .accordion button .accordion-title {
+      padding: 0.4em 0.4em 0.6em 0;
+   }
+   .accordion-title,
+   .collapse {
+      font-size: 15px;
+   }
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
-@media (max-width: 767px) {
+@media (min-device-width: 501px) and (max-device-width: 800px) {
    /*Landing page wave*/
    .wave-shape-divider svg {
       width: calc(147% + 1.3px);
       height: 110px;
    }
-}
-/**--------------------------------------------------- For tablet devices ----------------------------------------------------- **/
-@media (min-width: 768px) and (max-width: 1023px) {
-   body {
-      overflow-x: hidden;
+   .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
    }
-   .wave-shape-divider svg {
-      width: calc(140% + 1.3px);
-      height: 191px;
+   /* timeline */
+   .mainsite-timeline-row {
+      padding-top: 15%;
+   }
+   .mainsite-timeline-title {
+      font-size: 16px;
    }
 }
 
 /**--------------------------------------------------- For desktop devices ----------------------------------------------------- **/
 
-@media only screen and (max-width: 990px) {
+@media (min-device-width: 800px) and (max-device-width: 1800px) {
    body {
       overflow-x: hidden;
    }
-   .heading {
-      font-size: 30px;
-      text-align: center;
-   }
-   /* About */
-   .about-button {
-      justify-content: center;
-   }
-
    /* Event format */
    .event-format {
       margin-left: 5%;
       margin-right: 5%;
    }
-   /* Problem statment */
-   .card-container {
-      margin: 5%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+}
+
+/**--------------------------------------------------- For Larger screen devices ----------------------------------------------------- **/
+@media (min-width: 1900px) and (max-width: 3000px) {
+   body {
+      overflow-x: hidden;
+   }
+   .heading {
+      font-size: 60px;
    }
 
-   /* Testimonials */
-   .testimonial-row {
-      padding: 0%;
+   .content {
+      font-size: 25px;
+   }
+   /* IBETO MAIN SITE */
+   .wave-shape-divider svg {
+      width: calc(140% + 1.3px);
+      height: 191px;
    }
 
-   .ibeto-testimonial p {
-      padding-right: 0%;
-      padding-left: 0%;
-      font-size: small;
-   }
-
+<<<<<<< HEAD
    
+=======
+   /* event format */
+   .event-format-content {
+      font-size: 25px;
+   }
+>>>>>>> 896fe35fc3b81799417d1bcd4a5b8ca8b35e2438
 }

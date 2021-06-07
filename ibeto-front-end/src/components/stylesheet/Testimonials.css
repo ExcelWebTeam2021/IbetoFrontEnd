@@ -1,7 +1,8 @@
 .testimonial-row {
-   padding: 7%;
+   padding-left: 7%;
+   padding-right: 7%;
+   padding-top: 5%;
    text-align: center;
-   color: #0f0f0f;
 }
 .carousel-control {
    background: none;
@@ -52,6 +53,8 @@
 .ibeto-testimonial p {
    padding-right: 20%;
    padding-left: 20%;
+   font-size: 17px;
+   color: #2d2a31;
 }
 
 #quote-carousel .carousel-control {

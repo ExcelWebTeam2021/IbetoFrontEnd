@@ -1,59 +1,48 @@
 .junior {
-   padding: 10%;
+   padding: 4%;
    background-color: #1a1a1a;
    position: relative;
 }
 .Jarrow {
-   opacity: 0;
+   opacity: 1;
    color: #fff;
-   -webkit-transform: scale(0.1);
-   transform: scale(0.1);
-   -webkit-transition: all 0.2s ease;
+   transform: scale(0.2);
    transition: all 0.2s ease;
    z-index: 100;
    position: absolute;
-   right: 30px;
+   right: 32px;
    bottom: 0px;
-   font-size: 90px;
+   font-size: 95px;
    font-weight: 900;
    cursor: pointer;
 }
 
 .Jcard {
+   margin-top: 6%;
+   margin-bottom: 1%;
    position: relative;
-   width: 70vw;
-   height: 400px;
-   background-color: #fff;
+   height: 80vh;
+   background-color: #1a1a1a;
    overflow: hidden;
-   margin-bottom: 4px;
 }
 .Jheading {
    z-index: 5;
-   font-family: "Montserrat", sans-serif;
-
+   font-family: "Ralesway", sans-serif;
    position: absolute;
    bottom: 0;
    right: 95px;
    font-size: 65px;
    font-weight: 800;
-   color: #0a0a0a;
+   color: #faf4f4;
 }
 
-.Jpic {
-   z-index: 100;
-   width: 70vw;
-   height: 500px;
-   background-image: url("https://image.freepik.com/free-vector/happy-children-jumping-summer-meadow_74855-5852.jpg");
-   background-size: 100% 100%;
-   filter: grayscale(50%);
-}
 .Jbutton {
    position: absolute;
    right: 30px;
-   bottom: 23px;
+   bottom: 28px;
    width: 37px;
    height: 37px;
-   background-color: #136077;
+   background-color: rgb(218, 31, 146);
    border: none;
    border-radius: 30px;
    cursor: pointer;
@@ -61,20 +50,18 @@
    transition: all 0.3s ease;
    mix-blend-mode: hard-light;
 }
-.Jcard:hover .Jarrow {
+.junior-hover-section:hover .Jarrow,
+.Jbutton:hover {
    opacity: 1;
-   -webkit-transform: scale(1);
    transform: scale(1);
 }
-.Jcard:hover button {
-   transform: scale(16.5);
+.junior-hover-section:hover button,
+.Jbutton:hover {
+   transform: scale(9.5);
 }
 .Jcard button:focus {
    border: none;
    outline: none;
-}
-.Jcard:hover .Jpic {
-   filter: grayscale(0);
 }
 
 @media only screen and (max-width: 900px) {
@@ -88,27 +75,9 @@
    .Jarrow {
       font-size: 70px;
       bottom: 8px;
-      right: 25px;
+      right: 35px;
    }
 }
-
-@media only screen and (max-width: 500px) {
-   /* Junior */
-   .Jheading {
-      left: 20px;
-      font-size: 40px;
-      right: 60px;
-      bottom: 10px;
-   }
-   .Jarrow {
-      font-size: 65px;
-      right: 34px;
-   }
-   .Jbutton {
-      right: 20px;
-   }
-}
-
 .custom-shape-divider-top-1622696408 {
    position: absolute;
    top: 0;
@@ -126,26 +95,33 @@
 }
 
 .custom-shape-divider-top-1622696408 .shape-fill {
-   fill: #FFFFFF;
+   fill: #ffffff;
 }
 
 /** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 601px) and (max-width: 1023px) {
    .custom-shape-divider-top-1622696408 svg {
-       width: calc(160% + 1.3px);
-       height: 150px;
+      width: calc(160% + 1.3px);
+      height: 150px;
    }
 }
 
 /** For mobile devices **/
-@media (max-width: 767px) {
+@media (max-width: 700px) {
    .custom-shape-divider-top-1622696408 svg {
-       width: calc(174% + 1.3px);
-       height: 87px;
+      width: calc(174% + 1.3px);
+      height: 90px;
+      background: #1a1a1a;
    }
 }
 
-
+@media (max-width: 500px) {
+   .custom-shape-divider-top-1622696408 svg {
+      width: calc(164% + 1.3px);
+      height: 50px;
+      background: #1a1a1a;
+   }
+}
 /* 
 .custom-shape-divider-bottom-1622204843 {
    position: absolute;
@@ -169,9 +145,9 @@
 }
 
 /** For mobile devices **/
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
    .custom-shape-divider-bottom-1622204843 svg {
       width: calc(124% + 1.3px);
       height: 150px;
    }
-}
+} */

@@ -32,7 +32,7 @@ const About = () => {
                <div className=''>
                   <button className='btn mt-4 about-btn button-shadow'>
                      <Link to='/dashboard' className='about-btn-text'>
-                        Register now{" "}
+                        Dashboard
                      </Link>
                   </button>
                </div>

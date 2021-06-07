@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheet/Dashboard.css";
+import "../stylesheet/ResponsiveDashboardStylesheet.css";
 
 const SubmissionForm = () => {
    return (
