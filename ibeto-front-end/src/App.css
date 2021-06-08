@@ -3,9 +3,9 @@
   height: 100vh;
   color: #1a1a1a;
   z-index: 9999; */
-   transform: translateX(-20%);
+   transform: translateX(-7%);
    top: calc(10% - 4em);
-   left: calc(1%);
+   left: 7%;
    align-items: center;
    background-color: #1a1a1a;
    display: flex;
