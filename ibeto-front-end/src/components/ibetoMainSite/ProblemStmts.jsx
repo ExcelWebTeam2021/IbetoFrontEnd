@@ -68,8 +68,8 @@ const ProblemStmts = () => {
       };
    }, []);
    return (
-      <div className='container' id='ProblemStatement'>
-         <h2 className='heading mt-5'>
+      <div className='container-fluid' id='ProblemStatement'>
+         <h2 className='container heading mt-5'>
             Problem <span>Statement</span>
          </h2>
 

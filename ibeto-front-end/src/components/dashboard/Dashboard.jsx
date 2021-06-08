@@ -5,7 +5,7 @@ import Timeline from "./Timeline";
 import CurrentPhase from "./CurrentPhase";
 import ContactUs from "./ContactUs";
 import "../stylesheet/Dashboard.css";
-import "../stylesheet/ResponsiveStyle.css";
+import "../stylesheet/ResponsiveDashboardStylesheet.css";
 
 const Dashboard = () => {
    useEffect(() => {

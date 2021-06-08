@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap");
 
+html,
+body {
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+   background-color: white;
+   overflow-x: hidden;
+}
 html {
    scroll-behavior: smooth;
 }
@@ -15,10 +23,6 @@ a:active {
    outline: 0;
    text-decoration: none;
 }
-body {
-   background-color: white;
-   overflow-x: hidden;
-}
 
 .heading {
    color: #2d2a31;
@@ -28,7 +32,7 @@ body {
 }
 
 .heading span {
-   color: rgb(146, 23, 99);
+   color: #921763;
 }
 
 .content {
@@ -36,4 +40,18 @@ body {
    font-family: "Open Sans", sans-serif;
    font-size: 17px;
    line-height: 1.6;
+}
+
+@media (min-device-width: 20px) and (max-device-width: 500px) {
+   html,
+   body {
+      overflow-x: hidden;
+   }
+   .heading {
+      font-size: 30px;
+   }
+
+   .content {
+      font-size: 15px;
+   }
 }

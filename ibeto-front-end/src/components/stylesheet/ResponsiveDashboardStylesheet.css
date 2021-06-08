@@ -1,0 +1,93 @@
+/** --------------------------------------------------- For mobile devices ---------------------------------------------------**/
+@media (min-device-width: 20px) and (max-device-width: 800px) {
+   /* ------------ Dashboard ------------ */
+   .dashboard-row {
+      transform: translateX(5%);
+      margin: auto;
+      width: 85%;
+   }
+   .timeline-row,
+   .contactUs-row {
+      display: none;
+   }
+   iframe {
+      width: 90%;
+   }
+   .currentphase-text h5 {
+      font-size: 30px;
+   }
+   .currentphase-text p {
+    font-size: 18px;
+ }
+   .submissionForm-row {
+      margin-bottom: 10%;
+   }
+   .faq-row {
+      margin: auto;
+      transform: translateX(-10%);
+      width: 115%;
+   }
+   .progress {
+      width: 90px;
+      height: 90px;
+      line-height: 80px;
+   }
+   .progress .progress-value {
+      font-size: 7px;
+   }
+}
+
+/** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
+@media (min-device-width: 800px) and (max-device-width: 1200px) {
+   /* timeline */
+   .timeline-title {
+      font-size: 12px;
+   }
+   .timeline-info {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin: 0 0 0.2em 0;
+   }
+   /* Center */
+   .progress {
+      width: 80px;
+      height: 80px;
+      line-height: 100px;
+   }
+   .progress .progress-value {
+      font-size: 12px;
+   }
+   iframe {
+      width: 100%;
+   }
+   /* right */
+   .contactUs-text {
+      font-size: 17px;
+      line-height: 0.6;
+   }
+
+   .faq {
+      margin-bottom: 30px;
+   }
+   .faq .faq-card .faq-card-header .faq-title {
+      line-height: 16px;
+      margin-top: 10px;
+      font-size: 12px;
+   }
+   .faq .faq-card .faq-card-header .faq-title .badge {
+      width: 15px;
+      height: 15px;
+      font-size: 5px;
+   }
+}
+
+@media (min-device-width: 800px) and (max-device-width: 1800px) {
+   iframe {
+      width: 100%;
+   }
+}
+
+/**--------------------------------------------------- For Larger screen devices ----------------------------------------------------- **/
+@media (min-width: 1900px) and (max-width: 3000px) {
+}

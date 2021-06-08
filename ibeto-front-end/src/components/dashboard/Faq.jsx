@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheet/Dashboard.css";
-import "../stylesheet/ResponsiveStyle.css";
+import "../stylesheet/ResponsiveDashboardStylesheet.css";
 
 const Faq = () => {
    return (

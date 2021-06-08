@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/Dashboard.css";
-import "../stylesheet/ResponsiveStyle.css";
+import "../stylesheet/ResponsiveDashboardStylesheet.css";
 
 const Timeline = () => {
    return (
       <div className='white-bk timeline-row'>
-         <div className='dashboard-heading '>
+         <div className=''>
             <h4 className=' dashboard-heading '>Timeline</h4>
          </div>
          <hr />

@@ -151,8 +151,84 @@
 }
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
+
+/*play button */
+.btn-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 45%;
+  width: 100px; /* Need a specific value to work */
+}
+.bg,
+.buttons {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.bg {
+  animation: pulse 1.2s ease infinite;
+  background: rgb(71, 22, 30);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  border: none;
+  background: rgb(141, 20, 20);
+  background-size: 18px;
+  cursor: pointer;
+}
+
+.buttons i {
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* mute button */
+
+.btn-mute {
+  position: absolute;
+  top: 4%;
+  cursor: pointer;
+  right: 3%;
+  background-color: #1a1a1a;
+  border: none;
+  outline: none;
+}
+.btn-mute:focus {
+  outline: none;
+}
+.mutess i {
+  cursor: pointer;
+  font-size: 40px;
+  color: white;
+}
+
+/* main div */
+
 .animation-container {
-  height: 111vh;
+  height: 112vh;
   background-color: #1a1a1a;
   position: relative;
 }
@@ -195,14 +271,16 @@
 
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
-  padding: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
 }
 
 .about-btn {
   background: #58305f;
   overflow: hidden;
-  width: 150px;
-  height: 50px;
+  width: 7rem;
+  height: 1rem;
   min-height: 50px;
   flex-direction: row;
   justify-content: center;
@@ -211,7 +289,7 @@
   transition: all 0.5s ease-in-out;
 }
 .about-btn:hover {
-  background-color: #9c36b5;
+  background-color: #862d9c;
 }
 .about-btn-text {
   outline: 0;
@@ -236,10 +314,11 @@
   opacity: 0.3;
 }
 /*-------------------------------------- Event format --------------------------------------*/
-
+.event-format-row {
+  padding-top: 5%;
+}
 .event-format {
-  margin: 5%;
-  margin-top: 40px;
+  margin-top: 1%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -251,13 +330,15 @@
   border-radius: 13px;
   padding: 3%;
   color: #1a1a1a;
-  box-shadow: rgba(143, 129, 119, 0.2) 5px 10px 20px;
-  /* box-shadow: 6px 6px 10px 1px #f11f1f; */
-  transition: background-color 10s ease-in;
+  box-shadow: rgba(143, 129, 119, 0.2) 3px 3px 10px;
+  /* */
+
+  transition: 2s;
 }
 
 .phase:hover {
-  background-color: #1a1a1a;
+  transform: scale(1.5);
+  box-shadow: rgba(102, 16, 102, 0.2) 0px 7px 19px 0px;
 }
 
 .event-format-img {
@@ -272,23 +353,34 @@
 /*--------------------------------- Problem Statement ---------------------------------*/
 .problem-stmt-row {
   margin: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 .card-container {
   position: relative;
   perspective: 200rem;
   height: 300px;
-  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .card {
   position: absolute;
-  width: 70%;
   transition: all 1.5s;
   backface-visibility: hidden;
-  border-radius: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(143, 129, 119, 0.2) 5px 10px 20px;
+}
+.card-front {
+  background-color: #1a1a1a;
+  height: 80%;
+  width: 63%;
+}
+
+.card-back {
+  padding: 10%;
+  transform: rotateY(180deg);
+  height: 80%;
+  width: 63%;
 }
 
 .card-container:hover .card-front {
@@ -299,11 +391,6 @@
 .card-container:hover .card-back {
   transform: rotateY(0deg);
   /* border-radius: 100%; */
-}
-
-.card-back {
-  padding: 15%;
-  transform: rotateY(180deg);
 }
 
 .card-back .card-body {
@@ -328,9 +415,15 @@
 
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {
-  padding: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
 }
 
+.rewards-list {
+  padding-left: 7%;
+  padding-right: 7%;
+}
 /* CHANGE */
 .RightBlob2 {
   position: absolute;
