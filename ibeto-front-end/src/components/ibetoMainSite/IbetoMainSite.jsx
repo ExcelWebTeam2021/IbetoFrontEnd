@@ -12,31 +12,8 @@ import Testimonials from "./Testimonials";
 import Sponsors from "./Sponsors";
 import FAQ from "./FAQ";
 import ProblemStmts from "./ProblemStmts";
-import "../stylesheet/Cursor.css";
-
 
 const IbetoMainSite = () => {
-      
-      document.addEventListener("mousemove", function (e) {
-      console.log("MOVED", e);
-      var to_append = document.getElementsByClassName("entire-container")[0];
-      var all = document.getElementsByClassName("entire-container");
-
-      var parent_div = document.createElement("div");
-      parent_div.className = "entire-container";
-      var inner_div = document.createElement("div");
-      inner_div.className = "cursor";
-      parent_div.appendChild(inner_div);
-      var d = document.body.appendChild(parent_div);
-
-      parent_div.style.left = e.clientX - 50 + "px";
-      parent_div.style.top = e.clientY - 50 + "px";
-
-      if (document.getElementsByClassName("entire-container").length > 100) {
-         document.body.removeChild(to_append);
-      }
-     
-   });
    return (
       <div className='ibeto-mainsite'>
          <div>
