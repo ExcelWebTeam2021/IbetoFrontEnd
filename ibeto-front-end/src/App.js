@@ -5,10 +5,9 @@ import IbetoJnr from "./components/ibetoJnr/IbetoJnr";
 import IbetoMainSite from "./components/ibetoMainSite/IbetoMainSite";
 
 function App({ hideLoader }) {
-
    useEffect(() => {
-      hideLoader()
-  });
+      hideLoader();
+   });
 
    return (
       <div className='App'>

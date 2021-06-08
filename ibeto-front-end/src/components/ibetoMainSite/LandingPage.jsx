@@ -1,13 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import lottie from "lottie-web";
-import useSound from "use-sound";
 
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 import audio from "./audio.mp3";
 
-// UNINSTALL USE SOUND
 const LandingPage = () => {
    const LandingPage = useRef(null);
    const audioRef = useRef(new Audio(audio));
@@ -38,18 +36,26 @@ const LandingPage = () => {
             </div>
          </div>
          {!hidePlayBtn && (
-
-               <div className="btn-container">
-                  <div className="bg"></div>
-                  <div className="buttons" onClick={handleClick} ><i className="fa fa-play"></i></div>
+            <div className='btn-container'>
+               <div className='bg'></div>
+               <div className='buttons' onClick={handleClick}>
+                  <i className='fa fa-play'></i>
                </div>
-               
+            </div>
          )}
 
          {hidePlayBtn && (
-            <button className='btn-mute' onClick={handleMute} >
+            <button className='btn-mute' onClick={handleMute}>
                {" "}
-               {toggle ? <div className="mutess" ><i className="fa fa-volume-up "></i></div> : <div className="mutess" ><i className="fa fa-volume-off"></i></div> }
+               {toggle ? (
+                  <div className='mutess'>
+                     <i className='fa fa-volume-up '></i>
+                  </div>
+               ) : (
+                  <div className='mutess'>
+                     <i className='fa fa-volume-off'></i>
+                  </div>
+               )}
             </button>
          )}
 
