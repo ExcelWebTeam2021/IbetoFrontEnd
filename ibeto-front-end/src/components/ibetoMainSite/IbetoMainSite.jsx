@@ -16,8 +16,22 @@ import "../stylesheet/Cursor.css";
 
 
 const IbetoMainSite = () => {
+
+   const cursor = document.querySelector('.cursor');
+
+   document.addEventListener('mousemove', e => {
+       cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+   })
+
+   document.addEventListener('click', () => {
+       cursor.classList.add("expand");
+
+       setTimeout(() => {
+           cursor.classList.remove("expand");
+       }, 500)
+   })
       
-      document.addEventListener("mousemove", function (e) {
+      {/*document.addEventListener("mousemove", function (e) {
       console.log("MOVED", e);
       var to_append = document.getElementsByClassName("entire-container")[0];
       var all = document.getElementsByClassName("entire-container");
@@ -36,11 +50,11 @@ const IbetoMainSite = () => {
          document.body.removeChild(to_append);
       }
      
-   });
+   });*/}
    return (
       <div className='ibeto-mainsite'>
          <div>
-            {" "}
+            {/*{" "}*/}
             <Navbar />
             <LandingPage />
             <About />
