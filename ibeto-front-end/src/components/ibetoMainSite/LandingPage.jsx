@@ -59,7 +59,7 @@ const LandingPage = () => {
             </button>
          )}
 
-         <audio ref={audioRef} src={audio} autoplay={false} muted={toggle} controls={false} />
+         <audio ref={audioRef} src={audio} autoPlay={false} muted={toggle} controls={false} />
          {/* Blob */}
          {/* <div className='RightBlob1'>
             <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
