@@ -13,12 +13,6 @@ const LandingPage = () => {
    let [toggle, setToggle] = useState(false);
    const [hidePlayBtn, sethidePlayBtn] = useState(false);
 
-   useEffect(() => {
-      const timer = setTimeout(() => {
-         console.log("This will run after 1 second!");
-      }, 3000);
-      return () => clearTimeout(timer);
-   }, []);
    const handleClick = () => {
       audioRef.current.play();
       sethidePlayBtn(true);
