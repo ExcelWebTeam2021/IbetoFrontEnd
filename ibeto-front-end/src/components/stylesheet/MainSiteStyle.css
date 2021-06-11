@@ -165,13 +165,15 @@
 .bg,
 .buttons {
    position: absolute;
-   width: 100px;
-   height: 100px;
+   width: 85px;
+   height: 85px;
    border-radius: 100%;
 }
+
+
 .bg {
    animation: pulse 1.2s ease infinite;
-   background: rgb(71, 22, 30);
+   background: rgb(107, 25, 76);
 }
 
 .buttons {
@@ -180,8 +182,7 @@
    align-items: center;
    position: absolute;
    border: none;
-   background: rgb(141, 20, 20);
-   background-size: 18px;
+   background: linear-gradient(#d42056, #58144f);
    cursor: pointer;
 }
 
@@ -276,7 +277,7 @@
 }
 
 .about-btn {
-   background: #58305f;
+   background: linear-gradient(#d42056, #58144f);
    overflow: hidden;
    width: 7rem;
    height: 1rem;
@@ -286,9 +287,14 @@
    align-items: center;
    border-radius: 50px;
    transition: all 0.5s ease-in-out;
+   outline: none;
 }
-.about-btn:hover {
-   background-color: #862d9c;
+
+.about-btn:focus{
+   outline:none;
+   border: none;
+   background: linear-gradient(#d42056, #58144f);
+
 }
 .about-btn-text {
    outline: 0;
@@ -330,9 +336,7 @@
    padding: 3%;
    color: #1a1a1a;
    box-shadow: rgba(143, 129, 119, 0.2) 3px 3px 10px;
-   /* */
-
-   transition: 2s;
+   transition: 2s ease-in-out;
 }
 
 .phase:hover {
