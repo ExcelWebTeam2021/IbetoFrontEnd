@@ -13,7 +13,7 @@
    right: 31px;
    bottom: -6px;
    font-size: 100px;
-   font-weight:900;
+   font-weight: 900;
    cursor: pointer;
 }
 
@@ -21,7 +21,6 @@
    margin-top: 6%;
    margin-bottom: 1%;
    position: relative;
-   height: 80vh;
    background-color: #1a1a1a;
    overflow: hidden;
 }
@@ -31,7 +30,6 @@
    position: absolute;
    bottom: 0;
    right: 95px;
-   font-size: 65px;
    font-weight: 800;
    color: #faf4f4;
 }
@@ -40,8 +38,6 @@
    position: absolute;
    right: 25px;
    bottom: 18px;
-   width: 50px;
-   height: 50px;
    background-color: rgb(218, 31, 146);
    border: none;
    border-radius: 30px;
@@ -64,20 +60,6 @@
    outline: none;
 }
 
-@media only screen and (max-width: 900px) {
-   /* Junior */
-   .Jheading {
-      left: 45px;
-      font-size: 55px;
-      right: 70px;
-      bottom: 7px;
-   }
-   .Jarrow {
-      font-size: 70px;
-      bottom: 8px;
-      right: 35px;
-   }
-}
 .custom-shape-divider-top-1622696408 {
    position: absolute;
    top: 0;
