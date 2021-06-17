@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Testimonials.css";
 
 const Testimonials = () => {
+   useEffect(() => {
+      AOS.init({ duration: 1100 });
+   }, []);
+
    return (
-      <div id='Junior-Testimonials' className='container testimonial-row'>
+      <div data-aos="fade-in" id='Junior-Testimonials' className='container testimonial-row'>
          <h1 class='heading pb-4'>Testim<span>onials</span></h1>
 
          <div className='row'>
