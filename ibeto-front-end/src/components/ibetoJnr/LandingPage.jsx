@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
-import plan_landingpage from "../images/plan_landingpage.svg";
 
 const LandingPage = () => {
    const LandingPage = useRef(null);

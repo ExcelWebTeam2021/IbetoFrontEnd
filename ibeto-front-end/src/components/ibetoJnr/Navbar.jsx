@@ -7,7 +7,7 @@ const Navbar = () => {
 
    return (
       <div className='menu-wrap'>
-         <input type='checkbox' className='toggler' onClick={handleClick} checked={checked} />
+         <input type='checkbox' className='toggler' onClick={handleClick} checked={checked} onChange={(e) => {}} />
          <div className='hamburger'>
             <div></div>
          </div>

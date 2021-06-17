@@ -9,45 +9,45 @@ const Timeline = () => {
             <h4 className=' dashboard-heading '>Timeline</h4>
          </div>
          <hr />
-         <ul class='timeline'>
-            <li class='timeline-item'>
-               <div class='timeline-info'>
+         <ul className='timeline'>
+            <li className='timeline-item'>
+               <div className='timeline-info'>
                   <span>March 12, 2016</span>
                </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
+               <div className='timeline-marker'></div>
+               <div className='timeline-content'>
+                  <h3 className='timeline-title'>Event Title</h3>
                   Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere .
                </div>
             </li>
-            <li class='timeline-item'>
-               <div class='timeline-info'>
+            <li className='timeline-item'>
+               <div className='timeline-info'>
                   <span>March 23, 2016</span>
                </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
+               <div className='timeline-marker'></div>
+               <div className='timeline-content'>
+                  <h3 className='timeline-title'>Event Title</h3>
                   <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
                </div>
             </li>
 
-            <li class='timeline-item'>
-               <div class='timeline-info'>
+            <li className='timeline-item'>
+               <div className='timeline-info'>
                   <span>April 02, 2016</span>
                </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
+               <div className='timeline-marker'></div>
+               <div className='timeline-content'>
+                  <h3 className='timeline-title'>Event Title</h3>
                   <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
                </div>
             </li>
-            <li class='timeline-item'>
-               <div class='timeline-info'>
+            <li className='timeline-item'>
+               <div className='timeline-info'>
                   <span>April 28, 2016</span>
                </div>
-               <div class='timeline-marker'></div>
-               <div class='timeline-content'>
-                  <h3 class='timeline-title'>Event Title</h3>
+               <div className='timeline-marker'></div>
+               <div className='timeline-content'>
+                  <h3 className='timeline-title'>Event Title</h3>
                   <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
                </div>
             </li>

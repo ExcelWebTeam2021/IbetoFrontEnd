@@ -13,14 +13,14 @@ const CurrentPhase = () => {
             </div>
             <div className='col-5 progressbar-row'>
                {" "}
-               <div class='progress' data-percentage='20'>
-                  <span class='progress-left'>
-                     <span class='progress-bar'></span>
+               <div className='progress' data-percentage='20'>
+                  <span className='progress-left'>
+                     <span className='progress-bar'></span>
                   </span>
-                  <span class='progress-right'>
-                     <span class='progress-bar'></span>
+                  <span className='progress-right'>
+                     <span className='progress-bar'></span>
                   </span>
-                  <div class='progress-value'>
+                  <div className='progress-value'>
                      <div>
                         20%
                         <br />

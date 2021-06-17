@@ -7,7 +7,8 @@ const Navbar = () => {
 
    return (
       <div className='menu-wrap'>
-         <input type='checkbox' className='toggler' onClick={handleClick} checked={checked} />
+         {/* onChange={e => {}} is added to avoid an error msg in the console: ' You provided a `checked` prop to a form field without ........' */}
+         <input type='checkbox' className='toggler' onClick={handleClick} checked={checked} onChange={(e) => {}} />
          <div className='hamburger'>
             <div></div>
          </div>
