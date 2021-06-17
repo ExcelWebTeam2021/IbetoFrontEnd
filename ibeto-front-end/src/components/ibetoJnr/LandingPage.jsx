@@ -24,8 +24,8 @@ const LandingPage = () => {
 
    return (
       <main>
-         <div className='animation-container darker-bk' id='Home' ref={LandingPage}>
-            {/* <div className='animation-container darker-bk' id='Junior-Home'> */}
+         <div className='animation-container darker-bk' id='home' ref={LandingPage}>
+            {/* <div className='animation-container darker-bk' id='home'> */}
 
             <div className='custom-shape-divider-bottom-1622696646'>
                <svg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'>

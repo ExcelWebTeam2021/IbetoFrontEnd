@@ -16,16 +16,16 @@ const Navbar = () => {
                <div>
                   <ul className='overlay-content pt-2'>
                      <li onClick={handleClick}>
-                        <a href='#Junior-Home'>Home</a>
+                        <a href='#home'>Home</a>
                      </li>
                      <li onClick={handleClick}>
-                        <a href='#Junior-About'>About</a>
+                        <a href='#about'>About</a>
                      </li>
                      <li onClick={handleClick}>
-                        <a href='#Junior-EventFormat'>Event Format</a>
+                        <a href='#event_format'>Event Format</a>
                      </li>
                      <li onClick={handleClick}>
-                        <a href='#Junior-Testimonials'>Testimonials</a>
+                        <a href='#testimonials'>Testimonials</a>
                      </li>
                   </ul>
                </div>

@@ -15,7 +15,7 @@ export default function EventFormat() {
    }, []);
 
    return (
-      <div className='container-fluid ' id='Junior-EventFormat'>
+      <div className='container-fluid ' id='event_format'>
          <h2 className='container heading mt-5'>
             Event<span> Format</span>
          </h2>

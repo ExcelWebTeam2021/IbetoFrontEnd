@@ -12,7 +12,7 @@ const Testimonials = () => {
    }, []);
 
    return (
-      <div data-aos='fade-in' id='Junior-Testimonials' className='container testimonial-row'>
+      <div data-aos='fade-in' id='testimonials' className='container testimonial-row'>
          <h1 className='heading pb-4'>
             Testim<span>onials</span>
          </h1>
