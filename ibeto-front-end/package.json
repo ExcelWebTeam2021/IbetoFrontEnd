@@ -7,16 +7,12 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^3.0.0-beta.6",
-    "axios": "^0.21.1",
-    "howler": "^2.2.1",
     "lottie-web": "^5.7.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-fontawesome": "^1.7.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
-    "sass": "^1.32.12",
-    "use-sound": "^3.0.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

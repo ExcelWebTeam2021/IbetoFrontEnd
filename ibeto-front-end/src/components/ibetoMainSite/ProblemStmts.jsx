@@ -41,7 +41,7 @@ const ProblemStmts = () => {
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/SGD/QualityEducation.json"),
+         animationData: require("./animations/SGD/QualityEduction.json"),
       });
       const sdg5_animation = lottie.loadAnimation({
          container: sdg5.current,

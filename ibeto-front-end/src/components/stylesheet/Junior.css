@@ -10,10 +10,10 @@
    transition: all 0.2s ease;
    z-index: 100;
    position: absolute;
-   right: 32px;
-   bottom: 0px;
-   font-size: 95px;
-   font-weight: 900;
+   right: 31px;
+   bottom: -6px;
+   font-size: 100px;
+   font-weight:900;
    cursor: pointer;
 }
 
@@ -38,10 +38,10 @@
 
 .Jbutton {
    position: absolute;
-   right: 30px;
-   bottom: 28px;
-   width: 37px;
-   height: 37px;
+   right: 25px;
+   bottom: 18px;
+   width: 50px;
+   height: 50px;
    background-color: rgb(218, 31, 146);
    border: none;
    border-radius: 30px;
@@ -57,7 +57,7 @@
 }
 .junior-hover-section:hover button,
 .Jbutton:hover {
-   transform: scale(9.5);
+   transform: scale(10);
 }
 .Jcard button:focus {
    border: none;
