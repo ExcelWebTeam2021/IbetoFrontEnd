@@ -14,7 +14,7 @@ const Rewards = () => {
    return (
       <div className='container-fluid rewards-row  '>
          <div className='justify-content-center row' id='Rewards'>
-            <div data-aos='fade-right' className='col-md-4 col-sm-10'>
+            <div data-aos='fade-right' className='col-md-3 col-sm-7'>
                <img src={reward} alt='ibeto-logo' className='img-fluid' />
             </div>
 

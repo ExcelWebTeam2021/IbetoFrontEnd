@@ -6,15 +6,15 @@ const Navbar = () => {
    const handleClick = () => setChecked(!checked);
 
    return (
-      <div class='menu-wrap'>
-         <input type='checkbox' class='toggler' onClick={handleClick} checked={checked} />
-         <div class='hamburger'>
+      <div className='menu-wrap'>
+         <input type='checkbox' className='toggler' onClick={handleClick} checked={checked} />
+         <div className='hamburger'>
             <div></div>
          </div>
-         <div class='menu'>
+         <div className='menu'>
             <div>
                <div>
-                  <ul class='overlay-content pt-2'>
+                  <ul className='overlay-content pt-2'>
                      <li onClick={handleClick}>
                         <a href='#Junior-Home'>Home</a>
                      </li>
