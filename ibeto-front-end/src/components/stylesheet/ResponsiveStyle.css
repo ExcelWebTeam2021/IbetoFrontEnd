@@ -31,24 +31,25 @@
       margin-left: 10%;
       margin-right: 10%;
    }
+   .rewards-img {
+      width: 80%;
+   }
    .mainsite-timeline-row {
       padding-top: 15%;
    }
 
    /* Junior */
+   .junior {
+      padding: 0;
+   }
+   .Jcard {
+      width: 100vw;
+      height: 80vh;
+   }
    .Jheading {
-      left: 20px;
       font-size: 32px;
-      right: 60px;
-      bottom: 4px;
    }
 
-   .Jarrow {
-      font-size: 65px;
-      left: 78vw;
-      bottom: -30px;
-      top: 58%;
-   }
    .Jbutton {
       right: 1px;
       width: 35px;
@@ -127,11 +128,6 @@
       right: 70px;
       bottom: 7px;
    }
-   .Jarrow {
-      font-size: 70px;
-      bottom: 5px;
-      right: 45px;
-   }
    .Jbutton {
       right: 15px;
       width: 40px;
@@ -154,7 +150,6 @@
       font-size: 65px;
    }
    .Jbutton {
-      right: 20px;
       width: 50px;
       height: 50px;
    }

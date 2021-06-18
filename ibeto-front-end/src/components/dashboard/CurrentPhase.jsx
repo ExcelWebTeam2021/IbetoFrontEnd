@@ -8,7 +8,7 @@ const CurrentPhase = () => {
          <div className='row'>
             <div className='col-1'></div>
             <div className='col-5 currentphase-text'>
-               <h4>Ibeto</h4>
+               <h4 className='dashboard-heading'>Ibeto</h4>
                <p>Report submission phase</p>
             </div>
             <div className='col-5 progressbar-row'>

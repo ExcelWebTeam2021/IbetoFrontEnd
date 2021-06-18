@@ -42,3 +42,9 @@
       transform: scale(0.4);
    }
 }
+
+@media (min-device-width: 20px) and (max-device-width: 800px) {
+   .cursor {
+      display: none;
+   }
+}
