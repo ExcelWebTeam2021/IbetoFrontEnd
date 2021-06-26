@@ -12,7 +12,7 @@ const About = () => {
    }, []);
 
    return (
-      <div className='container-fluid about-bk' id='Junior-About'>
+      <div className='container-fluid about-bk' id='about'>
          <div className='row about'>
             <div data-aos='fade-right' className='col-md-4 col-xs-12'>
                <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' className='img-fluid' />
