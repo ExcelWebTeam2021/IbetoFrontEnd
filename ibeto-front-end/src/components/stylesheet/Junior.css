@@ -51,11 +51,11 @@
 .junior-hover-section:hover .Jarrow,
 .Jbutton:hover {
    opacity: 1;
-   transform: scale(1);
+   /* transform: scale(1); */
 }
 .junior-hover-section:hover button,
 .Jbutton:hover {
-   transform: scale(10);
+   transform: scale(8);
 }
 .Jcard button:focus {
    border: none;
