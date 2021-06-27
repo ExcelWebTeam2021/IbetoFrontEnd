@@ -33,6 +33,10 @@ const Testimonials = () => {
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
@@ -47,6 +51,10 @@ const Testimonials = () => {
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.{" "}
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
@@ -61,6 +69,10 @@ const Testimonials = () => {
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
