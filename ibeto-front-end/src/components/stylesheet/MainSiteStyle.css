@@ -275,7 +275,7 @@
   padding-top: 5%;
 }
 
-.about-btn {
+/* .about-btn {
   background: linear-gradient(#d42056, #58144f);
   overflow: hidden;
   width: 7rem;
@@ -293,16 +293,16 @@
   outline: none;
   border: none;
   background: linear-gradient(#d42056, #58144f);
-}
-.about-btn-text {
+} */
+/* .about-btn-text {
   outline: 0;
   /* color: #58144f; */
-  text-decoration: none;
+/* text-decoration: none;
 }
 .about-btn-text:hover {
   color: white;
-}
-/* btn new design */
+} */
+/*btn new design */
 
 /* .buttons {
   margin-top: 50px;

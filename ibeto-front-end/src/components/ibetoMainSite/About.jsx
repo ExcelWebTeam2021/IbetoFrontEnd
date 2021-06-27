@@ -39,7 +39,7 @@ const About = () => {
 
 {/* <div class="buttons"> */}
   <button class="btn mt-4 blob-btn button-shadow">
-  <Link to='/dashboard' className='about-btn-text'>
+  <Link to='/dashboard' className='blob-btn-text'>
                         Dashboard
                      </Link>
     <span class="blob-btn__inner">

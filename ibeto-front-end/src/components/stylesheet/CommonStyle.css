@@ -2,56 +2,154 @@
 
 html,
 body {
-   width: 100%;
-   margin: 0px;
-   padding: 0px;
-   background-color: white;
-   overflow-x: hidden;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  overflow-x: hidden;
 }
 html {
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 a {
-   background-color: transparent;
-   color: inherit;
-   text-decoration: underline;
+  background-color: transparent;
+  color: inherit;
+  text-decoration: underline;
 }
 
 a:hover,
 a:active {
-   outline: 0;
-   text-decoration: none;
+  outline: 0;
+  text-decoration: none;
 }
 
 .heading {
-   color: #2d2a31;
-   font-size: 40px;
-   font-weight: 500;
-   font-family: "Raleway", sans-serif;
+  color: #2d2a31;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
 }
 
 .heading span {
-   color: #921763;
+  color: #921763;
 }
 
 .content {
-   color: #39343d;
-   font-family: "Open Sans", sans-serif;
-   font-size: 17px;
-   line-height: 1.6;
+  color: #39343d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.blob-btn {
+  z-index: 1;
+  position: relative;
+  /* padding: 20px 46px; */
+  /* margin-bottom: 30px; */
+  /* text-align: center; */
+  /* text-transform: uppercase; */
+  color: #58144f;
+  /* font-size: 16px; */
+  /* font-weight: bold; */
+  /* background-color: transparent; */
+  outline: none;
+  border: none;
+  transition: color 0.5s;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #58144f;
+
+  overflow: hidden;
+  width: 7rem;
+  height: 1rem;
+  min-height: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.blob-btn-text {
+  outline: 0;
+  /* color: #58144f; */
+  text-decoration: none;
+}
+.blob-btn-text:hover {
+  color: white;
+}
+
+.blob-btn:hover {
+  color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid transparent;
+}
+.blob-btn__inner {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: #ffffff;
+}
+.blob-btn__blobs {
+  position: relative;
+  display: block;
+  height: 100%;
+  filter: url("#goo");
+}
+.blob-btn__blob {
+  position: absolute;
+  top: 3px;
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(#d42056, #58144f);
+  border-radius: 100%;
+  transform: translate3d(0, 150%, 0) scale(1.7);
+  transition: transform 0.45s;
+}
+@supports (filter: url("#goo")) {
+  .blob-btn__blob {
+    transform: translate3d(0, 150%, 0) scale(1.4);
+  }
+}
+.blob-btn__blob:nth-child(1) {
+  left: 0%;
+  transition-delay: 0s;
+}
+.blob-btn__blob:nth-child(2) {
+  left: 30%;
+  transition-delay: 0.08s;
+}
+.blob-btn__blob:nth-child(3) {
+  left: 60%;
+  transition-delay: 0.16s;
+}
+.blob-btn__blob:nth-child(4) {
+  left: 90%;
+  transition-delay: 0.24s;
+}
+.blob-btn:hover .blob-btn__blob {
+  transform: translateZ(0) scale(1.7);
+}
+@supports (filter: url("#goo")) {
+  .blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.4);
+  }
 }
 
 @media (min-device-width: 20px) and (max-device-width: 500px) {
-   html,
-   body {
-      overflow-x: hidden;
-   }
-   .heading {
-      font-size: 32px;
-   }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .heading {
+    font-size: 32px;
+  }
 
-   .content {
-      font-size: 15px;
-   }
+  .content {
+    font-size: 15px;
+  }
 }
