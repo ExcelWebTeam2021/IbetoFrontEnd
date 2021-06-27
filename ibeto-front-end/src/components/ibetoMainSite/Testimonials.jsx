@@ -27,11 +27,15 @@ const Testimonials = () => {
                         <blockquote>
                            <div className='row'>
                               <div className='col content'>
-                                 <p className="testimonial-content">
+                                 <p className='testimonial-content'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
@@ -41,11 +45,15 @@ const Testimonials = () => {
                         <blockquote>
                            <div className='row'>
                               <div className='col content'>
-                                 <p className="testimonial-content">
+                                 <p className='testimonial-content'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.{" "}
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
@@ -55,11 +63,15 @@ const Testimonials = () => {
                         <blockquote>
                            <div className='row'>
                               <div className='col content'>
-                                 <p className="testimonial-content">
+                                 <p className='testimonial-content'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
