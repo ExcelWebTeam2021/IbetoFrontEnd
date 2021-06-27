@@ -29,15 +29,6 @@ const About = () => {
                      but will also help in understanding the need for innovation in the real world.
                   </p>
                </div>
-               {/* <div className=''>
-                  <button className='btn mt-4 about-btn button-shadow'>
-                     <Link to='/dashboard' className='about-btn-text'>
-                        Dashboard
-                     </Link>
-                  </button>
-               </div> */}
-
-{/* <div class="buttons"> */}
   <button class="btn mt-4 blob-btn button-shadow">
   <Link to='/dashboard' className='blob-btn-text'>
                         Dashboard
@@ -65,7 +56,7 @@ const About = () => {
 
 
 
-{/* </div> */}
+
             </div>
          </div>
       </div>

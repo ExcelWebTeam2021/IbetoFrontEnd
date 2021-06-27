@@ -45,14 +45,7 @@ a:active {
 .blob-btn {
   z-index: 1;
   position: relative;
-  /* padding: 20px 46px; */
-  /* margin-bottom: 30px; */
-  /* text-align: center; */
-  /* text-transform: uppercase; */
   color: #58144f;
-  /* font-size: 16px; */
-  /* font-weight: bold; */
-  /* background-color: transparent; */
   outline: none;
   border: none;
   transition: color 0.5s;
