@@ -7,20 +7,21 @@ const CurrentPhase = () => {
       <div className='white-bk currentphase-row'>
          <div className='row'>
             <div className='col-1'></div>
-            <div className='col-5 currentphase-text'>
-               <h4>Ibeto</h4>
+            <div className='col-6 currentphase-text'>
+               <h4 className='dashboard-heading'>Ibeto</h4>
                <p>Report submission phase</p>
+               <button className='btn btn-danger btn-sm'>Shortlisted students</button>
             </div>
             <div className='col-5 progressbar-row'>
                {" "}
-               <div class='progress' data-percentage='20'>
-                  <span class='progress-left'>
-                     <span class='progress-bar'></span>
+               <div className='progress' data-percentage='20'>
+                  <span className='progress-left'>
+                     <span className='progress-bar'></span>
                   </span>
-                  <span class='progress-right'>
-                     <span class='progress-bar'></span>
+                  <span className='progress-right'>
+                     <span className='progress-bar'></span>
                   </span>
-                  <div class='progress-value'>
+                  <div className='progress-value'>
                      <div>
                         20%
                         <br />

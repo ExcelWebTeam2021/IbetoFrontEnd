@@ -3,25 +3,10 @@
    background-color: #1a1a1a;
    position: relative;
 }
-.Jarrow {
-   opacity: 1;
-   color: #fff;
-   transform: scale(0.2);
-   transition: all 0.2s ease;
-   z-index: 100;
-   position: absolute;
-   right: 32px;
-   bottom: 0px;
-   font-size: 95px;
-   font-weight: 900;
-   cursor: pointer;
-}
-
 .Jcard {
    margin-top: 6%;
    margin-bottom: 1%;
    position: relative;
-   height: 80vh;
    background-color: #1a1a1a;
    overflow: hidden;
 }
@@ -31,17 +16,30 @@
    position: absolute;
    bottom: 0;
    right: 95px;
-   font-size: 65px;
    font-weight: 800;
    color: #faf4f4;
+}
+.Jarrow {
+   opacity: 1;
+   color: #fff;
+   transform: scale(0.2);
+   transition: all 0.2s ease;
+   z-index: 100;
+   text-align: center;
+   display: block;
+   height: 90%;
+   width: 100%;
+   margin: auto;
+   margin-top: -50%;
+   font-size: 100px;
+   font-weight: 900;
+   cursor: pointer;
 }
 
 .Jbutton {
    position: absolute;
-   right: 30px;
-   bottom: 28px;
-   width: 37px;
-   height: 37px;
+   right: 25px;
+   bottom: 18px;
    background-color: rgb(218, 31, 146);
    border: none;
    border-radius: 30px;
@@ -53,32 +51,18 @@
 .junior-hover-section:hover .Jarrow,
 .Jbutton:hover {
    opacity: 1;
-   transform: scale(1);
+   /* transform: scale(1); */
 }
 .junior-hover-section:hover button,
 .Jbutton:hover {
-   transform: scale(9.5);
+   transform: scale(8);
 }
 .Jcard button:focus {
    border: none;
    outline: none;
 }
 
-@media only screen and (max-width: 900px) {
-   /* Junior */
-   .Jheading {
-      left: 45px;
-      font-size: 55px;
-      right: 70px;
-      bottom: 7px;
-   }
-   .Jarrow {
-      font-size: 70px;
-      bottom: 8px;
-      right: 35px;
-   }
-}
-.custom-shape-divider-top-1622696408 {
+.mainsite-footer-animation {
    position: absolute;
    top: 0;
    left: 0;
@@ -87,20 +71,20 @@
    line-height: 0;
 }
 
-.custom-shape-divider-top-1622696408 svg {
+.mainsite-footer-animation svg {
    position: relative;
    display: block;
    width: calc(153% + 1.3px);
    height: 150px;
 }
 
-.custom-shape-divider-top-1622696408 .shape-fill {
+.mainsite-footer-animation .shape-fill {
    fill: #ffffff;
 }
 
 /** For tablet devices **/
 @media (min-width: 601px) and (max-width: 1023px) {
-   .custom-shape-divider-top-1622696408 svg {
+   .mainsite-footer-animation svg {
       width: calc(160% + 1.3px);
       height: 150px;
    }
@@ -108,18 +92,16 @@
 
 /** For mobile devices **/
 @media (max-width: 700px) {
-   .custom-shape-divider-top-1622696408 svg {
+   .mainsite-footer-animation svg {
       width: calc(174% + 1.3px);
       height: 90px;
-      background: #1a1a1a;
    }
 }
 
 @media (max-width: 500px) {
-   .custom-shape-divider-top-1622696408 svg {
+   .mainsite-footer-animation svg {
       width: calc(164% + 1.3px);
       height: 50px;
-      background: #1a1a1a;
    }
 }
 /* 

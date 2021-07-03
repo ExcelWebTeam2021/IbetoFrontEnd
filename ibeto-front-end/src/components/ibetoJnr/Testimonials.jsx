@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Testimonials.css";
 
 const Testimonials = () => {
+   useEffect(() => {
+      AOS.init({ duration: 1100 });
+   }, []);
+
    return (
-      <div id='Junior-Testimonials' className='container testimonial-row'>
-         <h1 class='heading pb-4'>Testim<span>onials</span></h1>
+      <div data-aos='fade-in' id='testimonials' className='container testimonial-row'>
+         <h1 className='heading pb-4'>
+            Testim<span>onials</span>
+         </h1>
 
          <div className='row'>
+            <a data-slide='prev' href='#quote-carousel' className='carousel-control left'>
+               ‹
+            </a>
             <div className='col'>
                <div className='carousel slide' data-ride='carousel' id='quote-carousel'>
                   <div className='carousel-inner'>
@@ -17,11 +28,15 @@ const Testimonials = () => {
                         <blockquote>
                            <div className='row'>
                               <div className='col content'>
-                                 <p >
+                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
@@ -36,6 +51,10 @@ const Testimonials = () => {
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.{" "}
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
@@ -50,6 +69,10 @@ const Testimonials = () => {
                                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .
                                  </p>
                                  <small>Someone famous</small>
+                                 <div>
+                                    {" "}
+                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                 </div>
                               </div>
                            </div>
                         </blockquote>
@@ -69,9 +92,12 @@ const Testimonials = () => {
                   </ol>
                </div>
             </div>
+            <a data-slide='next' href='#quote-carousel' className='carousel-control right'>
+               ›
+            </a>
          </div>
       </div>
-    );
+   );
 };
 
 export default Testimonials;

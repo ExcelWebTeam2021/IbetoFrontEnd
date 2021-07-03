@@ -17,8 +17,8 @@
       font-size: 30px;
    }
    .currentphase-text p {
-    font-size: 18px;
- }
+      font-size: 18px;
+   }
    .submissionForm-row {
       margin-bottom: 10%;
    }
@@ -33,7 +33,7 @@
       line-height: 80px;
    }
    .progress .progress-value {
-      font-size: 7px;
+      font-size: 12px;
    }
 }
 
@@ -51,8 +51,9 @@
    }
    /* Center */
    .progress {
-      width: 80px;
-      height: 80px;
+      margin-top: 10%;
+      width: 85px;
+      height: 85px;
       line-height: 100px;
    }
    .progress .progress-value {
