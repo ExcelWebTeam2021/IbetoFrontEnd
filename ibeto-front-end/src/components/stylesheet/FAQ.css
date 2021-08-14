@@ -66,6 +66,7 @@
 }
 .accordion button[aria-expanded="true"] {
    color: #691c5f;
+   font-weight: 600;
 }
 .accordion button[aria-expanded="true"] .icon::after {
    width: 0;

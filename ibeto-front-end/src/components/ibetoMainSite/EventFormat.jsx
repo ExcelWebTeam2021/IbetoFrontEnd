@@ -16,7 +16,7 @@ const EventFormat = () => {
 
    return (
       <div className='container-fluid event-format-row' id='EventFormat'>
-         <h2 className='container heading mt-5'>
+         <h2 className='container heading'>
             Event<span> Format</span>
          </h2>
 

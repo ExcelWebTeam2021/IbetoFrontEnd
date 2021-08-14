@@ -28,13 +28,11 @@ const Testimonials = () => {
                            <div className='row'>
                               <div className='col content'>
                                  <p className='testimonial-content'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !
-                                 </p>
-                                 <small>Someone famous</small>
+                                 It was a unique experience and great honour to exhibit our team project  "Chitowrapper : A bioactive packaging"  in front of a well-organised competition "IBeTo 2018". Careful and meticulous judgement without limitation is the essential feature of this event that has made it a very different opportunity. </p>
+                               <div>  <b>Ms Anitta Sunny</b></div>
+                                 <small> Chitowrapper, Winner of IBeTo’18 </small>
                                  <div>
-                                    {" "}
-                                    <button className='btn btn-danger btn-sm'>View project</button>
+                                   
                                  </div>
                               </div>
                            </div>
@@ -46,14 +44,13 @@ const Testimonials = () => {
                            <div className='row'>
                               <div className='col content'>
                                  <p className='testimonial-content'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.{" "}
-                                 </p>
-                                 <small>Someone famous</small>
+                                 IBETO was really a great platform for us to showcase our project. The experience we gathered from this event really helped us in the further development of the project. We really thank team IBETO and EXCEL for the excellent support and great time.
+ </p>
+ <div>  <b>Mr Ramdas KU</b></div>
+                                 <small> Assistant Manager at Raychem RPG (P) Ltd, Winner of IBeTo’15
+</small>
                                  <div>
-                                    {" "}
-                                    <button className='btn btn-danger btn-sm'>View project</button>
-                                 </div>
+                                    </div>
                               </div>
                            </div>
                         </blockquote>

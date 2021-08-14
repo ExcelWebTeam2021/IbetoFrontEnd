@@ -21,6 +21,7 @@ const IbetoMainSite = () => {
             <Navbar />
             <LandingPage />
             <About />
+            <whyParticipate />
             <EventFormat />
             <ProblemStmts />
             <Rewards />

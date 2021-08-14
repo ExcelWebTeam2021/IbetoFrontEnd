@@ -1,92 +1,261 @@
-/*--------------------------- LEFT SECTION: mainsite-timeline --------------------------- */
-.mainsite-timeline-row {
-   margin: auto;
-   padding-left: 15%;
-   padding-right: 10%;
-}
-.mainsite-timeline {
-   line-height: 1.4em;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   color: #768390;
-}
-.mainsite-timeline-title {
-   color: #6e526e;
-   margin-top: 0;
-   line-height: inherit;
-   font-size: 18px;
-   font-family: "Raleway", sans-serif;
+.hexa {
+  border: 0px;
+  float: left;
+  text-align: center;
+  height: 25px;
+  width: 50px;
+  font-size: 22px;
+  background: #f0f0f0;
+  color: #3c3c3c;
+  position: relative;
+  margin-top: 15px;
 }
 
-/*----- mainsite-timeline ITEM -----*/
-.mainsite-timeline-item {
-   position: relative;
-   padding: 0px;
-   padding-left: 30px;
-   padding-right: 30px;
-   padding-bottom: 10px;
-}
-.mainsite-timeline-item:last-child {
-   padding-bottom: 0;
-}
-
-/*----- mainsite-timeline INFO -----*/
-.mainsite-timeline-info {
-   font-weight: 700;
-   letter-spacing: 3px;
-   margin: 0 0 0.5em 0;
-   text-transform: uppercase;
-   white-space: nowrap;
+.hexa:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 5px solid #f0f0f0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  top: -15px;
 }
 
-/*----- mainsite-timeline MARKER -----*/
-.mainsite-timeline-marker {
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   width: 15px;
-}
-.mainsite-timeline-marker:before {
-   background: #bb4787;
-   border: 3px solid transparent;
-   border-radius: 100%;
-   content: "";
-   display: block;
-   height: 15px;
-   position: absolute;
-   top: 4px;
-   left: 0;
-   width: 15px;
-   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
-}
-.mainsite-timeline-marker:after {
-   content: "";
-   width: 3px;
-   background: #ccd5db;
-   display: block;
-   position: absolute;
-   top: 24px;
-   bottom: 0;
-   left: 6px;
-}
-.mainsite-timeline-item:last-child .mainsite-timeline-marker:after {
-   content: none;
+.hexa:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 15px solid #f0f0f0;
+  bottom: -15px;
 }
 
-.mainsite-timeline-item:not(.period):hover .mainsite-timeline-marker:before {
-   background: transparent;
-   border: 3px solid #bb4787;
+.timeline {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  margin-top: 20px;
+  list-style-type: none;
 }
 
-/*----- mainsite-timeline CONTENT -----*/
-.mainsite-timeline-content {
-   padding-bottom: 3%;
-   font-size: 12px;
-   width: 100%;
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: " ";
+  display: block;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  background: rgb(213, 213, 213);
+  z-index: 5;
 }
-.mainsite-timeline-content p:last-child {
-   margin-bottom: 0;
+
+.timeline li {
+  padding: 3em 0;
+}
+
+.timeline .hexa {
+  width: 16px;
+  height: 10px;
+  position: absolute;
+  background: #bb4787;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: -30px;
+  margin-top: 0;
+}
+
+.timeline .hexa:before {
+  border-bottom: 4px solid #bb4787;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  top: -4px;
+}
+
+.timeline .hexa:after {
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-top: 4px solid #bb4787;
+  bottom: -4px;
+}
+
+.direction-l,
+.direction-r {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+.flag-wrapper {
+  text-align: center;
+  position: relative;
+}
+
+.flag {
+  position: relative;
+  display: inline;
+  background: rgb(255, 255, 255);
+  font-weight: 600;
+  color: #292929;
+  z-index: 15;
+  padding: 6px 10px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.direction-l .flag {
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.direction-r .flag {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.direction-l .time-wrapper {
+  float: none;
+}
+
+.direction-r .time-wrapper {
+  float: none;
+}
+
+.time {
+  display: block;
+  position: relative;
+  z-index: 14;
+  color: #fff;
+  background: #921763;
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.direction-l .desc,
+.direction-r .desc {
+  position: relative;
+  margin: 1em 1em 0 1em;
+  padding: 1em;
+  z-index: 15;
+}
+
+@media (min-width: 768px) {
+  .timeline {
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+  .timeline .hexa {
+    left: -28px;
+    right: auto;
+    top: 8px;
+  }
+
+  .timeline .direction-l .hexa {
+    left: auto;
+    right: -28px;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 310px;
+    float: left;
+    text-align: right;
+  }
+
+  .direction-r {
+    position: relative;
+    width: 310px;
+    float: right;
+    text-align: left;
+  }
+
+  .flag-wrapper {
+    display: inline-block;
+  }
+
+  .flag {
+    font-size: 18px;
+  }
+
+  .direction-l .flag:after {
+    left: auto;
+    right: -16px;
+    top: 50%;
+    margin-top: -8px;
+    border: solid transparent;
+    border-left-color: rgb(254, 254, 254);
+    border-width: 8px;
+  }
+
+  .direction-r .flag:after {
+    top: 50%;
+    margin-top: -8px;
+    border: solid transparent;
+    border-right-color: rgb(254, 254, 254);
+    border-width: 8px;
+    left: -8px;
+  }
+
+  .time-wrapper {
+    display: inline;
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  .direction-l .time-wrapper {
+    float: left;
+  }
+
+  .direction-r .time-wrapper {
+    float: right;
+  }
+
+  .time {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+
+  .direction-r .desc {
+    margin: 1em 0 0 0.75em;
+  }
+}
+
+@media (min-width: 992px) {
+  .timeline {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 380px;
+    float: left;
+    text-align: right;
+  }
+
+  .direction-r {
+    position: relative;
+    width: 380px;
+    float: right;
+    text-align: left;
+  }
 }

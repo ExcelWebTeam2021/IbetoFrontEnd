@@ -22,12 +22,9 @@ const About = () => {
                   Abo<span>ut</span>
                </h2>
                <div className='content'>
-                  <p>Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2020.</p>{" "}
                   <p>
-                     {" "}
-                     The vision of IBeTo 2020 is to make groundbreaking developments and implement it on a large scale in an area where technology is yet to make strides. IBeTo 2020, in collaboration with HAC, IEEE MEC SB and GirlScript Kochi will not only bring better ideas for developing a project
-                     but will also help in understanding the need for innovation in the real world.
-                  </p>
+                  Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2021. It is a national-level pursuit for socially relevant and technologically innovative ideas with the potential to trigger the next big social change. IBeTo gives the right platform and mentorship to launch the most technically innovative and revolutionary ideas and to develop them into a final product. IBeTo bridges the gap between innovators and society. </p>
+               <p>2021 marks the 10th edition of IBeTo, and thus IBeTo 2021 in association with IEDC MEC has an added vision of working towards fulfilling the United Nations Sustainable Development Goals (UN SDGs) along with providing an opportunity to develop and implement the projects on a large scale in areas where technology is yet to make strides. </p>
                </div>
                <div className=''>
                   <button class='btn mt-4 blob-btn button-shadow'>
