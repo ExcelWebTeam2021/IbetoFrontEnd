@@ -9,6 +9,7 @@
   color: #3c3c3c;
   position: relative;
   margin-top: 15px;
+  z-index: 100;
 }
 
 .hexa:before {
@@ -53,7 +54,7 @@
   height: 100%;
   margin-left: -1px;
   background: rgb(213, 213, 213);
-  z-index: 5;
+  z-index: 0;
 }
 
 .timeline li {

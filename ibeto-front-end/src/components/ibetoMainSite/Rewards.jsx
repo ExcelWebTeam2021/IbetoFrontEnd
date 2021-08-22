@@ -18,16 +18,15 @@ const Rewards = () => {
                <img src={reward} alt='reward' className='rewards-img img-fluid' />
             </div>
 
-            <div className='col-md-8 col-sm-10' data-aos='fade-left'>
+            <div className='col-md-8 col-sm-6' data-aos='fade-left'>
                <h2 className='heading'>
                   Rewar<span>ds</span>
                </h2>
                <br />
                <ul className='content rewards-list'>
-                  <li> Prize pool of Rs 1 Lakh for top three performing teams </li>
-                  <li>Opportunity to present top 3 projects in the IEEE HAC Conference and get further funding for its large scale development.</li>
-                  <li>Top 10 teams can avail mentorships and seed funding to support projects into the development stage.</li>
-                  <li>Online simulation tools for project purposes will be funded for the finalists.</li>
+                  <li>A prize pool of 1,00,000/- from the organisers.</li>
+                  <li>A select few finalists will receive pre- incubation opportunities provided by IEDC MEC and on successful completion of the same,  a wildcard entry to AngelConnect 2021.</li>
+                  <li>Certificate of Participation will be awarded, signed by the concerned authorities</li>
                   <li>As per KTU regulations, socially relevant projects will be awarded 50 activity points.</li>
                </ul>
             </div>

@@ -17,7 +17,7 @@ const About = () => {
             <div data-aos='fade-right' className='col-md-4 col-xs-12'>
                <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' className='img-fluid' />
             </div>
-            <div data-aos='fade-left' className='col-md-7 col-xs-12 '>
+            <div data-aos='fade-left' className='col-md-8 col-xs-12 '>
                <h2 className='heading mb-4 '>
                   Abo<span>ut</span>
                </h2>
@@ -33,7 +33,7 @@ const About = () => {
                      </Link>
                      <span class='blob-btn__inner'>
                         <span class='blob-btn__blobs'>
-                           <span class='blob-btn__blob'></span>
+                           <span class='blob-btn__blob'>f</span>
                            <span class='blob-btn__blob'></span>
                            <span class='blob-btn__blob'></span>
                            <span class='blob-btn__blob'></span>

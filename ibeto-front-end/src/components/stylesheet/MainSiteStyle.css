@@ -305,23 +305,12 @@
    color: white;
 }
 
-/* Right BLOB */
-.RightBlob1 {
-   position: absolute;
-   width: 90%;
-}
 
-.RightBlob1 svg {
-   position: relative;
-   display: block;
-   transform: translateX(50%);
-   width: calc(100% + 1.3px);
-   opacity: 0.3;
-}
 /*-------------------------------------- Event format --------------------------------------*/
-
+.event-format-row{
+   margin-top: 5%;
+}
 .event-format {
-
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -398,43 +387,16 @@
    position: relative;
 }
 
-/* LEFT BLOB */
 
-.LeftBlob1 {
-   position: absolute;
-   width: 100%;
-}
-
-.LeftBlob1 svg {
-   position: relative;
-   top: 1px;
-   display: block;
-   transform: translateX(-50%);
-   width: calc(70% + 1.3px);
-   opacity: 0.3;
-}
 
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {
-   padding-left: 5%;
-   padding-right: 5%;
-   padding-top: 2%;
+   padding:5%;
 }
-
+.rewards-img {
+   width: 100%
+}
 .rewards-list {
    padding-left: 7%;
    padding-right: 7%;
-}
-/* CHANGE */
-.RightBlob2 {
-   position: absolute;
-   width: 90%;
-}
-
-.RightBlob2 svg {
-   position: relative;
-   display: block;
-   transform: translateX(50%);
-   width: calc(100% + 1.3px);
-   opacity: 0.3;
 }

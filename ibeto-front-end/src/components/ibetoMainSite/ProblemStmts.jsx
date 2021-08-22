@@ -69,12 +69,14 @@ const ProblemStmts = () => {
    }, []);
    return (
       <div className='container-fluid' id='ProblemStatement'>
-         <h2 className='container heading mt-5'>
+    <div className="">
+    <h2 className='container heading mt-5'>
             Problem <span>Statement</span>
          </h2>
-
+    
+    </div>
          <div className='row problem-stmt-row'>
-            {/* SGD1 */}
+             {/* SGD1 */}
             <div className='card-container col-md-4  col-sm-10 col-xs-12 ' data-aos='fade-in'>
                <div className='card card-front button-shadow' ref={sdg1}></div>
                <div className='card card-back button-shadow'> sgd1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores tenetur veniam,</div>

@@ -81,8 +81,9 @@ const Timeline = () => {
               <div class="direction-r">
                 <div class="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
                   <span class="hexa"></span>
-                  <span class="time">15th November 2021</span> <br/>
-                  <span class="flag">Pitch Deck Submission.</span>
+                  <span class="time">15th October - 31st December 2021
+</span> <br/>
+                  <span class="flag">Project implementation and development .</span>
                 </div>
               </div>
             </li>
@@ -92,7 +93,7 @@ const Timeline = () => {
                   <span class="hexa"></span>
                   <span class="time">25th November 2021</span> <br/>
                   <span class="flag">
-                    Announcement of shortlisted teams(25 teams) .
+                    Announcement of 25 shortlisted teams
                   </span>
                 </div>
               </div>
@@ -102,35 +103,14 @@ const Timeline = () => {
               <div class="direction-r">
                 <div class="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
                   <span class="hexa"></span>
-                  <span class="time"> 26th November 2021</span> <br/>
+                  <span class="time">  First week of January </span> <br/>
                   <span class="flag">
-                    Project implementation and development.
+                  Final video presentation of the project
                   </span>
                 </div>
               </div>
             </li>
-            <li>
-              <div class="direction-l">
-                <div class="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
-                  <span class="hexa"></span>
-                  <span class="time">23rd January 2022</span> <br/>
-                  <span class="flag">Completion of project.</span>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="direction-r">
-                <div class="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
-                  <span class="hexa"></span>
-                  <span class="time"> November 2021</span> <br/>
-                  <span class="flag">
-                    Final video presentation of the project-
-                  </span>
-                </div>
-              </div>
-            </li>
-          </ul>
+         </ul>
         </div>
       </div>
     </div>

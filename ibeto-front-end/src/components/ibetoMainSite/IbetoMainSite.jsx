@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import LandingPage from "./LandingPage";
 import About from "./About";
+import WhyParticipate from "./WhyParticipate";
 import EventFormat from "./EventFormat";
 import Rewards from "./Rewards";
 import Contact from "./Contact";
@@ -21,9 +22,10 @@ const IbetoMainSite = () => {
             <Navbar />
             <LandingPage />
             <About />
-            <whyParticipate />
+            
             <EventFormat />
             <ProblemStmts />
+            <WhyParticipate />
             <Rewards />
             <Timeline />
             <Junior />
