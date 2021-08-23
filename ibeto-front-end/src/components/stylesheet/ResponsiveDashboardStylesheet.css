@@ -5,9 +5,12 @@
       transform: translateX(5%);
       margin: auto;
       width: 85%;
+      
    }
    .timeline-row,
-   .contactUs-row {
+   .contactUs-row,
+   .dashboard-timeline-row,
+   .progressbar-row {
       display: none;
    }
    iframe {
