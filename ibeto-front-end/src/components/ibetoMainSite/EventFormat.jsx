@@ -28,8 +28,8 @@ const EventFormat = () => {
             width="230"
             alt=""
           />
-          <div className="">Phase 1</div>
-          <h3 className="event-title">Ideate</h3>
+          <div className="phase-title">Phase 1</div>
+          <h3 className="event-title phase-title">Ideate</h3>
           <p className="content event-format-content">
             The participating teams will be shortlisted in a sequence of two
             rounds based on the following criteria </p>
@@ -51,8 +51,8 @@ const EventFormat = () => {
             width="250"
             alt=""
           />
-          <div>Phase 2</div>
-          <h3 className="event-title">Create</h3>
+          <div className="phase-title">Phase 2</div>
+          <h3 className="event-title phase-title">Create</h3>
           <p className="content event-format-content">
             The top 25 teams will build their project during this phase and will
             be continuously evaluated through project reports. A panel of
@@ -71,8 +71,8 @@ const EventFormat = () => {
             width="250"
             alt=""
           />
-          <div>Phase 3</div>
-          <h3 className="event-title">Showcase</h3>
+          <div className="phase-title">Phase 3</div>
+          <h3 className="event-title phase-title">Showcase</h3>
           <p className="content event-format-content">
             The teams are to submit a video presentation along with a
             demonstration of their working prototype in front of the judges on

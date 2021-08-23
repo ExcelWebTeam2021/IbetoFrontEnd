@@ -28,7 +28,7 @@
    }
    .wave-pattern {
       position: relative;
-      top:-20px;
+      top:-60px;
    }
    
    /* Event Format */
@@ -38,19 +38,18 @@
       margin-left: 12%;
       margin-bottom: 5%;
       margin-right: 12%;
+      padding:5%;
+   }
+   .phase-title{
+      text-align: center;
    }
 /* Problem stmt */
 
-.card-front {
-   background-color: #f01a1a;
-   height: 90%;
-   width: 90%;
-}
 
 .card-back {
    padding: 5%;
-   height: 90%;
-   width: 80%;
+   height: 80%;
+   width: 90%;
 }
 .view-sample-stmt-btn{
    width: 100%;
