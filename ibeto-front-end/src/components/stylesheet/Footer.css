@@ -1,89 +1,89 @@
 /* ------------------------------------ Footer ------------------------------------ */
 .footer {
-   background: #0d1117;
-   width: 100.5vw;
+  background: #0d1117;
+  width: 100.5vw;
 }
 .footer-row {
-   /* Footer Container */
+  /* Footer Container */
 
-   padding: 10px 2% 10px 2%;
-   text-align: center;
+  padding: 10px 2% 10px 2%;
+  text-align: center;
 }
 .footerMec {
-   /* MEC icon */
-   float: left;
+  /* MEC icon */
+  float: left;
 }
 .footerMec img {
-   width: 150px;
+  width: 150px;
 }
 .footerExcel {
-   /* Excel icon*/
-   float: right;
+  /* Excel icon*/
+  float: right;
 }
 .footerExcel img {
-   width: 150px;
+  width: 150px;
 }
 
 .footerIcon {
-   /* Social icons */
-   display: inline-block;
-   margin: 0 auto;
+  /* Social icons */
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .footerIcon2 {
-   display: none;
+  display: none;
 }
 
 .social-icons {
-   padding: 0;
-   margin: 0;
-   text-align: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 .social-icons li {
-   color: #fff;
-   vertical-align: top;
-   display: inline;
+  color: #fff;
+  vertical-align: top;
+  display: inline;
 }
 .social-icons a {
-   color: #fff;
-   text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .fa-facebook,
 .fa-instagram,
 .fa-linkedin-footer {
-   font-size: 25px;
-   padding: 10px 14px;
-   transition: 0.5s;
+  font-size: 25px;
+  padding: 10px 14px;
+  transition: 0.5s;
 }
 .fa-facebook:hover {
-   background-color: #3d5b99;
+  background-color: #3d5b99;
 }
 .fa-linkedin-footer:hover {
-   background-color: #0073a4;
+  background-color: #0073a4;
 }
 .fa-instagram:hover {
-   background-color: #e64a41;
+  background-color: #e64a41;
 }
-.footer-text{
-   color:white
+.footer-text {
+  color: white;
 }
 @media only screen and (max-width: 550px) {
-   /* Footer */
-   .footerMec img {
-      width: 100px;
-   }
+  /* Footer */
+  .footerMec img {
+    width: 100px;
+  }
 
-   .footerExcel img {
-      width: 100px;
-   }
-   .footerIcon {
-      display: none;
-   }
-   .footerIcon2 {
-      margin-top: 50x;
-      display: block;
-      margin-left: 15%;
-margin-right: 15%;
-      padding-bottom: 20px;
-   }
+  .footerExcel img {
+    width: 100px;
+  }
+  .footerIcon {
+    display: none;
+  }
+  .footerIcon2 {
+    margin-top: 50px;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 20px;
+  }
 }
