@@ -28,19 +28,36 @@
    }
    .wave-pattern {
       position: relative;
-      top:-10px;
+      top:-20px;
    }
    
    /* Event Format */
    .phase {
       margin: 5%;
-      text-align: center;
+      text-align: justify;
       margin-left: 12%;
       margin-bottom: 5%;
       margin-right: 12%;
    }
+/* Problem stmt */
 
-   /* Rewards */
+.card-front {
+   background-color: #1a1a1a;
+   height: 90%;
+   width: 90%;
+}
+
+.card-back {
+   padding: 5%;
+   height: 90%;
+   width: 80%;
+}
+.view-sample-stmt-btn{
+   width: 100%;
+   font-size: 12px;
+
+}
+/* Rewards */
    .rewards-row {
       margin-left: 10%;
       margin-right: 10%;
