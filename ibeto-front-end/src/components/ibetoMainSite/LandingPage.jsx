@@ -5,7 +5,7 @@ import ReactTooltip from "react-tooltip";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
-import audio from "./audio.mp4";
+import audio from "./audio.mpeg";
 
 const LandingPage = () => {
   const LandingPage = useRef(null);
@@ -47,7 +47,7 @@ const LandingPage = () => {
     console.log("Button is toggled", toggle);
   };
   return (
-    <main id="Home">
+    <main id="Home" className="">
       <div ref={LandingPage}></div>
 
       <div
