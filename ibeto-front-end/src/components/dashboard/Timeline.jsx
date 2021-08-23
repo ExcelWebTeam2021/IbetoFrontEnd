@@ -3,57 +3,68 @@ import "../stylesheet/Dashboard.css";
 import "../stylesheet/ResponsiveDashboardStylesheet.css";
 
 const Timeline = () => {
-   return (
-      <div className='white-bk dashboard-timeline-row'>
-         <div className=''>
-            <h4 className=' dashboard-heading '>Timeline</h4>
-         </div>
-         <hr />
-         <ul className='dashboard-timeline'>
-            <li className='dashboard-timeline-item'>
-               <div className='dashboard-timeline-info'>
-                  <span>March 12, 2016</span>
-               </div>
-               <div className='dashboard-timeline-marker'></div>
-               <div className='dashboard-timeline-content'>
-                  <h3 className='dashboard-timeline-title'>Event Title</h3>
-                  Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere .
-               </div>
-            </li>
-            <li className='dashboard-timeline-item'>
-               <div className='dashboard-timeline-info'>
-                  <span>March 23, 2016</span>
-               </div>
-               <div className='dashboard-timeline-marker'></div>
-               <div className='dashboard-timeline-content'>
-                  <h3 className='dashboard-timeline-title'>Event Title</h3>
-                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
-               </div>
-            </li>
-
-            <li className='dashboard-timeline-item'>
-               <div className='dashboard-timeline-info'>
-                  <span>April 02, 2016</span>
-               </div>
-               <div className='dashboard-timeline-marker'></div>
-               <div className='dashboard-timeline-content'>
-                  <h3 className='dashboard-timeline-title'>Event Title</h3>
-                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
-               </div>
-            </li>
-            <li className='dashboard-timeline-item'>
-               <div className='dashboard-timeline-info'>
-                  <span>April 28, 2016</span>
-               </div>
-               <div className='dashboard-timeline-marker'></div>
-               <div className='dashboard-timeline-content'>
-                  <h3 className='dashboard-timeline-title'>Event Title</h3>
-                  <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere . . </p>
-               </div>
-            </li>
-         </ul>
+  return (
+    <div className="white-bk dashboard-timeline-row">
+      <div className="">
+        <h4 className=" dashboard-heading ">Timeline</h4>
       </div>
-   );
+      <hr />
+      <ul className="dashboard-timeline">
+        <li className="dashboard-timeline-item">
+          <div className="dashboard-timeline-info">
+            <span>12th September 2021</span>
+          </div>
+          <div className="dashboard-timeline-marker"></div>
+          <div className="dashboard-timeline-content">
+            <h3 className="dashboard-timeline-title">Registration Closes</h3>
+          </div>
+        </li>
+        <li className="dashboard-timeline-item">
+          <div className="dashboard-timeline-info">
+            <span>23rd September 2021</span>
+          </div>
+          <div className="dashboard-timeline-marker"></div>
+          <div className="dashboard-timeline-content">
+            <h3 className="dashboard-timeline-title">Idea submission</h3>
+          </div>
+        </li>
+
+        <li className="dashboard-timeline-item">
+          <div className="dashboard-timeline-info">
+            <span>27th September 2021</span>
+          </div>
+          <div className="dashboard-timeline-marker"></div>
+          <div className="dashboard-timeline-content">
+            <h3 className="dashboard-timeline-title">
+              Announcement of shortlisted teams
+            </h3>
+          </div>
+        </li>
+        <li className="dashboard-timeline-item">
+          <div className="dashboard-timeline-info">
+            <span>7th October 2021</span>
+          </div>
+          <div className="dashboard-timeline-marker"></div>
+          <div className="dashboard-timeline-content">
+            <h3 className="dashboard-timeline-title">
+              Round 1: Detailed Abstract Submission
+            </h3>
+          </div>
+        </li>
+        <li className="dashboard-timeline-item">
+          <div className="dashboard-timeline-info">
+            <span>14th October 2021</span>
+          </div>
+          <div className="dashboard-timeline-marker"></div>
+          <div className="dashboard-timeline-content">
+            <h3 className="dashboard-timeline-title">
+              Announcement of shortlisted teams
+            </h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+  );
 };
 
 export default Timeline;

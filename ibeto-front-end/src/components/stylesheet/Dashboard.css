@@ -17,8 +17,7 @@
 
 .dashboard-heading {
    font-family: "Raleway", sans-serif;
-   font-size: 23px;
-   display: inline-block;
+   font-size: 25px;
 }
 
 /*--------------------------- LEFT SECTION: dashboard-timeline --------------------------- */
@@ -33,13 +32,13 @@
    width: 100%;
    color: #768390;
    font-size: 13px;
-   width: 110%;
+  
 }
 .dashboard-timeline-title {
    color: #3d4351;
    margin-top: 0;
    line-height: inherit;
-   font-size: 13px;
+   font-size: 15px;
 }
 
 /*----- dashboard-timeline ITEM -----*/
@@ -57,10 +56,9 @@
 /*----- dashboard-timeline INFO -----*/
 .dashboard-timeline-info {
    font-size: 12px;
-   font-weight: 700;
-   letter-spacing: 3px;
+   font-weight: 500;
+   letter-spacing: 2px;
    margin: 0 0 0.5em 0;
-   text-transform: uppercase;
    white-space: nowrap;
 }
 
@@ -132,6 +130,10 @@ h1.ss-form-title {
 
 .currentphase-text p {
    font-size: 17px;
+}
+.dashboard-phase-btn {
+   display: block;
+   margin: 0 auto;
 }
 
 iframe {
@@ -299,7 +301,7 @@ iframe {
    background: #e91e63;
    color: #fff;
    font-size: 12px;
-   margin-right: 20px;
+   margin-right: 10px;
 }
 
 .faq .faq-card .faq-card-body p {

@@ -7,13 +7,13 @@ const CurrentPhase = () => {
       <div className='white-bk currentphase-row'>
          <div className='row'>
             <div className='col-1'></div>
-            <div className='col-6 currentphase-text'>
-               <h4 className='dashboard-heading'>Ibeto</h4>
-               <p>Report submission phase</p>
-               <button className='btn btn-danger btn-sm'>Guidelines</button> 
+            <div className='col-md-7 col-sm-10 currentphase-text'>
+               <h4 className='dashboard-heading text-center'>Ibeto</h4>
+               <p>Phase 1 : Idea submission phase</p>
+               <button className='btn btn-danger btn-sm dashboard-phase-btn '>Guidelines</button> 
                {/* <button className='btn btn-danger btn-sm'>Shortlisted students</button> */}
             </div>
-            <div className='col-5 progressbar-row'>
+            <div className='col-md-4 col-sm-10 progressbar-row'>
                {" "}
                <div className='progress' data-percentage='20'>
                   <span className='progress-left'>

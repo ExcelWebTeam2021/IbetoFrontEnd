@@ -16,11 +16,14 @@
    iframe {
       width: 90%;
    }
-   .currentphase-text h5 {
+
+   .currentphase-text h4 {
       font-size: 30px;
+      text-align: center;
    }
    .currentphase-text p {
       font-size: 18px;
+      text-align: center;
    }
    .submissionForm-row {
       margin-bottom: 10%;
@@ -29,6 +32,12 @@
       margin: auto;
       transform: translateX(-10%);
       width: 115%;
+   }
+   .faq-heading{
+      text-align: center;
+   }
+   .faq-card-body{
+      padding:5%;
    }
    .progress {
       width: 90px;

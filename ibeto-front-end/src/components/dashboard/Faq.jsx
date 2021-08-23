@@ -7,13 +7,13 @@ const Faq = () => {
       <div className='white-bk faq-row '>
          <div className='row'>
             <div className='col-md-12 '>
-               <div className='faq-title '>
-                  <h4 className='dashboard-heading'> FAQ</h4>
+               <div className=''>
+                  <h4 className='dashboard-heading faq-heading'> FAQ</h4>
                </div>
                <hr />
             </div>
 
-            <div className='col-md-12 '>
+            <div className='col-md-12 content'>
                <div className='faq content' id='accordion'>
                   <div className='faq-card'>
                      <div className='faq-card-header' id='faqHeading-1'>
