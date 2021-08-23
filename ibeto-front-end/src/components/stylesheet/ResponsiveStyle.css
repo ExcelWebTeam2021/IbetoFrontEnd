@@ -29,7 +29,7 @@
    }
    .wave-pattern {
       position: relative;
-      top:10px;
+      top:0px;
    }
    
    /* Event Format */
@@ -52,13 +52,13 @@
    width: 80%;
 }
 .card-back {
-   padding: 15%;
+   padding: 5%;
    height: 80%;
    width: 80%;
 }
 .view-sample-stmt-btn{
    width: 100%;
-   font-size: 12px;
+   font-size: 11px;
 
 }
 /* Rewards */
