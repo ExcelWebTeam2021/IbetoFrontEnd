@@ -10,7 +10,8 @@ const CurrentPhase = () => {
             <div className='col-6 currentphase-text'>
                <h4 className='dashboard-heading'>Ibeto</h4>
                <p>Report submission phase</p>
-               <button className='btn btn-danger btn-sm'>Shortlisted students</button>
+               <button className='btn btn-danger btn-sm'>Guidelines</button> 
+               {/* <button className='btn btn-danger btn-sm'>Shortlisted students</button> */}
             </div>
             <div className='col-5 progressbar-row'>
                {" "}

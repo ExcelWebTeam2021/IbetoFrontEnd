@@ -4,7 +4,7 @@ import lottie from "lottie-web";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
-import audio from "./audio.mp3";
+import audio from "./audio.mp4";
 
 const LandingPage = () => {
    const LandingPage = useRef(null);

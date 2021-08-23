@@ -103,35 +103,14 @@ const Timeline = () => {
               <div class="direction-r">
                 <div class="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
                   <span class="hexa"></span>
-                  <span class="time content"> 26th November 2021</span> <br/>
+                  <span class="time content"> First week of January </span> <br/>
                   <span class="flag content">
                   Final video presentation of the project
                   </span>
                 </div>
               </div>
             </li>
-            <li>
-              <div class="direction-l">
-                <div class="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
-                  <span class="hexa"></span>
-                  <span class="time content">23rd January 2022</span> <br/>
-                  <span class="flag content">Completion of project</span>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="direction-r">
-                <div class="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
-                  <span class="hexa"></span>
-                  <span class="time content"> November 2021</span> <br/>
-                  <span class="flag content">
-                    Final video presentation of the project
-                  </span>
-                </div>
-              </div>
-            </li>
-          </ul>
+         </ul>
         </div>
       </div>
     </div>

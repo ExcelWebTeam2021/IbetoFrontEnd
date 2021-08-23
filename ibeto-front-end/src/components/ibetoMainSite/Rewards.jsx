@@ -24,7 +24,7 @@ const Rewards = () => {
                </h2>
                <br />
                <ul className='content rewards-list'>
-                  <li>A prize pool of 1,00,000/- from the organisers.</li>
+                  <li>The best projects chosen by the judges will be awarded a cash prize worth INR 1,00,000/- from the organisers.</li>
                   <li>A select few finalists will receive pre- incubation opportunities provided by IEDC MEC and on successful completion of the same,  a wildcard entry to AngelConnect 2021.</li>
                   <li>Certificate of Participation will be awarded, signed by the concerned authorities</li>
                   <li>As per KTU regulations, socially relevant projects will be awarded 50 activity points.</li>

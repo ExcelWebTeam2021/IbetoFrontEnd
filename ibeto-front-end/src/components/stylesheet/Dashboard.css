@@ -21,11 +21,11 @@
    display: inline-block;
 }
 
-/*--------------------------- LEFT SECTION: Timeline --------------------------- */
-.timeline-row {
+/*--------------------------- LEFT SECTION: dashboard-timeline --------------------------- */
+.dashboard-timeline-row {
    width: 75%;
 }
-.timeline {
+.dashboard-timeline {
    line-height: 1.4em;
    list-style: none;
    margin: 0;
@@ -35,27 +35,27 @@
    font-size: 13px;
    width: 110%;
 }
-.timeline-title {
+.dashboard-timeline-title {
    color: #3d4351;
    margin-top: 0;
    line-height: inherit;
    font-size: 13px;
 }
 
-/*----- TIMELINE ITEM -----*/
-.timeline-item {
+/*----- dashboard-timeline ITEM -----*/
+.dashboard-timeline-item {
    position: relative;
    padding: 0px;
    padding-left: 30px;
    padding-right: 30px;
    padding-bottom: 10px;
 }
-.timeline-item:last-child {
+.dashboard-timeline-item:last-child {
    padding-bottom: 0;
 }
 
-/*----- TIMELINE INFO -----*/
-.timeline-info {
+/*----- dashboard-timeline INFO -----*/
+.dashboard-timeline-info {
    font-size: 12px;
    font-weight: 700;
    letter-spacing: 3px;
@@ -64,15 +64,15 @@
    white-space: nowrap;
 }
 
-/*----- TIMELINE MARKER -----*/
-.timeline-marker {
+/*----- dashboard-timeline MARKER -----*/
+.dashboard-timeline-marker {
    position: absolute;
    top: 0;
    bottom: 0;
    left: 0;
    width: 15px;
 }
-.timeline-marker:before {
+.dashboard-timeline-marker:before {
    background: #e91e63;
    border: 3px solid transparent;
    border-radius: 100%;
@@ -85,7 +85,7 @@
    width: 15px;
    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
-.timeline-marker:after {
+.dashboard-timeline-marker:after {
    content: "";
    width: 3px;
    background: #ccd5db;
@@ -95,24 +95,24 @@
    bottom: 0;
    left: 6px;
 }
-.timeline-item:last-child .timeline-marker:after {
+.dashboard-timeline-item:last-child .dashboard-timeline-marker:after {
    content: none;
 }
 
-.timeline-item:not(.period):hover .timeline-marker:before {
+.dashboard-timeline-item:not(.period):hover .dashboard-timeline-marker:before {
    background: transparent;
    border: 3px solid #ff6b6b;
 }
 
-/*----- TIMELINE CONTENT -----*/
-.timeline-content {
+/*----- dashboard-timeline CONTENT -----*/
+.dashboard-timeline-content {
    padding-bottom: 20px;
 }
-.timeline-content p:last-child {
+.dashboard-timeline-content p:last-child {
    margin-bottom: 0;
 }
 
-/*--------------------------- CENTRAL SECTION: Timeline --------------------------- */
+/*--------------------------- CENTRAL SECTION: dashboard-timeline --------------------------- */
 .central-section {
    transform: translateX(-15%);
 }

@@ -20,7 +20,7 @@ function WhyParticipate() {
   }, []);
   return (
     <div className="container-fluid whyparticipate-row  " data-aos="fade-in">
-      <h2 className="container heading mb-5">
+      <h2 className="container heading mb-5 text-center">
         Why<span> Participate</span>
       </h2>
       {/* BIG SCREEN */}

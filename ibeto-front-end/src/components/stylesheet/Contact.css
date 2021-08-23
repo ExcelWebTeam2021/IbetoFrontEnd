@@ -1,203 +1,217 @@
-#contact{
-   margin: 0 5% 0 5%;
+#contact {
+  margin: 0 10% 0 25%;
 }
 .profile-container {
-   padding:  4% 7% 4% 7%;
+  padding: 4% 7% 4% 7%;
+  
 }
 .profile-card {
-   padding: 40px 30px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   border: #fff solid 4px;
-   transition: 0.2s;
-   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #fff solid 4px;
+  transition: 0.2s;
+  box-shadow: rgba(77, 82, 88, 0.1) 0px 2px 2px 2px;
 }
 .profile-card:hover {
-   transform: scale(1.06);
-   box-shadow: rgba(41, 41, 43, 0.2) 0px 7px 29px 0px;
-   z-index: 10;
-   border: none;
+  transform: scale(1.06);
+  box-shadow: rgba(41, 41, 43, 0.2) 0px 7px 29px 10px;
+  z-index: 10;
+  border: none;
 }
 
 .profile-icon {
-   height: 100px;
-   width: 100px;
-   object-fit: cover;
-   border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .only-start {
-   background: linear-gradient(to bottom, rgb(34, 33, 33), rgb(34, 33, 33) 100px, white 1rem, white 100%);
+  background: linear-gradient(
+    to bottom,
+    rgb(34, 33, 33),
+    rgb(34, 33, 33) 100px,
+    white 1rem,
+    white 100%
+  );
 }
 
 .profile-name {
-   font-size: 21px;
-   font-weight: bold;
-   margin: 10px 0 1px 0;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 10px 0 1px 0;
 }
 
 .profile-position {
-   font-size: 15px;
-   color: rgb(53, 52, 52);
+  font-size: 15px;
+  color: rgb(53, 52, 52);
 }
 .profile-contact {
-   font-size: 12px;
-   color: #777;
+  font-size: 12px;
+  color: #777;
 }
 
 @media screen and (max-width: 991px) {
-   .profile-name {
-      font-size: 18px;
-   }
+  .profile-name {
+    font-size: 18px;
+  }
 
-   .profile-container {
-      padding:  4% 15% 4% 15%;
-   }
+  .profile-container {
+    padding: 4% 15% 4% 15%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-   .profile-card {
-      padding: 25px 15px;
-   }
+  .profile-card {
+    padding: 25px 15px;
+  }
 
-   .only-start {
-      background: linear-gradient(to bottom, rgb(34, 33, 33), rgb(34, 33, 33) 80px, white 1rem, white 100%);
-   }
+  .only-start {
+    background: linear-gradient(
+      to bottom,
+      rgb(34, 33, 33),
+      rgb(34, 33, 33) 80px,
+      white 1rem,
+      white 100%
+    );
+  }
 
-   .profile-card {
-      padding: 20px 0px;
-   }
+  .profile-card {
+    padding: 20px 0px;
+  }
 
-   .profile-name {
-      font-size: 16px;
-   }
+  .profile-name {
+    font-size: 16px;
+  }
 
-   .profile-container {
-      padding:  4% 25% 4% 25%;
-   }
+  .profile-container {
+    padding: 4% 25% 4% 25%;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .profile-card {
+    padding: 20px 0px;
+  }
 
-   .profile-card {
-      padding: 20px 0px;
-   }
-   
-   
-.profile-icon {
-   height: 70px;
-   width: 70px;
-   object-fit: cover;
-   border-radius: 50%;
+  .profile-icon {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .only-start {
+    background: linear-gradient(
+      to bottom,
+      rgb(34, 33, 33),
+      rgb(34, 33, 33) 60px,
+      white 1rem,
+      white 100%
+    );
+  }
 }
 
-.only-start {
-   background: linear-gradient(to bottom, rgb(34, 33, 33), rgb(34, 33, 33) 60px, white 1rem, white 100%);
+
+/* --------------------- Social Icons --------------------- */
+.social-icons {
+  display: flex;
+  margin-top: 15%;
 }
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30px;
+  height: 30px;
+
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.social-icon:hover {
+  color: #fff;
+}
+.social-icon--phone:hover .tooltip,.social-icon--linkedin:hover .tooltip,.social-icon--envelope:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, -150%);
+}
+.social-icon:active {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+.social-icon--linkedin {
+  background: #1a1a1a;
+
+  color: #fff;
+}
+.social-icon--linkedin .tooltip {
+  background: #1a1a1a;
+  color: currentColor;
+}
+.social-icon--linkedin .tooltip:after {
+  border-top-color: #1a1a1a;
+}
+.social-icon--envelope {
+  background: #1a1a1a;
+
+  color: #fff;
+}
+.social-icon--envelope .tooltip {
+  background: #1a1a1a;
+  color: currentColor;
+}
+.social-icon--envelope .tooltip:after {
+  border-top-color: #1a1a1a;
+}
+.social-icon--phone {
+  background: #1a1a1a;
+
+  color: #fff;
+}
+.social-icon--phone .tooltip {
+  background: #1a1a1a;
+  color: currentColor;
+}
+.social-icon--phone .tooltip:after {
+  border-top-color: #1a1a1a;
+}
+.social-icon i {
+  position: relative;
+
+  font-size: 16px;
 }
 
-
- 
- /* Social Icon Mixin */
- /* Social Icons */
- .social-icons {
-   display: flex;
-   margin-top: 15%;
- }
- 
- .social-icon {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   position: relative;
-   width: 30px;
-   height: 30px;
-
-   margin: 0 0.5rem;
-   border-radius: 50%;
-   font-size: 2.5rem;
-   text-decoration: none;
-   transition: all 0.15s ease;
- }
- .social-icon:hover {
-   color: #fff;
- }
- .social-icon:hover .tooltip {
-   visibility: visible;
-   opacity: 1;
-   transform: translate(-50%, -150%);
- }
- .social-icon:active {
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
- }
- .social-icon--linkedin {
-   background: #1a1a1a;
-   font-size: 20px;
-   color: #fff;
- }
- .social-icon--linkedin .tooltip {
-   background: #1a1a1a;
-   color: currentColor;
- }
- .social-icon--linkedin .tooltip:after {
-   border-top-color: #1a1a1a;
- }
- .social-icon--twitter {
-   background: #1a1a1a;
-   font-size: 20px;
-   color: #fff;
- }
- .social-icon--twitter .tooltip {
-   background: #1a1a1a;
-   color: currentColor;
- }
- .social-icon--twitter .tooltip:after {
-   border-top-color: #1a1a1a;
- }
- .social-icon--codepen {
-   background: #1a1a1a;
-   font-size: 20px;
-   color: #fff;
- }
- .social-icon--codepen .tooltip {
-   background: #1a1a1a;
-   color: currentColor;
- }
- .social-icon--codepen .tooltip:after {
-   border-top-color: #1a1a1a;
- }
- .social-icon i {
-   position: relative;
-   top: 1px;
- }
- 
- /* Tooltips */
- .tooltip {
-   display: block;
-   position: absolute;
-   top: 0;
-   left: 20%;
-   padding: 0.8rem 1rem;
-   border-radius: 40px;
-   font-size: 0.8rem;
-  
-   pointer-events: none;
-  color:white;
-   transform: translate(-50%, 100%);
-   transition: all 0.3s ease;
-   z-index: 1;
- }
- .tooltip:after {
-   display: block;
-   position: absolute;
-   bottom: 1px;
-   left: 50%;
-   width: 0;
-   height: 0;
-   content: "";
-   border: solid;
-   border-width: 10px 10px 0 10px;
-   border-color: transparent;
-   transform: translate(-50%, 100%);
- }
+/* Tooltips */
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  padding: 0.2rem 0.5rem;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  color: white;
+  transform: translate(-50%, 100%);
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.tooltip:after {
+  display: block;
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  content: "";
+  border: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: transparent;
+  transform: translate(-45%, 100%);
+}
