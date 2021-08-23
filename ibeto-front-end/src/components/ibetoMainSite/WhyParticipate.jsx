@@ -6,7 +6,6 @@ import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/WhyParticipate.css";
 import "../stylesheet/ResponsiveStyle.css";
 
-
 import certificate from "../images/whyparticipate/certificate.png";
 import lightbulb from "../images/whyparticipate/lightbulb.png";
 import trophy from "../images/whyparticipate/trophy.png";
@@ -24,15 +23,16 @@ function WhyParticipate() {
         Why<span> Participate</span>
       </h2>
       {/* BIG SCREEN */}
-      <div class="container whyparticipate-bigscreen d-none d-md-block">
-        <div id="demo" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner  ">
-            <div class="carousel-item  whyparticipate-maindiv active">
+      <div className="container whyparticipate-bigscreen d-none d-md-block">
+        <div id="demo" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner  ">
+            <div className="carousel-item  whyparticipate-maindiv active">
               <div className="row">
-                <div class="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
-                    class="img-fluid card-img-top whyparticipate-img"
+                    className="img-fluid card-img-top whyparticipate-img"
                     src={lightbulb}
+                    alt="idea"
                   />
 
                   <p className="content">
@@ -40,10 +40,11 @@ function WhyParticipate() {
                     fruition.
                   </p>
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
-                    class="img-fluid card-img-top whyparticipate-img"
+                    className="img-fluid card-img-top whyparticipate-img"
                     src={profit}
+                    alt="pre-incubation facilities"
                   />
 
                   <p className="content">
@@ -52,23 +53,27 @@ function WhyParticipate() {
                   </p>
                 </div>
 
-                <div class="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
-                    class="img-fluid card-img-top whyparticipate-img"
+                    className="img-fluid card-img-top whyparticipate-img"
                     src={trophy}
+                    alt="prize money"
                   />
 
-                  <p className="content">A grand prize pool of Rs. 1 Lakh asdasdadada</p>
+                  <p className="content">
+                    A grand prize pool of Rs. 1 Lakh asdasdadada
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div class="carousel-item  whyparticipate-maindiv">
+            <div className="carousel-item  whyparticipate-maindiv">
               <div className="row">
-                <div class="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
-                    class="img-fluid card-img-top whyparticipate-img"
+                    className="img-fluid card-img-top whyparticipate-img"
                     src={sponsor}
+                    alt="capitalize your project"
                   />
 
                   <p className="content">
@@ -76,10 +81,11 @@ function WhyParticipate() {
                     capitalize your project
                   </p>
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
-                    class="img-fluid card-img-top whyparticipate-img"
+                    className="img-fluid card-img-top whyparticipate-img"
                     src={helping}
+                    alt="mentor"
                   />
 
                   <p className="content">
@@ -88,15 +94,14 @@ function WhyParticipate() {
                   </p>
                 </div>
 
-                <div class="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
-                    class="img-fluid card-img-top whyparticipate-img"
+                    className="img-fluid card-img-top whyparticipate-img"
                     src={certificate}
+                    alt="certificate"
                   />
 
-                  <p className="content">
-                   KTU Certificate
-                  </p>
+                  <p className="content">KTU Certificate</p>
                 </div>
               </div>
             </div>
@@ -111,17 +116,18 @@ function WhyParticipate() {
         </div>
       </div>
       {/* SMALL SCREEN */}
-      <div class="container whyparticipate-smallscreen d-md-none">
+      <div className="container whyparticipate-smallscreen d-md-none">
         <div
           id="carouselExampleControls"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active whyparticipate-smallscreen-div">
+          <div className="carousel-inner">
+            <div className="carousel-item active whyparticipate-smallscreen-div">
               <img
-                class="img-fluid card-img-top whyparticipate-img-smallscreen"
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
                 src={lightbulb}
+                alt="idea"
               />
 
               <p className="content">
@@ -129,10 +135,11 @@ function WhyParticipate() {
                 fruition.
               </p>
             </div>
-            <div class="carousel-item whyparticipate-smallscreen-div">
+            <div className="carousel-item whyparticipate-smallscreen-div">
               <img
-                class="img-fluid card-img-top whyparticipate-img-smallscreen"
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
                 src={profit}
+                alt="pre-incubation facilities"
               />
 
               <p className="content">
@@ -140,10 +147,11 @@ function WhyParticipate() {
                 your business model
               </p>
             </div>
-            <div class="carousel-item whyparticipate-smallscreen-div">
+            <div className="carousel-item whyparticipate-smallscreen-div">
               <img
-                class="img-fluid card-img-top whyparticipate-img-smallscreen"
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
                 src={trophy}
+                alt="prize money"
               />
 
               <p className="content">
@@ -151,10 +159,11 @@ function WhyParticipate() {
               </p>
             </div>
 
-            <div class="carousel-item whyparticipate-smallscreen-div">
+            <div className="carousel-item whyparticipate-smallscreen-div">
               <img
-                class="img-fluid card-img-top whyparticipate-img-smallscreen"
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
                 src={sponsor}
+                alt="sponsors"
               />
 
               <p className="content">
@@ -163,11 +172,11 @@ function WhyParticipate() {
               </p>
             </div>
 
-
-            <div class="carousel-item whyparticipate-smallscreen-div">
+            <div className="carousel-item whyparticipate-smallscreen-div">
               <img
-                class="img-fluid card-img-top whyparticipate-img-smallscreen"
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
                 src={helping}
+                alt="mentors"
               />
 
               <p className="content">
@@ -175,23 +184,33 @@ function WhyParticipate() {
                 project journey
               </p>
             </div>
+            <div className="carousel-item whyparticipate-smallscreen-div">
+              <img
+                className="img-fluid card-img-top whyparticipate-img"
+                src={certificate}
+                alt="certificate"
+              />
+
+
+              <p className="content">KTU Certificate</p>
+            </div>
           </div>
 
           <a
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             href="#carouselExampleControls"
             role="button"
             data-slide="prev"
           >
-            ‹ <span class="sr-only">Previous</span>
+            ‹ <span className="sr-only">Previous</span>
           </a>
           <a
-            class="carousel-control-next"
+            className="carousel-control-next"
             href="#carouselExampleControls"
             role="button"
             data-slide="next"
           >
-            › <span class="sr-only">Next</span>
+            › <span className="sr-only">Next</span>
           </a>
         </div>
       </div>

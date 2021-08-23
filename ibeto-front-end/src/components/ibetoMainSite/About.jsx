@@ -27,29 +27,29 @@ const About = () => {
                <p>2021 marks the 10th edition of IBeTo, and thus IBeTo 2021 in association with IEDC MEC has an added vision of working towards fulfilling the United Nations Sustainable Development Goals (UN SDGs) along with providing an opportunity to develop and implement the projects on a large scale in areas where technology is yet to make strides. </p>
                </div>
                <div className=''>
-                  <button class='btn mt-4 blob-btn button-shadow'>
+                  <button className='btn mt-4 blob-btn button-shadow'>
                      <Link to='/dashboard' className='blob-btn-text'>
                         Register
                      </Link>
-                     <span class='blob-btn__inner'>
-                        <span class='blob-btn__blobs'>
-                           <span class='blob-btn__blob'></span>
-                           <span class='blob-btn__blob'></span>
-                           <span class='blob-btn__blob'></span>
-                           <span class='blob-btn__blob'></span>
+                     <span className='blob-btn__inner'>
+                        <span className='blob-btn__blobs'>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
                         </span>
                      </span>
                   </button>
                
-                  <button class='btn mt-4 blob-btn button-shadow'>
+                  <button className='btn mt-4 blob-btn button-shadow'>
  
                      <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf " className='blob-btn-text'>Guidelines</a>
-                     <span class='blob-btn__inner'>
-                        <span class='blob-btn__blobs'>
-                           <span class='blob-btn__blob'></span>
-                           <span class='blob-btn__blob'></span>
-                           <span class='blob-btn__blob'></span>
-                           <span class='blob-btn__blob'></span>
+                     <span className='blob-btn__inner'>
+                        <span className='blob-btn__blobs'>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
                         </span>
                      </span>
                   </button>

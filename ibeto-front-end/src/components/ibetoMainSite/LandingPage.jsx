@@ -36,7 +36,7 @@ const LandingPage = () => {
       audioRef.current.play();
       sethidePlayBtn(true);
       setstyle('none')
-      const anime1 = lottie.loadAnimation({
+       lottie.loadAnimation({
          container: LandingPage.current,
          renderer: "svg",
          loop: true,

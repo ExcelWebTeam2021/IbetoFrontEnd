@@ -32,12 +32,12 @@ const EventFormat = () => {
           <h3 className="event-title">Ideate</h3>
           <p className="content event-format-content">
             The participating teams will be shortlisted in a sequence of two
-            rounds based on the following criteria
+            rounds based on the following criteria </p>
             <ul>
               <li>Round 1: Idea</li>
               <li>Round 2: Detailed abstract of the project</li>
             </ul>
-          </p>
+         
         </div>
 
         <div
