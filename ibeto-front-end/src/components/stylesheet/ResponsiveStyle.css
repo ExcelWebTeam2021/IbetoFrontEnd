@@ -26,6 +26,11 @@
    .play-btn{
       font-size: 0.7em;
    }
+   .wave-pattern {
+      position: relative;
+      top:-10px;
+   }
+   
    /* Event Format */
    .phase {
       margin: 5%;

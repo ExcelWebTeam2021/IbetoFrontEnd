@@ -34,8 +34,8 @@ const EventFormat = () => {
             The participating teams will be shortlisted in a sequence of two
             rounds based on the following criteria </p>
             <ul>
-              <li>Round 1: Idea</li>
-              <li>Round 2: Detailed abstract of the project</li>
+              <li className='content'>Round 1: Idea Submission</li>
+              <li className='content'>Round 2: Submission of detailed abstract of the project</li>
             </ul>
          
         </div>
