@@ -91,11 +91,11 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (min-device-width: 20px) and (max-device-width: 500px) {
 
   .profile-card {
-   
-    width:200px;
+    width:50vw;
+    padding:5px;
     background-color: 'blue';
    
   }

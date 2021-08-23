@@ -71,7 +71,7 @@ const Timeline = () => {
               <div className="direction-l">
                 <div className="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
                   <span className="hexa"></span>
-                  <span className="time content">15th October 2021</span> <br/>
+                  <span className="time content">14th October 2021</span> <br/>
                   <span className="flag content">Announcement of shortlisted teams</span>
                 </div>
               </div>
