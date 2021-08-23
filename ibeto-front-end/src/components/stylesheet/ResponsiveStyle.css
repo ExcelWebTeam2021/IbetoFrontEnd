@@ -134,7 +134,8 @@
       font-size: 15px;
    }
    .accordion-item{
-      width:90%;
+      width:80%;
+      background-color: red;
    }
 }
 
