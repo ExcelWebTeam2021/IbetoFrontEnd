@@ -94,8 +94,8 @@
 @media screen and (max-width: 500px) {
 
   .profile-card {
-    padding: 10%;
-    width:100px;
+   
+    width:200px;
     background-color: 'blue';
    
   }

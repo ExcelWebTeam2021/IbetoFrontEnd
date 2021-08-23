@@ -133,8 +133,8 @@
    .collapse {
       font-size: 15px;
    }
-   .accordion-title,.collapse{
-      width:80%;
+   .accordion-title{
+      width:75%;
       background-color: rgb(204, 0, 255);
    }
 }
