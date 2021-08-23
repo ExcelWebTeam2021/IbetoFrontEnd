@@ -20,15 +20,15 @@
    .bg,
    .buttons {
       margin-top:40%;
-      /* width: 35px;
-      height:35px; */
+      width: 55px;
+      height:55px;
    }
    .play-btn{
       font-size: 0.7em;
    }
    .wave-pattern {
       position: relative;
-      top:-60px;
+      top:10px;
    }
    
    /* Event Format */
@@ -45,11 +45,15 @@
    }
 /* Problem stmt */
 
-
-.card-back {
-   padding: 5%;
+.card-front {
+   /* background-color: #1a1a1a; */
    height: 80%;
-   width: 90%;
+   width: 80%;
+}
+.card-back {
+   padding: 15%;
+   height: 80%;
+   width: 80%;
 }
 .view-sample-stmt-btn{
    width: 100%;
