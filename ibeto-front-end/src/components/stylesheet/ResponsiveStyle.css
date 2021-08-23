@@ -17,6 +17,13 @@
    .animation-container {
       width: 100vw;
    }
+   .bg,
+   .buttons {
+    
+      width: 25px;
+      height:25px;
+     
+   }
    /* Event Format */
    .phase {
       margin: 5%;
