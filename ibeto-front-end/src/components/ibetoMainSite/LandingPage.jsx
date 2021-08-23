@@ -61,7 +61,7 @@ const LandingPage = () => {
             <div className='btn-container'>
                <div className='bg'></div>
                <div className='buttons' onClick={handleClick}>
-                  <i className='fa fa-play'></i>
+                  <i className='fa fa-play play-btn'></i>
                </div>
             </div>
          )}
