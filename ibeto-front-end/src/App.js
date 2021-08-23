@@ -17,7 +17,7 @@ function App({ hideLoader }) {
       <div className='App'>
          <Switch>
             <Route path='/' component={IbetoMainSite} exact />
-            <Route path='/junior' component={IbetoJnr} />
+            {/* <Route path='/junior' component={IbetoJnr} /> */}
             <Route path='/dashboard' component={Dashboard} />
          </Switch>
       </div>

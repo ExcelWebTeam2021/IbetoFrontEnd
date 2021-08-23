@@ -160,6 +160,7 @@
    margin-left: auto;
    margin-right: auto;
    top: 45%;
+   z-index: 10;
    width: 100px; /* Need a specific value to work */
 }
 .bg,
@@ -228,34 +229,36 @@
 /* main div */
 
 .animation-container {
-   height: 112vh;
+   height: 110vh;
    background-color: #1a1a1a;
    position: relative;
 }
-.custom-shape-divider-bottom-1622696646 {
-   position: absolute;
+.wave-pattern {
+   position: relative;
    bottom: 0;
+   top:-1px;
    left: 0;
    width: 100%;
    overflow: hidden;
    line-height: 0;
-   transform: rotate(180deg);
+   transform: rotate(0deg);
 }
 
-.custom-shape-divider-bottom-1622696646 svg {
+.wave-pattern svg {
    position: relative;
    display: block;
+
    width: calc(153% + 1.3px);
-   height: 150px;
+   height: 180px;
 }
 
-.custom-shape-divider-bottom-1622696646 .shape-fill {
-   fill: #ffffff;
+.wave-pattern .shape-fill {
+   fill: #1a1a1a;
 }
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-   .custom-shape-divider-bottom-1622696646 svg {
+   .wave-pattern svg {
       width: calc(160% + 1.3px);
       height: 150px;
    }
@@ -263,7 +266,7 @@
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-   .custom-shape-divider-bottom-1622696646 svg {
+   .wave-pattern svg {
       width: calc(174% + 1.3px);
       height: 87px;
    }
@@ -273,7 +276,7 @@
 .about {
    padding-left: 5%;
    padding-right: 5%;
-   padding-top: 5%;
+ 
 }
 
 .about-btn {
@@ -288,6 +291,7 @@
    border-radius: 50px;
    transition: all 0.5s ease-in-out;
    outline: none;
+  
 }
 
 .about-btn:focus{

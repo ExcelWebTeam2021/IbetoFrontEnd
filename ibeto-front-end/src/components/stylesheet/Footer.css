@@ -50,7 +50,7 @@
 }
 .fa-facebook,
 .fa-instagram,
-.fa-linkedin {
+.fa-linkedin-footer {
    font-size: 25px;
    padding: 10px 14px;
    transition: 0.5s;
@@ -58,13 +58,15 @@
 .fa-facebook:hover {
    background-color: #3d5b99;
 }
-.fa-linkedin:hover {
+.fa-linkedin-footer:hover {
    background-color: #0073a4;
 }
 .fa-instagram:hover {
    background-color: #e64a41;
 }
-
+.footer-text{
+   color:white
+}
 @media only screen and (max-width: 550px) {
    /* Footer */
    .footerMec img {
@@ -80,6 +82,8 @@
    .footerIcon2 {
       margin-top: 50x;
       display: block;
+      margin-left: 15%;
+margin-right: 15%;
       padding-bottom: 20px;
    }
 }

@@ -9,12 +9,12 @@ import Footer from "../ibetoMainSite/Footer";
 const IbetoJnr = () => {
    return (
       <div>
-         <Navbar />
+         {/* <Navbar />
          <LandingPage />
          <About />
          <EventFormat />
          <Testimonials />
-         <Footer />
+         <Footer /> */}
       </div>
    );
 };

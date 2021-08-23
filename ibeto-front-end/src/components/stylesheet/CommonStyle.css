@@ -44,6 +44,7 @@ a:active {
 
 .blob-btn {
    z-index: 1;
+   margin-right: 3%;
    position: relative;
    color: #58144f;
    outline: none;
@@ -64,7 +65,6 @@ a:active {
 
 .blob-btn-text {
    outline: 0;
-   /* color: #58144f; */
    text-decoration: none;
 }
 .blob-btn-text:hover {

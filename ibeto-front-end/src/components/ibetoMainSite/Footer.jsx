@@ -28,10 +28,11 @@ const Footer = () => {
                   <li>
                      <a href='https://www.linkedin.com/company/excelmec' className='social-icon'>
                         {" "}
-                        <i className='fa fa-linkedin'></i>
+                        <i className='fa fa-linkedin fa-linkedin-footer'></i>
                      </a>
                   </li>
                </ul>
+               <p className='footer-text'>Made with ♥ Excel 2021</p>
             </div>
 
             <div className='footerExcel'>
@@ -58,10 +59,12 @@ const Footer = () => {
                <li>
                   <a href='https://www.linkedin.com/company/excelmec' className='social-icon'>
                      {" "}
-                     <i className='fa fa-linkedin'></i>
+                     <i className='fa fa-linkedin fa-linkedin-footer'></i>
                   </a>
                </li>
+              
             </ul>
+            <p className='footer-text'>Made with ♥ Excel 2021</p>
          </div>
       </div>
    );

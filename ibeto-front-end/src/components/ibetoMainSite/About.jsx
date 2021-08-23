@@ -29,17 +29,31 @@ const About = () => {
                <div className=''>
                   <button class='btn mt-4 blob-btn button-shadow'>
                      <Link to='/dashboard' className='blob-btn-text'>
-                        Dashboard
+                        Register
                      </Link>
                      <span class='blob-btn__inner'>
                         <span class='blob-btn__blobs'>
-                           <span class='blob-btn__blob'>f</span>
+                           <span class='blob-btn__blob'></span>
                            <span class='blob-btn__blob'></span>
                            <span class='blob-btn__blob'></span>
                            <span class='blob-btn__blob'></span>
                         </span>
                      </span>
                   </button>
+               
+                  <button class='btn mt-4 blob-btn button-shadow'>
+ 
+                     <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf " className='blob-btn-text'>Guidelines</a>
+                     <span class='blob-btn__inner'>
+                        <span class='blob-btn__blobs'>
+                           <span class='blob-btn__blob'></span>
+                           <span class='blob-btn__blob'></span>
+                           <span class='blob-btn__blob'></span>
+                           <span class='blob-btn__blob'></span>
+                        </span>
+                     </span>
+                  </button>
+                 
                   <br />
                   <svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
                      <defs>

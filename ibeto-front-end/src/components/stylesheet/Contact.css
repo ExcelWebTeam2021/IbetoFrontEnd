@@ -5,7 +5,7 @@
    padding:  4% 7% 4% 7%;
 }
 .profile-card {
-   padding: 40px 60px;
+   padding: 40px 30px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -32,13 +32,17 @@
 }
 
 .profile-name {
-   font-size: 20px;
+   font-size: 21px;
    font-weight: bold;
-   margin: 25px 0 10px 0;
+   margin: 10px 0 1px 0;
 }
 
 .profile-position {
-   font-size: 14px;
+   font-size: 15px;
+   color: rgb(53, 52, 52);
+}
+.profile-contact {
+   font-size: 12px;
    color: #777;
 }
 
@@ -92,3 +96,108 @@
    background: linear-gradient(to bottom, rgb(34, 33, 33), rgb(34, 33, 33) 60px, white 1rem, white 100%);
 }
 }
+
+
+ 
+ /* Social Icon Mixin */
+ /* Social Icons */
+ .social-icons {
+   display: flex;
+   margin-top: 15%;
+ }
+ 
+ .social-icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   width: 30px;
+   height: 30px;
+
+   margin: 0 0.5rem;
+   border-radius: 50%;
+   font-size: 2.5rem;
+   text-decoration: none;
+   transition: all 0.15s ease;
+ }
+ .social-icon:hover {
+   color: #fff;
+ }
+ .social-icon:hover .tooltip {
+   visibility: visible;
+   opacity: 1;
+   transform: translate(-50%, -150%);
+ }
+ .social-icon:active {
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+ }
+ .social-icon--linkedin {
+   background: #1a1a1a;
+   font-size: 20px;
+   color: #fff;
+ }
+ .social-icon--linkedin .tooltip {
+   background: #1a1a1a;
+   color: currentColor;
+ }
+ .social-icon--linkedin .tooltip:after {
+   border-top-color: #1a1a1a;
+ }
+ .social-icon--twitter {
+   background: #1a1a1a;
+   font-size: 20px;
+   color: #fff;
+ }
+ .social-icon--twitter .tooltip {
+   background: #1a1a1a;
+   color: currentColor;
+ }
+ .social-icon--twitter .tooltip:after {
+   border-top-color: #1a1a1a;
+ }
+ .social-icon--codepen {
+   background: #1a1a1a;
+   font-size: 20px;
+   color: #fff;
+ }
+ .social-icon--codepen .tooltip {
+   background: #1a1a1a;
+   color: currentColor;
+ }
+ .social-icon--codepen .tooltip:after {
+   border-top-color: #1a1a1a;
+ }
+ .social-icon i {
+   position: relative;
+   top: 1px;
+ }
+ 
+ /* Tooltips */
+ .tooltip {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 20%;
+   padding: 0.8rem 1rem;
+   border-radius: 40px;
+   font-size: 0.8rem;
+  
+   pointer-events: none;
+  color:white;
+   transform: translate(-50%, 100%);
+   transition: all 0.3s ease;
+   z-index: 1;
+ }
+ .tooltip:after {
+   display: block;
+   position: absolute;
+   bottom: 1px;
+   left: 50%;
+   width: 0;
+   height: 0;
+   content: "";
+   border: solid;
+   border-width: 10px 10px 0 10px;
+   border-color: transparent;
+   transform: translate(-50%, 100%);
+ }
