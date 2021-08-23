@@ -236,7 +236,7 @@
 .wave-pattern {
    position: relative;
    bottom: 0;
-   top:-6px;
+   top:-5px;
    left: 0;
    width: 100%;
    overflow: hidden;
@@ -268,7 +268,7 @@
 @media (max-width: 767px) {
    .wave-pattern svg {
       width: calc(174% + 1.3px);
-      height: 87px;
+      height: 100px;
    }
 }
 

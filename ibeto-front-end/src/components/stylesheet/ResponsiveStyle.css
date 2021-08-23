@@ -42,7 +42,7 @@
 /* Problem stmt */
 
 .card-front {
-   background-color: #1a1a1a;
+   background-color: #f01a1a;
    height: 90%;
    width: 90%;
 }
@@ -144,7 +144,8 @@
       margin: 5%;
       margin-left: 5%;
       margin-right: 5%;
-      text-align: center;
+      text-align: justify;
+      margin-bottom: 4%;
    }
    /* timeline */
    .mainsite-timeline-row {
