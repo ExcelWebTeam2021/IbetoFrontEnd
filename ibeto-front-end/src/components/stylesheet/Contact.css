@@ -129,69 +129,29 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 30px;
-  height: 30px;
-
-  margin: 0 0.5rem;
+  width: 35px;
+  height: 35px;
+  margin: 1rem 1rem;
   border-radius: 50%;
   font-size: 2.5rem;
   text-decoration: none;
   transition: all 0.15s ease;
 }
-.social-icon:hover {
-  color: #fff;
-}
-.social-icon--phone:hover .tooltip,.social-icon--linkedin:hover .tooltip,.social-icon--envelope:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
-  transform: translate(-50%, -150%);
-}
+
+
 .social-icon:active {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
 }
-.social-icon--linkedin {
+.social-icon--linkedin,.social-icon--envelope ,.social-icon--phone {
   background: #1a1a1a;
 
-  color: #fff;
-}
-.social-icon--linkedin .tooltip {
-  background: #1a1a1a;
-  color: currentColor;
-}
-.social-icon--linkedin .tooltip:after {
-  border-top-color: #1a1a1a;
-}
-.social-icon--envelope {
-  background: #1a1a1a;
-
-  color: #fff;
-}
-.social-icon--envelope .tooltip {
-  background: #1a1a1a;
-  color: currentColor;
-}
-.social-icon--envelope .tooltip:after {
-  border-top-color: #1a1a1a;
-}
-.social-icon--phone {
-  background: #1a1a1a;
-
-  color: #fff;
-}
-.social-icon--phone .tooltip {
-  background: #1a1a1a;
-  color: currentColor;
-}
-.social-icon--phone .tooltip:after {
-  border-top-color: #1a1a1a;
 }
 .social-icon i {
   position: relative;
-
   font-size: 16px;
 }
 
-/* Tooltips */
+/* Tooltips
 .tooltip {
   display: block;
   position: absolute;
@@ -217,4 +177,4 @@
   border-width: 8px 8px 0 8px;
   border-color: transparent;
   transform: translate(-45%, 100%);
-}
+} */

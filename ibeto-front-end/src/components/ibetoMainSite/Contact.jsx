@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ReactTooltip from "react-tooltip";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../stylesheet/Contact.css";
@@ -30,31 +31,50 @@ const Contact = () => {
           <div className="profile-name">Adil Rafeek</div>
           <div className="profile-position">Chairman Excel 2021</div>
           <div className="social-icons">
-            <a
-              className="social-icon social-icon--phone"
-              href="tel:+919895529739"
-              style={{ color: "white" }}
-            >
-              <i className="fa fa-phone"></i>
-              <div className="tooltip">9895529739</div>
-            </a>
-            <a
-              className="social-icon social-icon--envelope"
-              style={{ color: "white" }}
-              href="mailto:adilrafeek.mec@gmail.com"
-            >
-              <i className="fa fa-envelope"></i>
-              <div className="tooltip">adilrafeek.mec@gmail.com</div>
-            </a>
+            <div data-tip data-for="adilphone">
+              <a
+                className="social-icon social-icon--phone"
+                href="tel:+919895529739"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-phone"></i>
+              </a>
+            </div>
 
-            <a
-              className="social-icon social-icon--linkedin"
-              href="https://www.linkedin.com/in/adil-rafeek"
-              style={{ color: "white" }}
-            >
-              <i className="fa fa-linkedin"></i>
-              <div className="tooltip"> View profile </div>
-            </a>
+            <ReactTooltip id="adilphone">
+              <span>9895529739</span>
+            </ReactTooltip>
+
+            <div data-tip data-for="adilmail">
+              <a
+                className="social-icon social-icon--envelope"
+                href="mailto:adilrafeek.mec@gmail.com"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-envelope"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="adilmail">
+              <span>adilrafeek.mec@gmail.com</span>
+            </ReactTooltip>
+
+            <div data-tip data-for="adilln">
+              <a
+                className="social-icon social-icon--linkedin"
+                href="https://www.linkedin.com/in/adil-rafeek"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-linkedin"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="adilln">
+              <span>View Linkedin Profile</span>
+            </ReactTooltip>
           </div>
         </div>
         <div
@@ -67,31 +87,49 @@ const Contact = () => {
           <div className="profile-position">General Secretary Excel 2021</div>
 
           <div className="social-icons">
-            <a
-              className="social-icon social-icon--phone"
-              style={{ color: "white" }}
-              href="tel:+9633288284"
-            >
-              <i className="fa fa-phone"></i>
-              <div className="tooltip">9633288284</div>
-            </a>
-            <a
-              className="social-icon social-icon--envelope"
-              style={{ color: "white" }}
-              href="mailto:ameenazeez.mec@gmail.com"
-            >
-              <i className="fa fa-envelope"></i>
-              <div className="tooltip">ameenazeez.mec@gmail.com</div>
-            </a>
+            <div data-tip data-for="ameenphone">
+              <a
+                className="social-icon social-icon--phone"
+                href="tel:+9633288284"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-phone"></i>
+              </a>
+            </div>
 
-            <a
-              className="social-icon social-icon--linkedin"
-              style={{ color: "white" }}
-              href="https://www.linkedin.com/in/ameen-azeez"
-            >
-              <i className="fa fa-linkedin"></i>
-              <div className="tooltip">View profile</div>
-            </a>
+            <ReactTooltip id="ameenphone">
+              <span>9633288284</span>
+            </ReactTooltip>
+
+            <div data-tip data-for="ameenmail">
+              <a
+                className="social-icon social-icon--envelope"
+                href="mailto:ameenazeez.mec@gmail.com"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-envelope"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="ameenmail">
+              <span>ameenazeez.mec@gmail.com</span>
+            </ReactTooltip>
+            <div data-tip data-for="ameenln">
+              <a
+                className="social-icon social-icon--linkedin"
+                href="https://www.linkedin.com/in/ameen-azeez"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-linkedin"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="ameenln">
+              <span>View Linkedin Profile</span>
+            </ReactTooltip>
           </div>
         </div>
         <div
@@ -99,41 +137,54 @@ const Contact = () => {
           data-aos-delay="500"
           className="profile-card only-start mb-4 col-lg-3 col-md-6 col-sm-12"
         >
-          <img
-            src={Denil}
-            alt="Denil Geo Daise"
-            className="profile-icon"
-          />
+          <img src={Denil} alt="Denil Geo Daise" className="profile-icon" />
           <div className="profile-name">Denil Geo Daise</div>
           <div className="profile-position">Joint Secretary Excel 2021</div>
           <div className="social-icons">
-            <a
-              className="social-icon social-icon--phone"
-              href="tel:+917902394958"
-              style={{ color: "white" }}
-            >
-              <i className="fa fa-phone"></i>
-              <div className="tooltip">+917902394958</div>
-            </a>
-            <a
-              className="social-icon social-icon--envelope"
-              style={{ color: "white" }}
-              href="mailto:denilgeodaise.mec@gmail.com"
-            >
-              <i className="fa fa-envelope"></i>
-              <div className="tooltip">denilgeodaise.mec@gmail.com</div>
-            </a>
+            <div data-tip data-for="denilphone">
+              <a
+                className="social-icon social-icon--phone"
+                href="tel:+917902394958"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-phone"></i>
+              </a>
+            </div>
 
-            <a
-              className="social-icon social-icon--linkedin"
-              style={{ color: "white" }}
-              href="https://www.linkedin.com/in/denil-daise-3215521a7"
-            >
-              <i className="fa fa-linkedin"></i>
-              <div className="tooltip">View profile</div>
-            </a>
+            <ReactTooltip id="denilphone">
+              <span>+917902394958</span>
+            </ReactTooltip>
+
+            <div data-tip data-for="denilmail">
+              <a
+                className="social-icon social-icon--envelope"
+                href="mailto:denilgeodaise.mec@gmail.com"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-envelope"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="denilmail">
+              <span>denilgeodaise.mec@gmail.com</span>
+            </ReactTooltip>
+            <div data-tip data-for="denilln">
+              <a
+                className="social-icon social-icon--linkedin"
+                href="https://www.linkedin.com/in/denil-daise-3215521a7"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-linkedin"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="denilln">
+              <span>View Linkedin Profile</span>
+            </ReactTooltip>
           </div>
-      
         </div>
         <div
           data-aos="fade-in"
@@ -144,33 +195,50 @@ const Contact = () => {
           <div className="profile-name">Prithvi Chandra </div>
           <div className="profile-position">Social Initiatives Manager</div>
           <div className="social-icons">
-            <a
-              className="social-icon social-icon--phone"
-              style={{ color: "white" }}
-              href="tel:+917034156677"
-            >
-              <i className="fa fa-phone"></i>
-              <div className="tooltip">+917034156677</div>
-            </a>
-            <a
-              className="social-icon social-icon--envelope"
-              style={{ color: "white" }}
-              href="mailto:prithvichandra.mec@gmail.com"
-            >
-              <i className="fa fa-envelope"></i>
-              <div className="tooltip">prithvichandra.mec@gmail.com</div>
-            </a>
+            <div data-tip data-for="prithviphone">
+              <a
+                className="social-icon social-icon--phone"
+                href="tel:+917034156677"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-phone"></i>
+              </a>
+            </div>
 
-            <a
-              className="social-icon social-icon--linkedin"
-              href="https://www.linkedin.com/in/prithvi-chandra-119bb4184"
-              style={{ color: "white" }}
-            >
-              <i className="fa fa-linkedin"></i>
-              <div className="tooltip">View profile</div>
-            </a>
+            <ReactTooltip id="prithviphone">
+              <span>+917034156677</span>
+            </ReactTooltip>
+
+            <div data-tip data-for="prithvimail">
+              <a
+                className="social-icon social-icon--envelope"
+                href="mailto:prithvichandra.mec@gmail.com"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-envelope"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="prithvimail">
+              <span>prithvichandra.mec@gmail.com</span>
+            </ReactTooltip>
+            <div data-tip data-for="prithvin">
+              <a
+                className="social-icon social-icon--linkedin"
+                href="https://www.linkedin.com/in/prithvi-chandra-119bb4184"
+                style={{ color: "white" }}
+              >
+                {" "}
+                <i className="fa fa-linkedin"></i>
+              </a>
+            </div>
+
+            <ReactTooltip id="prithvi">
+              <span>View Linkedin Profile</span>
+            </ReactTooltip>
           </div>
-       
         </div>
       </div>
     </div>
