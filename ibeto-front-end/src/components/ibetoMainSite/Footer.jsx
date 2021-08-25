@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheet/Footer.css";
+import logo from "../images/logo.svg";
 
 const Footer = () => {
    return (
@@ -36,8 +37,8 @@ const Footer = () => {
             </div>
 
             <div className='footerExcel'>
-               <a href='http://www.mec.ac.in/'>
-                  <img src='https://ibeto.excelmec.org/assets/logo.png' alt='excel logo' />
+               <a href='http://excelmec.org/' >
+                  <img src={logo} alt='excel logo' width='80' height='80' />
                </a>
             </div>
          </div>

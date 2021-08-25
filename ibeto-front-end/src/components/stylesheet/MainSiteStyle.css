@@ -314,6 +314,10 @@
 .event-format-row{
    margin-top: 5%;
 }
+.logo-small-screen{
+   display: none;
+}
+
 .event-format {
    display: flex;
    flex-direction: row;

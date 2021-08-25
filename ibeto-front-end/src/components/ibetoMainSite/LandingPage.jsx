@@ -48,7 +48,7 @@ const LandingPage = () => {
   };
   return (
     <main id="Home" className="">
-      <div ref={LandingPage}></div>
+      <div className='actual-line-animation' ref={LandingPage}></div>
 
       <div
         className="animation-container darker-bk"

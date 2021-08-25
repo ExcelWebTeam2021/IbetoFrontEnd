@@ -11,7 +11,7 @@ import lightbulb from "../images/whyparticipate/lightbulb.png";
 import trophy from "../images/whyparticipate/trophy.png";
 import sponsor from "../images/whyparticipate/sponsor.png";
 import profit from "../images/whyparticipate/profit.png";
-import helping from "../images/whyparticipate/helping.png";
+import helping from "../images/whyparticipate/profit.png";
 
 function WhyParticipate() {
   useEffect(() => {

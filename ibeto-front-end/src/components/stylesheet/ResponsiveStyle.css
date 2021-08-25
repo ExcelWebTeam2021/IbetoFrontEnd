@@ -16,10 +16,18 @@
    /* landing page */
    .animation-container {
       width: 100vw;
+      height: 60vh;
+      position: absolute;
+      background-color: #1a1a1a;
+   }
+   .actual-line-animation{
+      background-color: #1a1a1a;
+      height: 60vh;
+      position: absolute;
    }
    .bg,
    .buttons {
-      margin-top:40%;
+      margin-top:-120%;
       margin-left: 5%;
       width: 55px;
       height:55px;
@@ -29,10 +37,18 @@
    }
    .wave-pattern {
       position: relative;
-      top:0px;
+      top:20%;
+      visibility: hidden;
    }
    
+  /* About */
+  .about{
+    transform: translateY(20%);
+  }
+ 
    /* Event Format */
+  
+  
    .phase {
       margin: 5%;
       text-align: justify;
