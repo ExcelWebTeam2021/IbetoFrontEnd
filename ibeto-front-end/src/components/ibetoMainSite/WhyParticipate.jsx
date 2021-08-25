@@ -6,12 +6,12 @@ import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/WhyParticipate.css";
 import "../stylesheet/ResponsiveStyle.css";
 
-import certificate from "../images/whyparticipate/certificate.png";
-import lightbulb from "../images/whyparticipate/lightbulb.png";
-import trophy from "../images/whyparticipate/trophy.png";
-import sponsor from "../images/whyparticipate/sponsor.png";
-import profit from "../images/whyparticipate/profit.png";
-import helping from "../images/whyparticipate/profit.png";
+import certificate from "../images/whyparticipate/certificate.svg";
+import lightbulb from "../images/whyparticipate/lightbulb.svg";
+import trophy from "../images/whyparticipate/trophy.svg";
+import sponsor from "../images/whyparticipate/sponsor.svg";
+import profit from "../images/whyparticipate/profit.svg";
+import helping from "../images/whyparticipate/helping.svg";
 
 function WhyParticipate() {
   useEffect(() => {

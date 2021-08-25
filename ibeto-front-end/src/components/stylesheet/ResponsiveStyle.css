@@ -23,6 +23,7 @@
    .actual-line-animation{
       background-color: #1a1a1a;
       height: 60vh;
+      width: 100vw;
       position: absolute;
    }
    .bg,
@@ -43,12 +44,14 @@
    
   /* About */
   .about{
-    transform: translateY(20%);
+    transform: translateY(23%);
   }
  
    /* Event Format */
   
-  
+  .event-format-row{
+     margin-top: 50%;
+  }
    .phase {
       margin: 5%;
       text-align: justify;
