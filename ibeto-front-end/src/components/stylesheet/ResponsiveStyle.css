@@ -4,10 +4,10 @@
   body {
     overflow-x: hidden;
   }
-  .heading {
+  .heading,.heading span  {
     font-size: 32px;
   }
-
+ 
   .content {
     font-size: 15px;
   }
@@ -45,6 +45,11 @@
     transform: translateY(23%);
   }
 
+  .about-logo{
+    width: 50%;
+    
+  }
+
   /* Event Format */
 
   .event-format-row {
@@ -68,7 +73,7 @@
     width: 80%;
   }
   .card-title {
-    text-align: center;
+    font-size: 21px;
   }
   .card-back {
     padding: 5%;
@@ -76,16 +81,24 @@
     width: 80%;
   }
   .view-sample-stmt-btn {
-    width: 100%;
-    font-size: 11px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 12px;
   }
   /* Rewards */
   .rewards-row {
-    margin-left: 10%;
-    margin-right: 10%;
+   display: block;
+   margin: 0 auto;
+   padding: 5%;
+  }
+  .reward-heading{
+    text-align: center;
   }
   .rewards-img {
-    width: 60%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
   }
   .mainsite-timeline-row {
     padding-top: 15%;
@@ -131,6 +144,11 @@
   #Sponsors .client-logo {
     padding: 30px;
   }
+  .client-logo{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
   /* FAQ */
   .accordion {
     padding-left: 10%;
@@ -141,7 +159,8 @@
     height: 3px;
   }
   .faq-heading {
-    padding-left: 5%;
+    display: block;
+    margin: 0 auto;
   }
   .accordion button .accordion-title {
     padding: 0.4em 0.4em 0.6em 0;
@@ -151,8 +170,10 @@
     font-size: 15px;
   }
   .accordion-title {
-    width: 70%;
+    width: 60%;
+
   }
+ 
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
@@ -219,7 +240,7 @@
   body {
     overflow-x: hidden;
   }
-  .heading {
+  .heading,.heading span {
     font-size: 60px;
   }
 

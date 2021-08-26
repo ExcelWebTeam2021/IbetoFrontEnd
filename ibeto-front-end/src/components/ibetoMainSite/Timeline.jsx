@@ -14,7 +14,7 @@ const Timeline = () => {
     <div className="container mt-5 " id="Timeline">
       <div className=" mainsite-timeline-row ">
         <h2 align="center" className="heading ">
-          Time<span>line</span>
+          Time<span className='heading-span'>line</span>
         </h2>
 
         <div className="row">
@@ -71,7 +71,7 @@ const Timeline = () => {
               <div className="direction-l">
                 <div className="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
                   <span className="hexa"></span>
-                  <span className="time content">14th October 2021</span> <br/>
+                  <span className="time content">12th October 2021</span> <br/>
                   <span className="flag content">Announcement of shortlisted teams</span>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const Timeline = () => {
               <div className="direction-r">
                 <div className="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
                   <span className="hexa"></span>
-                  <span className="time content">15th October - 31st December 2021
+                  <span className="time content">13th October - 31st December 2021
 </span> <br/>
                   <span className="flag content">Project implementation and development</span>
                 </div>
@@ -103,7 +103,7 @@ const Timeline = () => {
               <div className="direction-r">
                 <div className="flag-wrapper"  data-aos='fade-in' data-aos-delay='200'>
                   <span className="hexa"></span>
-                  <span className="time content"> First week of January </span> <br/>
+                  <span className="time content"> January 2021 </span> <br/>
                   <span className="flag content">
                   Final video presentation of the project
                   </span>

@@ -1,6 +1,6 @@
 
 :root {
-  --timeline: #3c368a;
+  --timeline: #5a368a;
 
 }
 .hexa {
@@ -70,7 +70,7 @@
   width: 16px;
   height: 10px;
   position: absolute;
-  background-image: linear-gradient(to right,#7819bb, #4b44ad);
+  background:  var(--timeline);
   z-index: 5;
   left: 0;
   right: 0;

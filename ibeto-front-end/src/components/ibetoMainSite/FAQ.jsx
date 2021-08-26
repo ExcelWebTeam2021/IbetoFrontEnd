@@ -31,7 +31,7 @@ const FAQ = () => {
             <span className="accordion-title">
               Will there be a registration fee to participate in IBeTo 2021?
             </span>
-            <span className="icon" aria-hidden="true"></span>
+            <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
           <div className="collapse" id="collapseExample1">
             <p>No. You can register for IBeTo 2021 free of cost.</p>
@@ -49,7 +49,7 @@ const FAQ = () => {
             <span className="accordion-title">
               What is the team size limit?
             </span>
-            <span className="icon" aria-hidden="true"></span>
+            <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
           <div className="collapse" id="collapseExample2">
             <p>A team can have 1-5 members.</p>
@@ -66,7 +66,7 @@ const FAQ = () => {
             <span className="accordion-title">
               Should all team members be from the same college or institution?
             </span>
-            <span className="icon" aria-hidden="true"></span>
+            <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
           <div className="collapse" id="collapseExample3">
             <p>
@@ -87,7 +87,7 @@ const FAQ = () => {
               From which phase will I be eligible for a certificate of
               participation?
             </span>
-            <span className="icon" aria-hidden="true"></span>
+            <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
           <div className="collapse" id="collapseExample4">
             <p>
@@ -109,7 +109,7 @@ const FAQ = () => {
               Will I be eligible for KTU activity points if I take part in IBeTo
               2021?
             </span>
-            <span className="icon" aria-hidden="true"></span>
+            <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
           <div className="collapse" id="collapseExample5">
             <p>

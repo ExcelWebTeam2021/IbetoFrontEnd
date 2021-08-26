@@ -28,10 +28,11 @@ const About = () => {
                <p>2021 marks the 10th edition of IBeTo, and thus IBeTo 2021 in association with IEDC MEC has an added vision of working towards fulfilling the United Nations Sustainable Development Goals (UN SDGs) along with providing an opportunity to develop and implement the projects on a large scale in areas where technology is yet to make strides. </p>
                </div>
                <div className=''>
+               <Link to='/dashboard' className='blob-btn-text'>
                   <button className='btn mt-4 blob-btn button-shadow'>
-                     <Link to='/dashboard' className='blob-btn-text'>
+                   
                         Register
-                     </Link>
+                    
                      <span className='blob-btn__inner'>
                         <span className='blob-btn__blobs'>
                            <span className='blob-btn__blob'></span>
@@ -41,10 +42,10 @@ const About = () => {
                         </span>
                      </span>
                   </button>
-               
+                  </Link>
                   <button className='btn mt-4 blob-btn button-shadow'>
  
-                     <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf " className='blob-btn-text'>Guidelines</a>
+                     <a href="https://drive.google.com/file/d/1M0WvQSyvz8QCPz2Yft_ZoO9KhWFjwgmZ/view" className='blob-btn-text'>Guidelines</a>
                      <span className='blob-btn__inner'>
                         <span className='blob-btn__blobs'>
                            <span className='blob-btn__blob'></span>

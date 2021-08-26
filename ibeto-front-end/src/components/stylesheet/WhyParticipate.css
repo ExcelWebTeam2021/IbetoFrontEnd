@@ -16,7 +16,7 @@
   padding-top:4%;
 
   border-radius: 6px;
-  border-bottom: 3px solid #4b44ad;
+  border-bottom: 1px solid var(--secondary);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(255, 255, 255, 0.8);
 }
 .whyparticipate-div:hover{
@@ -60,7 +60,8 @@
   margin: auto;
   padding: auto;
   border-radius: 6px;
-  border-top: 3px solid rgb(41, 12, 30);
+  border-bottom: 1px solid var(--secondary);
+  height: 260px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(255, 255, 255, 0.8);
   margin-bottom: 20%;
 }

@@ -70,12 +70,14 @@
 }
 .accordion button[aria-expanded="true"] .icon::after {
    width: 0;
+   color: var(--secondary);
 }
 .accordion button[aria-expanded="true"] + .accordion-content {
    opacity: 1;
    max-height: 9em;
    transition: all 200ms linear;
    will-change: opacity, max-height;
+   color: var(--secondary);
 }
 .accordion .accordion-content {
    opacity: 0;

@@ -61,7 +61,7 @@ function WhyParticipate() {
                   />
 
                   <p className="content">
-                    A grand prize pool of Rs. 1 Lakh asdasdadada
+                  Exciting prizes worth INR 1 Lakh awaits the top 3 teams
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ function WhyParticipate() {
                     alt="certificate"
                   />
 
-                  <p className="content">KTU Certificate</p>
+                  <p className="content">Socially relevant projects can fetch upto 50 activity points as per KTU regulations</p>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-                A grand prize pool of Rs. 1 Lakh gdgdfgdgdfgdgdf
+              Exciting prizes worth INR 1 Lakh awaits the top 3 teams
               </p>
             </div>
 
@@ -192,7 +192,7 @@ function WhyParticipate() {
               />
 
 
-              <p className="content">KTU Certificate</p>
+              <p className="content"> Socially relevant projects can fetch upto 50 activity points as per KTU regulations</p>
             </div>
           </div>
 
