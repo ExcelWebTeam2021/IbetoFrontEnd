@@ -12,13 +12,24 @@ const Timeline = () => {
       <ul className="dashboard-timeline">
         <li className="dashboard-timeline-item">
           <div className="dashboard-timeline-info">
-            <span>12th September 2021</span>
+            <span>31st August 2021 2021</span>
+          </div>
+          <div className="dashboard-timeline-marker"></div>
+          <div className="dashboard-timeline-content">
+            <h3 className="dashboard-timeline-title">IBeTo Launch</h3>
+          </div>
+        </li>
+
+        <li className="dashboard-timeline-item">
+          <div className="dashboard-timeline-info">
+            <span>10th September 2021</span>
           </div>
           <div className="dashboard-timeline-marker"></div>
           <div className="dashboard-timeline-content">
             <h3 className="dashboard-timeline-title">Registration Closes</h3>
           </div>
         </li>
+
         <li className="dashboard-timeline-item">
           <div className="dashboard-timeline-info">
             <span>23rd September 2021</span>
@@ -59,6 +70,17 @@ const Timeline = () => {
           <div className="dashboard-timeline-content">
             <h3 className="dashboard-timeline-title">
               Announcement of shortlisted teams
+            </h3>
+          </div>
+        </li>
+        <li className="dashboard-timeline-item">
+          <div className="dashboard-timeline-info">
+            {/* <span>14th October 2021</span> */}
+          </div>
+          <div className="dashboard-timeline-marker"></div>
+          <div className="dashboard-timeline-content">
+            <h3 className="dashboard-timeline-title">
+             End of phase 1 : Ideate
             </h3>
           </div>
         </li>

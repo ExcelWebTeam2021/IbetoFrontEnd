@@ -36,11 +36,11 @@ a:active {
 }
 
 .heading span {
-     color: var(--main);
-   /* color: #4d2d9e; */
-   /* color: #4722a3; */
-   /* color: #5124c2; */
-   /* color:#1864ab; */
+
+   font-size: 40px;
+   background: -webkit-linear-gradient(#9538d8, #352e92); 
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .content {
@@ -48,7 +48,7 @@ a:active {
    font-family: "Open Sans", sans-serif;
    font-size: 17px;
    line-height: 1.6;
-   text-align: justify;
+  
  
 }
 
@@ -108,7 +108,7 @@ a:active {
    top: 3px;
    width: 25%;
    height: 100%;
-   background: linear-gradient(to#8E27D7, #2e1472);
+   background: linear-gradient(#8E27D7, #2e1472);
    border-radius: 100%;
    transform: translate3d(0, 150%, 0) scale(1.7);
    transition: transform 0.45s;

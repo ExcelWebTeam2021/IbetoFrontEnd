@@ -6,6 +6,7 @@ import "../stylesheet/Sponsors.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 import AVT from "../images/AVT.png";
+import IDEC from "../images/IDEC.png";
 
 const Sponsors = () => {
    useEffect(() => {
@@ -21,13 +22,13 @@ const Sponsors = () => {
             <div className='col-lg-4 col-md-4 col-xs-6'>
                <div data-aos='zoom-out' className='client-logo'>
                   {" "}
-                  <img src={AVT} className='img-fluid' alt='' />{" "}
+                  <img src={AVT} className='img-fluid' alt='AVT' />{" "}
                </div>
             </div>
             <div className='col-lg-4 col-md-4 col-xs-6'>
                <div data-aos='zoom-out' className='client-logo'>
                   {" "}
-                  <img src='https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png' className='img-fluid' alt='' />{" "}
+                  <img src={IDEC} className='img-fluid' alt='IDEC' />{" "}
                </div>
             </div>
       

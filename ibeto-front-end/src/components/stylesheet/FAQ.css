@@ -22,13 +22,13 @@
 .accordion button:hover,
 .accordion button:focus {
    cursor: pointer;
-   color: #691c5f;
+   color: var(--secondary);
 }
 .accordion button:hover::after,
 .accordion button:focus::after {
    cursor: pointer;
-   color: #691c5f;
-   border: 1px solid #691c5f;
+   color: var(--secondary);
+   border: 1px solid var(--secondary);
 }
 .accordion button .accordion-title {
    padding: 1em 1.5em 1em 0;
@@ -62,10 +62,10 @@
    left: 9px;
    width: 2px;
    height: 10px;
-   background: currentColor;
+   background: var(--secondary);
 }
 .accordion button[aria-expanded="true"] {
-   color: #691c5f;
+   color: var(--secondary);
    font-weight: 600;
 }
 .accordion button[aria-expanded="true"] .icon::after {

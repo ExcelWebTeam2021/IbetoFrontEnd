@@ -92,7 +92,7 @@ const ProblemStmts = () => {
               </p>
               
               <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
-                <button className="button btn-sm view-sample-stmt-btn ">
+                <button className="button btn-sm view-sample-stmt-btn " style={{textDecoration:'none'}}>
                   View Sample statements
                 </button>
               </a>

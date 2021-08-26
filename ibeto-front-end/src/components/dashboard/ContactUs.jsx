@@ -8,8 +8,8 @@ const ContactUs = () => {
          <a className='sendmailbtn' href='https://mail.google.com/mail/u/0/?fs=1&to=query.ibeto2021@gmail.com&su=Doubt+regarding+ibeto&body=Our+team+%3CTeamName%3E+had+a+query+regarding+...&tf=cm' rel='noreferrer' target='_blank'>
             <div className='row '>
                <div className='col-8 contactUs-text'>
-                  <p>Any queries</p>
-                  <p style={{ color: "#f8f9fa" }}>Contact us</p>
+                  <p>Any queries ?</p>
+                  <p style={{ color: "#fff" }}>Contact us</p>
                </div>
                <div className='col-4'>
                   <img src={ContactUsIcon} className='img-fluid' alt='' width='60' />

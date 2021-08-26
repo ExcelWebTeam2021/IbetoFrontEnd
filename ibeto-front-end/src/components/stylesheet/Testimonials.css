@@ -19,7 +19,7 @@
  
 }
 .carousel-control:hover {
-   color: rgb(146, 23, 99);
+   color: #471786;
 }
 
 #quote-carousel .carousel-indicators {
@@ -55,7 +55,7 @@
    font-family: "Fontawesome";
    float: left;
    margin-right: 10px;
-   color: rgb(146, 23, 99);
+   color: #471786;
    font-size: larger;
 }
 .ibeto-testimonial blockquote p:after {
@@ -63,7 +63,7 @@
    font-family: "Fontawesome";
    float: right;
    margin-right: 10px;
-   color: rgb(146, 23, 99);
+   color: #471786;
    font-size: larger;
 }
 

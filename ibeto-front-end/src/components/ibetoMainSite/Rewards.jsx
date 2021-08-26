@@ -20,7 +20,7 @@ const Rewards = () => {
 
             <div className='col-md-8 col-sm-6' data-aos='fade-left'>
                <h2 className='heading'>
-                  Rewar<span>ds</span>
+                  Rew<span>ards</span>
                </h2>
                <br />
                <ul className='content rewards-list'>

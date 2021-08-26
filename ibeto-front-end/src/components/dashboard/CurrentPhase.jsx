@@ -8,9 +8,9 @@ const CurrentPhase = () => {
          <div className='row'>
             <div className='col-1'></div>
             <div className='col-md-7 col-sm-10 currentphase-text'>
-               <h4 className='dashboard-heading text-center'>Ibeto</h4>
-               <p>Phase 1 : Idea submission phase</p>
-               <button className='btn btn-danger btn-sm dashboard-phase-btn '>Guidelines</button> 
+               <h4 className='dashboard-heading text-center ibeto-heading'>Ibeto</h4>
+               <p c>Phase 1 : Idea submission phase</p>
+               <button className='btn btn-primary btn-sm dashboard-phase-btn '>View guidelines</button> 
                {/* <button className='btn btn-danger btn-sm'>Shortlisted students</button> */}
             </div>
             <div className='col-md-4 col-sm-10 progressbar-row'>

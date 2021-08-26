@@ -1,11 +1,12 @@
 :root {
-
-   --dashboard:#683bda;
+/* 3c368a */
+   --dashboard:#4b44ad;
    /* --main:#3C0C97; */
  }
+
 /* Dashboard homepage */
 .dashboard {
-   background: #fffefd;
+   background: #fafafa;
 }
 .white-bk {
    background-color: #fff;
@@ -24,13 +25,16 @@
    font-family: "Raleway", sans-serif;
    font-size: 25px;
 }
-
+.ibeto-heading{
+   font-size: 32px;
+ 
+}
 /*--------------------------- LEFT SECTION: dashboard-timeline --------------------------- */
 .dashboard-timeline-row {
    width: 75%;
 }
 .dashboard-timeline {
-   line-height: 1.4em;
+   line-height: 1.9em;
    list-style: none;
    margin: 0;
    padding: 0;
@@ -42,7 +46,6 @@
 .dashboard-timeline-title {
    color: #3d4351;
    margin-top: 0;
-   line-height: inherit;
    font-size: 15px;
 }
 
@@ -76,7 +79,7 @@
    width: 15px;
 }
 .dashboard-timeline-marker:before {
-   background: var(--dashboard);
+   background-image: linear-gradient(to right,#7819bb, #4b44ad);
    border: 3px solid transparent;
    border-radius: 100%;
    content: "";
@@ -86,7 +89,7 @@
    top: 4px;
    left: 0;
    width: 15px;
-   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+   transition: background-image 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 .dashboard-timeline-marker:after {
    content: "";
@@ -104,7 +107,7 @@
 
 .dashboard-timeline-item:not(.period):hover .dashboard-timeline-marker:before {
    background: transparent;
-   border: 3px solid #ff6b6b;
+   border: 3px solid var(--dashboard);
 }
 
 /*----- dashboard-timeline CONTENT -----*/
@@ -139,21 +142,37 @@ h1.ss-form-title {
 .dashboard-phase-btn {
    display: block;
    margin: 0 auto;
+   font-size: 13px;
+   background-image: linear-gradient(to right,#7819bb, #4b44ad);
+   color: white;
+   border: 2px solid var(--dashboard);
+   outline: none;
+   transition: color 0.5s;
+   border-radius: 10px;
+   padding: 1%;
+   text-align: center;
+   width: 50%;
+   cursor: pointer;
 }
 
-iframe {
+ .dashboard-phase-btn:hover {
+   color: var(--dashboard);
+   background-color: white;
+   border: 2px solid var(--dashboard);
+  }
+  iframe {
    width: 450px;
 }
-
 /* progress bar */
 .progress {
-   width: 100px;
-   height: 100px;
-   line-height: 150px;
+   width: 85px;
+   height: 85px;
+   line-height: 120px;
    background: none;
    margin: 0 auto;
    box-shadow: none;
    position: relative;
+   margin-top: 10%;
 }
 .progress:after {
    content: "";
@@ -203,10 +222,10 @@ iframe {
 .progress .progress-value {
    display: flex;
    border-radius: 50%;
-   font-size: 15px;
+   font-size: 13px;
    padding-left: 15%;
    text-align: center;
-   line-height: 20px;
+   line-height: 10px;
    align-items: center;
    justify-content: center;
    height: 100%;
@@ -239,11 +258,11 @@ iframe {
 /* Contact us */
 .contactUs-row {
    width: 75%;
-   height: 8%;
+   height: 7%;
    margin-left: 15%;
    padding-left: 10%;
    padding-right: 10%;
-   background: var(--dashboard);
+   background-image: linear-gradient(to right,#7819bb, #4b44ad);
 }
 .sendmailbtn,
 .sendmailbtn :hover {
@@ -255,6 +274,7 @@ iframe {
    font-size: 18px;
    line-height: 0.4;
    font-weight: 200px;
+   color:rgb(221, 218, 224);
 }
 
 /* FAQ */
@@ -277,10 +297,11 @@ iframe {
 }
 
 .faq .faq-card .faq-card-header:hover {
-   background: rgba(233, 30, 99, 0.1);
+   background: rgba(74, 30, 233, 0.1);
    padding-left: 10px;
 }
 .faq .faq-card .faq-card-header .faq-title {
+   font-family: "Open Sans", sans-serif;
    width: 100%;
    text-align: left;
    padding: 0px;
@@ -288,9 +309,6 @@ iframe {
    padding-right: 5px;
    font-weight: 400;
    font-size: 15px;
-   letter-spacing: 1px;
-   color: #3b566e;
-   text-decoration: none !important;
    transition: all 0.3s ease 0s;
    cursor: pointer;
    padding-top: 20px;
@@ -303,14 +321,14 @@ iframe {
    height: 20px;
    border-radius: 100px;
    text-align: center;
-   background: var(--dashboard);
+   background-image: linear-gradient(to right,#7819bb, #4b44ad);
    color: #fff;
    font-size: 12px;
-   margin-right: 10px;
+   margin-right: 13px;
 }
 
 .faq .faq-card .faq-card-body p {
    color: #3d4351;
-   font-size: 13px;
-   margin-bottom: 14px;
+   font-size: 14px;
+   margin-bottom: 30px;
 }

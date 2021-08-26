@@ -1,6 +1,6 @@
 
 :root {
-  --timeline: #ab9ac2;
+  --timeline: #3c368a;
 
 }
 .hexa {
@@ -70,7 +70,7 @@
   width: 16px;
   height: 10px;
   position: absolute;
-  background: var(--timeline);
+  background-image: linear-gradient(to right,#7819bb, #4b44ad);
   z-index: 5;
   left: 0;
   right: 0;
@@ -111,7 +111,7 @@
   display: inline;
   background: rgb(255, 255, 255);
   font-weight: 600;
-  color: #292929;
+  color: #140c22;
   z-index: 15;
   padding: 6px 10px;
   text-align: left;
@@ -139,7 +139,7 @@
   position: relative;
   z-index: 14;
   color: #fff;
-  background: var(--timeline);
+  background-image: linear-gradient(to right,#7819bb, #4b44ad);
   display: inline-block;
   padding: 8px;
   margin-bottom: 10px;

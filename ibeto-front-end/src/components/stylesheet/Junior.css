@@ -41,13 +41,16 @@
    position: absolute;
    right: 25px;
    bottom: 18px;
-   background-color: rgb(218, 31, 146);
+   background-color: #a87ed8;
    border: none;
    border-radius: 30px;
    cursor: pointer;
    outline: none;
    transition: all 0.3s ease;
    mix-blend-mode: hard-light;
+}
+.Jarrow{
+padding-top: 7%;
 }
 .junior-hover-section:hover .Jarrow,
 .Jbutton:hover {
@@ -105,32 +108,3 @@
       height: 50px;
    }
 }
-/* 
-.custom-shape-divider-bottom-1622204843 {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   overflow: hidden;
-   line-height: 0;
-   transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1622204843 svg {
-   position: relative;
-   display: block;
-   width: calc(108% + 1.3px);
-   height: 150px;
-}
-
-.custom-shape-divider-bottom-1622204843 .shape-fill {
-   fill: #FFFFFF;
-}
-
-/** For mobile devices **/
-/* @media (max-width: 767px) {
-   .custom-shape-divider-bottom-1622204843 svg {
-      width: calc(124% + 1.3px);
-      height: 150px;
-   }
-} */

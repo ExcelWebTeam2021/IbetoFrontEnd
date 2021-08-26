@@ -379,13 +379,13 @@
   outline: none;
   transition: color 0.5s;
   border-radius: 15px;
-  
   padding: 3% 6% 3% 6%;
   text-align: center;
   width: 100%;
+  cursor: pointer;
 }
 .view-sample-stmt-btn:hover {
-   background: #27136e;
+  background-image: linear-gradient(to right,#7819bb, #4b44ad);
    color: white;
    border: 2px solid #fff;
  }
