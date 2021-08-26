@@ -43,11 +43,13 @@
   /* About */
   .about {
     transform: translateY(23%);
+    display: block;
+    margin: 0 auto;
   }
 
   .about-logo{
-    width: 50%;
-    
+    width: 55%;
+  
   }
 
   /* Event Format */

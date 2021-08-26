@@ -71,7 +71,7 @@ const LandingPage = () => {
           {" "}
           {!toggle ? (
             <div className="mutess">
-              <a data-tip data-for="volup" href="">
+              <a data-tip data-for="volup" >
                 
                 <i className="fa fa-volume-up "></i>{" "}
               </a>
@@ -81,7 +81,7 @@ const LandingPage = () => {
             </div>
           ) : (
             <div className="mutess">
-              <a data-tip data-for="mute" href="">
+              <a data-tip data-for="mute">
                 {" "}
                 <i className="fa  fa-volume-off"></i>{" "}
               </a>
