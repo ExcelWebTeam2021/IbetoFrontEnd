@@ -11,6 +11,10 @@
   .content {
     font-size: 15px;
   }
+  .menu-wrap .menu > div {
+    width: 220vw;
+    height: 220vw;
+  }
 
   /*------------ Ibeto main page ------------*/
   /* landing page */
@@ -43,12 +47,11 @@
   /* About */
   .about {
     transform: translateY(23%);
-    display: block;
-    margin: 0 auto;
+
   }
 
   .about-logo{
-    width: 55%;
+    width: 58%;
   
   }
 
@@ -70,7 +73,6 @@
   /* Problem stmt */
 
   .card-front {
-    /* background-color: #1a1a1a; */
     height: 80%;
     width: 80%;
   }
@@ -83,7 +85,7 @@
     width: 80%;
   }
   .view-sample-stmt-btn {
-    width: 80%;
+    width: 90%;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 12px;
