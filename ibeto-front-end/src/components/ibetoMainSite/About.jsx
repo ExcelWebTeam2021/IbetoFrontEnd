@@ -6,6 +6,7 @@ import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
+import logo from "../images/ibetologo.svg";
 const About = () => {
    useEffect(() => {
       AOS.init({ duration: 1100 });
@@ -15,13 +16,13 @@ const About = () => {
       <div className='container-fluid about-bk' id='About'>
          <div className='row about'>
             <div data-aos='fade-right' className='col-md-4 col-xs-12'>
-               <img src='https://ibeto.excelmec.org/assets/nikhil-01.png' alt='ibeto-logo' className='img-fluid' />
+               <img src={logo} alt='ibeto-logo' className='about-logo img-fluid' />
             </div>
             <div data-aos='fade-left' className='col-md-8 col-xs-12 '>
                <h2 className='heading mb-4 '>
                   Abo<span>ut</span>
                </h2>
-               <div className='content'>
+               <div className='content about-content'>
                   <p>
                   Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2021. It is a national-level pursuit for socially relevant and technologically innovative ideas with the potential to trigger the next big social change. IBeTo gives the right platform and mentorship to launch the most technically innovative and revolutionary ideas and to develop them into a final product. IBeTo bridges the gap between innovators and society. </p>
                <p>2021 marks the 10th edition of IBeTo, and thus IBeTo 2021 in association with IEDC MEC has an added vision of working towards fulfilling the United Nations Sustainable Development Goals (UN SDGs) along with providing an opportunity to develop and implement the projects on a large scale in areas where technology is yet to make strides. </p>

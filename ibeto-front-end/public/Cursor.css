@@ -1,7 +1,7 @@
 .cursor {
    width: 20px;
    height: 20px;
-   border: 1px solid #921763;
+   border: 1px solid #471786;
    border-radius: 50%;
    position: absolute;
    cursor: none;
@@ -13,7 +13,6 @@
 
 .cursor::after {
    content: "";
-
    width: 20px;
    height: 20px;
    position: absolute;

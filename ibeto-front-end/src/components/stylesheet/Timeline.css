@@ -1,3 +1,8 @@
+
+:root {
+  --timeline: #ab9ac2;
+
+}
 .hexa {
   border: 0px;
   float: left;
@@ -65,7 +70,7 @@
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #bb4787;
+  background: var(--timeline);
   z-index: 5;
   left: 0;
   right: 0;
@@ -76,7 +81,7 @@
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #bb4787;
+  border-bottom: 4px solid var(--timeline);
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -85,7 +90,7 @@
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #bb4787;
+  border-top: 4px solid var(--timeline);
   bottom: -4px;
 }
 
@@ -134,7 +139,7 @@
   position: relative;
   z-index: 14;
   color: #fff;
-  background: rgb(146, 23, 99);
+  background: var(--timeline);
   display: inline-block;
   padding: 8px;
   margin-bottom: 10px;

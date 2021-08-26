@@ -32,7 +32,7 @@ const LandingPage = () => {
 
   const handleClick = () => {
    
-    lottie.loadAnimation({
+    const anime2 =lottie.loadAnimation({
       container: LandingPage.current,
       renderer: "svg",
       loop: false,
@@ -41,6 +41,7 @@ const LandingPage = () => {
     audioRef.current.play();
     sethidePlayBtn(true);
     setstyle("none");
+    
   };
   const handleMute = () => {
     setToggle(!toggle);

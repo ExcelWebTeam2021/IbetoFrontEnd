@@ -83,15 +83,16 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg1}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title">Good Health And Well-Being </h4>
+              <h4 className="card-title text-center ">Good Health And Well-Being </h4>
               <span>
-                <small className="text-muted">SDG 3</small>
+                <p className=" text-muted sdg-number">SDG 3</p>
               </span>
               <p className="card-text">
                 Ensure health and well-being for all, at every stage of life.
               </p>
+              
               <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
-                <button className="button btn-sm view-sample-stmt-btn">
+                <button className="button btn-sm view-sample-stmt-btn ">
                   View Sample statements
                 </button>
               </a>
@@ -108,9 +109,9 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg2}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title">Affordable And Clean Energy</h4>
+              <h4 className="card-title text-center">Affordable And Clean Energy</h4>
               <span>
-                <small className="text-muted">SDG 7</small>
+                <p className=" text-muted sdg-number">SDG 7</p>
               </span>
               <p className="card-text">
                 Ensure access to affordable, reliable, sustainable, and modern
@@ -134,9 +135,9 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg3}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title">Gender Equality</h4>
+              <h4 className="card-title text-center">Gender Equality</h4>
               <span>
-                <small className="text-muted">SDG 5</small>
+                <p className=" text-muted sdg-number">SDG 5</p>
               </span>
               <p className="card-text">
                 Achieve gender equality and empower all gender minorities.
@@ -159,9 +160,9 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg4}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title">Quality Education</h4>
+              <h4 className="card-title text-center">Quality Education</h4>
               <span>
-                <small className="text-muted">SDG 4</small>
+                <p className=" text-muted sdg-number">SDG 4</p>
               </span>
               <p className="card-text">
                 Ensuring inclusive and equitable quality education and promotes
@@ -185,9 +186,9 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg5}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title">Climate Action</h4>
+              <h4 className="card-title text-center">Climate Action</h4>
               <span>
-                <small className="text-muted">SDG 13</small>
+                <p className=" text-muted sdg-number">SDG 13</p>
               </span>
               <p className="card-text">
                 Take action to combat climate change and its impacts.
@@ -210,7 +211,7 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg6}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title">Open Innovation</h4>
+              <h4 className="card-title text-center">Open Innovation</h4>
 
               <p className="card-text">
                 Any other socially relevant problem statement

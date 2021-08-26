@@ -11,7 +11,11 @@ body {
 html {
    scroll-behavior: smooth;
 }
-
+:root {
+   --secondary: #471786;
+   --main:#471786;
+   /* --main:#3C0C97; */
+ }
 a {
    background-color: transparent;
    color: inherit;
@@ -25,14 +29,17 @@ a:active {
 }
 
 .heading {
-   color: #2d2a31;
+   color: #36333a;
    font-size: 40px;
    font-weight: 500;
    font-family: "Raleway", sans-serif;
 }
 
 .heading span {
-   color: #921763;
+     color: var(--main);
+   /* color: #4d2d9e; */
+   /* color: #4722a3; */
+   /* color: #5124c2; */
    /* color:#1864ab; */
 }
 
@@ -41,20 +48,22 @@ a:active {
    font-family: "Open Sans", sans-serif;
    font-size: 17px;
    line-height: 1.6;
+   text-align: justify;
+ 
 }
 
 .blob-btn {
    z-index: 1;
    margin-right: 3%;
    position: relative;
-   color: #58144f;
+   color: #211444;
+   
    outline: none;
-   border: none;
    transition: color 0.5s;
    cursor: pointer;
    border-radius: 50px;
-   border: 2px solid #58144f;
-
+   border: 2px solid #211444;
+   font-size: 17px;
    overflow: hidden;
    width: 7rem;
    height: 1rem;
@@ -99,7 +108,7 @@ a:active {
    top: 3px;
    width: 25%;
    height: 100%;
-   background: linear-gradient(#d42056, #58144f);
+   background: linear-gradient(to#8E27D7, #2e1472);
    border-radius: 100%;
    transform: translate3d(0, 150%, 0) scale(1.7);
    transition: transform 0.45s;

@@ -1,3 +1,8 @@
+:root {
+
+   --dashboard:#683bda;
+   /* --main:#3C0C97; */
+ }
 /* Dashboard homepage */
 .dashboard {
    background: #fffefd;
@@ -71,7 +76,7 @@
    width: 15px;
 }
 .dashboard-timeline-marker:before {
-   background: #e91e63;
+   background: var(--dashboard);
    border: 3px solid transparent;
    border-radius: 100%;
    content: "";
@@ -179,7 +184,7 @@ iframe {
    border-style: solid;
    position: absolute;
    top: 0;
-   border-color: #e91e63;
+   border-color: var(--dashboard);
 }
 .progress .progress-left .progress-bar {
    left: 100%;
@@ -238,7 +243,7 @@ iframe {
    margin-left: 15%;
    padding-left: 10%;
    padding-right: 10%;
-   background: #e91e63;
+   background: var(--dashboard);
 }
 .sendmailbtn,
 .sendmailbtn :hover {
@@ -298,7 +303,7 @@ iframe {
    height: 20px;
    border-radius: 100px;
    text-align: center;
-   background: #e91e63;
+   background: var(--dashboard);
    color: #fff;
    font-size: 12px;
    margin-right: 10px;

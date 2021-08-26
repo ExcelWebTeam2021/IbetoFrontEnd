@@ -28,7 +28,7 @@ const EventFormat = () => {
             width="230"
             alt=""
           />
-          <div className="phase-title">Phase 1</div>
+          <div className="phase-title phase-number">Phase 1</div>
           <h3 className="event-title phase-title">Ideate</h3>
           <p className="content event-format-content">
             The participating teams will be shortlisted in a sequence of two
@@ -51,7 +51,7 @@ const EventFormat = () => {
             width="250"
             alt=""
           />
-          <div className="phase-title">Phase 2</div>
+          <div className="phase-title phase-number">Phase 2</div>
           <h3 className="event-title phase-title">Create</h3>
           <p className="content event-format-content">
             The top 25 teams will build their project during this phase and will
@@ -71,7 +71,7 @@ const EventFormat = () => {
             width="250"
             alt=""
           />
-          <div className="phase-title">Phase 3</div>
+          <div className="phase-title phase-number">Phase 3</div>
           <h3 className="event-title phase-title">Showcase</h3>
           <p className="content event-format-content">
             The teams are to submit a video presentation along with a
