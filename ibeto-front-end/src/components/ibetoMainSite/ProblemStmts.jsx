@@ -91,7 +91,7 @@ const ProblemStmts = () => {
                 Ensure health and well-being for all, at every stage of life.
               </p>
               
-              <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
+              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.k37gcnybyswx">
                 <button className="button btn-sm view-sample-stmt-btn " style={{textDecoration:'none'}}>
                   View Sample statements
                 </button>
@@ -117,7 +117,7 @@ const ProblemStmts = () => {
                 Ensure access to affordable, reliable, sustainable, and modern
                 energy for all.
               </p>
-              <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
+              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.pyj5gds53ohz">
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -142,7 +142,7 @@ const ProblemStmts = () => {
               <p className="card-text">
                 Achieve gender equality and empower all gender minorities.
               </p>
-              <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
+              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.7vhe4bfa4d5j">
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -168,7 +168,7 @@ const ProblemStmts = () => {
                 Ensuring inclusive and equitable quality education and promotes
                 lifelong learning opportunities for all.
               </p>
-              <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
+              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.ktrdexnul1pw">
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -193,7 +193,7 @@ const ProblemStmts = () => {
               <p className="card-text">
                 Take action to combat climate change and its impacts.
               </p>
-              <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
+              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.3dfax6nqftmr">
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -214,13 +214,10 @@ const ProblemStmts = () => {
               <h4 className="card-title text-center">Open Innovation</h4>
 
               <p className="card-text">
+                <br/>
                 Any other socially relevant problem statement
               </p>
-              <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">
-                <button className="button btn-sm view-sample-stmt-btn">
-                  View Sample statements
-                </button>
-              </a>
+           
             </div>
           </div>
         </div>

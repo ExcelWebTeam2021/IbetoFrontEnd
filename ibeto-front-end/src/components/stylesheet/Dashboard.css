@@ -79,7 +79,7 @@
    width: 15px;
 }
 .dashboard-timeline-marker:before {
-   background: #4b44ad;
+   background: #622EB4;
    border: 3px solid transparent;
    border-radius: 100%;
    content: "";
@@ -107,7 +107,7 @@
 
 .dashboard-timeline-item:not(.period):hover .dashboard-timeline-marker:before {
    background: transparent;
-   border: 3px solid #4b44ad;
+   border: 3px solid #622EB4;
 }
 
 /*----- dashboard-timeline CONTENT -----*/
@@ -152,7 +152,8 @@ h1.ss-form-title {
    outline: none;
    transition: color 0.5s;
    border-radius: 10px;
-   padding: 2%;
+   padding: 3% 2% 3% 2%;
+   
    text-align: center;
    width: 50%;
    cursor: pointer;
@@ -324,9 +325,10 @@ h1.ss-form-title {
    height: 20px;
    border-radius: 100px;
    text-align: center;
-   background-image: linear-gradient(to right,#7819bb, #625cc0);
+   background: #622EB4;
    color: #fff;
-   font-size: 12px;
+   font-size: 10px;
+   padding-top: 5px;
    margin-right: 13px;
 }
 

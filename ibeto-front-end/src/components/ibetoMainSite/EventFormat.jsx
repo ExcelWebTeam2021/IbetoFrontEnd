@@ -74,9 +74,7 @@ const EventFormat = () => {
           <div className="phase-title phase-number">Phase 3</div>
           <h3 className="event-title phase-title">Showcase</h3>
           <p className="content event-format-content">
-            The teams are to submit a video presentation along with a
-            demonstration of their working prototype in front of the judges on
-            Day 0 of Excel 2020, which will be the final judgement.
+          The teams have to submit a video presentation of the project along with a demonstration of their working prototype in front of the judges on Day 0 of Excel 2021, which will be the final judgement of the event.
           </p>
         </div>
       </div>

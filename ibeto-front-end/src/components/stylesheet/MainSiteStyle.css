@@ -4,7 +4,7 @@
   position: fixed;
   top: 2%;
   left: 2%;
-  z-index: 10;
+  z-index: 18;
 }
 
 .menu-wrap .toggler {
@@ -182,7 +182,7 @@
   align-items: center;
   position: absolute;
   border: none;
-  background: var(--gradient);
+  background:linear-gradient(to right, #8834c4, #2e1472);
   cursor: pointer;
 }
 
@@ -409,8 +409,12 @@
 }
 .rewards-img {
   width: 100%;
+  margin-top: 15%;
 }
 .rewards-list {
   padding-left: 7%;
   padding-right: 7%;
+}
+.rewards-list>li{
+  margin:0 0 10px 0;   
 }
