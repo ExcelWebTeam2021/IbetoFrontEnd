@@ -21,7 +21,7 @@
   /* landing page */
   .animation-container {
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     position: absolute;
     background-color: #1a1a1a;
   }
@@ -47,7 +47,7 @@
 
   /* About */
   .about {
-    transform: translateY(40%);
+    transform: translateY(28%);
   }
 
   .about-logo {
