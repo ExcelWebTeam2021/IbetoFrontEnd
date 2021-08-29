@@ -48,7 +48,7 @@ const LandingPage = () => {
   // pause on the last frame
   const hasEnded = () => {
     console.log(vidRef.current.currentTime);
-    if (vidRef.current.currentTime > 88) {
+    if (vidRef.current.currentTime > 100) {
       console.log("end reached");
       vidRef.current.pause();
     }
