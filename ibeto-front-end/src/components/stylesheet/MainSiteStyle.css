@@ -236,6 +236,7 @@
 
 .animation-container {
   background-color: #1a1a1a;
+  min-height: 60vh;
 }
 .wave-pattern {
   position: relative;

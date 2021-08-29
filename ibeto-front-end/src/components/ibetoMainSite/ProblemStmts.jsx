@@ -83,16 +83,24 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg1}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title text-center ">Good Health And Well-Being </h4>
+              <h4 className="card-title text-center ">
+                Good Health And Well-Being{" "}
+              </h4>
               <span>
                 <p className=" text-muted sdg-number">SDG 3</p>
               </span>
               <p className="card-text">
                 Ensure health and well-being for all, at every stage of life.
               </p>
-              
-              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.k37gcnybyswx">
-                <button className="button btn-sm view-sample-stmt-btn " style={{textDecoration:'none'}}>
+
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.k37gcnybyswx"
+              >
+                <button
+                  className="button btn-sm view-sample-stmt-btn "
+                  style={{ textDecoration: "none" }}
+                >
                   View Sample statements
                 </button>
               </a>
@@ -109,7 +117,9 @@ const ProblemStmts = () => {
           <div className="card card-front button-shadow" ref={sdg2}></div>
           <div className="card card-back button-shadow">
             <div className="card-block">
-              <h4 className="card-title text-center">Affordable And Clean Energy</h4>
+              <h4 className="card-title text-center">
+                Affordable And Clean Energy
+              </h4>
               <span>
                 <p className=" text-muted sdg-number">SDG 7</p>
               </span>
@@ -117,7 +127,10 @@ const ProblemStmts = () => {
                 Ensure access to affordable, reliable, sustainable, and modern
                 energy for all.
               </p>
-              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.pyj5gds53ohz">
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.pyj5gds53ohz"
+              >
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -142,7 +155,10 @@ const ProblemStmts = () => {
               <p className="card-text">
                 Achieve gender equality and empower all gender minorities.
               </p>
-              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.7vhe4bfa4d5j">
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.7vhe4bfa4d5j"
+              >
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -168,7 +184,10 @@ const ProblemStmts = () => {
                 Ensuring inclusive and equitable quality education and promotes
                 lifelong learning opportunities for all.
               </p>
-              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.ktrdexnul1pw">
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.ktrdexnul1pw"
+              >
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -193,7 +212,10 @@ const ProblemStmts = () => {
               <p className="card-text">
                 Take action to combat climate change and its impacts.
               </p>
-              <a href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.3dfax6nqftmr">
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.3dfax6nqftmr"
+              >
                 <button className="button btn-sm view-sample-stmt-btn">
                   View Sample statements
                 </button>
@@ -214,10 +236,9 @@ const ProblemStmts = () => {
               <h4 className="card-title text-center">Open Innovation</h4>
 
               <p className="card-text">
-                <br/>
+                <br />
                 Any other socially relevant problem statement
               </p>
-           
             </div>
           </div>
         </div>

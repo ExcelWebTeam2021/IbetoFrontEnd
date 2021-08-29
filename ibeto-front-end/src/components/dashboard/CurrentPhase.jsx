@@ -11,6 +11,7 @@ const CurrentPhase = () => {
           <h4 className="dashboard-heading text-center ibeto-heading">Ibeto</h4>
           <p>Phase 1 : Registration phase</p>
           <a
+            target="_blank"
             href="https://drive.google.com/file/d/1JgIsuXBdVFhTxWzug2v-uYc99xgPdZBa/view"
             style={{ textDecoration: "None" }}
           >
