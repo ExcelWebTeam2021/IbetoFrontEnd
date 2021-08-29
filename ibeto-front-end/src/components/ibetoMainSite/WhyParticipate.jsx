@@ -12,6 +12,9 @@ import trophy from "../images/whyparticipate/trophy.svg";
 import sponsor from "../images/whyparticipate/sponsor.svg";
 import profit from "../images/whyparticipate/profit.svg";
 import helping from "../images/whyparticipate/helping.svg";
+import fellowships from "../images/whyparticipate/fellowships.svg";
+import sessions from "../images/whyparticipate/sessions.svg";
+import networks from "../images/whyparticipate/networks.svg";
 
 function WhyParticipate() {
   useEffect(() => {
@@ -61,7 +64,7 @@ function WhyParticipate() {
                   />
 
                   <p className="content">
-                  Exciting prizes worth INR 1 Lakh awaits the top 3 teams
+                    Exciting prizes worth INR 1 Lakh awaits the top 3 teams
                   </p>
                 </div>
               </div>
@@ -101,7 +104,49 @@ function WhyParticipate() {
                     alt="certificate"
                   />
 
-                  <p className="content">Socially relevant projects can fetch upto 50 activity points as per KTU regulations</p>
+                  <p className="content">
+                    Socially relevant projects can fetch upto 50 activity points
+                    as per KTU regulations
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="carousel-item  whyparticipate-maindiv">
+              <div className="row">
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                  <img
+                    className="img-fluid card-img-top whyparticipate-img"
+                    src={fellowships}
+                    alt="Fellowships"
+                  />
+
+                  <p className="content">
+                    Fellowships powered by Corporate Companies
+                  </p>
+                </div>
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                  <img
+                    className="img-fluid card-img-top whyparticipate-img"
+                    src={sessions}
+                    alt="Technical sessions"
+                  />
+
+                  <p className="content">
+                    Technical sessions for beginners to aid project development
+                  </p>
+                </div>
+
+                <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
+                  <img
+                    className="img-fluid card-img-top whyparticipate-img"
+                    src={networks}
+                    alt="networks"
+                  />
+
+                  <p className="content">
+                    Great opportunity to build strong networks
+                  </p>
                 </div>
               </div>
             </div>
@@ -115,6 +160,7 @@ function WhyParticipate() {
           </a>
         </div>
       </div>
+
       {/* SMALL SCREEN */}
       <div className="container whyparticipate-smallscreen d-md-none">
         <div
@@ -155,7 +201,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-              Exciting prizes worth INR 1 Lakh awaits the top 3 teams
+                Exciting prizes worth INR 1 Lakh awaits the top 3 teams
               </p>
             </div>
 
@@ -186,13 +232,51 @@ function WhyParticipate() {
             </div>
             <div className="carousel-item whyparticipate-smallscreen-div">
               <img
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
+                src={fellowships}
+                alt="fellowships"
+              />
+
+              <p className="content">
+                Fellowships powered by Corporate Companies waits you
+              </p>
+            </div>
+
+            <div className="carousel-item whyparticipate-smallscreen-div">
+              <img
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
+                src={sessions}
+                alt="sessions"
+              />
+
+              <p className="content">
+                Technical sessions for beginners to aid project development
+              </p>
+            </div>
+            <div className="carousel-item whyparticipate-smallscreen-div">
+              <img
+                className="img-fluid card-img-top whyparticipate-img-smallscreen"
+                src={networks}
+                alt="networks"
+              />
+
+              <p className="content">
+                Great opportunity to build strong networks
+              </p>
+            </div>
+
+            <div className="carousel-item whyparticipate-smallscreen-div">
+              <img
                 className="img-fluid card-img-top whyparticipate-img"
                 src={certificate}
                 alt="certificate"
               />
 
-
-              <p className="content"> Socially relevant projects can fetch upto 50 activity points as per KTU regulations</p>
+              <p className="content">
+                {" "}
+                Socially relevant projects can fetch upto 50 activity points as
+                per KTU regulations
+              </p>
             </div>
           </div>
 

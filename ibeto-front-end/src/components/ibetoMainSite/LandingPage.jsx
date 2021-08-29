@@ -5,15 +5,16 @@ import ReactTooltip from "react-tooltip";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
-import audio from "./audio.mpeg";
+import video from "./video.mp4";
 
 const LandingPage = () => {
-  const LandingPage = useRef(null);
   const starting_animation = useRef(null);
-  const audioRef = useRef(new Audio(audio));
+  const vidRef = useRef(null);
+  const vidButtonRef = useRef(null);
 
   let [toggle, setToggle] = useState(false);
   let [style, setstyle] = useState("block");
+  let [style2, setstyle2] = useState("none");
   const [hidePlayBtn, sethidePlayBtn] = useState(false);
 
   useEffect(() => {
@@ -30,33 +31,54 @@ const LandingPage = () => {
     };
   }, []);
 
-  const handleClick = () => {
-   
-    const anime2 =lottie.loadAnimation({
-      container: LandingPage.current,
-      renderer: "svg",
-      loop: false,
-      animationData: require("./animations/LandingPageAnimation.json"),
-    });
-    audioRef.current.play();
-    sethidePlayBtn(true);
-    setstyle("none");
-    
-  };
   const handleMute = () => {
     setToggle(!toggle);
+    vidButtonRef.current.muted = toggle;
     console.log("Button is toggled", toggle);
   };
+
+  const handleClick = () => {
+    setstyle2("block");
+    setstyle("none");
+    vidRef.current.play();
+    vidButtonRef.current.classList.add("is-playing");
+    sethidePlayBtn(true);
+  };
+
+  // pause on the last frame
+  var count = 0;
+  const hasEnded = () => {
+    count = count + 1;
+    console.log(count);
+    if (count > 330) {
+      vidRef.current.pause();
+    }
+  };
+
   return (
     <main id="Home" className="">
-      <div className='actual-line-animation' ref={LandingPage}></div>
+      {/* video */}
+      <div
+        ref={vidButtonRef}
+        style={{ display: style2 }}
+        className=" actual-line-animation video video__play-button"
+      >
+        <video
+          muted={toggle}
+          ref={vidRef}
+          src={video}
+          onTimeUpdate={hasEnded}
+        ></video>
+      </div>
 
+      {/* Initial json animation */}
       <div
         className="animation-container darker-bk"
         style={{ display: style }}
         ref={starting_animation}
       ></div>
 
+      {/* Play btn */}
       {!hidePlayBtn && (
         <div className="btn-container">
           <div className="bg"></div>
@@ -66,40 +88,30 @@ const LandingPage = () => {
         </div>
       )}
 
-      {hidePlayBtn && (
-        <button className="btn-mute" onClick={handleMute}>
-          {" "}
-          {!toggle ? (
-            <div className="mutess">
-              <a data-tip data-for="volup" >
-                
-                <i className="fa fa-volume-up "></i>{" "}
-              </a>
-              <ReactTooltip id="volup">
-                <span>Mute audio</span>
-              </ReactTooltip>
-            </div>
-          ) : (
-            <div className="mutess">
-              <a data-tip data-for="mute">
-                {" "}
-                <i className="fa  fa-volume-off"></i>{" "}
-              </a>
-              <ReactTooltip id="volup">
-                <span>Unmute audio</span>
-              </ReactTooltip>
-            </div>
-          )}
-        </button>
-      )}
-
-      <audio
-        ref={audioRef}
-        src={audio}
-        autoPlay={false}
-        muted={toggle}
-        controls={false}
-      />
+      {/* Mute or unmute */}
+      <button className="btn-mute" onClick={handleMute}>
+        {" "}
+        {!toggle ? (
+          <div className="mutess">
+            <a data-tip data-for="volup">
+              <i className="fa fa-volume-up "></i>{" "}
+            </a>
+            <ReactTooltip id="volup">
+              <span>Mute audio</span>
+            </ReactTooltip>
+          </div>
+        ) : (
+          <div className="mutess">
+            <a data-tip data-for="mute">
+              {" "}
+              <i className="fa  fa-volume-off"></i>{" "}
+            </a>
+            <ReactTooltip id="volup">
+              <span>Unmute audio</span>
+            </ReactTooltip>
+          </div>
+        )}
+      </button>
 
       <div className="wave-pattern">
         <svg

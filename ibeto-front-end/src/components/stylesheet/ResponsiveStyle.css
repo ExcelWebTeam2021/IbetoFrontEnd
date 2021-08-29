@@ -4,10 +4,11 @@
   body {
     overflow-x: hidden;
   }
-  .heading,.heading span  {
+  .heading,
+  .heading span {
     font-size: 32px;
   }
- 
+
   .content {
     font-size: 15px;
   }
@@ -26,7 +27,7 @@
   }
   .actual-line-animation {
     background-color: #1a1a1a;
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     position: absolute;
   }
@@ -46,19 +47,17 @@
 
   /* About */
   .about {
-    transform: translateY(23%);
-
+    transform: translateY(33%);
   }
 
-  .about-logo{
+  .about-logo {
     width: 58%;
-  
   }
 
   /* Event Format */
 
   .event-format-row {
-    margin-top: 58%;
+    margin-top: 70%;
   }
   .phase {
     margin: 5%;
@@ -92,11 +91,11 @@
   }
   /* Rewards */
   .rewards-row {
-   display: block;
-   margin: 0 auto;
-   padding: 5%;
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
   }
-  .reward-heading{
+  .reward-heading {
     text-align: center;
   }
   .rewards-img {
@@ -148,7 +147,7 @@
   #Sponsors .client-logo {
     padding: 30px;
   }
-  .client-logo{
+  .client-logo {
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -175,9 +174,7 @@
   }
   .accordion-title {
     width: 60%;
-
   }
- 
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
@@ -244,7 +241,8 @@
   body {
     overflow-x: hidden;
   }
-  .heading,.heading span {
+  .heading,
+  .heading span {
     font-size: 60px;
   }
 

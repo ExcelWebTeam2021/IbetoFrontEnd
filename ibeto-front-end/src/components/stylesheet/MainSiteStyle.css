@@ -182,7 +182,7 @@
   align-items: center;
   position: absolute;
   border: none;
-  background:linear-gradient(to right, #8834c4, #2e1472);
+  background: linear-gradient(to right, #8834c4, #2e1472);
   cursor: pointer;
 }
 
@@ -228,14 +228,14 @@
 /* main div */
 
 .animation-container {
-  height: 110vh;
+  height: 105vh;
   background-color: #1a1a1a;
   position: relative;
 }
 .wave-pattern {
   position: relative;
   bottom: 0;
-  top: -7px;
+  top: -4px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -246,15 +246,19 @@
 .wave-pattern svg {
   position: relative;
   display: block;
-
   width: calc(153% + 1.3px);
-  height: 180px;
+  height: 150px;
 }
 
 .wave-pattern .shape-fill {
   fill: #1a1a1a;
 }
 
+video {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
   .wave-pattern svg {
@@ -266,6 +270,7 @@
 /** For mobile devices **/
 @media (max-width: 767px) {
   .wave-pattern svg {
+    transform: translateY(30%);
     width: calc(174% + 1.3px);
     height: 100px;
   }
@@ -281,7 +286,6 @@
   width: 85%;
   margin-top: 30%;
 }
-
 
 /*-------------------------------------- Event format --------------------------------------*/
 .event-format-row {
@@ -356,7 +360,6 @@
   background-color: #1a1a1a;
   height: 80%;
   width: 63%;
-  
 }
 
 .card-back {
@@ -366,7 +369,6 @@
   width: 63%;
   text-align: justify;
   box-shadow: rgba(40, 17, 105, 0.2) 0px 4px 14px 0px;
-  
 }
 .sdg-number {
   text-align: center;
@@ -386,9 +388,9 @@
 }
 .view-sample-stmt-btn:hover {
   background-image: var(--gradient);
-   color: white;
-   border: 2px solid #fff;
- }
+  color: white;
+  border: 2px solid #fff;
+}
 .card-container:hover .card-front {
   transform: rotateY(180deg);
   /* border-radius: 100%; */
@@ -408,13 +410,14 @@
   padding: 5%;
 }
 .rewards-img {
-  width: 100%;
-  margin-top: 15%;
+  width: 90%;
+  margin-top: 20%;
+  margin-left: 10%;
 }
 .rewards-list {
   padding-left: 7%;
   padding-right: 7%;
 }
-.rewards-list>li{
-  margin:0 0 10px 0;   
+.rewards-list > li {
+  margin: 0 0 10px 0;
 }
