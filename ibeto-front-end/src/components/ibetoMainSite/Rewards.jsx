@@ -25,26 +25,28 @@ const Rewards = () => {
           <br />
           <ul className="content rewards-list">
             <li>
-              The best projects chosen by the judges will be awarded a cash
-              prize worth INR 1,00,000/- from the organisers.
+              Exciting prizes worth 1,00,000/- from the organizers for the top 3
+              teams.
             </li>
             <li>
-              A select few finalist teams which meet the required T&Cs, shall be
-              eligible to receive pre- incubation opportunities provided by IEDC
-              MEC, where they shall be provided guidance to develop a Market
-              Viable Product and on successful completion of the same, the teams
-              can apply for incubation services from Kerala Startup Mission.
+              A select few finalist teams that meet the required T&Cs, shall be
+              eligible to be a part of “Forge” the pre-incubation program under
+              IEDC MEC, and will be able to avail its services, that include
+              mentorship from industry experts and other support to convert the
+              product into an MVP (Minimum Viable Product). There is a
+              possibility of funding from the Kerala Startup Mission after
+              completion of the program.
             </li>
             <li>
-              Fellowship from Pehia powered by Corporate Companies for top
-              performing teams
+              Fellowship from Pehia powered by corporate companies for
+              top-performing teams
             </li>
             <li>
               Certificate of Participation will be awarded, signed by the
-              concerned authorities
+              concerned authorities.
             </li>
             <li>
-              As per KTU regulations, socially relevant projects will be awarded
+              As per KTU regulations, socially relevant projects can avail upto{" "}
               50 activity points.
             </li>
           </ul>

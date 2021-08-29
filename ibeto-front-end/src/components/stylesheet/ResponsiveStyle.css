@@ -21,24 +21,28 @@
   /* landing page */
   .animation-container {
     width: 100vw;
-    height: 70vh;
+    height: 72vh;
     position: absolute;
     background-color: #1a1a1a;
   }
   .actual-line-animation {
     background-color: #1a1a1a;
-    height: 70vh;
+    height: 72vh;
     width: 100vw;
     position: absolute;
   }
   .bg,
   .buttons {
-    margin-top: -120%;
-    margin-left: 5%;
+    margin-top: -80%;
+    margin-left: 8%;
     width: 55px;
     height: 55px;
   }
-
+  video {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
   .wave-pattern {
     position: relative;
     top: 20%;
@@ -47,7 +51,7 @@
 
   /* About */
   .about {
-    transform: translateY(28%);
+    transform: translateY(38%);
   }
 
   .about-logo {
@@ -57,7 +61,7 @@
   /* Event Format */
 
   .event-format-row {
-    margin-top: 70%;
+    margin-top: 80%;
   }
   .phase {
     margin: 5%;

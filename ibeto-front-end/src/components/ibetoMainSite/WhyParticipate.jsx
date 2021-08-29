@@ -122,7 +122,7 @@ function WhyParticipate() {
                   />
 
                   <p className="content">
-                    Fellowships powered by Corporate Companies
+                    Fellowships powered by corporate companies.
                   </p>
                 </div>
                 <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
@@ -133,7 +133,8 @@ function WhyParticipate() {
                   />
 
                   <p className="content">
-                    Technical sessions for beginners to aid project development
+                    Technical sessions to help beginners with project
+                    development.
                   </p>
                 </div>
 
@@ -238,7 +239,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-                Fellowships powered by Corporate Companies waits you
+                Fellowships powered by corporate companies
               </p>
             </div>
 
@@ -250,7 +251,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-                Technical sessions for beginners to aid project development
+                Technical sessions to help beginners with project development.
               </p>
             </div>
             <div className="carousel-item whyparticipate-smallscreen-div">
