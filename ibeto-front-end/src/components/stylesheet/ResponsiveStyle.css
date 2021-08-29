@@ -51,11 +51,11 @@
 
   /* About */
   .about {
-    transform: translateY(30%);
+    transform: translateY(28%);
   }
 
   .about-logo {
-    width: 58%;
+    width: 60%;
   }
 
   /* Event Format */
