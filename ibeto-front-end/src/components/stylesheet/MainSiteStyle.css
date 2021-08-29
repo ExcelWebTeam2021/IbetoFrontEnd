@@ -159,7 +159,7 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  top: 55%;
+  top: 70%;
   z-index: 10;
   width: 100px; /* Need a specific value to work */
 }
@@ -169,11 +169,18 @@
   width: 85px;
   height: 85px;
   border-radius: 100%;
+  transition: all 0.6s ease-out;
 }
 
 .bg {
   animation: pulse 1.2s ease infinite;
-  background: rgb(62, 63, 168);
+  background: rgb(73, 74, 163);
+}
+
+.main-play-btn:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to right, #a567d1, #560b8b);
+  box-shadow: 0 0 0 2px #1a1a1a;
 }
 
 .buttons {
@@ -228,9 +235,7 @@
 /* main div */
 
 .animation-container {
-  height: 105vh;
   background-color: #1a1a1a;
-  position: relative;
 }
 .wave-pattern {
   position: relative;
@@ -278,8 +283,8 @@ video {
 
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .about-logo {

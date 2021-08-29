@@ -59,7 +59,7 @@ const About = () => {
             </Link>
             <button className="btn mt-4 blob-btn button-shadow">
               <a
-                href="https://drive.google.com/file/d/1M0WvQSyvz8QCPz2Yft_ZoO9KhWFjwgmZ/view"
+                href="https://drive.google.com/file/d/1JgIsuXBdVFhTxWzug2v-uYc99xgPdZBa/view"
                 className="blob-btn-text"
               >
                 Guidelines

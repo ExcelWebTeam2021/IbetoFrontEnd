@@ -1,14 +1,13 @@
-import React, { useRef, useState, useEffect } from "react";
-import lottie from "lottie-web";
+import React, { useRef, useState } from "react";
 import ReactTooltip from "react-tooltip";
 
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 import video from "./video.mp4";
+import landingpage from "../images/landingpage.svg";
 
 const LandingPage = () => {
-  const starting_animation = useRef(null);
   const vidRef = useRef(null);
   const vidButtonRef = useRef(null);
 
@@ -17,24 +16,9 @@ const LandingPage = () => {
   let [style2, setstyle2] = useState("none");
   const [hidePlayBtn, sethidePlayBtn] = useState(false);
 
-  useEffect(() => {
-    const anime1 = lottie.loadAnimation({
-      container: starting_animation.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("./animations/Bkanimation.json"),
-    });
-
-    return () => {
-      anime1.destroy();
-    };
-  }, []);
-
   const handleMute = () => {
     setToggle(!toggle);
     vidButtonRef.current.muted = toggle;
-    // console.log("Button is toggled", toggle);
   };
 
   const handleClick = () => {
@@ -56,7 +40,7 @@ const LandingPage = () => {
   };
 
   return (
-    <main id="Home" className="">
+    <main id="Home">
       {/* video */}
       <div
         ref={vidButtonRef}
@@ -74,16 +58,17 @@ const LandingPage = () => {
 
       {/* Initial json animation */}
       <div
-        className="animation-container darker-bk"
+        className="row animation-container darker-bk"
         style={{ display: style }}
-        ref={starting_animation}
-      ></div>
+      >
+        <img className="landingpage-img" src={landingpage} alt="landingpage" />
+      </div>
 
       {/* Play btn */}
       {!hidePlayBtn && (
-        <div className="btn-container">
+        <div className="btn-container darker-bk">
           <div className="bg"></div>
-          <div className="buttons" onClick={handleClick}>
+          <div className="buttons main-play-btn" onClick={handleClick}>
             <i className="fa fa-play play-btn"></i>
           </div>
         </div>

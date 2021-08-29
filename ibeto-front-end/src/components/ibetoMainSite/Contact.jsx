@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
 
             <ReactTooltip id="adilphone">
-              <span>9895529739</span>
+              <span>+919895529739</span>
             </ReactTooltip>
 
             <div data-tip data-for="adilmail">
@@ -90,7 +90,7 @@ const Contact = () => {
             <div data-tip data-for="ameenphone">
               <a
                 className="social-icon social-icon--phone"
-                href="tel:+9633288284"
+                href="tel:9633288284"
                 style={{ color: "white" }}
               >
                 {" "}
@@ -99,7 +99,7 @@ const Contact = () => {
             </div>
 
             <ReactTooltip id="ameenphone">
-              <span>9633288284</span>
+              <span>+919633288284</span>
             </ReactTooltip>
 
             <div data-tip data-for="ameenmail">

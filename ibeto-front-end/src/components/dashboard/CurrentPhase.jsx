@@ -9,9 +9,12 @@ const CurrentPhase = () => {
         <div className="col-1"></div>
         <div className="col-md-7 col-sm-10 currentphase-text">
           <h4 className="dashboard-heading text-center ibeto-heading">Ibeto</h4>
-          <p >Phase 1 : Idea submission phase</p>
-          <a href="https://drive.google.com/file/d/1M0WvQSyvz8QCPz2Yft_ZoO9KhWFjwgmZ/view" style={{textDecoration:'None'}}>
-            <button className="btn btn-primary btn-sm dashboard-phase-btn " >
+          <p>Phase 1 : Registration phase</p>
+          <a
+            href="https://drive.google.com/file/d/1JgIsuXBdVFhTxWzug2v-uYc99xgPdZBa/view"
+            style={{ textDecoration: "None" }}
+          >
+            <button className="btn btn-primary btn-sm dashboard-phase-btn ">
               {" "}
               View guidelines
             </button>{" "}

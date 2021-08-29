@@ -20,20 +20,24 @@
   /*------------ Ibeto main page ------------*/
   /* landing page */
   .animation-container {
-    width: 100vw;
-    height: 72vh;
+    width: 105vw;
+    height: 63vh;
     position: absolute;
     background-color: #1a1a1a;
   }
   .actual-line-animation {
     background-color: #1a1a1a;
-    height: 72vh;
+    height: 63vh;
     width: 100vw;
     position: absolute;
   }
+  .landingpage-img {
+    height: 63vh;
+    width: 100vw;
+  }
   .bg,
   .buttons {
-    margin-top: -80%;
+    margin-top: -200%;
     margin-left: 8%;
     width: 55px;
     height: 55px;
@@ -45,17 +49,20 @@
   }
   .wave-pattern {
     position: relative;
-    top: 20%;
+    top: 5%;
     visibility: hidden;
+  }
+  .buttons i {
+    font-size: 20px;
   }
 
   /* About */
   .about {
-    transform: translateY(28%);
+    transform: translateY(30%);
   }
 
   .about-logo {
-    width: 60%;
+    width: 65%;
   }
 
   /* Event Format */

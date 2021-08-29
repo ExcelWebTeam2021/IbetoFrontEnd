@@ -9,7 +9,7 @@ import "../stylesheet/ResponsiveStyle.css";
 import certificate from "../images/whyparticipate/certificate.svg";
 import lightbulb from "../images/whyparticipate/lightbulb.svg";
 import trophy from "../images/whyparticipate/trophy.svg";
-import sponsor from "../images/whyparticipate/sponsor.svg";
+import structure from "../images/whyparticipate/structure.svg";
 import profit from "../images/whyparticipate/profit.svg";
 import helping from "../images/whyparticipate/helping.svg";
 import fellowships from "../images/whyparticipate/fellowships.svg";
@@ -55,16 +55,16 @@ function WhyParticipate() {
                     your business model
                   </p>
                 </div>
-
                 <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
                     className="img-fluid card-img-top whyparticipate-img"
-                    src={trophy}
-                    alt="prize money"
+                    src={sessions}
+                    alt="Technical sessions"
                   />
 
                   <p className="content">
-                    Exciting prizes worth INR 1 Lakh awaits the top 3 teams
+                    Technical sessions to help beginners with project
+                    development.
                   </p>
                 </div>
               </div>
@@ -75,13 +75,13 @@ function WhyParticipate() {
                 <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
                     className="img-fluid card-img-top whyparticipate-img"
-                    src={sponsor}
-                    alt="capitalize your project"
+                    src={structure}
+                    alt="development structure"
                   />
 
                   <p className="content">
-                    An opportunity to pitch your ideas to Angel investors and
-                    capitalize your project
+                    Carefully set project development structure that spans over
+                    5-months.
                   </p>
                 </div>
                 <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
@@ -128,13 +128,12 @@ function WhyParticipate() {
                 <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
                   <img
                     className="img-fluid card-img-top whyparticipate-img"
-                    src={sessions}
-                    alt="Technical sessions"
+                    src={trophy}
+                    alt="prize money"
                   />
 
                   <p className="content">
-                    Technical sessions to help beginners with project
-                    development.
+                    Exciting prizes worth INR 1 Lakh awaits the top 3 teams
                   </p>
                 </div>
 
@@ -209,13 +208,13 @@ function WhyParticipate() {
             <div className="carousel-item whyparticipate-smallscreen-div">
               <img
                 className="img-fluid card-img-top whyparticipate-img-smallscreen"
-                src={sponsor}
-                alt="sponsors"
+                src={structure}
+                alt="development structure"
               />
 
               <p className="content">
-                An opportunity to pitch your ideas to Angel investors and
-                capitalize your project
+                Carefully set project development structure that spans over
+                5-months.
               </p>
             </div>
 
