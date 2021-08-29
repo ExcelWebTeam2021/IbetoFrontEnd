@@ -46,11 +46,10 @@ const LandingPage = () => {
   };
 
   // pause on the last frame
-  var count = 0;
   const hasEnded = () => {
-    count = count + 1;
-    console.log(count);
-    if (count > 330) {
+    console.log(vidRef.current.currentTime);
+    if (vidRef.current.currentTime > 88) {
+      console.log("end reached");
       vidRef.current.pause();
     }
   };
