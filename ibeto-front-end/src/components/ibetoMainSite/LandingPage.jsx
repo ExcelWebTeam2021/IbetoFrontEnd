@@ -34,7 +34,7 @@ const LandingPage = () => {
   const handleMute = () => {
     setToggle(!toggle);
     vidButtonRef.current.muted = toggle;
-    console.log("Button is toggled", toggle);
+    // console.log("Button is toggled", toggle);
   };
 
   const handleClick = () => {
