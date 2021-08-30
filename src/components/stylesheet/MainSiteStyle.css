@@ -377,7 +377,6 @@ video {
   transform: rotateY(180deg);
   height: 80%;
   width: 63%;
-  text-align: justify;
   box-shadow: rgba(40, 17, 105, 0.2) 0px 4px 14px 0px;
 }
 .sdg-number {

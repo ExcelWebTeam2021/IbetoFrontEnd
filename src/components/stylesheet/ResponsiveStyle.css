@@ -83,7 +83,7 @@
   /* Problem stmt */
 
   .card-front {
-    height: 80%;
+    height: 83%;
     width: 80%;
   }
   .card-title {
@@ -91,7 +91,7 @@
   }
   .card-back {
     padding: 5%;
-    height: 80%;
+    height: 83%;
     width: 80%;
   }
   .view-sample-stmt-btn {
