@@ -13,7 +13,7 @@ const CurrentPhase = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1mnf_TGXzcwBNRTSdzNGy3cDU3ovMcZ2h/view?usp=sharing"
+            href="https://drive.google.com/file/d/1mnf_TGXzcwBNRTSdzNGy3cDU3ovMcZ2h/view"
             style={{ textDecoration: "None" }}
           >
             <button className="btn btn-primary btn-sm dashboard-phase-btn ">
