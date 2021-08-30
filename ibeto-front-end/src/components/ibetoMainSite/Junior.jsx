@@ -6,7 +6,6 @@ import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
 import "../stylesheet/Junior.css";
-var FA = require("react-fontawesome");
 
 const Junior = () => {
   const FooterAnimation = useRef(null);
@@ -49,7 +48,7 @@ const Junior = () => {
             <h4 className="coming-soon">(Coming soon)</h4>
             <div className="Jpic"></div>
             <button className="Jbutton">
-              <FA className="Jarrow" name="angle-right" />
+              <i className="fa fa-arrow-right Jarrow"></i>
             </button>
           </div>
         </div>

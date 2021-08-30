@@ -60,6 +60,7 @@ const About = () => {
             <button className="btn mt-4 blob-btn button-shadow">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://drive.google.com/file/d/1JgIsuXBdVFhTxWzug2v-uYc99xgPdZBa/view"
                 className="blob-btn-text"
               >

@@ -38,7 +38,7 @@
   text-align: center;
   display: block;
   height: 90%;
-  width: 100%;
+  width: 90%;
   margin: auto;
   margin-top: -50%;
   font-size: 100px;
@@ -57,6 +57,7 @@
   outline: none;
   transition: all 0.3s ease;
   mix-blend-mode: hard-light;
+  visibility: hidden;
 }
 .Jarrow {
   padding-top: 7%;

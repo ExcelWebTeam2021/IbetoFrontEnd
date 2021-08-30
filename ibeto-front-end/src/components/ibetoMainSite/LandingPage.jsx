@@ -41,63 +41,67 @@ const LandingPage = () => {
 
   return (
     <main id="Home">
-      {/* video */}
-      <div
-        ref={vidButtonRef}
-        style={{ display: style2 }}
-        className=" actual-line-animation video video__play-button"
-      >
-        <video
-          muted={toggle}
-          ref={vidRef}
-          src={video}
-          controls={false}
-          onTimeUpdate={hasEnded}
-        ></video>
-      </div>
-
-      {/* Initial json animation */}
-      <div
-        className="row animation-container darker-bk"
-        style={{ display: style }}
-      >
-        <img className="landingpage-img" src={landingpage} alt="landingpage" />
-      </div>
-
-      {/* Play btn */}
-      {!hidePlayBtn && (
-        <div className="btn-container darker-bk">
-          <div className="bg"></div>
-          <div className="buttons main-play-btn" onClick={handleClick}>
-            <i className="fa fa-play play-btn"></i>
-          </div>
-        </div>
-      )}
-
-      {/* Mute or unmute */}
-      <button className="btn-mute" onClick={handleMute}>
+      <div style={{ backgroundColor: "#1a1a1a" }}>
         {" "}
-        {!toggle ? (
-          <div className="mutess">
-            <a data-tip data-for="volup">
-              <i className="fa fa-volume-up "></i>{" "}
-            </a>
-            <ReactTooltip id="volup">
-              <span>Mute audio</span>
-            </ReactTooltip>
-          </div>
-        ) : (
-          <div className="mutess">
-            <a data-tip data-for="mute">
-              {" "}
-              <i className="fa  fa-volume-off"></i>{" "}
-            </a>
-            <ReactTooltip id="volup">
-              <span>Unmute audio</span>
-            </ReactTooltip>
+        {/* video */}
+        <div
+          ref={vidButtonRef}
+          style={{ display: style2 }}
+          className=" actual-line-animation video video__play-button"
+        >
+          <video
+            muted={toggle}
+            ref={vidRef}
+            src={video}
+            controls={false}
+            onTimeUpdate={hasEnded}
+          ></video>
+        </div>
+        {/* Initial json animation */}
+        <div
+          className="row animation-container darker-bk"
+          style={{ display: style }}
+        >
+          <img
+            className="landingpage-img"
+            src={landingpage}
+            alt="landingpage"
+          />
+        </div>
+        {/* Play btn */}
+        {!hidePlayBtn && (
+          <div className="btn-container darker-bk">
+            <div className="bg"></div>
+            <div className="buttons main-play-btn" onClick={handleClick}>
+              <i className="fa fa-play play-btn"></i>
+            </div>
           </div>
         )}
-      </button>
+        {/* Mute or unmute */}
+        <button className="btn-mute" onClick={handleMute}>
+          {" "}
+          {!toggle ? (
+            <div className="mutess">
+              <a data-tip data-for="volup">
+                <i className="fa fa-volume-up "></i>{" "}
+              </a>
+              <ReactTooltip id="volup">
+                <span>Mute audio</span>
+              </ReactTooltip>
+            </div>
+          ) : (
+            <div className="mutess">
+              <a data-tip data-for="mute">
+                {" "}
+                <i className="fa  fa-volume-off"></i>{" "}
+              </a>
+              <ReactTooltip id="volup">
+                <span>Unmute audio</span>
+              </ReactTooltip>
+            </div>
+          )}
+        </button>
+      </div>
 
       <div className="wave-pattern">
         <svg

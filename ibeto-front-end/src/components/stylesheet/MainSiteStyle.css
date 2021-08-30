@@ -247,6 +247,7 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(0deg);
+  z-index: 20;
 }
 
 .wave-pattern svg {

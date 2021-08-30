@@ -37,6 +37,55 @@ const FAQ = () => {
             <p>No. You can register for IBeTo 2021 free of cost.</p>
           </div>
         </div>
+        <div className="accordion-item">
+          <button
+            id="accordion-button-4"
+            aria-expanded="false"
+            data-toggle="collapse"
+            href="#collapseExample4"
+            aria-controls="collapseExample4"
+          >
+            <span className="accordion-title">
+              What all opportunities do pre incubation provide?
+            </span>
+            <span className="icon plus-icon" aria-hidden="true"></span>
+          </button>
+          <div className="collapse" id="collapseExample4">
+            <p>
+              The selected team(s), shortlisted after the end of the IBeTo
+              evaluation process, will be a part of "Forge", the preincubation
+              program of IEDC MEC, and will be able to avail its services, which
+              include mentorship from industry experts and other support to
+              convert the product into an MVP(Minimum Viable Product). There
+              will also be possible funding from the KSUM after the conversion
+              of the product into an MVP.For more details please refer
+              guidelines in the about section
+            </p>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <button
+            id="accordion-button-6"
+            aria-expanded="false"
+            data-toggle="collapse"
+            href="#collapseExample6"
+            aria-controls="collapseExample6"
+          >
+            <span className="accordion-title">
+              What all opportunities do Pehia fellowship provide?
+            </span>
+            <span className="icon plus-icon" aria-hidden="true"></span>
+          </button>
+          <div className="collapse" id="collapseExample6">
+            <p>
+              The fellowship will include corporate internship(minimum one
+              month), resume mentoring, networking experience, one-on-one
+              mentoring from industry experts of your field of choice, all
+              subject to the discretion of Pehia. For more details please refer
+              guidelines in the about section
+            </p>
+          </div>
+        </div>
 
         <div className="accordion-item">
           <button
@@ -75,28 +124,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="accordion-item">
-          <button
-            id="accordion-button-4"
-            aria-expanded="false"
-            data-toggle="collapse"
-            href="#collapseExample4"
-            aria-controls="collapseExample4"
-          >
-            <span className="accordion-title">
-              From which phase will I be eligible for a certificate of
-              participation?
-            </span>
-            <span className="icon plus-icon" aria-hidden="true"></span>
-          </button>
-          <div className="collapse" id="collapseExample4">
-            <p>
-              Participants from the detailed abstract round shall receive a
-              certificate of participation and winners will receive a
-              certificate of merit in addition to this.
-            </p>
-          </div>
-        </div>
+
         <div className="accordion-item">
           <button
             id="accordion-button-5"

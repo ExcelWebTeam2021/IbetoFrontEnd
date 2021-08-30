@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="container-fluid footer">
       <div className="footer-row">
         <div className="footerMec">
-          <a target="_blank" href="http://www.mec.ac.in/">
+          <a target="_blank" rel="noreferrer" href="http://www.mec.ac.in/">
             <img
               src="https://ibeto.excelmec.org/assets/Copy%20of%20mec_logo.png"
               alt="mec logo"
@@ -20,6 +20,7 @@ const Footer = () => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.facebook.com/excelmec/"
                 className="social-icon"
               >
@@ -30,6 +31,7 @@ const Footer = () => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.instagram.com/excelmec"
                 className="social-icon"
               >
@@ -40,6 +42,7 @@ const Footer = () => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/company/excelmec"
                 className="social-icon"
               >
@@ -52,7 +55,7 @@ const Footer = () => {
         </div>
 
         <div className="footerExcel">
-          <a target="_blank" href="http://excelmec.org/">
+          <a target="_blank" rel="noreferrer" href="http://excelmec.org/">
             <img src={logo} alt="excel logo" width="80" height="80" />
           </a>
         </div>
@@ -63,6 +66,7 @@ const Footer = () => {
           <li>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/excelmec/"
               className="social-icon"
             >
@@ -73,6 +77,7 @@ const Footer = () => {
           <li>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/excelmec"
               className="social-icon"
             >
@@ -83,6 +88,7 @@ const Footer = () => {
           <li>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/company/excelmec"
               className="social-icon"
             >

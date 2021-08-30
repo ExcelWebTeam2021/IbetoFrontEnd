@@ -95,6 +95,7 @@ const ProblemStmts = () => {
 
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.k37gcnybyswx"
               >
                 <button
@@ -129,6 +130,7 @@ const ProblemStmts = () => {
               </p>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.pyj5gds53ohz"
               >
                 <button className="button btn-sm view-sample-stmt-btn">
@@ -157,6 +159,7 @@ const ProblemStmts = () => {
               </p>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.7vhe4bfa4d5j"
               >
                 <button className="button btn-sm view-sample-stmt-btn">
@@ -186,6 +189,7 @@ const ProblemStmts = () => {
               </p>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.ktrdexnul1pw"
               >
                 <button className="button btn-sm view-sample-stmt-btn">
@@ -214,6 +218,7 @@ const ProblemStmts = () => {
               </p>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.3dfax6nqftmr"
               >
                 <button className="button btn-sm view-sample-stmt-btn">
