@@ -1,0 +1,49 @@
+.cursor {
+   width: 20px;
+   height: 20px;
+   border: 1px solid #471786;
+   border-radius: 50%;
+   position: absolute;
+   cursor: none;
+   transition-duration: 250ms;
+   transition-timing-function: ease-out;
+   animation: cursorAnim 0.7s infinite alternate;
+   pointer-events: none;
+}
+
+.cursor::after {
+   content: "";
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   border: 8px solid #e6dce4;
+   border-radius: 50%;
+   opacity: 0.5;
+   top: 0px;
+   left: -1px;
+   animation: cursorAnim2 0.7s infinite alternate;
+}
+
+@keyframes cursorAnim {
+   from {
+      transform: scale(1);
+   }
+   to {
+      transform: scale(0.7);
+   }
+}
+
+@keyframes cursorAnim2 {
+   from {
+      transform: scale(1);
+   }
+   to {
+      transform: scale(0.4);
+   }
+}
+
+@media (min-device-width: 20px) and (max-device-width: 800px) {
+   .cursor {
+      display: none;
+   }
+}
