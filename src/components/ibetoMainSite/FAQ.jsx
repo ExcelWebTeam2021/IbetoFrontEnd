@@ -46,7 +46,7 @@ const FAQ = () => {
             aria-controls="collapseExample4"
           >
             <span className="accordion-title">
-              What all opportunities do pre incubation provide?
+              What are the opportunities that pre-incubation provides?
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
@@ -72,17 +72,17 @@ const FAQ = () => {
             aria-controls="collapseExample6"
           >
             <span className="accordion-title">
-              What all opportunities do Pehia fellowship provide?
+              What are the opportunities offered by the Pehia Fellowship?
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
           <div className="collapse" id="collapseExample6">
             <p>
-              The fellowship will include a corporate internship (minimum one month),
-              resume review, networking opportunities, one-on-one mentoring from 
-              industry experts of your field of choice, all subject to the 
-              discretion of Pehia. For more details, please refer to the
-              guidelines in the about section.
+              The fellowship will include a corporate internship (minimum one
+              month), resume review, networking opportunities, one-on-one
+              mentoring from industry experts of your field of choice, all
+              subject to the discretion of Pehia. For more details, please refer
+              to the guidelines in the about section.
             </p>
           </div>
         </div>
