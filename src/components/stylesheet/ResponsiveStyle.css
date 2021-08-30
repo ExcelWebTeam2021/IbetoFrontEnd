@@ -276,6 +276,9 @@
     width: calc(140% + 1.3px);
     height: 191px;
   }
+  .about-content {
+    background-color: red;
+  }
   .about-logo {
     width: 95%;
   }
