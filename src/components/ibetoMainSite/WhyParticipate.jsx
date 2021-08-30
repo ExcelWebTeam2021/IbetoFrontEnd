@@ -52,7 +52,7 @@ function WhyParticipate() {
 
                   <p className="content">
                     An opportunity to avail pre-incubation facilities to nurture
-                    your business model
+                    your business model.
                   </p>
                 </div>
                 <div className="col-xs-3 col-sm-3 col-md-3 whyparticipate-div">
@@ -93,7 +93,7 @@ function WhyParticipate() {
 
                   <p className="content">
                     A panel of experts to help you navigate if you’re stuck in
-                    your project journey
+                    your project journey.
                   </p>
                 </div>
 
@@ -106,7 +106,7 @@ function WhyParticipate() {
 
                   <p className="content">
                     Socially relevant projects can fetch upto 50 activity points
-                    as per KTU regulations
+                    as per KTU regulations.
                   </p>
                 </div>
               </div>
@@ -133,7 +133,7 @@ function WhyParticipate() {
                   />
 
                   <p className="content">
-                    Exciting prizes worth INR 1 Lakh await the top 3 teams.
+                    Exciting prizes worth INR 1 Lakh awaits the top 3 teams.
                   </p>
                 </div>
 
@@ -145,7 +145,7 @@ function WhyParticipate() {
                   />
 
                   <p className="content">
-                    Great opportunity to build strong networks
+                    Great opportunity to build strong networks.
                   </p>
                 </div>
               </div>
@@ -190,7 +190,7 @@ function WhyParticipate() {
 
               <p className="content">
                 An opportunity to avail pre-incubation facilities to nurture
-                your business model
+                your business model.
               </p>
             </div>
             <div className="carousel-item whyparticipate-smallscreen-div">
@@ -201,7 +201,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-                Exciting prizes worth INR 1 Lakh await the top 3 teams
+                Exciting prizes worth INR 1 Lakh awaits the top 3 teams.
               </p>
             </div>
 
