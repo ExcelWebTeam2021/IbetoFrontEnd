@@ -78,7 +78,7 @@
 
 .mainsite-footer-animation {
   position: absolute;
-  top: 0;
+  top: -3px;
   left: 0;
   width: 100%;
   overflow: hidden;

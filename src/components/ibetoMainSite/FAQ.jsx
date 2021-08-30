@@ -59,7 +59,7 @@ const FAQ = () => {
               convert the product into an MVP(Minimum Viable Product). There
               will also be possible funding from the KSUM after the conversion
               of the product into an MVP.For more details please refer
-              guidelines in the about section
+              guidelines in the about section.
             </p>
           </div>
         </div>
@@ -78,11 +78,11 @@ const FAQ = () => {
           </button>
           <div className="collapse" id="collapseExample6">
             <p>
-              The fellowship will include corporate internship(minimum one
-              month), resume mentoring, networking experience, one-on-one
-              mentoring from industry experts of your field of choice, all
-              subject to the discretion of Pehia. For more details please refer
-              guidelines in the about section
+              The fellowship will include a corporate internship (minimum one month),
+              resume review, networking opportunities, one-on-one mentoring from 
+              industry experts of your field of choice, all subject to the 
+              discretion of Pehia. For more details, please refer to the
+              guidelines in the about section.
             </p>
           </div>
         </div>

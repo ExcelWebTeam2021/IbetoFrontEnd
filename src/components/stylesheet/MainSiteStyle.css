@@ -175,6 +175,7 @@
 .bg {
   animation: pulse 1.2s ease infinite;
   background: rgb(73, 74, 163);
+  
 }
 
 .main-play-btn:hover {

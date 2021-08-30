@@ -12,7 +12,8 @@
 }
 .testimonial-img {
   width: 90px;
-  height: 110px;
+  height: 90px;
+  object-fit: cover;
   border-radius: 50%;
 }
 .carousel-control:hover {
