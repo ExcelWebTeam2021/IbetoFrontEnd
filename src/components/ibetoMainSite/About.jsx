@@ -61,7 +61,7 @@ const About = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1JgIsuXBdVFhTxWzug2v-uYc99xgPdZBa/view"
+                href="https://drive.google.com/file/d/1mnf_TGXzcwBNRTSdzNGy3cDU3ovMcZ2h/view?usp=sharing"
                 className="blob-btn-text"
               >
                 Guidelines

@@ -83,7 +83,7 @@
   /* Problem stmt */
 
   .card-front {
-    height: 80%;
+    height: 83%;
     width: 80%;
   }
   .card-title {
@@ -91,14 +91,16 @@
   }
   .card-back {
     padding: 5%;
-    height: 80%;
+    height: 83%;
     width: 80%;
   }
   .view-sample-stmt-btn {
     width: 90%;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: block;
+    margin: 0 auto;
     font-size: 12px;
+    text-decoration: underline;
+    text-decoration-color: white;
   }
   /* Rewards */
   .rewards-row {
