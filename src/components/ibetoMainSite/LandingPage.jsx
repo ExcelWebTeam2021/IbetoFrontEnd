@@ -53,6 +53,7 @@ const LandingPage = () => {
             muted={toggle}
             ref={vidRef}
             src={video}
+            autoPlay={false}
             controls={false}
             onTimeUpdate={hasEnded}
           ></video>
