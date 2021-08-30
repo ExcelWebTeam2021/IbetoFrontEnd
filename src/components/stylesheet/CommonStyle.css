@@ -182,17 +182,18 @@ a:active {
   .abt-btn {
     width: 150px;
   }
-
-  .content {
+  .about-logo {
+    transform: translateY(-30%);
+  }
+  .content,
+  .event-format-content {
     font-size: 23px;
   }
   .event-title {
     font-size: 35px;
     font-weight: 500;
   }
-  .event-format-content {
-    font-size: 22px;
-  }
+
   .phase-title {
     font-size: 20px;
   }

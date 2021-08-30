@@ -40,7 +40,7 @@ const About = () => {
               vision of working towards fulfilling the United Nations
               Sustainable Development Goals (UN SDGs) along with providing an
               opportunity to develop and implement the projects on a large scale
-              in areas where technology is yet to make strides
+              in areas where technology is yet to make strides.
             </p>
           </div>
           <div className="">
