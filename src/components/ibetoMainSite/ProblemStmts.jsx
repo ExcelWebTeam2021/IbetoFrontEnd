@@ -239,7 +239,7 @@ const ProblemStmts = () => {
 
               <p className="card-text">
                 <br />
-                Any other socially relevant problem statement
+                Any other socially relevant problem statement.
               </p>
             </div>
           </div>
