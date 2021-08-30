@@ -59,7 +59,7 @@ const Timeline = () => {
                     23rd September 2021
                   </span>{" "}
                   <br />
-                  <span className="flag content">Idea submission Deadline</span>
+                  <span className="flag content">Idea Submission Deadline</span>
                 </div>
               </div>
             </li>

@@ -98,10 +98,7 @@ const ProblemStmts = () => {
                 rel="noreferrer"
                 href="https://docs.google.com/document/d/1ogwgsl0za8wBlw_bXdU-crF4ipCW2pp3DE8eGb_NOkI/edit#bookmark=id.k37gcnybyswx"
               >
-                <button
-                  className="button btn-sm view-sample-stmt-btn "
-                  style={{ textDecoration: "none" }}
-                >
+                <button className="button btn-sm view-sample-stmt-btn ">
                   View Sample statements
                 </button>
               </a>
@@ -184,7 +181,7 @@ const ProblemStmts = () => {
                 <p className=" text-muted sdg-number">SDG 4</p>
               </span>
               <p className="card-text">
-                Ensuring inclusive and equitable quality education and promotes
+                Ensuring inclusive and equitable quality-education and promotes
                 lifelong learning opportunities for all.
               </p>
               <a

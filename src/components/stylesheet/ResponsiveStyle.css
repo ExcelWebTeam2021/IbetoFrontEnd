@@ -96,9 +96,11 @@
   }
   .view-sample-stmt-btn {
     width: 90%;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: block;
+    margin: 0 auto;
     font-size: 12px;
+    text-decoration: underline;
+    text-decoration-color: white;
   }
   /* Rewards */
   .rewards-row {
