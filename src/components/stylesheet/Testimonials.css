@@ -1,83 +1,105 @@
 .testimonial-row {
-   padding-left: 7%;
-   padding-right: 7%;
-   padding-top: 8%;
-   text-align: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 8%;
+  text-align: center;
 }
 .carousel-control {
-   background: none;
-   color: #cacaca;
-   font-size: 4em;
-   text-decoration: none;
+  background: none;
+  color: #cacaca;
+  font-size: 4em;
+  text-decoration: none;
 }
-.testimonial-img{
-
+.testimonial-img {
   width: 90px;
-  height:110px;
+  height: 110px;
   border-radius: 50%;
- 
- 
 }
 .carousel-control:hover {
-   color: #471786;
+  color: #471786;
 }
 
 #quote-carousel .carousel-indicators {
-   position: relative;
-   top: auto;
-   bottom: 0px;
-   margin-top: 20px;
+  position: relative;
+  top: auto;
+  bottom: 0px;
+  margin-top: 20px;
 }
 #quote-carousel .carousel-indicators li {
-   width: 10px;
-   height: 10px;
-   cursor: pointer;
-   border: 1px solid #ccc;
-   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-   border-radius: 50%;
-   opacity: 0.4;
-   overflow: hidden;
-   transition: all 0.4s ease-in;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all 0.4s ease-in;
 }
 
 .carousel-indicators {
-   z-index: 0;
+  z-index: 0;
 }
 
 #quote-carousel .carousel-indicators .active {
-   width: 15px;
-   height: 15px;
-   opacity: 1;
-   transition: all 0.2s;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  transition: all 0.2s;
 }
 .ibeto-testimonial blockquote p:before {
-   content: "\f10d";
-   font-family: "Fontawesome";
-   float: left;
-   margin-right: 10px;
-   color: #471786;
-   font-size: larger;
+  content: "\f10d";
+  font-family: "Fontawesome";
+  float: left;
+  margin-right: 10px;
+  color: #471786;
+  font-size: larger;
 }
 .ibeto-testimonial blockquote p:after {
-   content: "\f10e";
-   font-family: "Fontawesome";
-   float: right;
-   margin-right: 10px;
-   color: #471786;
-   font-size: larger;
+  content: "\f10e";
+  font-family: "Fontawesome";
+  float: right;
+  margin-right: 10px;
+  color: #471786;
+  font-size: larger;
 }
 
 .ibeto-testimonial p {
-   padding-right: 20%;
-   padding-left: 20%;
-   font-size: 17px;
-   color: #2d2a31;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 17px;
+  color: #2d2a31 !important;
 }
 
 #quote-carousel .carousel-control {
-   background: none;
-   color: #cacaca;
-   font-size: 100em;
-   text-shadow: none;
-   margin-top: 30px;
+  background: none;
+  color: #cacaca;
+  font-size: 100em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+@media (min-width: 1900px) and (max-width: 3000px) {
+  .bigscreen-testimonial {
+    margin-left: 20%;
+  }
+  .ibeto-testimonial p {
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 25px;
+    color: #2d2a31;
+  }
+  .carousel-control {
+    background: none;
+    color: #cacaca;
+    font-size: 6em;
+    text-decoration: none;
+  }
+  #quote-carousel .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+  }
+  #quote-carousel .carousel-indicators .active {
+    width: 30px;
+    height: 30px;
+  }
 }

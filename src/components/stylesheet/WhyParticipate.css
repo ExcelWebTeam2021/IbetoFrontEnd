@@ -67,3 +67,28 @@
   margin-top: 5%;
   margin-bottom: 3%;
 }
+
+@media (min-width: 1900px) and (max-width: 3000px) {
+  .whyparticipate-bigscreen {
+    padding-right: 10%;
+  }
+  .whyparticipate-div {
+    margin: 1%;
+    padding-left: 3%;
+    margin-left: 5%;
+    padding-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+  }
+  .carousel-control-next {
+    transform: translateX(90%);
+  }
+
+  .whyparticipate-img {
+    width: 50%;
+  }
+  .carousel-control.right {
+    margin-left: 20%;
+  }
+}

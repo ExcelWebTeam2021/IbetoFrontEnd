@@ -2,157 +2,187 @@
 
 html,
 body {
-   width: 100%;
-   margin: 0px;
-   padding: 0px;
-   background-color: white;
-   overflow-x: hidden;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  overflow-x: hidden;
 }
 html {
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 :root {
-   --secondary: #471786;
-   
-   --gradient:linear-gradient(to right, #8E27D7, #2e1472);
-   /* --main:#3C0C97; */
- }
+  --secondary: #471786;
+
+  --gradient: linear-gradient(to right, #8e27d7, #2e1472);
+  /* --main:#3C0C97; */
+}
 a {
-   background-color: transparent;
-   color: inherit;
-   text-decoration: underline;
+  background-color: transparent;
+  color: inherit;
+  text-decoration: underline;
 }
 
 a:hover,
 a:active {
-   outline: 0;
-   text-decoration: none;
+  outline: 0;
+  text-decoration: none;
 }
 
 .heading {
-   color: #36333a;
-   font-size: 40px;
-   font-weight: 500;
-   font-family: "Raleway", sans-serif;
+  color: #36333a;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
 }
 
 .heading span {
-
-   /* font-size: 40px; */
-   background: -webkit-linear-gradient(#9538d8, #352e92); 
+  /* font-size: 40px; */
+  background: -webkit-linear-gradient(#9538d8, #352e92);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .content {
-   color: #39343d;
-   font-family: "Open Sans", sans-serif;
-   font-size: 17px;
-   line-height: 1.6;
-  
- 
+  color: #39343d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
 .blob-btn {
-   z-index: 1;
-   margin-right: 3%;
-   position: relative;
-   color: #211444;
-   
-   outline: none;
-   transition: color 0.5s;
-   cursor: pointer;
-   border-radius: 50px;
-   border: 2px solid #211444;
-   font-size: 17px;
-   overflow: hidden;
-   width: 7rem;
-   height: 1rem;
-   min-height: 50px;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
+  z-index: 1;
+  margin-right: 3%;
+  position: relative;
+  color: #211444;
+
+  outline: none;
+  transition: color 0.5s;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #211444;
+  font-size: 17px;
+  overflow: hidden;
+  width: 7rem;
+  height: 1rem;
+  min-height: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .blob-btn-text {
-   outline: 0;
-   text-decoration: none;
+  outline: 0;
+  text-decoration: none;
 }
 .blob-btn-text:hover {
-   color: white;
+  color: white;
 }
 
 .blob-btn:hover {
-   color: #ffffff;
-   border-radius: 50px;
-   border: 2px solid transparent;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid transparent;
 }
 .blob-btn__inner {
-   z-index: -1;
-   overflow: hidden;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   border-radius: 30px;
-   background: #ffffff;
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: #ffffff;
 }
 .blob-btn__blobs {
-   position: relative;
-   display: block;
-   height: 100%;
-   filter: url("#goo");
+  position: relative;
+  display: block;
+  height: 100%;
+  filter: url("#goo");
 }
 .blob-btn__blob {
-   position: absolute;
-   top: 3px;
-   width: 25%;
-   height: 100%;
-   background: linear-gradient(#8e27d7,#2e1472);
-   border-radius: 100%;
-   transform: translate3d(0, 150%, 0) scale(1.7);
-   transition: transform 0.45s;
+  position: absolute;
+  top: 3px;
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(#8e27d7, #2e1472);
+  border-radius: 100%;
+  transform: translate3d(0, 150%, 0) scale(1.7);
+  transition: transform 0.45s;
 }
 @supports (filter: url("#goo")) {
-   .blob-btn__blob {
-      transform: translate3d(0, 150%, 0) scale(1.4);
-   }
+  .blob-btn__blob {
+    transform: translate3d(0, 150%, 0) scale(1.4);
+  }
 }
 .blob-btn__blob:nth-child(1) {
-   left: 0%;
-   transition-delay: 0s;
+  left: 0%;
+  transition-delay: 0s;
 }
 .blob-btn__blob:nth-child(2) {
-   left: 30%;
-   transition-delay: 0.08s;
+  left: 30%;
+  transition-delay: 0.08s;
 }
 .blob-btn__blob:nth-child(3) {
-   left: 60%;
-   transition-delay: 0.16s;
+  left: 60%;
+  transition-delay: 0.16s;
 }
 .blob-btn__blob:nth-child(4) {
-   left: 90%;
-   transition-delay: 0.24s;
+  left: 90%;
+  transition-delay: 0.24s;
 }
 .blob-btn:hover .blob-btn__blob {
-   transform: translateZ(0) scale(1.7);
+  transform: translateZ(0) scale(1.7);
 }
 @supports (filter: url("#goo")) {
-   .blob-btn:hover .blob-btn__blob {
-      transform: translateZ(0) scale(1.4);
-   }
+  .blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.4);
+  }
 }
 @media (min-device-width: 20px) and (max-device-width: 500px) {
-   html,
-   body {
-      overflow-x: hidden;
-   }
-   .heading {
-      font-size: 32px;
-   }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .heading {
+    font-size: 32px;
+  }
 
-   .content {
-      font-size: 15px;
-   }
+  .content {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1900px) and (max-width: 3000px) {
+  .menu-wrap {
+    position: fixed;
+    top: 4%;
+    left: 4%;
+    z-index: 18;
+  }
+  .menu-wrap .toggler {
+    width: 80px;
+    height: 80px;
+  }
+  .menu-wrap .hamburger {
+    width: 80px;
+    height: 80px;
+  }
+  .menu-wrap .menu > div > div > ul > li {
+    font-size: 3rem;
+    padding: 5%;
+  }
+  .heading,
+  .heading span {
+    font-size: 55px;
+  }
+  .button-shadow {
+    font-size: 25px;
+  }
+  .abt-btn {
+    width: 150px;
+  }
+  .content {
+    font-size: 28px;
+  }
 }

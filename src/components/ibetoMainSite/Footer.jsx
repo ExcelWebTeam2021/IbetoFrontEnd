@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheet/Footer.css";
 import logo from "../images/logo.svg";
+import mec_logo from "../images/mec_logo.png";
 
 const Footer = () => {
   return (
@@ -8,10 +9,7 @@ const Footer = () => {
       <div className="footer-row">
         <div className="footerMec">
           <a target="_blank" rel="noreferrer" href="http://www.mec.ac.in/">
-            <img
-              src="https://ibeto.excelmec.org/assets/Copy%20of%20mec_logo.png"
-              alt="mec logo"
-            />
+            <img src={mec_logo} alt="mec logo" />
           </a>
         </div>
 

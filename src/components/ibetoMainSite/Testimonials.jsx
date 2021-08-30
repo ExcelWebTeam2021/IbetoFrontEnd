@@ -24,7 +24,7 @@ const Testimonials = () => {
         Testim<span>onials</span>
       </h1>
 
-      <div className="row">
+      <div className="row bigscreen-testimonial">
         <a
           data-slide="prev"
           href="#quote-carousel"
@@ -51,7 +51,7 @@ const Testimonials = () => {
                         the essential feature of this event that has made it a
                         very different opportunity.{" "}
                       </p>
-                      <img className='testimonial-img' src={anitta} alt="" /> 
+                      <img className="testimonial-img" src={anitta} alt="" />
                       <div>
                         {" "}
                         <b>Ms Anitta Sunny</b>
@@ -68,17 +68,16 @@ const Testimonials = () => {
                   <div className="row">
                     <div className="col content">
                       <p className="testimonial-content">
-            
                         IBETO was really a great platform for us to showcase our
                         project. The experience we gathered from this event
                         really helped us in the further development of the
                         project. We really thank team IBETO and EXCEL for the
                         excellent support and great time.
                       </p>
-                      <img className='testimonial-img' src={ramdas} alt="" /> 
+                      <img className="testimonial-img" src={ramdas} alt="" />
                       <div>
                         {" "}
-                       <b>Mr Ramdas KU</b>
+                        <b>Mr Ramdas KU</b>
                       </div>
                       <small>
                         {" "}
@@ -109,7 +108,7 @@ const Testimonials = () => {
                           events being put up. Events like these could be a
                           game-changer to the participants.{" "}
                         </p>
-                        <img className='testimonial-img' src={sharat} alt="" /> 
+                        <img className="testimonial-img" src={sharat} alt="" />
                       </div>
                       <b>Sarath Shaji</b>
 

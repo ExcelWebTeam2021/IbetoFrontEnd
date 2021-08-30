@@ -121,3 +121,18 @@
     transform: translateY(-50%);
   }
 }
+
+@media (min-width: 1900px) and (max-width: 3000px) {
+  .mainsite-footer-animation svg {
+    width: calc(127% + 10px);
+    height: 170px;
+  }
+  .Jheading {
+    font-size: 75px;
+    transform: translateY(-30%);
+  }
+  .coming-soon {
+    font-size: 30px;
+    right: 95px;
+  }
+}

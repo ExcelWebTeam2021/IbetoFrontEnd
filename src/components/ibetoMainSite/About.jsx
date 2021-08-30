@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className="">
             <Link to="/dashboard" className="blob-btn-text">
-              <button className="btn mt-4 blob-btn button-shadow">
+              <button className="btn mt-4 blob-btn abt-btn button-shadow">
                 Register
                 <span className="blob-btn__inner">
                   <span className="blob-btn__blobs">
@@ -57,7 +57,7 @@ const About = () => {
                 </span>
               </button>
             </Link>
-            <button className="btn mt-4 blob-btn button-shadow">
+            <button className="btn mt-4 blob-btn abt-btn button-shadow">
               <a
                 target="_blank"
                 rel="noreferrer"

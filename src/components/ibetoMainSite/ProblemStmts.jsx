@@ -77,7 +77,7 @@ const ProblemStmts = () => {
       <div className="row problem-stmt-row">
         {/* SGD1 */}
         <div
-          className="card-container col-md-4  col-sm-10 col-xs-12 "
+          className="card-container prbm-stmt col-md-4  col-sm-10 col-xs-12 "
           data-aos="fade-in"
         >
           <div className="card card-front button-shadow" ref={sdg1}></div>
@@ -111,7 +111,7 @@ const ProblemStmts = () => {
 
         {/* SGD2 */}
         <div
-          className="card-container col-md-4  col-sm-10 col-xs-12 "
+          className="card-container prbm-stmt col-md-4  col-sm-10 col-xs-12 "
           data-aos="fade-in"
           data-aos-delay="150"
         >
@@ -143,7 +143,7 @@ const ProblemStmts = () => {
 
         {/* SGD3 */}
         <div
-          className="card-container col-md-4  col-sm-10 col-xs-12 "
+          className="card-container prbm-stmt col-md-4  col-sm-10 col-xs-12 "
           data-aos="fade-in"
           data-aos-delay="300"
         >
@@ -172,7 +172,7 @@ const ProblemStmts = () => {
 
         {/* SGD4 */}
         <div
-          className="card-container col-md-4  col-sm-10 col-xs-12 "
+          className="card-container prbm-stmt col-md-4  col-sm-10 col-xs-12 "
           data-aos="fade-in"
           data-aos-delay=""
         >
@@ -202,7 +202,7 @@ const ProblemStmts = () => {
 
         {/* SGD5 */}
         <div
-          className="card-container col-md-4  col-sm-10 col-xs-12 "
+          className="card-container prbm-stmt col-md-4  col-sm-10 col-xs-12 "
           data-aos="fade-in"
           data-aos-delay="150"
         >
@@ -231,7 +231,7 @@ const ProblemStmts = () => {
 
         {/* SGD6 */}
         <div
-          className="card-container col-md-4  col-sm-10 col-xs-12 "
+          className="card-container prbm-stmt col-md-4  col-sm-10 col-xs-12 "
           data-aos="fade-in"
           data-aos-delay="300"
         >

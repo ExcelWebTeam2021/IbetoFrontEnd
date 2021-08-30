@@ -3,7 +3,6 @@
 }
 .profile-container {
   padding: 4% 7% 4% 7%;
-  
 }
 .profile-card {
   padding: 40px 30px;
@@ -42,7 +41,6 @@
   font-size: 21px;
   font-weight: bold;
   margin: 10px 0 1px 0;
-  
 }
 
 .profile-position {
@@ -51,7 +49,6 @@
 }
 .profile-contact {
   font-size: 12px;
- 
 }
 
 @media screen and (max-width: 991px) {
@@ -93,18 +90,20 @@
 }
 
 @media (min-device-width: 20px) and (max-device-width: 500px) {
-
   .profile-card {
-    width:50vw;
-    padding:5px;
-    background-color: 'blue';
-   
+    width: 50vw;
+    padding: 5px;
+    background-color: "blue";
   }
   .profile-icon {
     height: 70px;
     width: 70px;
     object-fit: cover;
     border-radius: 50%;
+  }
+  .profile-position {
+    text-align: center;
+    width: 70%;
   }
 
   .only-start {
@@ -117,7 +116,6 @@
     );
   }
 }
-
 
 /* --------------------- Social Icons --------------------- */
 .social-icons {
@@ -139,15 +137,44 @@
   transition: all 0.15s ease;
 }
 
-
 .social-icon:active {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
 }
-.social-icon--linkedin,.social-icon--envelope ,.social-icon--phone {
+.social-icon--linkedin,
+.social-icon--envelope,
+.social-icon--phone {
   background: #1a1a1a;
-
 }
 .social-icon i {
   position: relative;
   font-size: 16px;
+}
+
+@media (min-width: 1900px) and (max-width: 3000px) {
+  .profile-icon {
+    height: 150px;
+    width: 150px;
+  }
+  .only-start {
+    background: linear-gradient(
+      to bottom,
+      rgb(61, 58, 71),
+      rgb(37, 35, 39) 140px,
+      white 1rem,
+      white 100%
+    );
+  }
+  .profile-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0 1px 0;
+  }
+
+  .profile-position {
+    font-size: 20px;
+    color: rgb(53, 52, 52);
+  }
+  .profile-contact {
+    font-size: 18px;
+  }
 }

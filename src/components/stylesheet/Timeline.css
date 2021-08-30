@@ -1,7 +1,5 @@
-
 :root {
   --timeline: #5a368a;
-
 }
 .hexa {
   border: 0px;
@@ -70,7 +68,7 @@
   width: 16px;
   height: 10px;
   position: absolute;
-  background:  var(--timeline);
+  background: var(--timeline);
   z-index: 5;
   left: 0;
   right: 0;
@@ -139,7 +137,7 @@
   position: relative;
   z-index: 14;
   color: #fff;
-  background-image: linear-gradient(to right,#7819bb, #4b44ad);
+  background-image: linear-gradient(to right, #7819bb, #4b44ad);
   display: inline-block;
   padding: 8px;
   margin-bottom: 10px;
@@ -263,5 +261,28 @@
     width: 380px;
     float: right;
     text-align: left;
+  }
+}
+@media (min-width: 1900px) and (max-width: 3000px) {
+  .flag {
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+  }
+  .time {
+    font-size: 22px;
+    width: 110%;
+  }
+
+  .hexa {
+    font-size: 22px;
+  }
+
+  .hexa:before {
+    visibility: hidden;
+  }
+
+  .hexa:after {
+    visibility: hidden;
   }
 }

@@ -1,94 +1,102 @@
-#FAQ{
-   padding: 2%;
+#FAQ {
+  padding: 2%;
 }
 .accordion .accordion-item {
-   border-bottom: 1px solid #dddbdb;
+  border-bottom: 1px solid #dddbdb;
 }
 .accordion .accordion-item button[aria-expanded="true"] {
-   border-bottom: none;
+  border-bottom: none;
 }
 .accordion button {
-   position: relative;
-   display: block;
-   text-align: left;
-   width: 100%;
-   padding: 1em 0;
-   padding-right: 10%;
-   font-size: 1.15rem;
-   font-weight: 400;
-   border: none;
-   background: none;
-   outline: none;
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  padding-right: 10%;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
 }
 .accordion button:hover,
 .accordion button:focus {
-   cursor: pointer;
-   color: var(--secondary);
+  cursor: pointer;
+  color: var(--secondary);
 }
 .accordion button:hover::after,
 .accordion button:focus::after {
-   cursor: pointer;
-   color: var(--secondary);
-   border: 1px solid var(--secondary);
+  cursor: pointer;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
 }
 .accordion button .accordion-title {
-   padding: 1em 1.5em 1em 0;
+  padding: 1em 1.5em 1em 0;
 }
 .accordion button .icon {
-   display: inline-block;
-   position: absolute;
-   top: 18px;
-   right: 0;
-   width: 22px;
-   height: 22px;
-   border: 1px solid;
-   border-radius: 22px;
-   color: #2d2d2d;
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+  color: #2d2d2d;
 }
 .accordion button .icon::before {
-   display: block;
-   position: absolute;
-   content: "";
-   top: 9px;
-   left: 5px;
-   width: 10px;
-   height: 2px;
-   background: currentColor;
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
 }
 .accordion button .icon::after {
-   display: block;
-   position: absolute;
-   content: "";
-   top: 5px;
-   left: 9px;
-   width: 2px;
-   height: 10px;
-   background: var(--secondary);
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: var(--secondary);
 }
 .accordion button[aria-expanded="true"] {
-   color: var(--secondary);
-   font-weight: 600;
+  color: var(--secondary);
+  font-weight: 600;
 }
 .accordion button[aria-expanded="true"] .icon::after {
-   width: 0;
-   color: var(--secondary);
+  width: 0;
+  color: var(--secondary);
 }
 .accordion button[aria-expanded="true"] + .accordion-content {
-   opacity: 1;
-   max-height: 9em;
-   transition: all 200ms linear;
-   will-change: opacity, max-height;
-   color: var(--secondary);
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+  color: var(--secondary);
 }
 .accordion .accordion-content {
-   opacity: 0;
-   max-height: 0;
-   overflow: hidden;
-   transition: opacity 200ms linear, max-height 200ms linear;
-   will-change: opacity, max-height;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
 }
 .accordion .accordion-content p {
-   font-size: 1rem;
-   font-weight: 300;
-   margin: 2em 0;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+@media (min-width: 1900px) and (max-width: 3000px) {
+  #FAQ {
+    padding: 0%;
+  }
+  .accordion button {
+    font-size: 25px;
+  }
 }
