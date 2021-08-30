@@ -299,4 +299,10 @@
   .view-sample-stmt-btn {
     font-size: 23px;
   }
+
+  .rewards-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
 }

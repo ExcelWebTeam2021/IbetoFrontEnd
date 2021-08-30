@@ -116,14 +116,6 @@
   border-radius: 5px;
 }
 
-.direction-l .flag {
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-}
-
-.direction-r .flag {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-}
-
 .direction-l .time-wrapper {
   float: none;
 }
@@ -271,18 +263,10 @@
   }
   .time {
     font-size: 22px;
-    width: 110%;
+    width: 100%;
   }
 
   .hexa {
     font-size: 22px;
-  }
-
-  .hexa:before {
-    visibility: hidden;
-  }
-
-  .hexa:after {
-    visibility: hidden;
   }
 }

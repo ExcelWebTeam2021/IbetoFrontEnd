@@ -23,7 +23,7 @@ const Timeline = () => {
               <div className="direction-r">
                 <div className="flag-wrapper">
                   <span className="hexa"></span>
-                  <span className="time content"> 31st August 2021</span> <br />
+                  <span className="time content">31st August 2021</span> <br />
                   <span className="flag content">IBeTo Launch</span>
                 </div>
               </div>

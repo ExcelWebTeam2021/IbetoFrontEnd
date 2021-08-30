@@ -174,7 +174,7 @@ a:active {
   }
   .heading,
   .heading span {
-    font-size: 55px;
+    font-size: 50px;
   }
   .button-shadow {
     font-size: 25px;
@@ -182,7 +182,18 @@ a:active {
   .abt-btn {
     width: 150px;
   }
+
   .content {
-    font-size: 28px;
+    font-size: 23px;
+  }
+  .event-title {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .event-format-content {
+    font-size: 22px;
+  }
+  .phase-title {
+    font-size: 20px;
   }
 }
