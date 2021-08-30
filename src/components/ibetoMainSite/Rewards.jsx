@@ -25,8 +25,8 @@ const Rewards = () => {
           <br />
           <ul className="content rewards-list">
             <li>
-              Exciting prizes worth 1,00,000/- from the organizers for the top 3
-              teams.
+              Exciting prizes worth Rs 1,00,000/- from the organizers for the
+              top 3 teams.
             </li>
             <li>
               A select few finalist teams that meet the required T&Cs, shall be
@@ -39,7 +39,7 @@ const Rewards = () => {
             </li>
             <li>
               Fellowship from Pehia powered by corporate companies for
-              top-performing teams
+              top-performing teams.
             </li>
             <li>
               Certificate of Participation will be awarded, signed by the

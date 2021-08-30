@@ -133,7 +133,7 @@ function WhyParticipate() {
                   />
 
                   <p className="content">
-                    Exciting prizes worth INR 1 Lakh awaits the top 3 teams
+                    Exciting prizes worth INR 1 Lakh await the top 3 teams.
                   </p>
                 </div>
 
@@ -201,7 +201,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-                Exciting prizes worth INR 1 Lakh awaits the top 3 teams
+                Exciting prizes worth INR 1 Lakh await the top 3 teams
               </p>
             </div>
 
@@ -227,7 +227,7 @@ function WhyParticipate() {
 
               <p className="content">
                 A panel of experts to help you navigate if you’re stuck in your
-                project journey
+                project journey.
               </p>
             </div>
             <div className="carousel-item whyparticipate-smallscreen-div">
@@ -238,7 +238,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-                Fellowships powered by corporate companies
+                Fellowships powered by corporate companies.
               </p>
             </div>
 
@@ -261,7 +261,7 @@ function WhyParticipate() {
               />
 
               <p className="content">
-                Great opportunity to build strong networks
+                Great opportunity to build strong networks.
               </p>
             </div>
 
@@ -275,7 +275,7 @@ function WhyParticipate() {
               <p className="content">
                 {" "}
                 Socially relevant projects can fetch upto 50 activity points as
-                per KTU regulations
+                per KTU regulations.
               </p>
             </div>
           </div>

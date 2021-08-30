@@ -181,7 +181,7 @@ const ProblemStmts = () => {
                 <p className=" text-muted sdg-number">SDG 4</p>
               </span>
               <p className="card-text">
-                Ensuring inclusive and equitable quality-education and promotes
+                Ensure inclusive and equitable quality education and promote
                 lifelong learning opportunities for all.
               </p>
               <a
