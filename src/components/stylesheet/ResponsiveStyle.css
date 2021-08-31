@@ -16,6 +16,10 @@
     width: 220vw;
     height: 220vw;
   }
+  .menu-wrap .menu > div > div > ul > li {
+    font-size: 1rem;
+    padding: 2%;
+  }
 
   /*------------ Ibeto main page ------------*/
   /* landing page */
