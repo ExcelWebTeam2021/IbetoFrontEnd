@@ -9,7 +9,8 @@ const CurrentPhase = () => {
         <div className="col-1"></div>
         <div className="col-md-7 col-sm-10 currentphase-text">
           <h4 className="dashboard-heading text-center ibeto-heading">Ibeto</h4>
-          <p> Registration stage</p>
+          <p className="text-center"> Registration stage</p>
+          {/* <p>Phase 1 : Registration stage</p> */}
           <a
             target="_blank"
             rel="noreferrer"
