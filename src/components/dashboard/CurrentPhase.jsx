@@ -25,7 +25,7 @@ const CurrentPhase = () => {
         </div>
         <div className="col-md-4 col-sm-10 progressbar-row">
           {" "}
-          <div className="progress" data-percentage="20">
+          <div className="progress" data-percentage="0">
             <span className="progress-left">
               <span className="progress-bar"></span>
             </span>
@@ -34,7 +34,7 @@ const CurrentPhase = () => {
             </span>
             <div className="progress-value">
               <div>
-                20%
+                0%
                 <br />
                 <span>completed</span>
               </div>
