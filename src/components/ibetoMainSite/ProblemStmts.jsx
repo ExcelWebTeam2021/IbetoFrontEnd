@@ -71,7 +71,7 @@ const ProblemStmts = () => {
     <div className="container-fluid" id="ProblemStatement">
       <div className="">
         <h2 className="container heading mt-5 text-center">
-          Problem <span>Statement</span>
+          Problem <span>Statements</span>
         </h2>
       </div>
       <div className="row problem-stmt-row">
@@ -181,7 +181,7 @@ const ProblemStmts = () => {
                 <p className=" text-muted sdg-number">SDG 4</p>
               </span>
               <p className="card-text">
-                Ensuring inclusive and equitable quality-education and promotes
+                Ensure inclusive and equitable quality education and promote
                 lifelong learning opportunities for all.
               </p>
               <a

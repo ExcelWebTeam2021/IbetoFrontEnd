@@ -9,7 +9,8 @@ const CurrentPhase = () => {
         <div className="col-1"></div>
         <div className="col-md-7 col-sm-10 currentphase-text">
           <h4 className="dashboard-heading text-center ibeto-heading">Ibeto</h4>
-          <p>Phase 1 : Registration phase</p>
+          <p className="text-center"> Registration stage</p>
+          {/* <p>Phase 1 : Registration stage</p> */}
           <a
             target="_blank"
             rel="noreferrer"
@@ -25,7 +26,7 @@ const CurrentPhase = () => {
         </div>
         <div className="col-md-4 col-sm-10 progressbar-row">
           {" "}
-          <div className="progress" data-percentage="20">
+          <div className="progress" data-percentage="0">
             <span className="progress-left">
               <span className="progress-bar"></span>
             </span>
@@ -34,7 +35,7 @@ const CurrentPhase = () => {
             </span>
             <div className="progress-value">
               <div>
-                20%
+                0%
                 <br />
                 <span>completed</span>
               </div>
