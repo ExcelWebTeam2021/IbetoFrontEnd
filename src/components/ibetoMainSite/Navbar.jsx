@@ -41,7 +41,7 @@ const Navbar = () => {
                 <a href="#Timeline">Timeline</a>
               </li>
               <li onClick={handleClick}>
-                <a href="#ContactUs">Contacts</a>
+                <a href="#Contact">Contact Us</a>
               </li>
               <li onClick={handleClick}>
                 <a href="#FAQ">FAQ</a>
