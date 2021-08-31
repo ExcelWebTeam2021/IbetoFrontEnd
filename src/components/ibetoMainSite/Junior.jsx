@@ -43,9 +43,11 @@ const Junior = () => {
         {/* <Link to='/junior'> */}
         <div className="container Jcard" ref={FooterAnimation}>
           <div className="junior-hover-section">
+            <div className="junior-heading">
             <h3 className="Jheading">IBeTo Junior</h3>
 
             <h4 className="coming-soon">(Coming soon)</h4>
+            </div >
             <div className="Jpic"></div>
             <button className="Jbutton">
               <i className="fa fa-arrow-right Jarrow"></i>
