@@ -58,7 +58,7 @@ const FAQ = () => {
               include mentorship from industry experts and other support to
               convert the product into an MVP(Minimum Viable Product). There
               will also be possible funding from the KSUM after the conversion
-              of the product into an MVP.For more details please refer
+              of the product into an MVP. For more details please refer
               guidelines in the about section.
             </p>
           </div>
