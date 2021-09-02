@@ -12,7 +12,7 @@ const Timeline = () => {
       <ul className="dashboard-timeline">
         <li className="dashboard-timeline-item">
           <div className="dashboard-timeline-info">
-            <span>31st August 2021 2021</span>
+            <span>2nd September 2021</span>
           </div>
           <div className="dashboard-timeline-marker"></div>
           <div className="dashboard-timeline-content">
@@ -80,7 +80,7 @@ const Timeline = () => {
           <div className="dashboard-timeline-marker"></div>
           <div className="dashboard-timeline-content">
             <h3 className="dashboard-timeline-title">
-             End of phase 1 : Ideate
+              End of phase 1 : Ideate
             </h3>
           </div>
         </li>
