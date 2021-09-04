@@ -77,12 +77,11 @@ const Testimonials = () => {
                       <img className="testimonial-img" src={ramdas} alt="" />
                       <div>
                         {" "}
-                        <b>Mr Ramdas KU</b>
+                        <b>Mr Ramdas M U</b>
                       </div>
                       <small>
                         {" "}
-                        Assistant Manager at Raychem RPG (P) Ltd, Winner of
-                        IBeTo’15
+                        Working at Hitachi ABB Powergrids, Winner of IBeTo’15
                       </small>
                       <div></div>
                     </div>
