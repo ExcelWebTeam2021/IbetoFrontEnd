@@ -124,7 +124,7 @@
 /* Current phase */
 .submissionForm-row,
 .currentphase-row {
-  padding: 5%;
+  padding: 4%;
   width: 120%;
 }
 h1.ss-form-title {
@@ -132,6 +132,9 @@ h1.ss-form-title {
 }
 .currentphase-row {
   font-size: 16px;
+}
+.currentphase-text {
+  text-align: center;
 }
 
 .currentphase-text p {
@@ -148,11 +151,14 @@ h1.ss-form-title {
   outline: none;
   transition: color 0.5s;
   border-radius: 10px;
-  padding: 3% 2% 3% 2%;
-
+  padding: 8% 7% 8% 7%;
   text-align: center;
-  width: 50%;
+  width: 80%;
   cursor: pointer;
+  margin-top: 10%;
+
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
 }
 
 .dashboard-phase-btn:hover {
@@ -163,95 +169,11 @@ h1.ss-form-title {
 iframe {
   width: 450px;
 }
-/* progress bar */
-.progress {
-  width: 85px;
-  height: 85px;
-  line-height: 120px;
-  background: none;
-  margin: 0 auto;
-  box-shadow: none;
-  position: relative;
-  margin-top: 10%;
-}
-.progress:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border: 7px solid #eee;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.progress > span {
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-}
-.progress .progress-left {
-  left: 0;
-}
-.progress .progress-bar {
-  width: 100%;
-  height: 100%;
-  background: none;
-  border-width: 7px;
-  border-style: solid;
-  position: absolute;
-  top: 0;
-  border-color: var(--dashboard);
-}
-.progress .progress-left .progress-bar {
-  left: 100%;
-}
-.progress .progress-right {
-  right: 0;
-}
-.progress .progress-right .progress-bar {
-  left: -100%;
-  border-top-left-radius: 75px;
-  border-bottom-left-radius: 75px;
-  border-right: 0;
-  -webkit-transform-origin: center right;
-  transform-origin: center right;
-}
-.progress .progress-value {
-  display: flex;
-  border-radius: 50%;
-  font-size: 13px;
-  padding-left: 15%;
-  text-align: center;
-  line-height: 10px;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-weight: 450;
-}
 
-.progress[data-percentage="20"] .progress-right .progress-bar {
-  animation: loading 1.5s linear forwards;
-}
-.progress[data-percentage="20"] .progress-left .progress-bar {
-  animation: 0;
-}
-
-@keyframes loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(72);
-    transform: rotate(72deg);
-  }
-}
-
-.progress {
-  margin-bottom: 1em;
+/* dashboard-logo */
+.dashboard-logo {
+  width: 10vw;
+  height: 10vh;
 }
 
 /*--------------------------- Right SECTION:  --------------------------- */

@@ -17,14 +17,14 @@ const Faq = () => {
           <div className="faq content" id="accordion">
             <div className="faq-card">
               <div className="faq-card">
-                <div className="faq-card-header" id="faqHeading-5">
+                <div className="faq-card-header" id="faqHeading-1">
                   <div className="mb-0">
                     <h5
                       className="faq-title"
                       data-toggle="collapse"
-                      data-target="#faqCollapse-5"
+                      data-target="#faqCollapse-1"
                       data-aria-expanded="false"
-                      data-aria-controls="faqCollapse-5"
+                      data-aria-controls="faqCollapse-1"
                     >
                       <span className="badge">1</span> Are individual developers
                       allowed to participate?
@@ -32,9 +32,9 @@ const Faq = () => {
                   </div>
                 </div>
                 <div
-                  id="faqCollapse-5"
+                  id="faqCollapse-1"
                   className="collapse"
-                  aria-labelledby="faqHeading-5"
+                  aria-labelledby="faqHeading-1"
                   data-parent="#accordion"
                 >
                   <div className="faq-card-body">
@@ -47,14 +47,14 @@ const Faq = () => {
                 </div>
               </div>
               <div className="faq-card">
-                <div className="faq-card-header" id="faqHeading-6">
+                <div className="faq-card-header" id="faqHeading-2">
                   <div className="mb-0">
                     <h5
                       className="faq-title"
                       data-toggle="collapse"
-                      data-target="#faqCollapse-6"
+                      data-target="#faqCollapse-2"
                       data-aria-expanded="false"
-                      data-aria-controls="faqCollapse-6"
+                      data-aria-controls="faqCollapse-2"
                     >
                       <span className="badge">2</span> Is there an age limit for
                       registration?
@@ -62,9 +62,9 @@ const Faq = () => {
                   </div>
                 </div>
                 <div
-                  id="faqCollapse-6"
+                  id="faqCollapse-2"
                   className="collapse"
-                  aria-labelledby="faqHeading-6"
+                  aria-labelledby="faqHeading-2"
                   data-parent="#accordion"
                 >
                   <div className="faq-card-body">
@@ -77,14 +77,14 @@ const Faq = () => {
                 </div>
               </div>
               <div className="faq-card">
-                <div className="faq-card-header" id="faqHeading-7">
+                <div className="faq-card-header" id="faqHeading-3">
                   <div className="mb-0">
                     <h5
                       className="faq-title"
                       data-toggle="collapse"
-                      data-target="#faqCollapse-7"
+                      data-target="#faqCollapse-3"
                       data-aria-expanded="false"
-                      data-aria-controls="faqCollapse-7"
+                      data-aria-controls="faqCollapse-3"
                     >
                       <span className="badge">3</span>When will mentors be
                       provided?
@@ -92,9 +92,9 @@ const Faq = () => {
                   </div>
                 </div>
                 <div
-                  id="faqCollapse-7"
+                  id="faqCollapse-3"
                   className="collapse"
-                  aria-labelledby="faqHeading-7"
+                  aria-labelledby="faqHeading-3"
                   data-parent="#accordion"
                 >
                   <div className="faq-card-body">
@@ -106,24 +106,24 @@ const Faq = () => {
                 </div>
               </div>
 
-              <div className="faq-card-header" id="faqHeading-1">
+              <div className="faq-card-header" id="faqHeading-4">
                 <div className="mb-0">
                   <h5
                     className="faq-title"
                     data-toggle="collapse"
-                    data-target="#faqCollapse-1"
+                    data-target="#faqCollapse-4"
                     data-aria-expanded="true"
-                    data-aria-controls="faqCollapse-1"
+                    data-aria-controls="faqCollapse-4"
                   >
-                    <span className="badge">1</span>Can a team submit more than
+                    <span className="badge">4</span>Can a team submit more than
                     one idea?
                   </h5>
                 </div>
               </div>
               <div
-                id="faqCollapse-1"
+                id="faqCollapse-4"
                 className="collapse"
-                aria-labelledby="faqHeading-1"
+                aria-labelledby="faqHeading-4"
                 data-parent="#accordion"
               >
                 <div className="faq-card-body">
@@ -135,24 +135,24 @@ const Faq = () => {
               </div>
             </div>
             <div className="faq-card">
-              <div className="faq-card-header" id="faqHeading-2">
+              <div className="faq-card-header" id="faqHeading-5">
                 <div className="mb-0">
                   <h5
                     className="faq-title"
                     data-toggle="collapse"
-                    data-target="#faqCollapse-2"
+                    data-target="#faqCollapse-5"
                     data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-2"
+                    data-aria-controls="faqCollapse-5"
                   >
-                    <span className="badge">4</span> Can we register an idea
+                    <span className="badge">5</span> Can we register an idea
                     that covers more than one problem statement?
                   </h5>
                 </div>
               </div>
               <div
-                id="faqCollapse-2"
+                id="faqCollapse-5"
                 className="collapse"
-                aria-labelledby="faqHeading-2"
+                aria-labelledby="faqHeading-5"
                 data-parent="#accordion"
               >
                 <div className="faq-card-body">
@@ -166,24 +166,24 @@ const Faq = () => {
               </div>
             </div>
             <div className="faq-card">
-              <div className="faq-card-header" id="faqHeading-3">
+              <div className="faq-card-header" id="faqHeading-6">
                 <div className="mb-0">
                   <h5
                     className="faq-title"
                     data-toggle="collapse"
-                    data-target="#faqCollapse-3"
+                    data-target="#faqCollapse-6"
                     data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-3"
+                    data-aria-controls="faqCollapse-6"
                   >
-                    <span className="badge">5</span>How will the participants be
+                    <span className="badge">6</span>How will the participants be
                     intimated about the result of each round?
                   </h5>
                 </div>
               </div>
               <div
-                id="faqCollapse-3"
+                id="faqCollapse-6"
                 className="collapse"
-                aria-labelledby="faqHeading-3"
+                aria-labelledby="faqHeading-6"
                 data-parent="#accordion"
               >
                 <div className="faq-card-body">
@@ -195,24 +195,24 @@ const Faq = () => {
               </div>
             </div>
             <div className="faq-card">
-              <div className="faq-card-header" id="faqHeading-4">
+              <div className="faq-card-header" id="faqHeading-7">
                 <div className="mb-0">
                   <h5
                     className="faq-title"
                     data-toggle="collapse"
-                    data-target="#faqCollapse-4"
+                    data-target="#faqCollapse-7"
                     data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-4"
+                    data-aria-controls="faqCollapse-7"
                   >
-                    <span className="badge">4</span> What are the key evaluation
+                    <span className="badge">7</span> What are the key evaluation
                     criteria for shortlisting ideas?
                   </h5>
                 </div>
               </div>
               <div
-                id="faqCollapse-4"
+                id="faqCollapse-7"
                 className="collapse"
-                aria-labelledby="faqHeading-4"
+                aria-labelledby="faqHeading-7"
                 data-parent="#accordion"
               >
                 <div className="faq-card-body">
@@ -232,9 +232,9 @@ const Faq = () => {
                     data-toggle="collapse"
                     data-target="#faqCollapse-8"
                     data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-7"
+                    data-aria-controls="faqCollapse-8"
                   >
-                    <span className="badge">6</span>Whom to contact for further
+                    <span className="badge">8</span>Whom to contact for further
                     queries?
                   </h5>
                 </div>

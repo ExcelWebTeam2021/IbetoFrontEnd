@@ -38,14 +38,6 @@
   .faq-card-body {
     padding: 5%;
   }
-  .progress {
-    width: 90px;
-    height: 90px;
-    line-height: 80px;
-  }
-  .progress .progress-value {
-    font-size: 12px;
-  }
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
@@ -60,16 +52,7 @@
     letter-spacing: 1px;
     margin: 0 0 0.2em 0;
   }
-  /* Center */
-  .progress {
-    margin-top: 10%;
-    width: 85px;
-    height: 85px;
-    line-height: 100px;
-  }
-  .progress .progress-value {
-    font-size: 12px;
-  }
+
   iframe {
     width: 100%;
   }
@@ -122,14 +105,7 @@
     font-size: 20px;
     padding: 4% 3% 4% 3%;
   }
-  .progress {
-    width: 125px;
-    height: 125px;
-  }
-  .progress .progress-value {
-    font-size: 19px;
-    line-height: 30px;
-  }
+
   .contactUs-text {
     font-size: 20px;
   }

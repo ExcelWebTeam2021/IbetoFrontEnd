@@ -179,6 +179,7 @@
     height: 3px;
   }
   .faq-heading {
+    width: 80%;
     display: block;
     margin: 0 auto;
   }

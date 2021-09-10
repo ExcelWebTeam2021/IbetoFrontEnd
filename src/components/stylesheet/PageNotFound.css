@@ -1,0 +1,42 @@
+.page_404 {
+  display: block;
+  margin: 0 auto;
+  padding-left: 10%;
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url("../images/404.gif");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #8e27d7, #2e1472);
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.link_404:hover {
+  background-image: linear-gradient(to right, #5951cc, #712fa0);
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
