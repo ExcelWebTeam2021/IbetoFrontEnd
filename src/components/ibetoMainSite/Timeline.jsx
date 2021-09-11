@@ -38,7 +38,7 @@ const Timeline = () => {
                   data-aos-delay="200"
                 >
                   <span className="hexa"></span>
-                  <span className="time content">10th September 2021</span>{" "}
+                  <span className="time content">19th September 2021</span>{" "}
                   <br />
                   <span className="flag content">
                     IBeTo Registration Closes

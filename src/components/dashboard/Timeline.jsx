@@ -22,7 +22,7 @@ const Timeline = () => {
 
         <li className="dashboard-timeline-item">
           <div className="dashboard-timeline-info">
-            <span>10th September 2021</span>
+            <span>19th September 2021</span>
           </div>
           <div className="dashboard-timeline-marker"></div>
           <div className="dashboard-timeline-content">
