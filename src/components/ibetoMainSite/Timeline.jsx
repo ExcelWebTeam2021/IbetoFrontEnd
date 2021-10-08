@@ -89,7 +89,8 @@ const Timeline = () => {
                   data-aos-delay="200"
                 >
                   <span className="hexa"></span>
-                  <span className="time content"> 7th October 2021</span> <br />
+                  <span className="time content"> 10th October 2021</span>{" "}
+                  <br />
                   <span className="flag content">
                     Detailed Abstract Submission
                   </span>
@@ -104,7 +105,7 @@ const Timeline = () => {
                   data-aos-delay="200"
                 >
                   <span className="hexa"></span>
-                  <span className="time content">12th October 2021</span> <br />
+                  <span className="time content">16th October 2021</span> <br />
                   <span className="flag content">
                     Announcement of shortlisted teams
                   </span>
@@ -121,7 +122,7 @@ const Timeline = () => {
                 >
                   <span className="hexa"></span>
                   <span className="time content">
-                    13th October - 31st December 2021
+                    18th October - 31st December 2021
                   </span>{" "}
                   <br />
                   <span className="flag content">
@@ -130,25 +131,9 @@ const Timeline = () => {
                 </div>
               </div>
             </li>
-            <li>
-              <div className="direction-l">
-                <div
-                  className="flag-wrapper"
-                  data-aos="fade-in"
-                  data-aos-delay="200"
-                >
-                  <span className="hexa"></span>
-                  <span className="time content">25th November 2021</span>{" "}
-                  <br />
-                  <span className="flag content">
-                    Announcement of 25 shortlisted teams
-                  </span>
-                </div>
-              </div>
-            </li>
 
             <li>
-              <div className="direction-r">
+              <div className="direction-l">
                 <div
                   className="flag-wrapper"
                   data-aos="fade-in"
