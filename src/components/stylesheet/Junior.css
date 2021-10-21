@@ -62,7 +62,7 @@
 .Jarrow {
   padding-top: 7%;
 }
-/* 
+
 .junior-hover-section:hover .Jarrow,
 .Jbutton:hover {
   opacity: 1;
@@ -70,7 +70,7 @@
 .junior-hover-section:hover button,
 .Jbutton:hover {
   transform: scale(8);
-} */
+}
 .Jcard button:focus {
   border: none;
   outline: none;
@@ -117,7 +117,7 @@
     width: calc(164% + 1.3px);
     height: 50px;
   }
-  .junior-heading{
+  .junior-heading {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -130,7 +130,7 @@
     position: static;
     margin-bottom: -8px;
   }
-  .coming-soon{
+  .coming-soon {
     position: static;
   }
 }
