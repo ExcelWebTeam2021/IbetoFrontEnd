@@ -175,7 +175,6 @@
 .bg {
   animation: pulse 1.2s ease infinite;
   background: rgb(73, 74, 163);
-  
 }
 
 .main-play-btn:hover {
@@ -431,3 +430,30 @@ video {
 .rewards-list > li {
   margin: 0 0 10px 0;
 }
+
+/* ---- PEHIA -----*/
+/* Mainsite section */
+.pehia-content {
+  margin-right: 8%;
+  margin-left: 8%;
+}
+.pehia-btn {
+  margin-left: 9%;
+  width: 9rem;
+}
+
+/* Separate component */
+.pehia-page-navbarlogo {
+  width: 30%;
+  height: 30%;
+  margin-top: 0 !important;
+}
+.pehia-about {
+  margin-top: 3%;
+}
+.fellowship {
+  margin-top: 5%;
+  margin-right: 6%;
+  margin-left: 6%;
+}
+/** --------------------------------------------------- For mobile devices ---------------------------------------------------**/

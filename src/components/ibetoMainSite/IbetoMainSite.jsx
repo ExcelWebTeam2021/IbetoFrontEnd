@@ -13,30 +13,31 @@ import Testimonials from "./Testimonials";
 import Sponsors from "./Sponsors";
 import FAQ from "./FAQ";
 import ProblemStmts from "./ProblemStmts";
+import PehiaMaindiv from "./PehiaMaindiv";
 
 const IbetoMainSite = () => {
-   return (
-      <div className='ibeto-mainsite'>
-         <div>
-            {" "}
-            <Navbar />
-            <LandingPage />
-            <About />
-            
-            <EventFormat />
-            <ProblemStmts />
-            <WhyParticipate />
-            <Rewards />
-            <Timeline />
-            <Junior />
-            <Testimonials />
-            <Sponsors />
-            <Contact />
-            <FAQ />
-            <Footer />
-         </div>
+  return (
+    <div className="ibeto-mainsite">
+      <div>
+        {" "}
+        <Navbar />
+        <LandingPage />
+        <About />
+        <EventFormat />
+        <ProblemStmts />
+        <WhyParticipate />
+        <Rewards />
+        <PehiaMaindiv />
+        <Timeline />
+        <Junior />
+        <Testimonials />
+        <Sponsors />
+        <Contact />
+        <FAQ />
+        <Footer />
       </div>
-   );
+    </div>
+  );
 };
 
 export default IbetoMainSite;

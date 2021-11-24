@@ -11,7 +11,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <div className="container mt-5 " id="Timeline">
+    <div className="container " id="Timeline">
       <div className=" mainsite-timeline-row ">
         <h2 align="center" className="heading ">
           Time<span className="heading-span">line</span>

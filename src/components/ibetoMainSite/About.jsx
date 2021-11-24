@@ -43,7 +43,7 @@ const About = () => {
               in areas where technology is yet to make strides.
             </p>
           </div>
-          <div className="">
+          <div className="text-center">
             <Link to="/dashboard" className="blob-btn-text">
               <button className="btn mt-4 blob-btn abt-btn button-shadow">
                 Register
@@ -57,7 +57,7 @@ const About = () => {
                 </span>
               </button>
             </Link>
-            <button className="btn mt-4 blob-btn abt-btn button-shadow">
+            <button className="btn mt-4 blob-btn pehiabtn button-shadow">
               <a
                 target="_blank"
                 rel="noreferrer"
