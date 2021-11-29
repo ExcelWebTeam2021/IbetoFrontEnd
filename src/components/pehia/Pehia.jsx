@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Pehiaimg from "../images/Pehia.jpg";
-import meetresume_1 from "../images/meetresume_1.png";
+import fantacode from "../images/fantacode.png";
 import meetresume from "../images/meetresume.jpg";
 
 import "../stylesheet/CommonStyle.css";
@@ -121,23 +121,20 @@ const Pehia = () => {
         <h2 align="center" className="heading pehia-heading">
           In associ<span>ation with</span>
         </h2>
-        <div className="row no-gutters clients-wrap clearfix wow fadeInUp">
-          <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div className="text-center row no-gutters clients-wrap clearfix wow">
+          <div className="col-md-1"></div>
+          <div className="col-lg-5 col-md-5 col-sm-6 col-xs-6">
             <div data-aos="zoom-out" className="client-logo">
               {" "}
-              <a href="https://www.avtnatural.com/">
-                <img
-                  src={meetresume_1}
-                  className="img-fluid"
-                  alt="meetresume_1"
-                />
+              <a href="https://www.fantacode.com/">
+                <img src={fantacode} className="img-fluid" alt="fantacode" />
               </a>{" "}
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             <div data-aos="zoom-out" className="client-logo">
               {" "}
-              <a href="https://iedcmec.in/">
+              <a href="https://meetresume.com/">
                 {" "}
                 <img src={meetresume} className="img-fluid" alt="meetresume" />
               </a>{" "}
