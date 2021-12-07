@@ -100,15 +100,38 @@ const Pehia = () => {
                     {" "}
                     <b>Internship Opportunities</b>
                   </li>
-                  FantaCode, a Calicut based start-up, is one of the companies
-                  currently confirmed to provide internships to the winners. The
-                  internship roles they offer include{" "}
+                  <p>The various companies offering internships are:-</p>
                   <ul>
-                    <li>Frontend Developer </li>
-                    <li> Backend Developer</li>
-                  </ul>{" "}
-                  If a participant wishes to pursue internships in a more
-                  creative role, the company is open to provide that as well.
+                    <li>
+                      FantaCode, a Calicut based start-up, is one of the
+                      companies currently confirmed to provide internships to
+                      the winners. The internship roles they offer include{" "}
+                      <ul>
+                        <li>Frontend Developer </li>
+                        <li> Backend Developer</li>
+                      </ul>{" "}
+                      If a participant wishes to pursue internships in a more
+                      creative role, the company is open to provide that as
+                      well.
+                    </li>
+                    <li>Innovation Incubators</li>
+                    <li>
+                      AlphaQ - For AI/Data Science roles.
+                      <ul>
+                        <li>
+                          The selection process will include an interview.{" "}
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      Agrima - For AI/Data Science roles.
+                      <ul>
+                        <li>
+                          The selection process will include an interview.{" "}
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                 </ol>
               </p>
               <p>Several other companies will be soon added to the list too!</p>
