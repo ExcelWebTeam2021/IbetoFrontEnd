@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 import Pehiaimg from "../images/Pehia.jpg";
 import fantacode from "../images/fantacode.png";
 import meetresume from "../images/meetresume.jpg";
+import agrima from "../images/agrima.jpg";
+import alphaq from "../images/alphaq.jpg";
 
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
@@ -103,31 +106,76 @@ const Pehia = () => {
                   <p>The various companies offering internships are:-</p>
                   <ul>
                     <li>
-                      FantaCode, a Calicut based start-up, is one of the
-                      companies currently confirmed to provide internships to
-                      the winners. The internship roles they offer include{" "}
+                      Fantacode
                       <ul>
-                        <li>Frontend Developer </li>
-                        <li> Backend Developer</li>
-                      </ul>{" "}
-                      If a participant wishes to pursue internships in a more
-                      creative role, the company is open to provide that as
-                      well.
+                        {" "}
+                        <li>
+                          {" "}
+                          FantaCode, a Calicut-based start-up, helps its
+                          partners build products in an end-to-end manner
+                          offering services required to develop a complete
+                          product. To know more about the company, visit their{" "}
+                          <a target="_blank" href="https://www.fantacode.com/">
+                            website
+                          </a>{" "}
+                        </li>
+                        <li> The internship roles they offer include </li>
+                        <ol>
+                          <li>Frontend Developer </li>
+                          <li> Backend Developer</li>
+                        </ol>{" "}
+                        If a participant wishes to pursue internships in a more
+                        creative role, the company is open to provide that as
+                        well.
+                      </ul>
                     </li>
                     <li>Innovation Incubators</li>
+                    <ul>
+                      <li>
+                        Innovation Incubators provides state of the art services
+                        with access to a global ecosystem to create the next big
+                        startup or product. To know more about the company,
+                        visit their{" "}
+                        <a
+                          target="_blank"
+                          href="https://innovationincubator.com/"
+                        >
+                          website
+                        </a>{" "}
+                      </li>
+                    </ul>
                     <li>
-                      AlphaQ - For AI/Data Science roles.
+                      AlphaQ
                       <ul>
                         <li>
-                          The selection process will include an interview.{" "}
+                          AlphaQ, provides AI optimised algorithmic trading
+                          strategies, helping users enhance their manual trading
+                          experience. To know more about the company, visit
+                          their{" "}
+                          <a target="_blank" href="https://alphaq.ai/">
+                            website
+                          </a>{" "}
+                        </li>
+                        <li>
+                          The company offers AI/Data Science roles. The
+                          selection process will include an interview.{" "}
                         </li>
                       </ul>
                     </li>
                     <li>
-                      Agrima - For AI/Data Science roles.
+                      Agrima
                       <ul>
                         <li>
-                          The selection process will include an interview.{" "}
+                          Agrima, enables food and retail companies to build
+                          deep tech solutions at scale. To know more about the
+                          company, visit their{" "}
+                          <a target="_blank" href="https://www.agrima.tech/">
+                            website
+                          </a>{" "}
+                        </li>
+                        <li>
+                          The company offers AI/Data Science roles.The selection
+                          process will include an interview.{" "}
                         </li>
                       </ul>
                     </li>
@@ -145,8 +193,7 @@ const Pehia = () => {
           In associ<span>ation with</span>
         </h2>
         <div className="text-center row no-gutters clients-wrap clearfix wow">
-          <div className="col-md-1"></div>
-          <div className="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+          <div className="col-md-3 col-sm-6 col-xs-6">
             <div data-aos="zoom-out" className="client-logo">
               {" "}
               <a href="https://www.fantacode.com/">
@@ -154,12 +201,30 @@ const Pehia = () => {
               </a>{" "}
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+          <div className=" col-md-3 col-sm-6 col-xs-6">
             <div data-aos="zoom-out" className="client-logo">
               {" "}
               <a href="https://meetresume.com/">
                 {" "}
                 <img src={meetresume} className="img-fluid" alt="meetresume" />
+              </a>{" "}
+            </div>
+          </div>
+
+          <div className=" col-md-3 col-sm-6 col-xs-6">
+            <div data-aos="zoom-out" className="client-logo">
+              {" "}
+              <a href="https://www.agrima.tech/">
+                <img src={agrima} className="img-fluid" alt="agrima" />
+              </a>{" "}
+            </div>
+          </div>
+          <div className=" col-md-3 col-sm-6 col-xs-6">
+            <div data-aos="zoom-out" className="client-logo">
+              {" "}
+              <a href="https://alphaq.ai/">
+                {" "}
+                <img src={alphaq} className="img-fluid" alt="alphaq" />
               </a>{" "}
             </div>
           </div>
