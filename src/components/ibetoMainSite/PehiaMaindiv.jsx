@@ -20,14 +20,9 @@ const PehiaMaindiv = () => {
       <div className="row event-format">
         <p className="content pehia-content ">
           PEHIA, a non-profit organisation from Kerala, works on building a
-          culture of inclusivity in the field of STEM. PEHIA, a non-profit
-          organisation from Kerala, works on building a culture of inclusivity
-          in the field oHIA, a non-profit organisation from Kerala, works on
-          building a culture of inclusivity in the field of STEM. PEHIA, a
-          non-profit organisation from Kerala, works on building a culture of
-          inclusivity in the field The top 25 teams of IBeTo will be eligible to
-          apply for the Fellowship program arranged by Pehia under definite
-          rules and regulations.
+          culture of inclusivity in the field of STEM. The top 25 teams of IBeTo
+          will be eligible to apply for the Fellowship program arranged by Pehia
+          under definite rules and regulations.
         </p>
         <div className="text-center">
           <Link to="/pehia" className="blob-btn-text">

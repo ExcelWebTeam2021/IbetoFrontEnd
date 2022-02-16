@@ -140,7 +140,8 @@ const Timeline = () => {
                   data-aos-delay="200"
                 >
                   <span className="hexa"></span>
-                  <span className="time content"> January 2022 </span> <br />
+                  <span className="time content">27th February 2022</span>{" "}
+                  <br />
                   <span className="flag content">
                     Final video presentation of the project
                   </span>
